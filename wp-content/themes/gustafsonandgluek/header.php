@@ -42,6 +42,18 @@
 <body <?php body_class(); ?>>
 
 
+<header>
+	
+	<img class="logo" src="<?php bloginfo('template_directory');?>/images/logo.svg"/>
+	
+		<div class="mobile_menu">
+			
+			<div class="menu_bars"></div><!-- menu_bars -->
+			
+		</div><!-- mobile_menu -->
+		
+</header>
+
 
 <?php // wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'primary' ) ); ?>
 			
