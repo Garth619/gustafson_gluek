@@ -35,6 +35,8 @@
 	?></title>
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
+<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'template_directory' ); ?>/fonts/nimbus_sans/demo.css" />
+<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'template_directory' ); ?>/fonts/source-serif-pro/stylesheet.css" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 <?php wp_head();?>
 </head>
@@ -46,11 +48,26 @@
 	
 	<img class="logo" src="<?php bloginfo('template_directory');?>/images/logo.svg"/>
 	
-		<div class="mobile_menu">
+		
+		<div class="inner_header_right">
+		
+			<div class="mobile_menu">
 			
-			<div class="menu_bars"></div><!-- menu_bars -->
+				<div class="menu_bars"></div><!-- menu_bars -->
+				<div class="menu_bars"></div><!-- menu_bars -->
+				<div class="menu_bars"></div><!-- menu_bars -->
 			
-		</div><!-- mobile_menu -->
+			</div><!-- mobile_menu -->
+			
+			<span class="mobile_menu_title">Menu</span><!-- mobile_menu_title -->
+		
+		</div><!-- inner_header_right-->
+		
+		<div class="lower_header">
+			
+			<a class="tel" href="tel:612.333.8844">612.333.8844</a>
+			
+		</div><!-- lower_header -->
 		
 </header>
 

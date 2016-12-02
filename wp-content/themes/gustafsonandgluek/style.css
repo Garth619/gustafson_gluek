@@ -23,17 +23,151 @@ html {
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.05); }
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.05);
+  line-height: 1; }
 
 header, section, nav, footer {
   display: block; }
 
 /* Variables */
 /* Colors */
+/* Fonts */
+/* Options for Source Serif Pro 
+	
+	Semi Bold: 
+	
+	font-weight: 600;
+	font-style: normal;
+	
+	Bold:
+	
+	font-weight: bold;
+	font-style: normal;
+	
+	Black:
+	
+	font-weight: 900;
+	font-style: normal;
+	
+*/
 /* Header */
 .logo {
-  width: 140px;
-  padding: 12px 20px; }
+  width: 185px;
+  padding: 12px 20px;
+  float: left; }
 
-.inner_header_right .mobile_menu {
-  background: #45806e; }
+.inner_header_right {
+  background: #213f40;
+  padding: 30px 20px;
+  float: right;
+  height: 70px; }
+  .inner_header_right .mobile_menu {
+    float: left;
+    margin-right: 4px;
+    margin-top: 3px; }
+    .inner_header_right .mobile_menu .menu_bars {
+      width: 22px;
+      height: 2px;
+      background: #fff;
+      margin-bottom: 2px; }
+  .inner_header_right .mobile_menu_title {
+    float: left;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "Nimbus Sans TW01Bla";
+    letter-spacing: 1px;
+    font-size: 14px; }
+
+.lower_header {
+  background: #193334;
+  clear: both;
+  text-align: right;
+  padding: 19px 13px; }
+  .lower_header a.tel {
+    color: #ceb675;
+    font-family: "Source Serif Pro";
+    font-weight: bold;
+    font-style: normal;
+    font-size: 25px;
+    text-decoration: none;
+    letter-spacing: .5px; }
+
+/* Hero Banner */
+.hero_banner {
+  width: 100%;
+  height: 376px;
+  background: url(images/hero_mobile.jpg) top center no-repeat;
+  font-family: "Nimbus Sans TW01Bla";
+  color: #fff;
+  text-align: center;
+  display: table;
+  padding: 50px; }
+  .hero_banner .hero_banner_content {
+    display: table-cell;
+    vertical-align: bottom; }
+    .hero_banner .hero_banner_content .sub_header {
+      font-size: 22px;
+      display: block; }
+    .hero_banner .hero_banner_content .large_header {
+      font-size: 44px;
+      display: block; }
+
+/* Free Consultation */
+.free_consultation a {
+  text-align: center;
+  display: block;
+  font-family: "Source Serif Pro";
+  font-weight: bold;
+  font-style: normal;
+  font-size: 20px;
+  text-transform: lowercase;
+  text-decoration: none;
+  color: #fff;
+  padding: 25px 10px;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e5d598+0,b89c5d+100 */
+  background: #e5d598;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #e5d598 0%, #b89c5d 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #e5d598 0%, #b89c5d 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #e5d598 0%, #b89c5d 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5d598', endColorstr='#b89c5d',GradientType=0 );
+  /* IE6-9 */ }
+
+/* Experience Section */
+.experience_section {
+  width: 100%;
+  background: url(images/element_pattern.png) top left repeat;
+  padding: 55px; }
+  .experience_section .slide_wrapper .single_slide_wrapper .slide {
+    text-align: center; }
+    .experience_section .slide_wrapper .single_slide_wrapper .slide img.svg_icon {
+      width: 100px;
+      display: block;
+      margin: 0 auto 25px; }
+    .experience_section .slide_wrapper .single_slide_wrapper .slide span.large_header {
+      font-family: "Source Serif Pro";
+      font-weight: 900;
+      font-style: normal;
+      font-size: 21px;
+      color: #386658;
+      display: block;
+      text-transform: uppercase;
+      letter-spacing: .85px; }
+    .experience_section .slide_wrapper .single_slide_wrapper .slide .gold_line {
+      width: 75px;
+      height: 1px;
+      background: #ceb675;
+      display: block;
+      margin: 30px auto; }
+    .experience_section .slide_wrapper .single_slide_wrapper .slide span.sub_content {
+      font-family: "Source Serif Pro";
+      font-weight: 600;
+      font-style: normal;
+      font-size: 20px;
+      line-height: 1.3;
+      color: #193334;
+      max-width: 300px;
+      display: inline-block; }

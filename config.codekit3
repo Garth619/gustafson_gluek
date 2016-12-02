@@ -4296,6 +4296,235 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"\/wp-content\/themes\/gustafsonandgluek\/fonts\/nimbus_sans\/demo-async.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/fonts\/nimbus_sans\/demo-async-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/wp-content\/themes\/gustafsonandgluek\/fonts\/nimbus_sans\/demo-async.htm": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/fonts\/nimbus_sans\/demo-async.htm",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/gustafsonandgluek\/fonts\/nimbus_sans\/demo-min.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/fonts\/nimbus_sans\/demo-min-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/wp-content\/themes\/gustafsonandgluek\/fonts\/nimbus_sans\/demo.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/fonts\/nimbus_sans\/demo-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/wp-content\/themes\/gustafsonandgluek\/fonts\/nimbus_sans\/demo.htm": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/fonts\/nimbus_sans\/demo.htm",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/gustafsonandgluek\/fonts\/nimbus_sans\/fontlist.xml": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/fonts\/nimbus_sans\/fontlist.xml",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/gustafsonandgluek\/fonts\/nimbus_sans\/Fonts\/10bdcd04-2bea-42bc-ae40-153b09ae5c4d.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/fonts\/nimbus_sans\/Fonts\/10bdcd04-2bea-42bc-ae40-153b09ae5c4d.woff2",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/gustafsonandgluek\/fonts\/nimbus_sans\/Fonts\/1b198f74-3cd7-4858-98e8-ebd053ea936a.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/fonts\/nimbus_sans\/Fonts\/1b198f74-3cd7-4858-98e8-ebd053ea936a.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/wp-content\/themes\/gustafsonandgluek\/fonts\/nimbus_sans\/Fonts\/3840226d-5bab-4b9b-80df-35e9c89e7be9.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/fonts\/nimbus_sans\/Fonts\/3840226d-5bab-4b9b-80df-35e9c89e7be9.woff",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/gustafsonandgluek\/fonts\/nimbus_sans\/Fonts\/4e93482e-40f7-4349-a9c2-f8882f15a93b.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/fonts\/nimbus_sans\/Fonts\/4e93482e-40f7-4349-a9c2-f8882f15a93b.woff",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/gustafsonandgluek\/fonts\/nimbus_sans\/Fonts\/55bc1387-86c7-452b-ae79-2721ea3b0645.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/fonts\/nimbus_sans\/Fonts\/55bc1387-86c7-452b-ae79-2721ea3b0645.ttf",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/gustafsonandgluek\/fonts\/nimbus_sans\/Fonts\/6e7669a6-aefe-4097-b421-9ec71403a22d.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/fonts\/nimbus_sans\/Fonts\/6e7669a6-aefe-4097-b421-9ec71403a22d.eot",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/gustafsonandgluek\/fonts\/nimbus_sans\/Fonts\/75144806-5cb9-4743-95cf-40b7f3df5dda.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/fonts\/nimbus_sans\/Fonts\/75144806-5cb9-4743-95cf-40b7f3df5dda.eot",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/gustafsonandgluek\/fonts\/nimbus_sans\/Fonts\/75896f69-6e33-4f29-97b1-1a105d9d6396.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/fonts\/nimbus_sans\/Fonts\/75896f69-6e33-4f29-97b1-1a105d9d6396.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/wp-content\/themes\/gustafsonandgluek\/fonts\/nimbus_sans\/Fonts\/9dca25dd-18d2-4ec8-a997-ef28c2f4f136.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/fonts\/nimbus_sans\/Fonts\/9dca25dd-18d2-4ec8-a997-ef28c2f4f136.eot",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/gustafsonandgluek\/fonts\/nimbus_sans\/Fonts\/9ea9358a-bb9c-4c89-b262-7b66643417f2.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/fonts\/nimbus_sans\/Fonts\/9ea9358a-bb9c-4c89-b262-7b66643417f2.ttf",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/gustafsonandgluek\/fonts\/nimbus_sans\/Fonts\/b5edab57-23a8-4bc5-bab3-df39a838bd75.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/fonts\/nimbus_sans\/Fonts\/b5edab57-23a8-4bc5-bab3-df39a838bd75.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/wp-content\/themes\/gustafsonandgluek\/fonts\/nimbus_sans\/Fonts\/bc1599b9-3e3c-4821-8a1b-37b230da78f8.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/fonts\/nimbus_sans\/Fonts\/bc1599b9-3e3c-4821-8a1b-37b230da78f8.woff2",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/gustafsonandgluek\/fonts\/nimbus_sans\/Fonts\/c253c5d7-8882-4cf6-a6b4-321cfb4ec9a7.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/fonts\/nimbus_sans\/Fonts\/c253c5d7-8882-4cf6-a6b4-321cfb4ec9a7.woff2",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/gustafsonandgluek\/fonts\/nimbus_sans\/Fonts\/ce398c7a-fb54-4409-89f7-241065e2af3d.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/fonts\/nimbus_sans\/Fonts\/ce398c7a-fb54-4409-89f7-241065e2af3d.woff",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/gustafsonandgluek\/fonts\/nimbus_sans\/Fonts\/fd862b64-8bf7-47e5-81d6-ee4cc1ac851f.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/fonts\/nimbus_sans\/Fonts\/fd862b64-8bf7-47e5-81d6-ee4cc1ac851f.ttf",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/gustafsonandgluek\/fonts\/nimbus_sans\/mtiFontTrackingCode.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/fonts\/nimbus_sans\/min\/mtiFontTrackingCode-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/themes\/gustafsonandgluek\/fonts\/source-serif-pro\/demo.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/fonts\/source-serif-pro\/demo.html",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/gustafsonandgluek\/fonts\/source-serif-pro\/SourceSerifPro-Black.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/fonts\/source-serif-pro\/SourceSerifPro-Black.eot",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/gustafsonandgluek\/fonts\/source-serif-pro\/SourceSerifPro-Black.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/fonts\/source-serif-pro\/SourceSerifPro-Black.ttf",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/gustafsonandgluek\/fonts\/source-serif-pro\/SourceSerifPro-Black.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/fonts\/source-serif-pro\/SourceSerifPro-Black.woff",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/gustafsonandgluek\/fonts\/source-serif-pro\/SourceSerifPro-Bold.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/fonts\/source-serif-pro\/SourceSerifPro-Bold.eot",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/gustafsonandgluek\/fonts\/source-serif-pro\/SourceSerifPro-Bold.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/fonts\/source-serif-pro\/SourceSerifPro-Bold.ttf",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/gustafsonandgluek\/fonts\/source-serif-pro\/SourceSerifPro-Bold.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/fonts\/source-serif-pro\/SourceSerifPro-Bold.woff",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/gustafsonandgluek\/fonts\/source-serif-pro\/SourceSerifPro-Semibold.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/fonts\/source-serif-pro\/SourceSerifPro-Semibold.eot",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/gustafsonandgluek\/fonts\/source-serif-pro\/SourceSerifPro-Semibold.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/fonts\/source-serif-pro\/SourceSerifPro-Semibold.ttf",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/gustafsonandgluek\/fonts\/source-serif-pro\/SourceSerifPro-Semibold.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/fonts\/source-serif-pro\/SourceSerifPro-Semibold.woff",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/gustafsonandgluek\/fonts\/source-serif-pro\/stylesheet.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/fonts\/source-serif-pro\/stylesheet-min.css",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/wp-content\/themes\/gustafsonandgluek\/footer.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -4579,6 +4808,36 @@
 		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/images\/results_securities.png",
 		"oF": 0,
 		"opt": 0
+		},
+	"\/wp-content\/themes\/gustafsonandgluek\/images\/sp-01.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/images\/sp-01.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/wp-content\/themes\/gustafsonandgluek\/images\/sp-02.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/images\/sp-02.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/wp-content\/themes\/gustafsonandgluek\/images\/sp-03.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/images\/sp-03.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/wp-content\/themes\/gustafsonandgluek\/images\/team_gustafson.jpg": {
 		"ft": 16384,

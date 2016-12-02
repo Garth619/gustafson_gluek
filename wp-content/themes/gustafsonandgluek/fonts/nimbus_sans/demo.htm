@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Webfonts Demo</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <style type="text/css">
+	    body, textarea { font-family:Arial, Sans-Serif; line-height:1.6em; font-size:13px; }
+	    h1 { font-size:3em; }
+	    h2, h3 { color:#999; }
+	    .content { width:780px; margin: 20px auto 40px; }
+	    .demo { font-weight:bold; font-style:normal; color: #999 }
+	    .fontdisplay {font-size:2em;line-height:150%;margin: 10px 40px 0px 0px;}
+	    .guidelines { color:#333; }
+	    pre { padding:0 0 0 20px; }
+	    hr { border:0; border-bottom:1px solid #537094; margin:20px 0; }
+	    .link { color: #537094;text-decoration:none; font-weight:bold;}
+	    .uc {text-transform:uppercase}
+	    
+    </style>
+    <style type="text/css">
+
+@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=22a896cc-7482-44af-8510-67dbc5059981");
+    @font-face{
+        font-family:"Nimbus Sans TW01";
+        src:url("Fonts/75144806-5cb9-4743-95cf-40b7f3df5dda.eot?#iefix");
+        src:url("Fonts/75144806-5cb9-4743-95cf-40b7f3df5dda.eot?#iefix") format("eot"),url("Fonts/bc1599b9-3e3c-4821-8a1b-37b230da78f8.woff2") format("woff2"),url("Fonts/4e93482e-40f7-4349-a9c2-f8882f15a93b.woff") format("woff"),url("Fonts/55bc1387-86c7-452b-ae79-2721ea3b0645.ttf") format("truetype"),url("Fonts/b5edab57-23a8-4bc5-bab3-df39a838bd75.svg#b5edab57-23a8-4bc5-bab3-df39a838bd75") format("svg");
+    }
+    @font-face{
+        font-family:"Nimbus Sans TW01 Bold";
+        src:url("Fonts/9dca25dd-18d2-4ec8-a997-ef28c2f4f136.eot?#iefix");
+        src:url("Fonts/9dca25dd-18d2-4ec8-a997-ef28c2f4f136.eot?#iefix") format("eot"),url("Fonts/10bdcd04-2bea-42bc-ae40-153b09ae5c4d.woff2") format("woff2"),url("Fonts/ce398c7a-fb54-4409-89f7-241065e2af3d.woff") format("woff"),url("Fonts/fd862b64-8bf7-47e5-81d6-ee4cc1ac851f.ttf") format("truetype"),url("Fonts/75896f69-6e33-4f29-97b1-1a105d9d6396.svg#75896f69-6e33-4f29-97b1-1a105d9d6396") format("svg");
+    }
+    @font-face{
+        font-family:"Nimbus Sans TW01Bla";
+        src:url("Fonts/6e7669a6-aefe-4097-b421-9ec71403a22d.eot?#iefix");
+        src:url("Fonts/6e7669a6-aefe-4097-b421-9ec71403a22d.eot?#iefix") format("eot"),url("Fonts/c253c5d7-8882-4cf6-a6b4-321cfb4ec9a7.woff2") format("woff2"),url("Fonts/3840226d-5bab-4b9b-80df-35e9c89e7be9.woff") format("woff"),url("Fonts/9ea9358a-bb9c-4c89-b262-7b66643417f2.ttf") format("truetype"),url("Fonts/1b198f74-3cd7-4858-98e8-ebd053ea936a.svg#1b198f74-3cd7-4858-98e8-ebd053ea936a") format("svg");
+    }
+
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1 class="demo">Fonts.com Web fonts</h1>
+        <p style="margin-top:-10px; font-size:1.5em;color:#666"><b>@font-face implementation instructions</b></p>
+        <hr />
+        <p class="uc">The fonts contained in this kit are:</p>
+        <div class="fontdisplay">
+<div style="font-family:'Nimbus Sans TW01';"> Nimbus Sans W01 Regular </div>
+<div style="font-family:'Nimbus Sans TW01 Bold';"> Nimbus Sans W01 Bold </div>
+<div style="font-family:'Nimbus Sans TW01Bla';"> Nimbus Sans W01 Black </div>
+
+        </div>
+        <hr />
+        Click here for <a class="link uc" href="demo-async.htm">asynchronous</a> web fonts implementation
+        <hr />
+        <div class="guidelines">
+            <h2>CSS Implementation Guidelines</h2>
+            <p>You and any third party web font hosting service are responsible for ensuring that the font software in the self-hosting kit, in its original format, can only be used on the Web Sites for which the self-hosting kit was downloaded and cannot be used or referenced by any other web site. This includes, but is not limited to installing adequate technical protection measures that restrict the use and/or access to the font software, for instance by utilizing JavaScript or access control mechanism for cross-origin resource sharing and protecting against use on web sites other than the Web Sites for which the self-hosting kit was downloaded by restricting domain access only to such Web Sites. You must also retain the pageview tracking code on any Web Site that you self-host. In the event this Agreement terminates for any reason, the font software included with the self-hosting kit must be deleted from the server and all copies must be destroyed or returned to Monotype Imaging.</p>
+            <p>View <a class="link" href="http://www.fonts.com/info/legal/eula/web-fonts" target="_blank">"WEB FONT SOFTWARE" LICENSE AGREEMENT</a></p>
+            <p>Font file names have been obfuscated to protect the font software. You can identify font format based on file ending:</p>
+            <ul>
+                <li>1 - TrueType (ttf)</li>
+                <li>2 - Embedded OpenType (eot)</li>
+                <li>3 - Web Open Font Format (woff)</li>
+                <li>4 - Web Open Font Format version 2 (woff2)</li>
+                <li>5 - Scalable Vector Graphics (svg)</li>
+            </ul>
+            <p class="uc" style="margin: 20px 0px -20px;"><b>Copy and paste following code in head section of the page</b></p>
+            <hr />
+            <textarea style="width:830px; height:350px; border:1 #fff solid; background-color:#fcfcfc;"><style type="text/css">
+
+@import url("http://fast.fonts.net/t/1.css?apiType=css&projectid=22a896cc-7482-44af-8510-67dbc5059981");
+    @font-face{
+        font-family:"Nimbus Sans TW01";
+        src:url("Fonts/75144806-5cb9-4743-95cf-40b7f3df5dda.eot?#iefix");
+        src:url("Fonts/75144806-5cb9-4743-95cf-40b7f3df5dda.eot?#iefix") format("eot"),url("Fonts/bc1599b9-3e3c-4821-8a1b-37b230da78f8.woff2") format("woff2"),url("Fonts/4e93482e-40f7-4349-a9c2-f8882f15a93b.woff") format("woff"),url("Fonts/55bc1387-86c7-452b-ae79-2721ea3b0645.ttf") format("truetype"),url("Fonts/b5edab57-23a8-4bc5-bab3-df39a838bd75.svg#b5edab57-23a8-4bc5-bab3-df39a838bd75") format("svg");
+    }
+    @font-face{
+        font-family:"Nimbus Sans TW01 Bold";
+        src:url("Fonts/9dca25dd-18d2-4ec8-a997-ef28c2f4f136.eot?#iefix");
+        src:url("Fonts/9dca25dd-18d2-4ec8-a997-ef28c2f4f136.eot?#iefix") format("eot"),url("Fonts/10bdcd04-2bea-42bc-ae40-153b09ae5c4d.woff2") format("woff2"),url("Fonts/ce398c7a-fb54-4409-89f7-241065e2af3d.woff") format("woff"),url("Fonts/fd862b64-8bf7-47e5-81d6-ee4cc1ac851f.ttf") format("truetype"),url("Fonts/75896f69-6e33-4f29-97b1-1a105d9d6396.svg#75896f69-6e33-4f29-97b1-1a105d9d6396") format("svg");
+    }
+    @font-face{
+        font-family:"Nimbus Sans TW01Bla";
+        src:url("Fonts/6e7669a6-aefe-4097-b421-9ec71403a22d.eot?#iefix");
+        src:url("Fonts/6e7669a6-aefe-4097-b421-9ec71403a22d.eot?#iefix") format("eot"),url("Fonts/c253c5d7-8882-4cf6-a6b4-321cfb4ec9a7.woff2") format("woff2"),url("Fonts/3840226d-5bab-4b9b-80df-35e9c89e7be9.woff") format("woff"),url("Fonts/9ea9358a-bb9c-4c89-b262-7b66643417f2.ttf") format("truetype"),url("Fonts/1b198f74-3cd7-4858-98e8-ebd053ea936a.svg#1b198f74-3cd7-4858-98e8-ebd053ea936a") format("svg");
+    }
+
+</style>
+
+</textarea>
+            <h3>Licensing information should be included within the CSS</h3>
+<pre>/*
+This CSS resource incorporates links to font software which is the valuable copyrighted
+property of Monotype Imaging and/or its suppliers. You may not attempt to copy, install,
+redistribute, convert, modify or reverse engineer this font software. Please contact Monotype
+Imaging with any questions regarding Web Fonts:  http://www.fonts.com
+*/</pre>
+        </div>
+    </div>
+</body>
+</html>
