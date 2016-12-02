@@ -171,3 +171,50 @@ header, section, nav, footer {
       color: #193334;
       max-width: 300px;
       display: inline-block; }
+
+/* About */
+.about {
+  padding: 40px 0; }
+  .about span.large_header {
+    font-size: 42px;
+    color: #193334;
+    font-family: "Source Serif Pro";
+    font-weight: bold;
+    font-style: normal;
+    padding: 0 0 25px 30px;
+    display: block;
+    border-bottom: 1px solid #ceb675;
+    max-width: 300px; }
+  .about .about_content {
+    border-top: 1px solid #ceb675;
+    margin-top: 10px;
+    padding: 35px 30px; }
+    .about .about_content span.about_excerpt {
+      color: #8c8d8d;
+      font-family: "Nimbus Sans TW01Bla";
+      font-size: 18px;
+      line-height: 1.5;
+      margin-bottom: 65px;
+      display: block; }
+    .about .about_content span.about_title {
+      display: block;
+      color: #447f6d;
+      font-family: "Source Serif Pro";
+      font-weight: 900;
+      font-style: normal;
+      font-size: 22px;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      margin-bottom: 20px; }
+    .about .about_content p {
+      font-family: "Nimbus Sans TW01";
+      color: #1d2e3c;
+      font-size: 17px;
+      line-height: 1.9;
+      margin-bottom: 25px; }
+  .about .about_pic {
+    padding: 0 35px; }
+    .about .about_pic img {
+      margin: 0 auto;
+      display: block;
+      width: 100%; }
