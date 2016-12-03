@@ -213,8 +213,29 @@ header, section, nav, footer {
       line-height: 1.9;
       margin-bottom: 25px; }
   .about .about_pic {
-    padding: 0 35px; }
-    .about .about_pic img {
+    padding: 0 35px;
+    position: relative; }
+    .about .about_pic img.group_pic {
       margin: 0 auto;
       display: block;
       width: 100%; }
+    .about .about_pic img.tritwo {
+      width: 62px;
+      position: absolute;
+      top: -30px;
+      right: 65px; }
+
+/* Meet Our Team */
+.meet_our_team {
+  background: url(images/element_pattern.png) top left repeat;
+  width: 100%; }
+  .meet_our_team span.large_header {
+    font-family: "Source Serif Pro";
+    font-weight: 900;
+    font-style: normal;
+    color: #386658;
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    padding-bottom: 10px;
+    border: 1px solid #ceb675; }

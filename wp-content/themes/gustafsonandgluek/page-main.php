@@ -73,12 +73,21 @@ get_header(); ?>
 	
 	<div class="about_pic">
 		
-		<img src="<?php bloginfo('template_directory');?>/images/image_01_ipad.jpg"/>
+		<img class="group_pic" src="<?php bloginfo('template_directory');?>/images/image_01_ipad.jpg"/>
+		<img class="tritwo" src="<?php bloginfo('template_directory');?>/images/element_triangle2.svg"/>
+		
 		
 	</div><!-- about_pic  -->
 	
 	
 </section><!-- about -->
+
+
+<section class="meet_our_team">
+	
+	<span class="large_header">Gustafson Gluek</span><!-- large_header -->
+	
+</section><!-- meet_our_team -->
 
 		
 

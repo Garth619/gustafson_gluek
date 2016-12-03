@@ -21,6 +21,12 @@
 		"oAP": "\/.htaccess",
 		"oF": 0
 		},
+	"\/gus.sql.gz": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/gus.sql.gz",
+		"oF": 0
+		},
 	"\/index.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -4588,6 +4594,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/images\/element_triangle.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/wp-content\/themes\/gustafsonandgluek\/images\/element_triangle2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/images\/element_triangle2.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,

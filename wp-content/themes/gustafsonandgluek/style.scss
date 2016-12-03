@@ -286,11 +286,36 @@ header {
 	}
 	.about_pic {
 		padding: 0 35px;
-		img {
+		position: relative;
+		img.group_pic {
 			margin: 0 auto;
 			display: block;
 			width:100%;
 		}
+		img.tritwo {
+			width:62px;
+			position: absolute;
+			top: -30px;
+			right: 65px;
+		}
+	}
+}
+
+/* Meet Our Team */
+
+.meet_our_team {
+	background: url(images/element_pattern.png) top left repeat;
+	width:100%;
+	span.large_header {
+		font-family: $sourceserif;
+		font-weight: 900;
+		font-style: normal;
+		color:$greenlight;
+		font-size:20px;
+		text-align: center;
+		display: block;
+		padding-bottom:10px;
+		border:1px solid $gold;
 	}
 }
 
