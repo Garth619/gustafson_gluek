@@ -183,13 +183,25 @@ get_header(); ?>
 			
 			<a class="read_more" href="">Read More</a><!-- read_more -->
 			
+			
+			
 		</div><!-- content_wrapper -->
 		
-		
+		<a class="view_more gold_gradient_button" href="">View More</a>
 		
 	</div><!-- news_loop_wrapper -->
 	
 </section><!-- news_updates -->
+
+<section id="request">
+	
+	<span class="large_header">request your free case consultation</span><!-- large_header -->
+	<span class="sub_header">fill out the form below</span><!-- large_header -->
+	
+	<div class="form"><?php gravity_form(1, false, false, false, '', true, 12); ?></div><!-- form -->
+	
+	
+</section><!-- request -->
 
 		
 
