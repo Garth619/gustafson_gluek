@@ -100,6 +100,8 @@ get_header(); ?>
 	
 	<p>Our law firm  has a national complex litigation practice focused on antitrust and consumer protection class actions.</p>
 	
+	<a class="gold_button" href="">Case Summaries</a><!-- gold_button -->
+	
 	
 </section><!-- case_results -->
 

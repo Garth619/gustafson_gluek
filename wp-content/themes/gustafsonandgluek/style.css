@@ -64,6 +64,19 @@ a.gold_outline_button {
   padding: 26px 51px;
   display: inline-block; }
 
+a.gold_button {
+  background: #ceb675;
+  display: inline-block;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 15px;
+  letter-spacing: 2.5px;
+  font-family: "Source Serif Pro";
+  font-weight: 900;
+  font-style: normal;
+  padding: 28px 50px; }
+
 /* Header */
 .logo {
   width: 185px;
@@ -275,7 +288,8 @@ a.gold_outline_button {
   background: url(images/result_bkg_ipad.jpg) top center;
   background-size: cover;
   width: 100%;
-  padding: 95px 0; }
+  padding: 95px 0;
+  text-align: center; }
   #case_results span.large_header {
     font-size: 40px;
     color: #fff;
@@ -283,7 +297,8 @@ a.gold_outline_button {
     padding: 0 30px 25px;
     margin-bottom: 40px;
     display: block;
-    border-bottom: 1px solid #b6995a; }
+    border-bottom: 1px solid #b6995a;
+    text-align: left; }
   #case_results p {
     font-size: 18px;
     color: #fff;
@@ -293,4 +308,6 @@ a.gold_outline_button {
     text-transform: uppercase;
     letter-spacing: 1px;
     padding: 0 30px;
-    line-height: 1.9; }
+    line-height: 1.9;
+    text-align: left;
+    margin-bottom: 37px; }

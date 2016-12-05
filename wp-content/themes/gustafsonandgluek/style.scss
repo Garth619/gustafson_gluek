@@ -93,6 +93,20 @@ a.gold_outline_button {
 	display: inline-block;
 }
 
+a.gold_button {
+	background: $goldlight;
+	display: inline-block;
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 15px;
+	letter-spacing: 2.5px;
+	font-family: $sourceserif;
+	font-weight: 900;
+	font-style: normal;
+	padding:28px 50px;
+}
+
 
 /* Header */
 
@@ -367,6 +381,7 @@ header {
  background-size: cover;
  width:100%;
  padding:95px 0;
+ text-align: center;
  span.large_header {
 	font-size:40px;
 	color:#fff;
@@ -375,6 +390,7 @@ header {
 	margin-bottom:40px;
 	display: block;
 	border-bottom:1px solid $gold;
+	text-align: left;
 }
 p {
 	font-size:18px;
@@ -386,6 +402,8 @@ p {
 	letter-spacing: 1px;
 	padding:0 30px;
 	line-height: 1.9;
+	text-align: left;
+	margin-bottom:37px;
 }
 }
 
