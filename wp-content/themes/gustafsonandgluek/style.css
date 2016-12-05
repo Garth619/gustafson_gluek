@@ -373,3 +373,15 @@ a.gold_button {
       top: 0;
       left: 22px;
       width: 62px; }
+
+/* News Updates */
+#news_updates {
+  background: url(images/element_pattern.png) top left repeat;
+  padding: 67px 0 45px; }
+  #news_updates span.large_header {
+    font-family: "Nimbus Sans TW01Bla";
+    color: #b6995a;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 4.5px;
+    padding-left: 30px; }

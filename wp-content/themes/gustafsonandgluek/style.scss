@@ -490,4 +490,21 @@ p {
 }
 
 
+/* News Updates */
+
+
+#news_updates {
+	background: url(images/element_pattern.png) top left repeat;
+	padding:67px 0 45px;
+	span.large_header {
+		font-family: $nimbusblack;
+		color:$gold;
+		text-transform: uppercase;
+		font-size: 15px;
+		letter-spacing: 4.5px;
+		padding-left:30px;
+	}
+}
+
+
 

@@ -150,6 +150,13 @@ get_header(); ?>
 	
 </section><!-- experience_second_section -->
 
+
+<section id="news_updates">
+	
+	<span class="large_header">news updates //</span><!-- large_header -->
+	
+</section><!-- news_updates -->
+
 		
 
 <?php get_footer(); ?>
