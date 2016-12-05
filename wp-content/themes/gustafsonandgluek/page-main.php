@@ -31,13 +31,13 @@ get_header(); ?>
 	<div class="slide_wrapper">
 		
 	
-	<dicv class="single_slide_wrapper">
+	<div class="single_slide_wrapper">
 	
 	<div class="slide">
 		
 		<img class="svg_icon" src="<?php bloginfo('template_directory');?>/images/sp-01.svg"/>
 		
-		<span class="large_header">OVer 70 years of experience</span><!-- large_header -->
+		<span class="large_header">Over 70 years of experience</span><!-- large_header -->
 		
 		<div class="gold_line"></div><!-- Gold Line -->
 		
@@ -46,7 +46,7 @@ get_header(); ?>
 		
 	</div><!-- slide -->
 	
-	</div><!--- single_slide_wrapper -->
+	</div><!-- single_slide_wrapper -->
 	
 	
 	</div><!-- slide_wrapper -->
@@ -104,6 +104,51 @@ get_header(); ?>
 	
 	
 </section><!-- case_results -->
+
+<section id="awards">
+
+<div class="slide_wrapper">
+	
+	<div class="slide">
+		
+		<img src="<?php bloginfo('template_directory');?>/images/award_02.png"/>
+		
+	</div><!-- slide -->
+	
+	
+</div><!-- slide_wrapper -->
+
+</section><!-- awards -->
+
+<section id="experience_second_section">
+	
+	<span class="large_header">Gustafson Gluek has over 70 years of experience in complex class action litigation</span><!-- large_header -->
+	
+	<div class="experience_second_section_content">
+		
+		
+		<div class="ex_pic_wrapper">
+		
+			<img class="ex_pic "src="<?php bloginfo('template_directory');?>/images/image_02_mobile.jpg"/>
+			<img class="tritwo" src="<?php bloginfo('template_directory');?>/images/element_triangle2.svg"/>
+		
+		</div><!-- ex_pic  -->
+		
+		<span class="large_header">LOREM USOUM DOLuRITS</span><!-- large_header -->
+		
+		<p>Nulla sagittis eleifend tellus, et ultrices massa rutrum id. Maecenas justo augue, commodo nec est ac, tincidunt egestas diam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec placerat sed metus ut mollis. Vestibulum vel semper justo. Sed leo tortor, faucibus eget congue id, sollicitudin varius dui. Praesent blandit elit vehicula tortor suscipit cursus. Pellentesque pellentesque bibendum aliquam. Suspendisse fermentum sagittis mauris, sit amet aliquam quam gravida et. Vivamus non mollis enim.</p>
+		
+		<p>Cras quis mattis ex. Quisque quam arcu, lacinia at metus nec, ornare luctus dolor. Integer facilisis nisi odio, vel mattis ex tristique id. Mauris risus urna, imperdiet sit amet fringilla imperdiet, pharetra id orci. Sed nec orci sed sapien ornare scelerisque nec sit amet mi. Mauris ultricies dolor egestas, posuere ipsum in, hendrerit nisi. Nulla malesuada aliquet tellus, et commodo ligula dapibus vel. Ut turpis est, venenatis id enim tempor, fermentum malesuada ligula. Ut nec lacinia diam. Nulla imperdiet, enim at luctus. eget nibh sit amet nunc tempus vestibulum. Cras convallis rhoncus leo at pellentesque. Vivamus eget consequat dolor. Maecenas eget nisl hendrerit dolor imperdiet interdum. Phasellus nisi enim, maximus eu mattis nec, posuere et lacus. Praesent blandit elit vehicula tortor suscipit cursus. Pellentesque pellentesque bibendum aliquam. Suspendisse fermentum sagittis mauris, sit amet aliquam quam gravida et. Vivamus non mollis enim.</p>
+
+<span class="sub_header">Lorem Ispum</span>
+
+<p>DolorMaecenas justo augue, commodo nec est ac, tincidunt egestas diam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec placerat sed metus ut mollis. Vestibulum vel semper justo. Sed leo tortor, faucibus eget congue id, sollicitudin varius dui. Praesent blandit elit vehicula tortor suscipit cursus. Pellentesque pellentesque bibendum aliquam. Suspendisse fermentum sagittis mauris, sit amet aliquam quam gravida et. Vivamus non mollis enim. Cras quis mattis ex. Quisque quam arcu, lacinia at metus nec.</p>
+		
+		
+	</div><!-- experience_second_section_content -->
+	
+	
+</section><!-- experience_second_section -->
 
 		
 

@@ -20,12 +20,6 @@ a img {
 html {
   -webkit-text-size-adjust: 100%; }
 
-body {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.05);
-  line-height: 1; }
-
 header, section, nav, footer {
   display: block; }
 
@@ -50,6 +44,13 @@ header, section, nav, footer {
 	font-style: normal;
 	
 */
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.05);
+  line-height: 1;
+  color: #1d2e3c; }
+
 /* Buttons */
 a.gold_outline_button {
   border: 2px solid #b6995a;
@@ -311,3 +312,64 @@ a.gold_button {
     line-height: 1.9;
     text-align: left;
     margin-bottom: 37px; }
+
+/* Awards */
+#awards {
+  background: url(images/element_pattern.png) top left repeat;
+  width: 100%;
+  padding: 50px;
+  text-align: center; }
+
+/* Second Experience Section */
+#experience_second_section {
+  padding: 50px 0; }
+  #experience_second_section > span.large_header {
+    font-family: "Nimbus Sans TW01Bla";
+    color: #193334;
+    font-size: 28px;
+    display: block;
+    padding: 0 30px;
+    line-height: 32px;
+    border-bottom: 1px solid #b6995a;
+    padding-bottom: 40px; }
+  #experience_second_section .experience_second_section_content {
+    padding: 0 30px;
+    margin-top: 9px;
+    border-top: 1px solid #b6995a; }
+    #experience_second_section .experience_second_section_content span.large_header {
+      font-size: 20px;
+      color: #45806e;
+      letter-spacing: 1.2px;
+      line-height: 28px;
+      text-transform: uppercase;
+      font-family: "Source Serif Pro";
+      font-weight: 900;
+      font-style: normal;
+      margin-bottom: 12px;
+      display: inline-block; }
+    #experience_second_section .experience_second_section_content p {
+      font-family: "Nimbus Sans TW01";
+      font-size: 17px;
+      line-height: 32px;
+      margin-bottom: 25px; }
+    #experience_second_section .experience_second_section_content span.sub_header {
+      font-family: "Source Serif Pro";
+      font-weight: 900;
+      font-style: normal;
+      line-height: 35px;
+      letter-spacing: 0.5px;
+      color: #b6995a;
+      font-size: 20px; }
+  #experience_second_section .ex_pic_wrapper {
+    margin-top: 20px;
+    position: relative; }
+    #experience_second_section .ex_pic_wrapper img.ex_pic {
+      max-width: 100%;
+      height: auto;
+      margin: 30px 0 45px;
+      width: 100%; }
+    #experience_second_section .ex_pic_wrapper .tritwo {
+      position: absolute;
+      top: 0;
+      left: 22px;
+      width: 62px; }
