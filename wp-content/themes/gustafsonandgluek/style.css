@@ -102,6 +102,18 @@ a.gold_gradient_button {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5d598', endColorstr='#b89c5d',GradientType=0 );
   /* IE6-9 */ }
 
+a.green_button {
+  background: #45806e;
+  display: inline-block;
+  color: #fff;
+  font-family: "Source Serif Pro";
+  font-weight: 900;
+  font-style: normal;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  padding: 17px 65px;
+  text-decoration: none; }
+
 /* Header */
 .logo {
   width: 185px;
@@ -473,7 +485,7 @@ a.gold_gradient_button {
 /* Request */
 #request {
   background: #1a3536;
-  padding: 78px 30px; }
+  padding: 78px 30px 105px; }
   #request span.large_header {
     color: #fff;
     font-size: 35px;
@@ -572,3 +584,74 @@ a.gold_gradient_button {
   text-transform: uppercase;
   margin-top: 8px;
   letter-spacing: 0.85px; }
+
+/* Footer */
+footer {
+  width: 100%;
+  background: url(images/element_pattern.png) top left repeat;
+  text-align: center; }
+  footer .address_box {
+    border: 2px solid #b6995a;
+    width: 92%;
+    margin: 0 auto;
+    padding: 108px 15px 55px;
+    position: relative;
+    top: -50px; }
+    footer .address_box span.address {
+      display: block;
+      font-size: 20px;
+      line-height: 30px;
+      font-family: "Source Serif Pro";
+      font-weight: 900;
+      font-style: normal;
+      margin-bottom: 25px; }
+    footer .address_box a.tel {
+      font-size: 35px;
+      letter-spacing: .015px;
+      text-decoration: none;
+      font-weight: bold;
+      font-style: normal;
+      font-family: "Source Serif Pro";
+      color: #b6995a;
+      display: block;
+      margin-bottom: 33px; }
+
+.social_media {
+  margin-top: 10px;
+  margin-bottom: 45px; }
+  .social_media .follow_us {
+    text-transform: uppercase;
+    color: #b6995a;
+    font-size: 20px;
+    font-family: "Source Serif Pro";
+    font-weight: 900;
+    font-style: normal;
+    letter-spacing: 2.5px;
+    border-bottom: 1px solid #b6995a;
+    padding-bottom: 8px;
+    display: inline-block;
+    margin-bottom: 40px; }
+  .social_media .social_media_wrapper .sm_icon {
+    height: 32px;
+    margin: 0 8%; }
+
+.copyright {
+  background: #fff;
+  padding: 25px;
+  font-family: "Nimbus Sans TW01 Bold";
+  font-size: 12px; }
+  .copyright span {
+    text-transform: uppercase;
+    line-height: 15px; }
+  .copyright a.disclaimer {
+    display: block;
+    color: #ceb675;
+    margin-top: 12px;
+    text-transform: uppercase; }
+
+.ilawyer {
+  background: #1a3536;
+  padding: 25px 0; }
+  .ilawyer img {
+    max-width: 100%;
+    height: auto; }

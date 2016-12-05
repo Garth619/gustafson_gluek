@@ -7250,6 +7250,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/wp-content\/themes\/gustafsonandgluek\/images\/footer_fb_green.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/images\/footer_fb_green.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/wp-content\/themes\/gustafsonandgluek\/images\/footer_google.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -7260,11 +7270,31 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/wp-content\/themes\/gustafsonandgluek\/images\/footer_google_green.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/images\/footer_google_green.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/wp-content\/themes\/gustafsonandgluek\/images\/footer_linkedin.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/images\/footer_linkedin.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/wp-content\/themes\/gustafsonandgluek\/images\/footer_linkedin_green.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/images\/footer_linkedin_green.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -7301,6 +7331,16 @@
 		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/images\/hero_mobile.jpg",
 		"oF": 0,
 		"opt": 0
+		},
+	"\/wp-content\/themes\/gustafsonandgluek\/images\/ilawyer.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/images\/ilawyer.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/wp-content\/themes\/gustafsonandgluek\/images\/image_01.jpg": {
 		"ft": 16384,

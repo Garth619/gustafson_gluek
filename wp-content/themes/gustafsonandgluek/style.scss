@@ -32,6 +32,8 @@ header, section, nav, footer {
 
 /* Colors */
 
+
+
 $greenlight: #386658;
 $greentitle: #447f6d;
 $green: #213f40;
@@ -49,6 +51,7 @@ $blacktext:#1d2e3c;
 /* Fonts */
 
 $nimbusbreg: "Nimbus Sans TW01";
+$nimbusbold: "Nimbus Sans TW01 Bold";
 $nimbusblack :"Nimbus Sans TW01Bla";
 $sourceserif: 'Source Serif Pro'; 
 
@@ -131,6 +134,20 @@ a.gold_gradient_button {
 		background: -webkit-linear-gradient(top,  #e5d598 0%,#b89c5d 100%); /* Chrome10-25,Safari5.1-6 */
 		background: linear-gradient(to bottom,  #e5d598 0%,#b89c5d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5d598', endColorstr='#b89c5d',GradientType=0 ); /* IE6-9 */
+}
+
+
+a.green_button {
+	background: #45806e;
+	display: inline-block;
+	color:#fff;
+	font-family: $sourceserif;
+	font-weight: 900;
+	font-style: normal;
+	text-transform: uppercase;
+	letter-spacing: 2.5px;
+	padding:17px 65px;
+	text-decoration: none;
 }
 
 
@@ -609,7 +626,7 @@ p {
 
 #request {
 	background: $greenrequest;
-	padding:78px 30px;
+	padding:78px 30px 105px;
 	span.large_header {
 		color:#fff;
 		font-size:35px;
@@ -731,4 +748,92 @@ p {
 	letter-spacing: 0.85px;
 }
 
+/* Footer */
+
+
+footer {
+	width:100%;
+	
+	background: url(images/element_pattern.png) top left repeat;
+	text-align: center;
+	.address_box {
+		border:2px solid $gold;
+		width:92%;
+		margin:0 auto;
+		padding:108px 15px 55px;
+		position: relative;
+		top:-50px;
+		span.address {
+			display: block;
+			font-size:20px;
+			line-height:30px;
+			font-family: $sourceserif;
+			font-weight: 900;
+			font-style: normal;
+			margin-bottom:25px;
+		}
+		a.tel {
+			font-size:35px;
+			letter-spacing: .015px;
+			text-decoration: none;
+			font-weight: bold;
+			font-style: normal;
+			font-family:$sourceserif;
+			color:$gold;
+			display: block;
+			margin-bottom:33px;
+		}
+	}
+}
+
+
+.social_media {
+	margin-top:10px;
+	margin-bottom:45px;
+	.follow_us {
+		text-transform: uppercase;
+		color:$gold;
+		font-size:20px;
+		font-family: $sourceserif;
+		font-weight: 900;
+		font-style: normal;
+		letter-spacing: 2.5px;
+		border-bottom: 1px solid $gold;
+		padding-bottom:8px;
+		display: inline-block;
+		margin-bottom: 40px;
+	}
+	.social_media_wrapper {
+		.sm_icon {
+			height:32px;
+			margin:0 8%;
+		}
+	}
+}
+
+.copyright {
+	background: #fff;
+	padding:25px;
+	font-family: $nimbusbold;
+	font-size:12px;
+	span {
+		text-transform: uppercase;
+		line-height: 15px;
+	}
+	a.disclaimer {
+		display: block;
+		color:$goldlight;
+		margin-top:12px;
+		text-transform: uppercase;
+	}
+}
+
+.ilawyer {
+	background: $greenrequest;
+	padding:25px 0;
+	img {
+		max-width:100%;
+		height:auto;
+	}
+}
 
