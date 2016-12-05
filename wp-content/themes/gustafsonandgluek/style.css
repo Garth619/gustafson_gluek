@@ -50,6 +50,20 @@ header, section, nav, footer {
 	font-style: normal;
 	
 */
+/* Buttons */
+a.gold_outline_button {
+  border: 2px solid #b6995a;
+  font-family: "Source Serif Pro";
+  font-weight: 900;
+  font-style: normal;
+  color: #b6995a;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 15px;
+  letter-spacing: 2.5px;
+  padding: 26px 51px;
+  display: inline-block; }
+
 /* Header */
 .logo {
   width: 185px;
@@ -60,7 +74,7 @@ header, section, nav, footer {
   background: #213f40;
   padding: 30px 20px;
   float: right;
-  height: 70px; }
+  height: 71px; }
   .inner_header_right .mobile_menu {
     float: left;
     margin-right: 4px;
@@ -137,17 +151,17 @@ header, section, nav, footer {
   /* IE6-9 */ }
 
 /* Experience Section */
-.experience_section {
+#experience_section {
   width: 100%;
   background: url(images/element_pattern.png) top left repeat;
   padding: 55px; }
-  .experience_section .slide_wrapper .single_slide_wrapper .slide {
+  #experience_section .slide_wrapper .single_slide_wrapper .slide {
     text-align: center; }
-    .experience_section .slide_wrapper .single_slide_wrapper .slide img.svg_icon {
+    #experience_section .slide_wrapper .single_slide_wrapper .slide img.svg_icon {
       width: 100px;
       display: block;
       margin: 0 auto 25px; }
-    .experience_section .slide_wrapper .single_slide_wrapper .slide span.large_header {
+    #experience_section .slide_wrapper .single_slide_wrapper .slide span.large_header {
       font-family: "Source Serif Pro";
       font-weight: 900;
       font-style: normal;
@@ -156,13 +170,13 @@ header, section, nav, footer {
       display: block;
       text-transform: uppercase;
       letter-spacing: .85px; }
-    .experience_section .slide_wrapper .single_slide_wrapper .slide .gold_line {
+    #experience_section .slide_wrapper .single_slide_wrapper .slide .gold_line {
       width: 75px;
       height: 1px;
-      background: #ceb675;
+      background: #b6995a;
       display: block;
       margin: 30px auto; }
-    .experience_section .slide_wrapper .single_slide_wrapper .slide span.sub_content {
+    #experience_section .slide_wrapper .single_slide_wrapper .slide span.sub_content {
       font-family: "Source Serif Pro";
       font-weight: 600;
       font-style: normal;
@@ -173,9 +187,9 @@ header, section, nav, footer {
       display: inline-block; }
 
 /* About */
-.about {
+#about {
   padding: 40px 0; }
-  .about span.large_header {
+  #about span.large_header {
     font-size: 42px;
     color: #193334;
     font-family: "Source Serif Pro";
@@ -183,20 +197,20 @@ header, section, nav, footer {
     font-style: normal;
     padding: 0 0 25px 30px;
     display: block;
-    border-bottom: 1px solid #ceb675;
+    border-bottom: 1px solid #b6995a;
     max-width: 300px; }
-  .about .about_content {
-    border-top: 1px solid #ceb675;
+  #about .about_content {
+    border-top: 1px solid #b6995a;
     margin-top: 10px;
     padding: 35px 30px; }
-    .about .about_content span.about_excerpt {
+    #about .about_content span.about_excerpt {
       color: #8c8d8d;
       font-family: "Nimbus Sans TW01Bla";
       font-size: 18px;
       line-height: 1.5;
       margin-bottom: 65px;
       display: block; }
-    .about .about_content span.about_title {
+    #about .about_content span.about_title {
       display: block;
       color: #447f6d;
       font-family: "Source Serif Pro";
@@ -206,36 +220,77 @@ header, section, nav, footer {
       text-transform: uppercase;
       letter-spacing: 1.5px;
       margin-bottom: 20px; }
-    .about .about_content p {
+    #about .about_content p {
       font-family: "Nimbus Sans TW01";
       color: #1d2e3c;
       font-size: 17px;
       line-height: 1.9;
       margin-bottom: 25px; }
-  .about .about_pic {
+  #about .about_pic {
     padding: 0 35px;
     position: relative; }
-    .about .about_pic img.group_pic {
+    #about .about_pic img.group_pic {
       margin: 0 auto;
       display: block;
       width: 100%; }
-    .about .about_pic img.tritwo {
+    #about .about_pic img.tritwo {
       width: 62px;
       position: absolute;
       top: -30px;
       right: 65px; }
 
 /* Meet Our Team */
-.meet_our_team {
+#meet_our_team {
   background: url(images/element_pattern.png) top left repeat;
-  width: 100%; }
-  .meet_our_team span.large_header {
+  width: 100%;
+  margin-top: -191px;
+  padding: 200px 0 60px;
+  overflow: hidden;
+  text-align: center; }
+  #meet_our_team span.large_header {
     font-family: "Source Serif Pro";
     font-weight: 900;
     font-style: normal;
     color: #386658;
     font-size: 20px;
     text-align: center;
-    display: block;
+    display: inline-block;
     padding-bottom: 10px;
-    border: 1px solid #ceb675; }
+    border-bottom: 1px solid #b6995a;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    margin-bottom: 17px; }
+  #meet_our_team p {
+    text-align: left;
+    font-size: 25px;
+    font-family: "Source Serif Pro";
+    font-weight: bold;
+    font-style: normal;
+    padding: 0 30px;
+    line-height: 1.5;
+    margin-bottom: 40px; }
+
+/* Case Results */
+#case_results {
+  background: url(images/result_bkg_ipad.jpg) top center;
+  background-size: cover;
+  width: 100%;
+  padding: 95px 0; }
+  #case_results span.large_header {
+    font-size: 40px;
+    color: #fff;
+    font-family: "Nimbus Sans TW01Bla";
+    padding: 0 30px 25px;
+    margin-bottom: 40px;
+    display: block;
+    border-bottom: 1px solid #b6995a; }
+  #case_results p {
+    font-size: 18px;
+    color: #fff;
+    font-family: "Source Serif Pro";
+    font-weight: 900;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 0 30px;
+    line-height: 1.9; }

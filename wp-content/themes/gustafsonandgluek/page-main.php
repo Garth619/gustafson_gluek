@@ -26,7 +26,7 @@ get_header(); ?>
 	
 </section><!-- free_consultation -->
 
-<section class="experience_section">
+<section id="experience_section">
 	
 	<div class="slide_wrapper">
 		
@@ -55,7 +55,7 @@ get_header(); ?>
 </section><!-- experience_section -->
 
 
-<section class="about">
+<section id="about">
 	
 	<span class="large_header">Minneapolis Class Action Attorneys</span><!-- large_header -->
 	
@@ -83,11 +83,25 @@ get_header(); ?>
 </section><!-- about -->
 
 
-<section class="meet_our_team">
+<section id="meet_our_team">
 	
 	<span class="large_header">Gustafson Gluek</span><!-- large_header -->
 	
+	<p>We are a talented group of attorneys & professionals who do not back down from challenging cases and have prevailed against some of the biggest and most well-funded companies in the world.</p>
+	
+	<a class="meet_the_team gold_outline_button" href="">Meet Our Team</a>
+	
 </section><!-- meet_our_team -->
+
+
+<section id="case_results">
+	
+	<span class="large_header">Our Case Summaries</span><!-- large_header -->
+	
+	<p>Our law firm  has a national complex litigation practice focused on antitrust and consumer protection class actions.</p>
+	
+	
+</section><!-- case_results -->
 
 		
 

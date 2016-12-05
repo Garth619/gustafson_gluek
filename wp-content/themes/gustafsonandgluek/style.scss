@@ -42,8 +42,8 @@ $greentitle: #447f6d;
 $green: #213f40;
 $greendark: #193334;
 
-
-$gold: #ceb675;
+$goldlight: #ceb675;
+$gold: #b6995a;
 $greylight: #e4e5e7;
 $greydark: #8c8d8d;
 $blacktext:#1d2e3c;
@@ -74,6 +74,26 @@ $sourceserif: 'Source Serif Pro';
 	
 */
 
+
+
+/* Buttons */
+
+
+a.gold_outline_button {
+	border:2px solid $gold;
+	font-family: $sourceserif;
+	font-weight: 900;
+	font-style: normal;
+	color:$gold;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size:15px;
+	letter-spacing: 2.5px;
+	padding:26px 51px;
+	display: inline-block;
+}
+
+
 /* Header */
 
 header {
@@ -92,7 +112,7 @@ header {
 	background:$green;
 	padding:30px 20px;
 	float:right;
-	height: 70px;
+	height: 71px;
 	.mobile_menu {
 		float:left;
 		margin-right:4px;
@@ -122,7 +142,7 @@ header {
 	text-align: right;
 	padding:19px 13px;
 	a.tel {
-		color:$gold;
+		color:$goldlight;
 		font-family: $sourceserif;
 		font-weight: bold;
 		font-style: normal;
@@ -188,7 +208,7 @@ header {
 /* Experience Section */
 
 
-.experience_section {
+#experience_section {
 	width:100%;
 	background: url(images/element_pattern.png) top left repeat;
 	padding:55px;
@@ -240,7 +260,7 @@ header {
 
 /* About */
 
-.about {
+#about {
 	padding:40px 0;
 	span.large_header {
 		font-size:42px;
@@ -303,9 +323,13 @@ header {
 
 /* Meet Our Team */
 
-.meet_our_team {
+#meet_our_team {
 	background: url(images/element_pattern.png) top left repeat;
 	width:100%;
+	margin-top: -191px;
+	padding:200px 0 60px;
+	overflow: hidden;
+	text-align: center;
 	span.large_header {
 		font-family: $sourceserif;
 		font-weight: 900;
@@ -313,10 +337,56 @@ header {
 		color:$greenlight;
 		font-size:20px;
 		text-align: center;
-		display: block;
+		display: inline-block;
 		padding-bottom:10px;
-		border:1px solid $gold;
+		border-bottom:1px solid $gold;
+		text-transform: uppercase;
+		letter-spacing: 2.5px;
+		margin-bottom:17px;
+	
 	}
+	p {
+		text-align: left;
+		font-size: 25px;
+		font-family: $sourceserif;
+		font-weight: bold;
+		font-style: normal;
+		padding:0 30px;
+		line-height: 1.5;
+		margin-bottom:40px;
+	}
+}
+
+
+/* Case Results */
+
+
+
+#case_results {
+ background:url(images/result_bkg_ipad.jpg) top center;
+ background-size: cover;
+ width:100%;
+ padding:95px 0;
+ span.large_header {
+	font-size:40px;
+	color:#fff;
+	font-family: $nimbusblack;
+	padding: 0 30px 25px;
+	margin-bottom:40px;
+	display: block;
+	border-bottom:1px solid $gold;
+}
+p {
+	font-size:18px;
+	color:#fff;
+	font-family: $sourceserif;
+	font-weight: 900;
+	font-style: normal;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	padding:0 30px;
+	line-height: 1.9;
+}
 }
 
 
