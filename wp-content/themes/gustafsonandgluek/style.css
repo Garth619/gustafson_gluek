@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*
 Theme Name: Gustafson and Gluek
 Author: 1point21 (Garrett Cullen)
@@ -88,6 +89,7 @@ a.gold_gradient_button {
   text-transform: uppercase;
   letter-spacing: 2.5px;
   padding: 23px 0;
+  font-size: 14px;
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e5d598+0,b89c5d+100 */
   background: #e5d598;
   /* Old browsers */
@@ -486,12 +488,28 @@ a.gold_gradient_button {
     font-style: normal;
     letter-spacing: 1.5px;
     color: #cab06f;
-    line-height: 28px; }
+    line-height: 28px;
+    margin-bottom: 25px;
+    display: block; }
 
 .form ul {
   list-style: none; }
+  .form ul li#field_1_5 {
+    display: none; }
+  .form ul li:after {
+    content: "•";
+    display: block;
+    float: right;
+    color: #b6995a;
+    position: absolute;
+    top: 22px;
+    right: 13px;
+    width: 5px;
+    height: 5px; }
   .form ul li {
-    width: 100%; }
+    width: 100%;
+    position: relative;
+    margin-bottom: 15px; }
     .form ul li label {
       display: none; }
     .form ul li input, .form ul li textarea {
@@ -502,4 +520,55 @@ a.gold_gradient_button {
       font-family: "Nimbus Sans TW01Bla";
       letter-spacing: 0.85px;
       text-transform: uppercase;
-      font-size: 14px; }
+      font-size: 14px;
+      padding: 20px 31px 20px 10px; }
+    .form ul li input::-webkit-input-placeholder, .form ul li textarea::-webkit-input-placeholder {
+      color: #fff; }
+    .form ul li input::-moz-placeholder, .form ul li textarea::-moz-placeholder {
+      color: #fff; }
+    .form ul li input:-moz-placeholder, .form ul li textarea:-moz-placeholder {
+      color: #fff; }
+    .form ul li input:-ms-input-placeholder, .form ul li textarea:-ms-input-placeholder {
+      color: #fff; }
+    .form ul li input::-moz-placeholder, .form ul li textarea::-moz-placeholder {
+      opacity: 1; }
+
+.form span.field_required {
+  color: #fff;
+  font-family: "Nimbus Sans TW01Bla";
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 1.5px;
+  display: block;
+  margin-top: 35px; }
+  .form span.field_required span.required_dot {
+    color: #b6995a; }
+
+#gform_submit_button_1 {
+  font-family: "Source Serif Pro";
+  font-weight: 900;
+  font-style: normal;
+  display: block;
+  width: 100%;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  padding: 19px 0;
+  border: none;
+  font-size: 15px;
+  background: #ccb272;
+  margin-top: 10px;
+  cursor: pointer; }
+
+.validation_error {
+  display: none; }
+
+.gfield_description, .validation_message {
+  color: #ceb675;
+  font-family: "Nimbus Sans TW01Bla";
+  font-size: 12px;
+  text-transform: uppercase;
+  margin-top: 8px;
+  letter-spacing: 0.85px; }
