@@ -569,6 +569,17 @@ p {
 		font-family: 16px;
 		line-height:28px;
 	}
+	a.read_more {
+		font-family: $sourceserif;
+		font-weight: 900;
+		font-style: normal;
+		font-size:16px;
+		letter-spacing: 0.85px;
+		text-decoration: none;
+		color:$gold;
+		display: block;
+		margin-top:27px;
+	}
 }
 
 

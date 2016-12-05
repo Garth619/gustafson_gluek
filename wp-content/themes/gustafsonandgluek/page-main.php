@@ -181,6 +181,8 @@ get_header(); ?>
 			
 			<p>On Tuesday, Gustafson Gluek PLLC filed a complaint on behalf of purchasers of chicken alleging that the companies comprising 98% of the chicken meat produced in the United States conspired to fix prices for chicken. The complaint alleges a conspiracy dating back to 2008 that involved the restriction of production to increase prices. The complaint also seeks damages on behalf of a class of indirect purchasers of chicken, who purchased via a distributor. If you purchased chicken via a distributor and would like to learn more about your potential claim.....</p>
 			
+			<a class="read_more" href="">Read More</a><!-- read_more -->
+			
 		</div><!-- content_wrapper -->
 		
 		

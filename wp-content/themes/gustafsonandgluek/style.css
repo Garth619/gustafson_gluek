@@ -435,3 +435,13 @@ a.gold_button {
     font-family: "Nimbus Sans TW01";
     font-family: 16px;
     line-height: 28px; }
+  .content_wrapper a.read_more {
+    font-family: "Source Serif Pro";
+    font-weight: 900;
+    font-style: normal;
+    font-size: 16px;
+    letter-spacing: 0.85px;
+    text-decoration: none;
+    color: #b6995a;
+    display: block;
+    margin-top: 27px; }
