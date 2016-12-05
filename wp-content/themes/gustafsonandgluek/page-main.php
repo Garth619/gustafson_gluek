@@ -155,6 +155,38 @@ get_header(); ?>
 	
 	<span class="large_header">news updates //</span><!-- large_header -->
 	
+	<div class="news_loop_wrapper">
+		
+		<div class="news_info">
+			
+			<div class="date_wrapper">
+				
+				<span class="day">Thursday</span><!-- day -->
+				<span class="date">09.14.2016</span><!-- date -->
+				
+			</div><!-- date_wrapper -->
+			
+			<div class="category_wrapper">
+			
+				<span class="cat_header">Investigation</span><!-- cat_header -->
+		
+			</div><!-- category_wrapper -->
+		
+		</div><!-- news_info -->
+		
+		
+		<div class="content_wrapper">
+			
+			<span class="content_header">Poultry Price-Fixing</span><!-- content_header -->
+			
+			<p>On Tuesday, Gustafson Gluek PLLC filed a complaint on behalf of purchasers of chicken alleging that the companies comprising 98% of the chicken meat produced in the United States conspired to fix prices for chicken. The complaint alleges a conspiracy dating back to 2008 that involved the restriction of production to increase prices. The complaint also seeks damages on behalf of a class of indirect purchasers of chicken, who purchased via a distributor. If you purchased chicken via a distributor and would like to learn more about your potential claim.....</p>
+			
+		</div><!-- content_wrapper -->
+		
+		
+		
+	</div><!-- news_loop_wrapper -->
+	
 </section><!-- news_updates -->
 
 		
