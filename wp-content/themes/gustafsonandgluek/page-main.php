@@ -73,7 +73,7 @@ get_header(); ?>
 	
 	<div class="about_pic">
 		
-		<img class="group_pic" src="<?php bloginfo('template_directory');?>/images/image_01_ipad.jpg"/>
+		<img class="group_pic" src="<?php bloginfo('template_directory');?>/images/image_01_mobile.jpg"/>
 		<img class="tritwo" src="<?php bloginfo('template_directory');?>/images/element_triangle2.svg"/>
 		
 		
