@@ -1098,7 +1098,67 @@ footer {
 	}
 }
 
-
+.case_results_slide_wrapper {
+	clear:both;
+	padding-top:80px;
+	margin-left:50px;
+	
+	.slide_wrapper {
+		border:2px solid $gold;
+		padding:100px 40px;
+		text-align: left;
+		.slide {
+			overflow: hidden;
+			.title_left {
+				float:left;
+				width:75%;
+				span.slide_header {
+					color:#fff;
+					font-family: $sourceserif;
+					font-weight: bold;
+					font-style: normal;
+					font-size:42px;
+					display: block;
+					margin-bottom:9px;
+				}
+				span.slide_sub_header {
+					color:#45806e;
+					font-size:16px;
+					letter-spacing: 8px;
+					font-family: $nimbusblack;
+					text-transform: uppercase;
+					display: block;
+				}
+			}
+			img.case_results_icon {
+				float:right;
+				margin-top:-5px;
+				width:60px;
+			}
+			.case_results_content {
+				width:100%;
+				clear:both;
+				padding-top:50px;
+				.gold_line {
+					width:20%;
+					height:1px;
+					background: $gold;
+					float:left;
+				}
+				span {
+					width:80%;
+					float:left;
+					font-size:17px;
+					line-height: 36px;
+					font-family: $nimbusbreg;
+					color:#fff;
+					padding-left: 22px;
+					margin-top:-13px
+				}
+			}
+		}
+	}
+}
 
 
 

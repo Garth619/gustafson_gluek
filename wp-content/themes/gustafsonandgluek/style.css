@@ -796,6 +796,56 @@ footer {
       #case_results .case_results_content_wrapper a.summaries_button {
         padding: 28px 50px;
         display: inline-block;
-        float: left; } }
+        float: left; }
+  .case_results_slide_wrapper {
+    clear: both;
+    padding-top: 80px;
+    margin-left: 50px; }
+    .case_results_slide_wrapper .slide_wrapper {
+      border: 2px solid #b6995a;
+      padding: 100px 40px;
+      text-align: left; }
+      .case_results_slide_wrapper .slide_wrapper .slide {
+        overflow: hidden; }
+        .case_results_slide_wrapper .slide_wrapper .slide .title_left {
+          float: left;
+          width: 75%; }
+          .case_results_slide_wrapper .slide_wrapper .slide .title_left span.slide_header {
+            color: #fff;
+            font-family: "Source Serif Pro";
+            font-weight: bold;
+            font-style: normal;
+            font-size: 42px;
+            display: block;
+            margin-bottom: 9px; }
+          .case_results_slide_wrapper .slide_wrapper .slide .title_left span.slide_sub_header {
+            color: #45806e;
+            font-size: 16px;
+            letter-spacing: 8px;
+            font-family: "Nimbus Sans TW01Bla";
+            text-transform: uppercase;
+            display: block; }
+        .case_results_slide_wrapper .slide_wrapper .slide img.case_results_icon {
+          float: right;
+          margin-top: -5px;
+          width: 60px; }
+        .case_results_slide_wrapper .slide_wrapper .slide .case_results_content {
+          width: 100%;
+          clear: both;
+          padding-top: 50px; }
+          .case_results_slide_wrapper .slide_wrapper .slide .case_results_content .gold_line {
+            width: 20%;
+            height: 1px;
+            background: #b6995a;
+            float: left; }
+          .case_results_slide_wrapper .slide_wrapper .slide .case_results_content span {
+            width: 80%;
+            float: left;
+            font-size: 17px;
+            line-height: 36px;
+            font-family: "Nimbus Sans TW01";
+            color: #fff;
+            padding-left: 22px;
+            margin-top: -13px; } }
 
 /* Media Query */
