@@ -431,15 +431,16 @@ a.green_button {
 #news_updates {
   background: url(images/element_pattern.png) top left repeat;
   padding: 67px 0 45px; }
-  #news_updates span.large_header {
-    font-family: "Nimbus Sans TW01Bla";
-    color: #b6995a;
-    text-transform: uppercase;
-    font-size: 15px;
-    letter-spacing: 4.5px;
-    padding-left: 30px;
-    margin-bottom: 40px;
-    display: block; }
+
+.news_loop_wrapper span.large_header {
+  font-family: "Nimbus Sans TW01Bla";
+  color: #b6995a;
+  text-transform: uppercase;
+  font-size: 15px;
+  letter-spacing: 4.5px;
+  padding-left: 30px;
+  margin-bottom: 40px;
+  display: block; }
 
 .news_loop_wrapper .news_info {
   border: 2px solid #b6995a;
@@ -469,7 +470,7 @@ a.green_button {
     padding: 42px 15px; }
     .news_loop_wrapper .news_info .category_wrapper span.cat_header {
       font-family: "Source Serif Pro";
-      font-weight: 900;
+      font-weight: bold;
       font-style: normal;
       letter-spacing: 0.5px;
       font-size: 22px; }
@@ -562,6 +563,10 @@ a.green_button {
       color: #fff; }
     .form ul li input::-moz-placeholder, .form ul li textarea::-moz-placeholder {
       opacity: 1; }
+    .form ul li textarea {
+      resize: none;
+      width: 100%;
+      height: 208px; }
 
 .form span.field_required {
   color: #fff;
@@ -588,11 +593,21 @@ a.green_button {
   padding: 19px 0;
   border: none;
   font-size: 15px;
-  background: #ccb272;
   margin-top: 10px;
   cursor: pointer;
   -webkit-appearance: none;
-  border-radius: 0; }
+  border-radius: 0;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b6995a+0,dac280+100 */
+  background: #b6995a;
+  /* Old browsers */
+  background: -moz-linear-gradient(left, #b6995a 0%, #dac280 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #b6995a 0%, #dac280 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #b6995a 0%, #dac280 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b6995a', endColorstr='#dac280',GradientType=1 );
+  /* IE6-9 */ }
 
 .validation_error {
   display: none; }
@@ -893,13 +908,117 @@ footer {
         width: 75px;
         top: -30px; }
   /* News Updates */
-  #news_updates span.large_header {
-    text-align: right;
-    padding-right: 50px; }
+  #news_updates {
+    padding-top: 114px;
+    padding-bottom: 76px; }
   .news_loop_wrapper {
-    overflow: hidden; }
+    overflow: hidden;
+    max-width: 705px;
+    margin: 0 auto; }
+    .news_loop_wrapper a.view_more {
+      background: transparent;
+      border: 2px solid #b6995a;
+      display: inline-block;
+      float: right;
+      color: #b6995a;
+      padding: 30px 50px;
+      margin: -68px 0px 0 0; }
+    .news_loop_wrapper span.large_header {
+      text-align: right;
+      padding-right: 10px;
+      margin-bottom: 30px; }
+    .news_loop_wrapper img.news_image {
+      float: right;
+      margin-right: 48px;
+      margin-top: 5px;
+      max-width: 335px;
+      height: auto; }
     .news_loop_wrapper .news_info {
-      width: 35%;
-      float: left; } }
+      width: 40%;
+      float: left;
+      margin-left: 15px;
+      margin-right: 0; }
+  .news_content_wrapper {
+    padding: 135px 37px 67px;
+    margin: 335px 20px 17px;
+    display: block; }
+    .news_content_wrapper span.content_header {
+      font-size: 45px;
+      margin-bottom: 25px; }
+  /* Request */
+  #request {
+    text-align: center;
+    padding: 120px 50px 150px;
+    overflow: hidden; }
+    #request span.large_header {
+      font-size: 45px;
+      line-height: 50px;
+      max-width: 500px;
+      margin: 0 auto 30px; }
+    #request span.sub_header {
+      font-size: 17px;
+      letter-spacing: 2.5px;
+      margin-bottom: 45px; }
+  .form ul li:after {
+    content: "•";
+    right: 19px; }
+  .form ul li {
+    margin-bottom: 10px; }
+    .form ul li input, .form ul li textarea {
+      padding: 20px 31px 20px 20px;
+      border-radius: 0; }
+    .form ul li input::-webkit-input-placeholder, .form ul li textarea::-webkit-input-placeholder {
+      color: #fff; }
+    .form ul li input::-moz-placeholder, .form ul li textarea::-moz-placeholder {
+      color: #fff; }
+    .form ul li input:-moz-placeholder, .form ul li textarea:-moz-placeholder {
+      color: #fff; }
+    .form ul li input:-ms-input-placeholder, .form ul li textarea:-ms-input-placeholder {
+      color: #fff; }
+    .form ul li input::-moz-placeholder, .form ul li textarea::-moz-placeholder {
+      opacity: 1; }
+    .form ul li input:focus, .form ul li textarea:focus {
+      background: #fff;
+      color: #000; }
+  .form ul li {
+    width: 32.666666%;
+    float: left; }
+    .form ul li:first-of-type, .form ul li:nth-of-type(2) {
+      margin-right: 1%; }
+  .form ul li#field_1_4 {
+    width: 100%; }
+  .form span.field_required {
+    width: auto;
+    float: right;
+    font-size: 12px;
+    letter-spacing: 5px;
+    text-align: right;
+    margin-right: 25px; }
+  #gform_submit_button_1 {
+    width: 50%;
+    float: left;
+    max-width: 325px;
+    padding: 23px 0; }
+  .validation_error {
+    display: none; }
+  .gfield_description, .validation_message {
+    color: #ceb675;
+    font-family: "Nimbus Sans TW01Bla";
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-top: 8px;
+    letter-spacing: 0.85px;
+    text-align: left; }
+  /* Footer */
+  footer .address_box {
+    width: 100%;
+    max-width: 520px;
+    top: -60px;
+    padding: 150px 15px 100px; }
+  .social_media .follow_us {
+    padding-bottom: 12px; }
+  .social_media .social_media_wrapper .sm_icon {
+    margin: 0 45px;
+    height: 40px; } }
 
 /* Media Query */

@@ -206,9 +206,11 @@ get_header(); ?>
 
 <section id="news_updates">
 	
-	<span class="large_header">news updates //</span><!-- large_header -->
+	
 	
 	<div class="news_loop_wrapper">
+		
+		<span class="large_header">news updates //</span><!-- large_header -->
 		
 		<div class="news_info">
 			
@@ -227,7 +229,7 @@ get_header(); ?>
 		
 		</div><!-- news_info -->
 		
-		<img src="<?php bloginfo('template_directory');?>/images/image_03_ipad.jpg"/>
+		<img class="news_image" src="<?php bloginfo('template_directory');?>/images/image_03_ipad.jpg"/>
 		
 		
 		<div class="news_content_wrapper">
