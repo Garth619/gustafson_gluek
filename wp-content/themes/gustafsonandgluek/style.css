@@ -358,6 +358,8 @@ a.green_button {
     margin-bottom: 37px; }
   #case_results a.summaries_button {
     display: none; }
+  #case_results .case_results_slide_wrapper {
+    display: none; }
 
 /* Awards */
 #awards {
@@ -417,6 +419,8 @@ a.green_button {
       height: auto;
       margin: 30px 0 45px;
       width: 100%; }
+    #experience_second_section .ex_pic_wrapper img.ex_pic.ipad {
+      display: none; }
     #experience_second_section .ex_pic_wrapper img.tritwo {
       position: absolute;
       top: 0;
@@ -470,21 +474,21 @@ a.green_button {
       letter-spacing: 0.5px;
       font-size: 22px; }
 
-.content_wrapper {
+.news_content_wrapper {
   background: #fff;
   margin: -25px 15px 17px;
   padding: 60px 25px 35px; }
-  .content_wrapper span.content_header {
+  .news_content_wrapper span.content_header {
     font-family: "Nimbus Sans TW01Bla";
     font-size: 35px;
     line-height: 42px;
     margin-bottom: 17px;
     display: block; }
-  .content_wrapper p {
+  .news_content_wrapper p {
     font-family: "Nimbus Sans TW01";
     font-family: 16px;
     line-height: 28px; }
-  .content_wrapper a.read_more {
+  .news_content_wrapper a.read_more {
     font-family: "Source Serif Pro";
     font-weight: 900;
     font-style: normal;
@@ -781,7 +785,9 @@ footer {
   /* Case Results */
   #case_results {
     padding: 115px 50px 115px 0;
-    overflow: hidden; }
+    max-height: 1100px; }
+    #case_results .case_results_slide_wrapper {
+      display: block; }
     #case_results span.large_header {
       font-size: 50px;
       padding-left: 87px; }
@@ -803,8 +809,11 @@ footer {
     margin-left: 50px; }
     .case_results_slide_wrapper .slide_wrapper {
       border: 2px solid #b6995a;
-      padding: 100px 40px;
-      text-align: left; }
+      padding: 100px 40px 235px;
+      text-align: left;
+      position: relative;
+      z-index: 1000000;
+      height: 655px; }
       .case_results_slide_wrapper .slide_wrapper .slide {
         overflow: hidden; }
         .case_results_slide_wrapper .slide_wrapper .slide .title_left {
@@ -832,7 +841,8 @@ footer {
         .case_results_slide_wrapper .slide_wrapper .slide .case_results_content {
           width: 100%;
           clear: both;
-          padding-top: 50px; }
+          padding-top: 50px;
+          overflow: hidden; }
           .case_results_slide_wrapper .slide_wrapper .slide .case_results_content .gold_line {
             width: 20%;
             height: 1px;
@@ -846,6 +856,50 @@ footer {
             font-family: "Nimbus Sans TW01";
             color: #fff;
             padding-left: 22px;
-            margin-top: -13px; } }
+            margin-top: -13px; }
+  /* Awards */
+  #awards {
+    padding-top: 150px; }
+    #awards span.large_header {
+      color: #b6995a;
+      text-transform: uppercase;
+      font-family: "Nimbus Sans TW01Bla";
+      letter-spacing: 4.5px;
+      text-align: left;
+      display: block;
+      margin-bottom: 27px; }
+  /* Second Experience Section */
+  #experience_second_section {
+    padding: 80px 50px 80px 0; }
+    #experience_second_section > span.large_header {
+      font-size: 45px;
+      line-height: 45px;
+      padding-left: 50px;
+      margin-right: 40px; }
+    #experience_second_section .experience_second_section_content {
+      padding: 0 50px; }
+      #experience_second_section .experience_second_section_content span.large_header {
+        font-size: 22px;
+        margin-bottom: 5px; }
+    #experience_second_section .ex_pic_wrapper {
+      max-width: 592px;
+      margin: 0 auto; }
+      #experience_second_section .ex_pic_wrapper img.ex_pic.mobile {
+        display: none; }
+      #experience_second_section .ex_pic_wrapper img.ex_pic.ipad {
+        display: block;
+        margin-top: 70px; }
+      #experience_second_section .ex_pic_wrapper img.tritwo {
+        width: 75px;
+        top: -30px; }
+  /* News Updates */
+  #news_updates span.large_header {
+    text-align: right;
+    padding-right: 50px; }
+  .news_loop_wrapper {
+    overflow: hidden; }
+    .news_loop_wrapper .news_info {
+      width: 35%;
+      float: left; } }
 
 /* Media Query */

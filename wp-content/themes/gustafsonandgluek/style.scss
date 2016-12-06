@@ -462,6 +462,9 @@ p {
 a.summaries_button {
 	display: none;
 }
+.case_results_slide_wrapper {
+	display: none;
+}
 }
 
 
@@ -535,6 +538,9 @@ a.summaries_button {
 			height: auto;
 			margin:30px 0 45px;
 			width:100%;
+		}
+		img.ex_pic.ipad {
+			display: none;
 		}
 		img.tritwo {
 			position: absolute;
@@ -611,7 +617,7 @@ a.summaries_button {
 }
 
 
-.content_wrapper {
+.news_content_wrapper {
 	background: #fff;
 	margin:-25px 15px 17px;
 	padding:60px 25px 35px;
@@ -1074,7 +1080,11 @@ footer {
 
 #case_results {
   padding:115px 50px 115px 0;
-	overflow: hidden;
+  max-height:1100px;
+// 	overflow: hidden;
+.case_results_slide_wrapper {
+	display: block;
+}
  span.large_header {
 	font-size: 50px;
 	padding-left:87px;
@@ -1105,8 +1115,11 @@ footer {
 	
 	.slide_wrapper {
 		border:2px solid $gold;
-		padding:100px 40px;
+		padding:100px 40px 235px;
 		text-align: left;
+		position: relative;
+		z-index:1000000;
+		height:655px;
 		.slide {
 			overflow: hidden;
 			.title_left {
@@ -1139,6 +1152,7 @@ footer {
 				width:100%;
 				clear:both;
 				padding-top:50px;
+				overflow: hidden;
 				.gold_line {
 					width:20%;
 					height:1px;
@@ -1159,6 +1173,123 @@ footer {
 		}
 	}
 }
+
+
+
+/* Awards */
+
+
+#awards {
+	padding-top:150px;
+	span.large_header {
+		color:$gold;
+		text-transform: uppercase;
+		font-family: $nimbusblack;
+		letter-spacing: 4.5px;
+		text-align: left;
+		display: block;
+		margin-bottom:27px;
+	}
+}
+
+
+
+
+/* Second Experience Section */
+
+#experience_second_section {
+	padding:80px 50px 80px 0;
+	> span.large_header {
+		font-size:45px;
+		line-height: 45px;
+		padding-left:50px;
+		margin-right:40px;
+	}
+	.experience_second_section_content {
+		padding:0 50px;
+		span.large_header {
+			font-size:22px;
+			margin-bottom:5px;
+			
+		}
+		p {
+			
+		}
+		span.sub_header {
+			
+		}
+	}
+	.ex_pic_wrapper {
+		max-width:592px;
+		margin:0 auto;
+		img.ex_pic.mobile {
+			display:none;
+		}
+		img.ex_pic.ipad {
+			display:block;
+			margin-top:70px;
+		}
+		img.tritwo {
+			width:75px;
+			top:-30px;
+		}
+		
+	}
+	
+}
+
+
+
+
+/* News Updates */
+
+
+#news_updates {
+	
+	span.large_header {
+text-align: right;
+padding-right:50px;
+	}
+}
+
+.news_loop_wrapper {
+	overflow: hidden;
+	.news_info {
+		width:35%;
+		float:left;
+		.date_wrapper {
+			
+			
+			span.day {
+				
+				
+			}
+			span.date {
+				
+			}
+		}
+		.category_wrapper {
+			
+			span.cat_header {
+							}
+		}
+	}
+}
+
+
+.content_wrapper {
+	
+	span.content_header {
+		
+	}
+	p {
+		
+	}
+	a.read_more {
+		
+	}
+}
+
 
 
 

@@ -156,6 +156,8 @@ get_header(); ?>
 </section><!-- case_results -->
 
 <section id="awards">
+	
+	<span class="large_header">Awards //</span><!-- large_header -->
 
 <div class="slide_wrapper">
 	
@@ -179,8 +181,9 @@ get_header(); ?>
 		
 		<div class="ex_pic_wrapper">
 		
-			<img class="ex_pic "src="<?php bloginfo('template_directory');?>/images/image_02_mobile.jpg"/>
-			<img class="tritwo" src="<?php bloginfo('template_directory');?>/images/element_triangle2.svg"/>
+			<img class="ex_pic mobile"src="<?php bloginfo('template_directory');?>/images/image_02_mobile.jpg"/>
+			<img class="ex_pic ipad"src="<?php bloginfo('template_directory');?>/images/image_02_ipad.jpg"/>
+			<img class="tritwo mobile" src="<?php bloginfo('template_directory');?>/images/element_triangle2.svg"/>
 		
 		</div><!-- ex_pic  -->
 		
@@ -224,8 +227,10 @@ get_header(); ?>
 		
 		</div><!-- news_info -->
 		
+		<img src="<?php bloginfo('template_directory');?>/images/image_03_ipad.jpg"/>
 		
-		<div class="content_wrapper">
+		
+		<div class="news_content_wrapper">
 			
 			<span class="content_header">Poultry Price-Fixing</span><!-- content_header -->
 			
