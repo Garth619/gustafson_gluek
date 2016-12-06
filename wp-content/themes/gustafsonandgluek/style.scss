@@ -459,6 +459,9 @@ p {
 	text-align: left;
 	margin-bottom:37px;
 }
+a.summaries_button {
+	display: none;
+}
 }
 
 
@@ -1063,6 +1066,37 @@ footer {
 }
 
 
+
+
+/* Case Results */
+
+
+
+#case_results {
+  padding:115px 50px 115px 0;
+	overflow: hidden;
+ span.large_header {
+	font-size: 50px;
+	padding-left:87px;
+	}
+	.case_results_content_wrapper {
+		width:75%;
+		float:right;
+		p {
+			
+			float:left;
+			padding:0 20px 0 0;
+		}
+		a.gold_button.mobile {
+			display: none;
+		}
+		a.summaries_button {
+			padding: 28px 50px;
+			display: inline-block;
+			float: left;
+		}
+	}
+}
 
 
 

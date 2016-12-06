@@ -112,9 +112,14 @@ get_header(); ?>
 	
 	<span class="large_header">Our Case Summaries</span><!-- large_header -->
 	
-	<p>Our law firm  has a national complex litigation practice focused on antitrust and consumer protection class actions.</p>
+	<div class="case_results_content_wrapper">
 	
-	<a class="gold_button" href="">Case Summaries</a><!-- gold_button -->
+		<p>Our law firm  has a national complex litigation practice focused on antitrust and consumer protection class actions.</p>
+	
+		<a class="gold_button mobile" href="">Case Summaries</a><!-- gold_button -->
+		<a class="green_button summaries_button" href="">View More Summaries</a><!-- green_button -->
+	
+	</div><!-- case_results_content_wrapper -->
 	
 	
 </section><!-- case_results -->
