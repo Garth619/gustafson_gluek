@@ -273,7 +273,7 @@ a.green_button {
       font-size: 22px;
       text-transform: uppercase;
       letter-spacing: 1.5px;
-      margin-bottom: 20px; }
+      margin-bottom: 15px; }
     #about .about_content p {
       font-family: "Nimbus Sans TW01";
       color: #1d2e3c;
@@ -287,11 +287,15 @@ a.green_button {
       margin: 0 auto;
       display: block;
       width: 100%; }
+    #about .about_pic img.group_pic.ipad {
+      display: none; }
     #about .about_pic img.tritwo {
       width: 62px;
       position: absolute;
       top: -30px;
       right: 60px; }
+    #about .about_pic img.tritwo.ipad {
+      display: none; }
 
 /* Meet Our Team */
 #meet_our_team {
@@ -411,7 +415,7 @@ a.green_button {
       height: auto;
       margin: 30px 0 45px;
       width: 100%; }
-    #experience_second_section .ex_pic_wrapper .tritwo {
+    #experience_second_section .ex_pic_wrapper img.tritwo {
       position: absolute;
       top: 0;
       left: 22px;
@@ -733,6 +737,44 @@ footer {
       width: 48%;
       float: right;
       margin-top: 87px;
-      padding-left: 3%; } }
+      padding-left: 3%; }
+  /* About */
+  #about {
+    padding: 70px 50px 70px 0px; }
+    #about span.large_header {
+      font-size: 65px;
+      max-width: 100%;
+      line-height: 70px;
+      padding: 0 0 25px 40px;
+      margin-right: 70px; }
+    #about .about_content {
+      padding: 45px 45px 75px; }
+      #about .about_content span.about_excerpt {
+        line-height: 42px; }
+    #about .about_pic {
+      max-width: 592px;
+      margin: 0 auto;
+      padding: 0; }
+      #about .about_pic img.group_pic.mobile {
+        display: none; }
+      #about .about_pic img.group_pic.ipad {
+        display: block; }
+      #about .about_pic img.tritwo.mobile {
+        display: none; }
+      #about .about_pic img.tritwo.ipad {
+        display: block; }
+      #about .about_pic img.tritwo {
+        width: 75px;
+        top: -53px;
+        right: 29px; }
+  /* Meet Our Team */
+  #meet_our_team span.large_header {
+    margin-bottom: 30px; }
+  #meet_our_team p {
+    font-size: 30px;
+    text-align: center;
+    line-height: 45px;
+    max-width: 650px;
+    margin: 0 auto 30px; } }
 
 /* Media Query */

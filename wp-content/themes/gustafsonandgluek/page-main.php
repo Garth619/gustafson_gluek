@@ -85,8 +85,10 @@ get_header(); ?>
 	
 	<div class="about_pic">
 		
-		<img class="group_pic" src="<?php bloginfo('template_directory');?>/images/image_01_mobile.jpg"/>
-		<img class="tritwo" src="<?php bloginfo('template_directory');?>/images/element_triangle2.svg"/>
+		<img class="group_pic mobile" src="<?php bloginfo('template_directory');?>/images/image_01_mobile.jpg"/>
+		<img class="group_pic ipad" src="<?php bloginfo('template_directory');?>/images/image_01_ipad.jpg"/>
+		<img class="tritwo mobile" src="<?php bloginfo('template_directory');?>/images/element_triangle2.svg"/>
+		<img class="tritwo ipad" src="<?php bloginfo('template_directory');?>/images/element_triangle.svg"/>
 		
 		
 	</div><!-- about_pic  -->
