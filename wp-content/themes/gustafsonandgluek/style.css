@@ -121,7 +121,7 @@ a.green_button {
   float: left; }
 
 .inner_header_right {
-  background: #213f40;
+  background: #45806e;
   padding: 30px 20px;
   float: right;
   height: 71px; }
@@ -356,7 +356,8 @@ a.green_button {
   padding: 50px;
   text-align: center; }
   #awards img {
-    max-width: 100%; }
+    max-width: 100%;
+    height: auto; }
 
 /* Second Experience Section */
 #experience_second_section {
@@ -660,3 +661,19 @@ footer {
   .ilawyer img {
     max-width: 100%;
     height: auto; }
+
+@media screen and (min-width: 730px) {
+  /* Header */
+  .logo {
+    max-width: 195px;
+    padding: 12px 20px;
+    float: left; }
+  .inner_header_right {
+    height: 74px; }
+  .lower_header a.tel {
+    font-size: 37px; }
+  /* Hero Banner */
+  .hero_banner {
+    background: url(images/hero_ipad.jpg) top center no-repeat; } }
+
+/* Media Query */
