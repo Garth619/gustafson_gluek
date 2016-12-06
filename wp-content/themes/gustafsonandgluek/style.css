@@ -169,6 +169,8 @@ a.green_button {
   .hero_banner .hero_banner_content {
     display: table-cell;
     vertical-align: bottom; }
+    .hero_banner .hero_banner_content a.request_button {
+      display: none; }
     .hero_banner .hero_banner_content .sub_header {
       font-size: 22px;
       display: block; }
@@ -205,6 +207,8 @@ a.green_button {
   width: 100%;
   background: url(images/element_pattern.png) top left repeat;
   padding: 55px; }
+  #experience_section .experience_content {
+    display: none; }
   #experience_section .slide_wrapper .single_slide_wrapper .slide {
     text-align: center; }
     #experience_section .slide_wrapper .single_slide_wrapper .slide img.svg_icon {
@@ -674,6 +678,61 @@ footer {
     font-size: 37px; }
   /* Hero Banner */
   .hero_banner {
-    background: url(images/hero_ipad.jpg) top center no-repeat; } }
+    background: url(images/hero_ipad.jpg) top center no-repeat;
+    display: block;
+    text-align: left;
+    height: 500px; }
+    .hero_banner .hero_banner_content {
+      display: block;
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%);
+      color: #193334; }
+      .hero_banner .hero_banner_content a.request_button {
+        text-transform: lowercase;
+        letter-spacing: 0.65px;
+        font-size: 18px;
+        padding: 20px 53px;
+        display: inline-block; }
+      .hero_banner .hero_banner_content .sub_header {
+        font-size: 35px; }
+      .hero_banner .hero_banner_content .large_header {
+        font-size: 63px;
+        margin-top: 5px;
+        margin-bottom: 40px;
+        line-height: 63px; }
+  /* Free Consultation */
+  .free_consultation {
+    display: none; }
+  /* Experience Section */
+  #experience_section {
+    padding: 0px 30px 68px; }
+    #experience_section .experience_content {
+      display: block;
+      width: 52%;
+      float: left;
+      border: 2px solid #b6995a;
+      padding: 110px 40px 75px;
+      margin-top: -40px; }
+      #experience_section .experience_content span.experience_content_header {
+        display: block;
+        color: #b6995a;
+        font-size: 16px;
+        text-transform: uppercase;
+        font-family: "Source Serif Pro";
+        font-weight: 900;
+        font-style: normal;
+        letter-spacing: 2.5px; }
+      #experience_section .experience_content p {
+        font-family: "Nimbus Sans TW01Bla";
+        color: #1a3536;
+        line-height: 35px;
+        margin-top: 10px;
+        font-size: 17px; }
+    #experience_section .slide_wrapper {
+      width: 48%;
+      float: right;
+      margin-top: 87px;
+      padding-left: 3%; } }
 
 /* Media Query */

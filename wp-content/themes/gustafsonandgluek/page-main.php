@@ -14,6 +14,8 @@ get_header(); ?>
 	
 		<span class="sub_header">Curabitur at nunc</span><!-- sub_header -->
 		<span class="large_header">Sfficitur Dor Lorem Tiem</span><!-- large_header -->
+		
+		<a class="green_button request_button" href="">request your free consultation</a>
 	
 	</div><!-- hero_banner_content -->
 	
@@ -27,6 +29,15 @@ get_header(); ?>
 </section><!-- free_consultation -->
 
 <section id="experience_section">
+	
+	<div class="experience_content">
+		
+		<span class="experience_content_header">Lorem Ispum DOlor</span>
+		
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas et ornare lectus, non pharetra nisl. Phasellus quis nunc tortor. Pellentesque in eros a lacus egestas malesuada. Integer nec tempus mi. Integer cursus tellus mi, et lobortis mi condimentum porttitor. 
+</p>
+		
+	</div><!-- experience_content -->
 	
 	<div class="slide_wrapper">
 		
@@ -51,6 +62,7 @@ get_header(); ?>
 	
 	</div><!-- slide_wrapper -->
 	
+	<div style="clear:both;"></div><!-- clear hack -->
 	
 </section><!-- experience_section -->
 
