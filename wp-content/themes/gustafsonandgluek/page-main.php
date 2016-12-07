@@ -12,8 +12,10 @@ get_header(); ?>
 	
 	<div class="hero_banner_content">
 	
-		<span class="sub_header">Curabitur at nunc</span><!-- sub_header -->
-		<span class="large_header">Sfficitur Dor Lorem Tiem</span><!-- large_header -->
+		<span class="sub_header">Dedicated to the protection of </span><!-- sub_header -->
+		<span class="large_header">Consumer Rights and Fair Competition</span><!-- large_header -->
+		
+		<span class="description">National Complex litigation practice</span><!-- description -->
 		
 		<a class="green_button request_button" href="">request your free consultation</a>
 	
@@ -32,10 +34,9 @@ get_header(); ?>
 	
 	<div class="experience_content">
 		
-		<span class="experience_content_header">Lorem Ispum DOlor</span>
+		<span class="experience_content_header">We are here for you</span>
 		
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas et ornare lectus, non pharetra nisl. Phasellus quis nunc tortor. Pellentesque in eros a lacus egestas malesuada. Integer nec tempus mi. Integer cursus tellus mi, et lobortis mi condimentum porttitor. 
-</p>
+		<p>At Gustafson Gluek PLLC we seek to vindicate the rights and recover damages for those harmed by unfair business practices such as illegal price fixing, deceptive trade practices, and the distribution of unsafe medical devices, as well as enjoin companies from engaging in these types of practices in the future.</p>
 		
 	</div><!-- experience_content -->
 	

@@ -226,6 +226,9 @@ header {
 	.hero_banner_content {
 		display: table-cell;
 		vertical-align: bottom;
+		span.description {
+			display: none;
+		}
 		a.request_button {
 			display: none;
 		}
@@ -966,6 +969,16 @@ footer {
 
 #experience_section {
 	padding:0px 30px 68px;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	-webkit-box-align: center;
+
+	align-items: center;
+
 		.experience_content {
 		display: block;
 		width:52%;
@@ -994,7 +1007,7 @@ footer {
 	.slide_wrapper {
 		width:48%;
 		float:right;
-		margin-top:87px;
+// 		margin-top:87px;
 		padding-left:3%;
 		.single_slide_wrapper {
 			.slide {
@@ -1570,7 +1583,8 @@ nav {
 	background:rgba(25, 51, 52, 0.2);
 	clear:both;
 	line-height: 1;
-	
+	position: relative;
+	z-index:200;
 	ul {
 		list-style: none;
 		display:flex;
@@ -1584,6 +1598,8 @@ nav {
 				text-decoration: none;
 				text-transform: uppercase;
 				letter-spacing: 1px;
+				display: block;
+				padding:33px 0;
 			}
 		}
 	}
@@ -1599,63 +1615,100 @@ nav {
 	width:100%;
 	height:930px;
 	background:url(images/hero.jpg) top center no-repeat;
-
-	
 	.hero_banner_content {
-		
+		top:56%;
+		max-width:750px;
+		margin-left:1%;
+		span.description {
+			display:block;
+			color:$goldlight;
+			font-size:17px;
+			letter-spacing: 3.5px;
+			text-transform: uppercase;
+			font-family: $nimbusblack;
+			margin-bottom:35px;
+			&:before {
+				content: "";
+				width:37px;
+				height:1px;
+				background:$goldlight;
+				display:inline-block;
+				position: relative;
+				top:-4px;
+				margin-right:12px;
+				margin-left:80px;
+			}
+		}
 		a.request_button {
-			
+			font-size:22px;
+			letter-spacing: 1.2px;
+			padding: 22px 48px;
 		}
 		.sub_header {
-			
+			font-size:23px;
+			color:#45806e;
+			font-family: $sourceserif;
+			font-weight: 900;
+			font-style: normal;
+			text-transform: uppercase;
+			letter-spacing: 1.2px;
+			margin-bottom: 11px;
+			display: block;
 		}
 		.large_header {
-			
+			font-size:75px;
+			font-family: $sourceserif;
+			font-weight: 900;
+			font-style: normal;
+			line-height:75px;
+			margin-bottom:20px;
 		}
 	}
 }
 
 
+/* Experience Section */
 
 
-
-
-/* Second Experience Section */
-
-#experience_second_section {
-	
-	> span.large_header {
-		
-	}
-	.experience_second_section_content {
-		
-		span.large_header {
-			
-			
+#experience_section {
+		.experience_content {
+		padding:135px 80px;
+		max-width:555px;
+		span.experience_content_header {
+			font-size:17px;
 		}
 		p {
-			
-		}
-		span.sub_header {
-			
+			font-size:17px;
+			line-height: 42px;
+			margin-top:15px;
 		}
 	}
-	.ex_pic_wrapper {
-		
-		img.ex_pic {
-			
-		}
-		img.ex_pic.ipad {
-			
-		}
-		img.tritwo {
-			
-		}
-		
-	}
+	.slide_wrapper {
 	
-}
+		vertical-align: middle;
+		.single_slide_wrapper {
+			.slide {
+				
+				img.svg_icon {
+					
+				}
+				span.large_header {
+					
+				
+					
+				}
+				.gold_line {
+					
+				}
+				span.sub_content {
+					
+					
+				}
+			}
+		}
+	}
 
+}
 
 
 	
