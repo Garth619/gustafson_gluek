@@ -367,6 +367,8 @@ a.green_button {
   width: 100%;
   padding: 50px;
   text-align: center; }
+  #awards span.large_header {
+    display: none; }
   #awards img {
     max-width: 100%;
     height: auto; }
@@ -431,6 +433,9 @@ a.green_button {
 #news_updates {
   background: url(images/element_pattern.png) top left repeat;
   padding: 67px 0 45px; }
+
+.news_loop_wrapper .news_image {
+  display: none; }
 
 .news_loop_wrapper span.large_header {
   font-family: "Nimbus Sans TW01Bla";
@@ -683,6 +688,8 @@ footer {
     color: #ceb675;
     margin-top: 12px;
     text-transform: uppercase; }
+  .copyright a.dark_logo {
+    display: none; }
 
 .ilawyer {
   background: #1a3536;
@@ -932,7 +939,8 @@ footer {
       margin-right: 48px;
       margin-top: 5px;
       max-width: 335px;
-      height: auto; }
+      height: auto;
+      display: block; }
     .news_loop_wrapper .news_info {
       width: 40%;
       float: left;
@@ -1015,10 +1023,50 @@ footer {
     max-width: 520px;
     top: -60px;
     padding: 150px 15px 100px; }
-  .social_media .follow_us {
-    padding-bottom: 12px; }
-  .social_media .social_media_wrapper .sm_icon {
-    margin: 0 45px;
-    height: 40px; } }
+  .social_media {
+    margin-bottom: 60px; }
+    .social_media .follow_us {
+      padding-bottom: 12px; }
+    .social_media .social_media_wrapper .sm_icon {
+      margin: 0 45px;
+      height: 40px; }
+  .copyright {
+    padding: 20px;
+    font-size: 13px; }
+    .copyright span {
+      display: inline-block; }
+    .copyright a.disclaimer {
+      display: inline-block;
+      margin-left: 5px; }
+    .copyright a.dark_logo {
+      display: block;
+      margin-top: 5px; }
+  .ilawyer {
+    display: none; } }
+
+/* Media Query */
+@media screen and (min-width: 1150px) {
+  .logo {
+    width: 205px;
+    padding: 12px 0px 12px 20px;
+    max-width: 100%;
+    z-index: 100;
+    position: relative;
+    float: left; }
+  .inner_header_right {
+    display: none; }
+  .lower_header {
+    position: relative;
+    z-index: 100;
+    width: 300px;
+    float: right; }
+  /* Hero Banner */
+  .hero_banner {
+    width: 100%;
+    height: 930px;
+    background: url(images/hero.jpg) top center no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0; } }
 
 /* Media Query */

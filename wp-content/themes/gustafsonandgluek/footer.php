@@ -33,6 +33,10 @@
 		
 		<a class="disclaimer" href="">Disclaimer</a>
 		
+		<a class="dark_logo" href="//ilawyermarketing.com" target="_blank">
+			<img src="<?php bloginfo('template_directory');?>/images/ilawyer-dark.jpg"/>
+		</a>
+		
 	</div><!-- copyright -->
 	
 	<div class="ilawyer">

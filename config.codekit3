@@ -7314,7 +7314,7 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/images\/hero.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/wp-content\/themes\/gustafsonandgluek\/images\/hero_ipad.jpg": {
 		"ft": 16384,
@@ -7329,6 +7329,14 @@
 		"iS": 129889,
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/images\/hero_mobile.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/themes\/gustafsonandgluek\/images\/ilawyer-dark.jpg": {
+		"ft": 16384,
+		"iS": 9746,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/images\/ilawyer-dark.jpg",
 		"oF": 0,
 		"opt": 0
 		},
