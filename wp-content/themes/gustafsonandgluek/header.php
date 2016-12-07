@@ -49,6 +49,7 @@
 	
 	<img class="logo" src="<?php bloginfo('template_directory');?>/images/logo.svg"/>
 	
+	
 		
 		<div class="inner_header_right">
 		
@@ -70,8 +71,14 @@
 			
 		</div><!-- lower_header -->
 		
+		<nav>
+			
+			<?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'primary' ) ); ?>
+			
+		</nav>
+		
 </header>
 
 
-<?php // wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'primary' ) ); ?>
+
 			
