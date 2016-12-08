@@ -1875,6 +1875,12 @@ nav {
 
 
 
+
+#news_updates {
+	padding-bottom:108px;
+}
+
+
 .news_loop_wrapper {
 	max-width:1400px;
 	padding:0 50px;
@@ -2127,8 +2133,8 @@ nav {
 
 
 #news_updates {
-	margin-top:-330px;
-	padding:302px 0 45px;
+	
+	padding-top:302px;
 	
 }
 
@@ -2163,5 +2169,19 @@ nav {
 }
 	
 	
+} /* Media Query */
+
+
+@media screen and (min-width: 1700px) {
+
+
+
+#news_updates {
+	margin-top:-330px;
+}
+
+
+
+
 } /* Media Query */
 
