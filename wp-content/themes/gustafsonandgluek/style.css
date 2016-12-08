@@ -1310,18 +1310,24 @@ footer {
   .copyright {
     overflow: hidden;
     text-align: left;
-    width: 100%; }
+    width: 100%;
+    display: flex;
+    max-width: 2000px;
+    margin: 0px auto;
+    padding-top: 50px;
+    padding-bottom: 30px; }
     .copyright .copyright_inner_wrapper {
       float: left;
-      width: 48%; }
+      margin-top: 3px; }
     .copyright .greyline {
-      width: 21%;
+      flex-grow: 1;
       height: 1px;
       background: #acacac;
-      float: left; }
+      float: left;
+      margin: 22px 20px 0; }
     .copyright a.dark_logo {
       float: left;
-      width: 31%; }
+      margin-top: 3px; }
       .copyright a.dark_logo img {
         max-width: 100%;
         height: auto; } }
