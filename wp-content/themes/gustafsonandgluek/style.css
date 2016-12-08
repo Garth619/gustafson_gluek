@@ -289,7 +289,7 @@ a.green_button {
       margin: 0 auto;
       display: block;
       width: 100%; }
-    #about .about_pic img.group_pic.ipad {
+    #about .about_pic img.group_pic.ipad, #about .about_pic img.group_pic.desktop {
       display: none; }
     #about .about_pic img.tritwo {
       width: 62px;
@@ -740,21 +740,15 @@ footer {
     display: none; }
   /* Experience Section */
   #experience_section {
-    padding: 0px 30px 68px;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    -webkit-box-align: center;
-    align-items: center; }
+    padding: 0px 30px 68px; }
     #experience_section .experience_content {
       display: block;
       width: 52%;
       float: left;
       border: 2px solid #b6995a;
       padding: 110px 40px 75px;
-      margin-top: -40px; }
+      position: relative;
+      top: -40px; }
       #experience_section .experience_content span.experience_content_header {
         display: block;
         color: #b6995a;
@@ -1165,6 +1159,93 @@ footer {
       line-height: 42px;
       margin-top: 15px; }
   #experience_section .slide_wrapper {
-    vertical-align: middle; } }
+    width: 100%; }
+    #experience_section .slide_wrapper .single_slide_wrapper {
+      float: left;
+      width: 400px; }
+  /* About */
+  #about {
+    padding-top: 135px;
+    padding-bottom: 135px; }
+    #about span.large_header {
+      font-size: 72px;
+      letter-spacing: .15px;
+      padding-bottom: 30px;
+      max-width: 1680px;
+      margin: 0 auto; }
+    #about .about_inner_wrapper {
+      margin: 0 auto;
+      max-width: 1680px;
+      overflow: hidden; }
+      #about .about_inner_wrapper .about_content {
+        padding-top: 70px;
+        float: left;
+        width: 50%;
+        border: none;
+        max-width: 832px; }
+        #about .about_inner_wrapper .about_content span.about_excerpt {
+          font-size: 20px;
+          line-height: 42px; }
+      #about .about_inner_wrapper .about_pic {
+        width: 50%;
+        float: right;
+        margin-top: 230px;
+        max-width: 795px; }
+        #about .about_inner_wrapper .about_pic img.group_pic.ipad {
+          display: none; }
+        #about .about_inner_wrapper .about_pic img.group_pic.desktop {
+          display: block; }
+        #about .about_inner_wrapper .about_pic img.tritwo.ipad {
+          width: 95px;
+          top: -66px;
+          right: 50px; }
+  /* Meet Our Team */
+  #meet_our_team {
+    margin-top: -215px;
+    padding: 216px 0 180px; }
+    #meet_our_team span.large_header {
+      font-size: 22px;
+      letter-spacing: 2.5px;
+      padding-bottom: 20px;
+      margin-bottom: 35px; }
+    #meet_our_team p {
+      font-size: 40px;
+      line-height: 60px;
+      max-width: 1020px; } }
+
+/* Media Query */
+@media screen and (min-width: 1400px) {
+  /* Case Results */
+  #case_results {
+    background: url(images/result_bkg.jpg) top center no-repeat;
+    background: cover;
+    overflow: hidden;
+    width: 100%; }
+    #case_results span.large_header {
+      text-align: right;
+      padding-right: 0;
+      padding-left: 0;
+      font-size: 55px; }
+    #case_results .desktop_case_results_content_wrapper {
+      width: 46%;
+      float: left;
+      margin-top: 400px; }
+      #case_results .desktop_case_results_content_wrapper .case_results_content_wrapper {
+        max-width: 477px; }
+      #case_results .desktop_case_results_content_wrapper p {
+        font-size: 20px;
+        padding: 0;
+        line-height: 40px;
+        letter-spacing: 1px;
+        margin-bottom: 37px; }
+    #case_results .case_results_slide_wrapper {
+      width: 54%;
+      float: right;
+      margin-left: 0;
+      clear: none;
+      padding: 167px 0;
+      max-width: 875px; }
+      #case_results .case_results_slide_wrapper .slide_wrapper {
+        margin-bottom: 50px; } }
 
 /* Media Query */

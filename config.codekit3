@@ -21,10 +21,10 @@
 		"oAP": "\/.htaccess",
 		"oF": 0
 		},
-	"\/gus.sql.gz": {
+	"\/gus-migrate-20161208000902.sql.gz": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/gus.sql.gz",
+		"oAP": "\/gus-migrate-20161208000902.sql.gz",
 		"oF": 0
 		},
 	"\/index.php": {
@@ -7435,6 +7435,14 @@
 		"iS": 100530,
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/images\/image_03_ipad.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/themes\/gustafsonandgluek\/images\/imge_01.jpg": {
+		"ft": 16384,
+		"iS": 193195,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/images\/imge_01.jpg",
 		"oF": 0,
 		"opt": 0
 		},
