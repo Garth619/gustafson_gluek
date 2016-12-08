@@ -1879,15 +1879,18 @@ nav {
 	max-width:1400px;
 	padding:0 50px;
 		a.view_more {
-		
+		margin: -68px 59px 0 0;
 	}
 	span.large_header {
-		
+		padding-right: 36%;
+		position: relative;
+		top:10px;
 	}
 	
 	.news_info {
 		width:20%;
 		margin-left:0;
+		margin-top:144px;
 		.date_wrapper {
 			
 			
@@ -1910,9 +1913,9 @@ nav {
 
 .news_content_wrapper {
 	float:left;
-	margin: 15px 20px 17px 3%;
-	width:75%;
-	padding:95px 85px;
+	margin: 15px 0px 17px 3%;
+	width:77%;
+	padding:95px 75px;
 	span.content_header {
 		font-size:50px;
 		line-height:55px;
