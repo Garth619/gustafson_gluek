@@ -39,25 +39,35 @@
 	
 	
 	
-	<div class="copyright">
+		<div class="copyright">
 		
-		<span>Copyright 2016 Gustafson Gluek PLLC. ALL RIGHTS RESERVED.</span>
+			<div class="copyright_inner_wrapper">
+			
+				<span>Copyright 2016 Gustafson Gluek PLLC. ALL RIGHTS RESERVED.</span>
 		
-		<a class="disclaimer" href="">Disclaimer</a>
+				<a class="disclaimer" href="">Disclaimer</a>
+				
+			</div><!-- copyright_inner_wrapper -->
+			
+				<div class="greyline"></div><!-- greyline -->
 		
-		<a class="dark_logo" href="//ilawyermarketing.com" target="_blank">
-			<img src="<?php bloginfo('template_directory');?>/images/ilawyer-dark.jpg"/>
-		</a>
-		
-	</div><!-- copyright -->
+				<a class="dark_logo" href="//ilawyermarketing.com" target="_blank">
+					<img src="<?php bloginfo('template_directory');?>/images/ilawyer-dark.jpg"/>
+				</a>
+			
+		</div><!-- copyright -->
 	
-	<div class="ilawyer">
 		
-		<a href="//ilawyermarketing.com" target="_blank">
-			<img src="<?php bloginfo('template_directory');?>/images/ilawyer.svg"/>
-		</a>
+	
+		<div class="ilawyer">
 		
-	</div><!-- ilawyer -->
+			<a href="//ilawyermarketing.com" target="_blank">
+				<img src="<?php bloginfo('template_directory');?>/images/ilawyer.svg"/>
+			</a>
+		
+		</div><!-- ilawyer -->
+	
+	
 	
 	
 

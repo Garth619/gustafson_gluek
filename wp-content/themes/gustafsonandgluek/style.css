@@ -1308,7 +1308,23 @@ footer {
     .social_media .social_media_wrapper .sm_icon {
       margin: 0 30px; }
   .copyright {
-    clear: both; } }
+    overflow: hidden;
+    text-align: left;
+    width: 100%; }
+    .copyright .copyright_inner_wrapper {
+      float: left;
+      width: 48%; }
+    .copyright .greyline {
+      width: 21%;
+      height: 1px;
+      background: #acacac;
+      float: left; }
+    .copyright a.dark_logo {
+      float: left;
+      width: 31%; }
+      .copyright a.dark_logo img {
+        max-width: 100%;
+        height: auto; } }
 
 /* Media Query */
 @media screen and (min-width: 1400px) {

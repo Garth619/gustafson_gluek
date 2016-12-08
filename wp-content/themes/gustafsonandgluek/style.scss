@@ -2006,24 +2006,40 @@ footer {
 }
 
 .copyright {
-	clear:both;
-	span {
+	overflow:hidden;
+	text-align: left;
+	width:100%;
+	.copyright_inner_wrapper {
+		float:left;
+		width:48%;
+		span {
 		
+		}
+		a.disclaimer {
+		
+		}
 	}
-	a.disclaimer {
-		
+	.greyline {
+		width:21%;
+		height:1px;
+		background:#acacac;
+		float:left;
 	}
 	a.dark_logo {
-		
+		float:left;
+		width:31%;
+		img {
+			max-width:100%;
+			height:auto;
+		}
 	}
 }
 
-.ilawyer {
-	
-	img {
-		
-	}
-}
+
+
+
+
+
 
 
 	
