@@ -343,17 +343,25 @@ get_header(); ?>
 		
 		<div class="news_content_wrapper">
 			
-			<img class="news_image" src="<?php bloginfo('template_directory');?>/images/image_03_ipad.jpg"/>
 			
-			<span class="content_header">Poultry Price-Fixing</span><!-- content_header -->
+			<div class="news_image_wrapper">
 			
-			<p>On Tuesday, Gustafson Gluek PLLC filed a complaint on behalf of purchasers of chicken alleging that the companies comprising 98% of the chicken meat produced in the United States conspired to fix prices for chicken. The complaint alleges a conspiracy dating back to 2008 that involved the restriction of production to increase prices. The complaint also seeks damages on behalf of a class of indirect purchasers of chicken, who purchased via a distributor. If you purchased chicken via a distributor and would like to learn more about your potential claim.....</p>
+				<img class="news_image mobile" src="<?php bloginfo('template_directory');?>/images/image_03_ipad.jpg"/>
+				<img class="news_image desktop" src="<?php bloginfo('template_directory');?>/images/image_03.jpg"/>
 			
-			<a class="read_more" href="">Read More</a><!-- read_more -->
+			</div><!-- news_image_wrapper -->
 			
+			<div class="inner_news_content">
 			
+				<span class="content_header">Poultry Price-Fixing</span><!-- content_header -->
 			
-		</div><!-- content_wrapper -->
+				<p>On Tuesday, Gustafson Gluek PLLC filed a complaint on behalf of purchasers of chicken alleging that the companies comprising 98% of the chicken meat produced in the United States conspired to fix prices for chicken. The complaint alleges a conspiracy dating back to 2008 that involved the restriction of production to increase prices. The complaint also seeks damages on behalf of a class of indirect purchasers of chicken, who purchased via a distributor. If you purchased chicken via a distributor and would like to learn more about your potential claim.....</p>
+			
+				<a class="read_more" href="">Read More</a><!-- read_more -->
+			
+			</div><!-- inner_news_content -->
+			
+		</div><!-- news_content_wrapper -->
 		
 		<a class="view_more gold_gradient_button" href="">View More</a>
 		
