@@ -210,7 +210,7 @@ get_header(); ?>
 		</div><!-- slide_wrapper -->
 		
 		
-		<div class="slide_wrapper">
+		<div class="slide_wrapper" style="display: none;">
 			
 			<div class="slide">
 				
@@ -274,29 +274,40 @@ get_header(); ?>
 	
 	<span class="large_header">Gustafson Gluek has over 70 years of experience in complex class action litigation</span><!-- large_header -->
 	
-	<div class="experience_second_section_content">
+	<div class="experience_inner_wrapper">
+	
 		
 		
-		<div class="ex_pic_wrapper">
 		
-			<img class="ex_pic mobile" src="<?php bloginfo('template_directory');?>/images/image_02_mobile.jpg"/>
-			<img class="ex_pic ipad" src="<?php bloginfo('template_directory');?>/images/image_02_ipad.jpg"/>
-			<img class="tritwo mobile" src="<?php bloginfo('template_directory');?>/images/element_triangle2.svg"/>
+			<div class="ex_pic_wrapper">
 		
-		</div><!-- ex_pic  -->
+				<img class="ex_pic mobile" src="<?php bloginfo('template_directory');?>/images/image_02_mobile.jpg"/>
+				<img class="ex_pic ipad" src="<?php bloginfo('template_directory');?>/images/image_02_ipad.jpg"/>
+				<img class="ex_pic desktop" src="<?php bloginfo('template_directory');?>/images/image_02.jpg"/>
+				
+				
+				
+				
+				<img class="tritwo mobile" src="<?php bloginfo('template_directory');?>/images/element_triangle2.svg"/>
 		
-		<span class="large_header">LOREM USOUM DOLuRITS</span><!-- large_header -->
+			</div><!-- ex_pic  -->
 		
-		<p>Nulla sagittis eleifend tellus, et ultrices massa rutrum id. Maecenas justo augue, commodo nec est ac, tincidunt egestas diam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec placerat sed metus ut mollis. Vestibulum vel semper justo. Sed leo tortor, faucibus eget congue id, sollicitudin varius dui. Praesent blandit elit vehicula tortor suscipit cursus. Pellentesque pellentesque bibendum aliquam. Suspendisse fermentum sagittis mauris, sit amet aliquam quam gravida et. Vivamus non mollis enim.</p>
+		<div class="experience_second_section_content">
+			
+			<span class="large_header">LOREM USOUM DOLuRITS</span><!-- large_header -->
 		
-		<p>Cras quis mattis ex. Quisque quam arcu, lacinia at metus nec, ornare luctus dolor. Integer facilisis nisi odio, vel mattis ex tristique id. Mauris risus urna, imperdiet sit amet fringilla imperdiet, pharetra id orci. Sed nec orci sed sapien ornare scelerisque nec sit amet mi. Mauris ultricies dolor egestas, posuere ipsum in, hendrerit nisi. Nulla malesuada aliquet tellus, et commodo ligula dapibus vel. Ut turpis est, venenatis id enim tempor, fermentum malesuada ligula. Ut nec lacinia diam. Nulla imperdiet, enim at luctus. eget nibh sit amet nunc tempus vestibulum. Cras convallis rhoncus leo at pellentesque. Vivamus eget consequat dolor. Maecenas eget nisl hendrerit dolor imperdiet interdum. Phasellus nisi enim, maximus eu mattis nec, posuere et lacus. Praesent blandit elit vehicula tortor suscipit cursus. Pellentesque pellentesque bibendum aliquam. Suspendisse fermentum sagittis mauris, sit amet aliquam quam gravida et. Vivamus non mollis enim.</p>
+			<p>Nulla sagittis eleifend tellus, et ultrices massa rutrum id. Maecenas justo augue, commodo nec est ac, tincidunt egestas diam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec placerat sed metus ut mollis. Vestibulum vel semper justo. Sed leo tortor, faucibus eget congue id, sollicitudin varius dui. Praesent blandit elit vehicula tortor suscipit cursus. Pellentesque pellentesque bibendum aliquam. Suspendisse fermentum sagittis mauris, sit amet aliquam quam gravida et. Vivamus non mollis enim.</p>
+		
+			<p>Cras quis mattis ex. Quisque quam arcu, lacinia at metus nec, ornare luctus dolor. Integer facilisis nisi odio, vel mattis ex tristique id. Mauris risus urna, imperdiet sit amet fringilla imperdiet, pharetra id orci. Sed nec orci sed sapien ornare scelerisque nec sit amet mi. Mauris ultricies dolor egestas, posuere ipsum in, hendrerit nisi. Nulla malesuada aliquet tellus, et commodo ligula dapibus vel. Ut turpis est, venenatis id enim tempor, fermentum malesuada ligula. Ut nec lacinia diam. Nulla imperdiet, enim at luctus. eget nibh sit amet nunc tempus vestibulum. Cras convallis rhoncus leo at pellentesque. Vivamus eget consequat dolor. Maecenas eget nisl hendrerit dolor imperdiet interdum. Phasellus nisi enim, maximus eu mattis nec, posuere et lacus. Praesent blandit elit vehicula tortor suscipit cursus. Pellentesque pellentesque bibendum aliquam. Suspendisse fermentum sagittis mauris, sit amet aliquam quam gravida et. Vivamus non mollis enim.</p>
 
-<span class="sub_header">Lorem Ispum</span>
+			<span class="sub_header">Lorem Ispum</span>
 
-<p>DolorMaecenas justo augue, commodo nec est ac, tincidunt egestas diam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec placerat sed metus ut mollis. Vestibulum vel semper justo. Sed leo tortor, faucibus eget congue id, sollicitudin varius dui. Praesent blandit elit vehicula tortor suscipit cursus. Pellentesque pellentesque bibendum aliquam. Suspendisse fermentum sagittis mauris, sit amet aliquam quam gravida et. Vivamus non mollis enim. Cras quis mattis ex. Quisque quam arcu, lacinia at metus nec.</p>
+			<p>DolorMaecenas justo augue, commodo nec est ac, tincidunt egestas diam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec placerat sed metus ut mollis. Vestibulum vel semper justo. Sed leo tortor, faucibus eget congue id, sollicitudin varius dui. Praesent blandit elit vehicula tortor suscipit cursus. Pellentesque pellentesque bibendum aliquam. Suspendisse fermentum sagittis mauris, sit amet aliquam quam gravida et. Vivamus non mollis enim. Cras quis mattis ex. Quisque quam arcu, lacinia at metus nec.</p>
 		
 		
-	</div><!-- experience_second_section_content -->
+		</div><!-- experience_second_section_content -->
+	
+	</div><!-- experience_inner_wrapper -->
 	
 	
 </section><!-- experience_second_section -->

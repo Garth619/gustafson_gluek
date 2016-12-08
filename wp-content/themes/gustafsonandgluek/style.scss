@@ -335,11 +335,11 @@ header {
 		font-style: normal;
 		padding:0 0 25px 30px;
 		display: block;
-		border-bottom:1px solid $gold;
+// 		border-bottom:1px solid $gold;
 		max-width:300px;
 	}
 	.about_content {
-		border-top:1px solid $gold;
+// 		border-top:1px solid $gold;
 		margin-top:10px;
 		padding:35px 30px;
 		span.about_excerpt {
@@ -500,13 +500,13 @@ a.summaries_button {
 		display: block;
 		padding:0 30px;
 		line-height:32px;
-		border-bottom: 1px solid $gold;
+// 		border-bottom: 1px solid $gold;
 		padding-bottom: 40px;
 	}
 	.experience_second_section_content {
 		padding:0 30px;
 		margin-top:9px;
-		border-top:1px solid $gold;
+// 		border-top:1px solid $gold;
 		span.large_header {
 			font-size: 20px;
 			color:#45806e;
@@ -539,19 +539,21 @@ a.summaries_button {
 	.ex_pic_wrapper {
 		margin-top:20px;
 		position: relative;
+		padding: 0 35px;
 		img.ex_pic {
 			max-width: 100%;
 			height: auto;
 			margin:30px 0 45px;
 			width:100%;
+			
 		}
-		img.ex_pic.ipad {
+		img.ex_pic.ipad, img.desktop {
 			display: none;
 		}
 		img.tritwo {
 			position: absolute;
 			top:0;
-			left:22px;
+			left:13%;
 			width: 62px;
 		}
 		
@@ -1109,12 +1111,16 @@ footer {
   padding:115px 50px 115px 0;
   max-height:1100px;
 // 	overflow: hidden;
+.desktop_case_results_content_wrapper {
+	max-width:1163px;
+	
+}
 .case_results_slide_wrapper {
 	display: block;
 }
  span.large_header {
 	font-size: 50px;
-	padding-left:87px;
+	padding-left:10%;
 	}
 	.case_results_content_wrapper {
 		width:75%;
@@ -1144,9 +1150,11 @@ footer {
 		border:2px solid $gold;
 		padding:100px 40px 235px;
 		text-align: left;
+		margin:0 auto;
 		position: relative;
 		z-index:1000000;
 		height:655px;
+		max-width:900px;
 		.slide {
 			overflow: hidden;
 			.title_left {
@@ -1248,7 +1256,7 @@ footer {
 	}
 	.ex_pic_wrapper {
 		max-width:592px;
-		margin:0 auto;
+		margin:0 auto 57px;;
 		img.ex_pic.mobile {
 			display:none;
 		}
@@ -1664,7 +1672,7 @@ nav {
 
 #experience_section {
 		.experience_content {
-		padding:135px 80px;
+
 		max-width:555px;
 		span.experience_content_header {
 			font-size:17px;
@@ -1776,6 +1784,134 @@ nav {
 /* Meet Our Team */
 
 #meet_our_team {
+	margin-top: -115px;
+	padding: 110px 0 130px;
+	span.large_header {
+		
+	
+	}
+	p {
+		
+	}
+}
+
+
+
+
+
+/* Second Experience Section */
+
+#experience_second_section {
+	padding-top:118px;
+	padding-bottom:118px;
+	> span.large_header {
+		font-size:55px;
+		line-height: 55px;
+		
+	}
+	.experience_inner_wrapper {
+		 overflow: hidden;
+		 .experience_second_section_content {
+		 float: right;
+		 max-width: 832px;
+		 padding-top: 70px;
+		 width: 50%;
+   
+		 span.large_header {
+			
+			
+			}
+			p {
+			
+			}
+			span.sub_header {
+			
+			}
+		}
+		.ex_pic_wrapper {
+			float: left;
+			margin-top: 130px;
+			max-width: 795px;
+			width: 50%;
+			img.ex_pic.desktop {
+				display: block;
+			}
+			img.ex_pic.ipad {
+				display:none;
+			}
+			img.tritwo {
+				width: 95px;
+				top:-4px;
+			}
+		
+		}
+	}
+	
+}
+
+
+
+
+	
+	
+	
+} /* Media Query */
+
+
+
+@media screen and (min-width: 1400px) {
+	
+
+
+
+
+/* Experience Section */
+
+
+#experience_section {
+		.experience_content {
+		padding:135px 80px;
+		
+		span.experience_content_header {
+			
+		}
+		p {
+			
+		}
+	}
+	.slide_wrapper {
+	
+		
+		.single_slide_wrapper {
+			
+			.slide {
+				
+				img.svg_icon {
+					
+				}
+				span.large_header {
+					
+				
+					
+				}
+				.gold_line {
+					
+				}
+				span.sub_content {
+					
+					
+				}
+			}
+		}
+	}
+
+}
+
+
+
+/* Meet Our Team */
+
+#meet_our_team {
 	margin-top: -215px;
 	padding: 216px 0 180px;
 	span.large_header {
@@ -1792,21 +1928,6 @@ nav {
 	}
 }
 
-
-
-
-
-
-
-	
-	
-	
-} /* Media Query */
-
-
-
-@media screen and (min-width: 1400px) {
-	
 
 
 /* Case Results */

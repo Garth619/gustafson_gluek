@@ -253,10 +253,8 @@ a.green_button {
     font-style: normal;
     padding: 0 0 25px 30px;
     display: block;
-    border-bottom: 1px solid #b6995a;
     max-width: 300px; }
   #about .about_content {
-    border-top: 1px solid #b6995a;
     margin-top: 10px;
     padding: 35px 30px; }
     #about .about_content span.about_excerpt {
@@ -385,12 +383,10 @@ a.green_button {
     display: block;
     padding: 0 30px;
     line-height: 32px;
-    border-bottom: 1px solid #b6995a;
     padding-bottom: 40px; }
   #experience_second_section .experience_second_section_content {
     padding: 0 30px;
-    margin-top: 9px;
-    border-top: 1px solid #b6995a; }
+    margin-top: 9px; }
     #experience_second_section .experience_second_section_content span.large_header {
       font-size: 20px;
       color: #45806e;
@@ -417,18 +413,19 @@ a.green_button {
       font-size: 20px; }
   #experience_second_section .ex_pic_wrapper {
     margin-top: 20px;
-    position: relative; }
+    position: relative;
+    padding: 0 35px; }
     #experience_second_section .ex_pic_wrapper img.ex_pic {
       max-width: 100%;
       height: auto;
       margin: 30px 0 45px;
       width: 100%; }
-    #experience_second_section .ex_pic_wrapper img.ex_pic.ipad {
+    #experience_second_section .ex_pic_wrapper img.ex_pic.ipad, #experience_second_section .ex_pic_wrapper img.desktop {
       display: none; }
     #experience_second_section .ex_pic_wrapper img.tritwo {
       position: absolute;
       top: 0;
-      left: 22px;
+      left: 13%;
       width: 62px; }
 
 /* News Updates */
@@ -810,11 +807,13 @@ footer {
   #case_results {
     padding: 115px 50px 115px 0;
     max-height: 1100px; }
+    #case_results .desktop_case_results_content_wrapper {
+      max-width: 1163px; }
     #case_results .case_results_slide_wrapper {
       display: block; }
     #case_results span.large_header {
       font-size: 50px;
-      padding-left: 87px; }
+      padding-left: 10%; }
     #case_results .case_results_content_wrapper {
       width: 75%;
       float: right; }
@@ -835,9 +834,11 @@ footer {
       border: 2px solid #b6995a;
       padding: 100px 40px 235px;
       text-align: left;
+      margin: 0 auto;
       position: relative;
       z-index: 1000000;
-      height: 655px; }
+      height: 655px;
+      max-width: 900px; }
       .case_results_slide_wrapper .slide_wrapper .slide {
         overflow: hidden; }
         .case_results_slide_wrapper .slide_wrapper .slide .title_left {
@@ -907,7 +908,7 @@ footer {
         margin-bottom: 5px; }
     #experience_second_section .ex_pic_wrapper {
       max-width: 592px;
-      margin: 0 auto; }
+      margin: 0 auto 57px; }
       #experience_second_section .ex_pic_wrapper img.ex_pic.mobile {
         display: none; }
       #experience_second_section .ex_pic_wrapper img.ex_pic.ipad {
@@ -1150,7 +1151,6 @@ footer {
         margin-bottom: 20px; }
   /* Experience Section */
   #experience_section .experience_content {
-    padding: 135px 80px;
     max-width: 555px; }
     #experience_section .experience_content span.experience_content_header {
       font-size: 17px; }
@@ -1201,6 +1201,42 @@ footer {
           right: 50px; }
   /* Meet Our Team */
   #meet_our_team {
+    margin-top: -115px;
+    padding: 110px 0 130px; }
+  /* Second Experience Section */
+  #experience_second_section {
+    padding-top: 118px;
+    padding-bottom: 118px; }
+    #experience_second_section > span.large_header {
+      font-size: 55px;
+      line-height: 55px; }
+    #experience_second_section .experience_inner_wrapper {
+      overflow: hidden; }
+      #experience_second_section .experience_inner_wrapper .experience_second_section_content {
+        float: right;
+        max-width: 832px;
+        padding-top: 70px;
+        width: 50%; }
+      #experience_second_section .experience_inner_wrapper .ex_pic_wrapper {
+        float: left;
+        margin-top: 130px;
+        max-width: 795px;
+        width: 50%; }
+        #experience_second_section .experience_inner_wrapper .ex_pic_wrapper img.ex_pic.desktop {
+          display: block; }
+        #experience_second_section .experience_inner_wrapper .ex_pic_wrapper img.ex_pic.ipad {
+          display: none; }
+        #experience_second_section .experience_inner_wrapper .ex_pic_wrapper img.tritwo {
+          width: 95px;
+          top: -4px; } }
+
+/* Media Query */
+@media screen and (min-width: 1400px) {
+  /* Experience Section */
+  #experience_section .experience_content {
+    padding: 135px 80px; }
+  /* Meet Our Team */
+  #meet_our_team {
     margin-top: -215px;
     padding: 216px 0 180px; }
     #meet_our_team span.large_header {
@@ -1211,10 +1247,7 @@ footer {
     #meet_our_team p {
       font-size: 40px;
       line-height: 60px;
-      max-width: 1020px; } }
-
-/* Media Query */
-@media screen and (min-width: 1400px) {
+      max-width: 1020px; }
   /* Case Results */
   #case_results {
     background: url(images/result_bkg.jpg) top center no-repeat;
