@@ -338,10 +338,12 @@ get_header(); ?>
 		
 		</div><!-- news_info -->
 		
-		<img class="news_image" src="<?php bloginfo('template_directory');?>/images/image_03_ipad.jpg"/>
+		
 		
 		
 		<div class="news_content_wrapper">
+			
+			<img class="news_image" src="<?php bloginfo('template_directory');?>/images/image_03_ipad.jpg"/>
 			
 			<span class="content_header">Poultry Price-Fixing</span><!-- content_header -->
 			
