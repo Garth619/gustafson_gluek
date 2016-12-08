@@ -47,10 +47,10 @@
 
 <header>
 	
-	<img class="logo" src="<?php bloginfo('template_directory');?>/images/logo.svg"/>
+	<div class="inner_header">
 	
+		<img class="logo" src="<?php bloginfo('template_directory');?>/images/logo.svg"/>
 	
-		
 		<div class="inner_header_right">
 		
 			<div class="mobile_menu">
@@ -71,12 +71,20 @@
 			
 		</div><!-- lower_header -->
 		
-		<nav>
+		
+	</div><!-- inner_header -->
+		
+	<nav>
+		
+		<div class="inner_nav">
 			
 			<?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'primary' ) ); ?>
-			
-		</nav>
 		
+		</div><!-- inner_nav -->
+			
+	</nav>
+		
+	
 </header>
 
 

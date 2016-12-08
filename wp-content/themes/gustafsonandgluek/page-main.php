@@ -9,20 +9,27 @@ get_header(); ?>
 
 
 <section class="hero_banner">
+
+	<div class="inner_hero_wrapper">
 	
-	<div class="hero_banner_content">
+		<div class="hero_banner_content">
 	
-		<span class="sub_header">Dedicated to the protection of </span><!-- sub_header -->
-		<span class="large_header">Consumer Rights and Fair Competition</span><!-- large_header -->
+			<span class="sub_header">Dedicated to the protection of </span><!-- sub_header -->
+			<span class="large_header">Consumer Rights and Fair Competition</span><!-- large_header -->
 		
-		<span class="description">National Complex litigation practice</span><!-- description -->
+			<span class="description">National Complex litigation practice</span><!-- description -->
 		
-		<a class="green_button request_button" href="">request your free consultation</a>
+			<a class="green_button request_button" href="">request your free consultation</a>
 	
-	</div><!-- hero_banner_content -->
+		</div><!-- hero_banner_content -->
+	
+	</div><!-- inner_hero_wrapper -->
 	
 	
 </section><!-- hero_banner -->
+
+
+
 
 <section class="free_consultation">
 	
@@ -30,78 +37,52 @@ get_header(); ?>
 	
 </section><!-- free_consultation -->
 
+
+
+
 <section id="experience_section">
 	
-	<div class="experience_content">
-		
-		<span class="experience_content_header">We are here for you</span>
-		
-		<p>At Gustafson Gluek PLLC we seek to vindicate the rights and recover damages for those harmed by unfair business practices such as illegal price fixing, deceptive trade practices, and the distribution of unsafe medical devices, as well as enjoin companies from engaging in these types of practices in the future.</p>
-		
-	</div><!-- experience_content -->
+	<div class="experience_inner_wrapper">
 	
-	<div class="slide_wrapper">
+		<div class="experience_content">
 		
+			<span class="experience_content_header">We are here for you</span>
+		
+			<p>At Gustafson Gluek PLLC we seek to vindicate the rights and recover damages for those harmed by unfair business practices such as illegal price fixing, deceptive trade practices, and the distribution of unsafe medical devices, as well as enjoin companies from engaging in these types of practices in the future.</p>
+		
+		</div><!-- experience_content -->
 	
-	<div class="single_slide_wrapper">
+		
+		
+		<div class="slide_wrapper">
+		
+			<div class="single_slide_wrapper">
 	
-	<div class="slide">
+				<div class="slide">
 		
-		<img class="svg_icon" src="<?php bloginfo('template_directory');?>/images/sp-01.svg"/>
+					<img class="svg_icon" src="<?php bloginfo('template_directory');?>/images/sp-01.svg"/>
 		
-		<span class="large_header">Over 70 years of experience</span><!-- large_header -->
+					<span class="large_header">Over 70 years of experience</span><!-- large_header -->
 		
-		<div class="gold_line"></div><!-- Gold Line -->
+					<div class="gold_line"></div><!-- Gold Line -->
 		
-		<span class="sub_content">Nulla sagittis eleifend tellus, et ultrices massa rutrum id. Maecenas justo augue </span><!-- sub_content -->
+					<span class="sub_content">Nulla sagittis eleifend tellus, et ultrices massa rutrum id. Maecenas justo augue </span><!-- sub_content -->
 		
-		
-	</div><!-- slide -->
+			</div><!-- slide -->
 	
-	</div><!-- single_slide_wrapper -->
-	
-	
-	<div class="single_slide_wrapper">
-	
-	<div class="slide">
-		
-		<img class="svg_icon" src="<?php bloginfo('template_directory');?>/images/sp-01.svg"/>
-		
-		<span class="large_header">Over 70 years of experience</span><!-- large_header -->
-		
-		<div class="gold_line"></div><!-- Gold Line -->
-		
-		<span class="sub_content">Nulla sagittis eleifend tellus, et ultrices massa rutrum id. Maecenas justo augue </span><!-- sub_content -->
-		
-		
-	</div><!-- slide -->
-	
-	</div><!-- single_slide_wrapper -->
-	
-	
-	<div class="single_slide_wrapper">
-	
-	<div class="slide">
-		
-		<img class="svg_icon" src="<?php bloginfo('template_directory');?>/images/sp-01.svg"/>
-		
-		<span class="large_header">Over 70 years of experience</span><!-- large_header -->
-		
-		<div class="gold_line"></div><!-- Gold Line -->
-		
-		<span class="sub_content">Nulla sagittis eleifend tellus, et ultrices massa rutrum id. Maecenas justo augue </span><!-- sub_content -->
-		
-		
-	</div><!-- slide -->
-	
-	</div><!-- single_slide_wrapper -->
-	
+		</div><!-- single_slide_wrapper -->
 	
 	</div><!-- slide_wrapper -->
 	
 	<div style="clear:both;"></div><!-- clear hack -->
 	
+	</div><!-- experience_inner_wrapper -->
+	
+
 </section><!-- experience_section -->
+
+
+
 
 
 <section id="about">
@@ -144,6 +125,8 @@ get_header(); ?>
 </section><!-- about -->
 
 
+
+
 <section id="meet_our_team">
 	
 	<span class="large_header">Gustafson Gluek</span><!-- large_header -->
@@ -173,13 +156,7 @@ get_header(); ?>
 	
 	</div><!-- desktop_case_results_content_wrapper -->
 	
-	
-	
-	
-	
-	
-	
-	
+
 	<div class="case_results_slide_wrapper">
 		
 		<div class="slide_wrapper">
@@ -237,15 +214,8 @@ get_header(); ?>
 			
 		</div><!-- slide_wrapper -->
 		
-		
-		
-		
-		
-		
 	</div><!-- case_results_slide_wrapper -->
 	
-	
-
 </section><!-- case_results -->
 
 
@@ -255,20 +225,27 @@ get_header(); ?>
 
 <section id="awards">
 	
-	<span class="large_header">Awards //</span><!-- large_header -->
+	<div class="awards_inner">
+	
+		<span class="large_header">Awards //</span><!-- large_header -->
 
-<div class="slide_wrapper">
+		<div class="slide_wrapper">
 	
-	<div class="slide">
+			<div class="slide">
 		
-		<img src="<?php bloginfo('template_directory');?>/images/award_02.png"/>
+			<img src="<?php bloginfo('template_directory');?>/images/award_02.png"/>
 		
-	</div><!-- slide -->
+		</div><!-- slide -->
 	
-	
-</div><!-- slide_wrapper -->
+	</div><!-- slide_wrapper -->
+
+	</div><!-- awards_inner -->
 
 </section><!-- awards -->
+
+
+
+
 
 <section id="experience_second_section">
 	
@@ -313,9 +290,9 @@ get_header(); ?>
 </section><!-- experience_second_section -->
 
 
+
+
 <section id="news_updates">
-	
-	
 	
 	<div class="news_loop_wrapper">
 		
@@ -337,8 +314,6 @@ get_header(); ?>
 			</div><!-- category_wrapper -->
 		
 		</div><!-- news_info -->
-		
-		
 		
 		
 		<div class="news_content_wrapper">
@@ -368,6 +343,9 @@ get_header(); ?>
 	</div><!-- news_loop_wrapper -->
 	
 </section><!-- news_updates -->
+
+
+
 
 <section id="request">
 	

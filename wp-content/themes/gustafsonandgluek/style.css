@@ -1066,6 +1066,9 @@ footer {
     left: 0;
     z-index: 30;
     width: 100%; }
+    header .inner_header {
+      max-width: 2000px;
+      margin: 0 auto; }
   .logo {
     width: 200px;
     padding: 12px 0px;
@@ -1097,83 +1100,96 @@ footer {
     line-height: 1;
     position: relative;
     z-index: 200; }
-    nav ul {
-      list-style: none;
-      display: flex;
-      text-align: center;
-      font-family: "Nimbus Sans TW01Bla";
-      color: #193334; }
-      nav ul li {
-        flex-grow: 1; }
-        nav ul li a {
-          color: #193334;
-          text-decoration: none;
-          text-transform: uppercase;
-          letter-spacing: 1px;
-          display: block;
-          padding: 33px 0; }
+    nav .inner_nav {
+      max-width: 2000px;
+      margin: 0 auto; }
+      nav .inner_nav ul {
+        list-style: none;
+        display: flex;
+        text-align: center;
+        font-family: "Nimbus Sans TW01Bla";
+        color: #193334; }
+        nav .inner_nav ul li {
+          flex-grow: 1; }
+          nav .inner_nav ul li a {
+            color: #193334;
+            text-decoration: none;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            display: block;
+            padding: 33px 0; }
   /* Hero Banner */
   .hero_banner {
     width: 100%;
     height: 930px;
-    background: url(images/hero.jpg) top center no-repeat; }
-    .hero_banner .hero_banner_content {
-      top: 56%;
-      max-width: 750px;
-      margin-left: 1%; }
-      .hero_banner .hero_banner_content span.description {
-        display: block;
-        color: #ceb675;
-        font-size: 17px;
-        letter-spacing: 3.5px;
-        text-transform: uppercase;
-        font-family: "Nimbus Sans TW01Bla";
-        margin-bottom: 35px; }
-        .hero_banner .hero_banner_content span.description:before {
-          content: "";
-          width: 37px;
-          height: 1px;
-          background: #ceb675;
-          display: inline-block;
-          position: relative;
-          top: -4px;
-          margin-right: 12px;
-          margin-left: 80px; }
-      .hero_banner .hero_banner_content a.request_button {
-        font-size: 22px;
-        letter-spacing: 1.2px;
-        padding: 22px 48px; }
-      .hero_banner .hero_banner_content .sub_header {
-        font-size: 23px;
-        color: #45806e;
-        font-family: "Source Serif Pro";
-        font-weight: 900;
-        font-style: normal;
-        text-transform: uppercase;
-        letter-spacing: 1.2px;
-        margin-bottom: 11px;
-        display: block; }
-      .hero_banner .hero_banner_content .large_header {
-        font-size: 75px;
-        font-family: "Source Serif Pro";
-        font-weight: 900;
-        font-style: normal;
-        line-height: 75px;
-        margin-bottom: 20px; }
+    background: url(images/hero.jpg) top center no-repeat;
+    background-size: cover; }
+    .hero_banner .inner_hero_wrapper {
+      max-width: 2000px;
+      height: auto;
+      height: 930px;
+      margin: 0 auto; }
+      .hero_banner .inner_hero_wrapper .hero_banner_content {
+        top: 56%;
+        max-width: 750px;
+        margin-left: 1%; }
+        .hero_banner .inner_hero_wrapper .hero_banner_content span.description {
+          display: block;
+          color: #ceb675;
+          font-size: 17px;
+          letter-spacing: 3.5px;
+          text-transform: uppercase;
+          font-family: "Nimbus Sans TW01Bla";
+          margin-bottom: 35px; }
+          .hero_banner .inner_hero_wrapper .hero_banner_content span.description:before {
+            content: "";
+            width: 37px;
+            height: 1px;
+            background: #ceb675;
+            display: inline-block;
+            position: relative;
+            top: -4px;
+            margin-right: 12px;
+            margin-left: 80px; }
+        .hero_banner .inner_hero_wrapper .hero_banner_content a.request_button {
+          font-size: 22px;
+          letter-spacing: 1.2px;
+          padding: 22px 48px; }
+        .hero_banner .inner_hero_wrapper .hero_banner_content .sub_header {
+          font-size: 23px;
+          color: #45806e;
+          font-family: "Source Serif Pro";
+          font-weight: 900;
+          font-style: normal;
+          text-transform: uppercase;
+          letter-spacing: 1.2px;
+          margin-bottom: 11px;
+          display: block; }
+        .hero_banner .inner_hero_wrapper .hero_banner_content .large_header {
+          font-size: 75px;
+          font-family: "Source Serif Pro";
+          font-weight: 900;
+          font-style: normal;
+          line-height: 75px;
+          margin-bottom: 20px; }
   /* Experience Section */
-  #experience_section .experience_content {
-    max-width: 555px; }
-    #experience_section .experience_content span.experience_content_header {
-      font-size: 17px; }
-    #experience_section .experience_content p {
-      font-size: 17px;
-      line-height: 42px;
-      margin-top: 15px; }
-  #experience_section .slide_wrapper {
-    width: 100%; }
-    #experience_section .slide_wrapper .single_slide_wrapper {
-      float: left;
-      width: 400px; }
+  #experience_section .experience_inner_wrapper {
+    max-width: 2000px;
+    height: auto;
+    margin: 0 auto; }
+    #experience_section .experience_inner_wrapper .experience_content {
+      max-width: 555px; }
+      #experience_section .experience_inner_wrapper .experience_content span.experience_content_header {
+        font-size: 17px; }
+      #experience_section .experience_inner_wrapper .experience_content p {
+        font-size: 17px;
+        line-height: 42px;
+        margin-top: 15px; }
+    #experience_section .experience_inner_wrapper .slide_wrapper {
+      width: 100%; }
+      #experience_section .experience_inner_wrapper .slide_wrapper .single_slide_wrapper {
+        float: left;
+        width: 400px; }
   /* About */
   #about {
     padding-top: 135px;
@@ -1214,6 +1230,11 @@ footer {
   #meet_our_team {
     margin-top: -115px;
     padding: 110px 0 130px; }
+  /* Awards */
+  #awards .awards_inner {
+    max-width: 1370px;
+    height: auto;
+    margin: 0 auto; }
   /* Second Experience Section */
   #experience_second_section {
     padding-top: 118px;
@@ -1353,7 +1374,7 @@ footer {
   /* Case Results */
   #case_results {
     background: url(images/result_bkg.jpg) top center no-repeat;
-    background: cover;
+    background-size: cover;
     overflow: hidden;
     width: 100%; }
     #case_results span.large_header {

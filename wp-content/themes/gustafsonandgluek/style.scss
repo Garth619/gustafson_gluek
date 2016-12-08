@@ -1551,6 +1551,10 @@ footer {
 		left:0;
 		z-index:30;
 		width:100%;
+		.inner_header {
+			max-width:2000px;
+			margin:0 auto;
+		}
 	}
 	
 	.logo {
@@ -1603,21 +1607,25 @@ nav {
 	line-height: 1;
 	position: relative;
 	z-index:200;
-	ul {
-		list-style: none;
-		display:flex;
-		text-align: center;
-		font-family: $nimbusblack;
-		color:$greendark;
-		li {
-			flex-grow: 1;
-			a {
-				color:$greendark;
-				text-decoration: none;
-				text-transform: uppercase;
-				letter-spacing: 1px;
-				display: block;
-				padding:33px 0;
+	.inner_nav {
+		max-width:2000px;
+		margin:0 auto;
+		ul {
+			list-style: none;
+			display:flex;
+			text-align: center;
+			font-family: $nimbusblack;
+			color:$greendark;
+			li {
+				flex-grow: 1;
+				a {
+					color:$greendark;
+					text-decoration: none;
+					text-transform: uppercase;
+					letter-spacing: 1px;
+					display: block;
+					padding:33px 0;
+				}
 			}
 		}
 	}
@@ -1633,53 +1641,60 @@ nav {
 	width:100%;
 	height:930px;
 	background:url(images/hero.jpg) top center no-repeat;
-	.hero_banner_content {
-		top:56%;
-		max-width:750px;
-		margin-left:1%;
-		span.description {
-			display:block;
-			color:$goldlight;
-			font-size:17px;
-			letter-spacing: 3.5px;
-			text-transform: uppercase;
-			font-family: $nimbusblack;
-			margin-bottom:35px;
-			&:before {
-				content: "";
-				width:37px;
-				height:1px;
-				background:$goldlight;
-				display:inline-block;
-				position: relative;
-				top:-4px;
-				margin-right:12px;
-				margin-left:80px;
+	background-size:cover;
+	.inner_hero_wrapper {
+		max-width:2000px;
+		height:auto;
+		height:930px;
+		margin:0 auto;
+		.hero_banner_content {
+			top:56%;
+			max-width:750px;
+			margin-left:1%;
+			span.description {
+				display:block;
+				color:$goldlight;
+				font-size:17px;
+				letter-spacing: 3.5px;
+				text-transform: uppercase;
+				font-family: $nimbusblack;
+				margin-bottom:35px;
+				&:before {
+					content: "";
+					width:37px;
+					height:1px;
+					background:$goldlight;
+					display:inline-block;
+					position: relative;
+					top:-4px;
+					margin-right:12px;
+					margin-left:80px;
+				}
 			}
-		}
-		a.request_button {
-			font-size:22px;
-			letter-spacing: 1.2px;
-			padding: 22px 48px;
-		}
-		.sub_header {
-			font-size:23px;
-			color:#45806e;
-			font-family: $sourceserif;
-			font-weight: 900;
-			font-style: normal;
-			text-transform: uppercase;
-			letter-spacing: 1.2px;
-			margin-bottom: 11px;
-			display: block;
-		}
-		.large_header {
-			font-size:75px;
-			font-family: $sourceserif;
-			font-weight: 900;
-			font-style: normal;
-			line-height:75px;
-			margin-bottom:20px;
+			a.request_button {
+				font-size:22px;
+				letter-spacing: 1.2px;
+				padding: 22px 48px;
+			}
+			.sub_header {
+				font-size:23px;
+				color:#45806e;
+				font-family: $sourceserif;
+				font-weight: 900;
+				font-style: normal;
+				text-transform: uppercase;
+				letter-spacing: 1.2px;
+				margin-bottom: 11px;
+				display: block;
+			}
+			.large_header {
+				font-size:75px;
+				font-family: $sourceserif;
+				font-weight: 900;
+				font-style: normal;
+				line-height:75px;
+				margin-bottom:20px;
+			}
 		}
 	}
 }
@@ -1689,40 +1704,44 @@ nav {
 
 
 #experience_section {
-		.experience_content {
-
-		max-width:555px;
-		span.experience_content_header {
-			font-size:17px;
-		}
-		p {
-			font-size:17px;
-			line-height: 42px;
-			margin-top:15px;
-		}
-	}
-	.slide_wrapper {
 	
-		width:100%;
-		.single_slide_wrapper {
-			float:left;
-			width:400px;
-			.slide {
+	.experience_inner_wrapper {
+		max-width:2000px;
+		height:auto;
+		margin:0 auto;
+		.experience_content {
+			max-width:555px;
+			span.experience_content_header {
+				font-size:17px;
+			}
+			p {
+				font-size:17px;
+				line-height: 42px;
+				margin-top:15px;
+			}
+		}
+		.slide_wrapper {
+			width:100%;
+			.single_slide_wrapper {
+				float:left;
+				width:400px;
+				.slide {
 				
-				img.svg_icon {
+					img.svg_icon {
 					
-				}
-				span.large_header {
+					}
+					span.large_header {
 					
 				
 					
-				}
-				.gold_line {
+					}
+					.gold_line {
 					
-				}
-				span.sub_content {
+					}
+					span.sub_content {
 					
 					
+					}
 				}
 			}
 		}
@@ -1804,6 +1823,7 @@ nav {
 #meet_our_team {
 	margin-top: -115px;
 	padding: 110px 0 130px;
+	
 	span.large_header {
 		
 	
@@ -1811,7 +1831,27 @@ nav {
 	p {
 		
 	}
+	
 }
+
+
+/* Awards */
+
+
+#awards {
+	.awards_inner {
+		max-width:1370px;
+		height:auto;
+		margin:0 auto;
+		span.large_header {
+		
+		}
+		img {
+		
+		}
+	}
+}
+
 
 
 
@@ -2133,7 +2173,7 @@ footer {
 
 #case_results {
  background:url(images/result_bkg.jpg) top center no-repeat;
- background:cover;
+ background-size:cover;
  overflow: hidden;
  width:100%;
  	span.large_header {
