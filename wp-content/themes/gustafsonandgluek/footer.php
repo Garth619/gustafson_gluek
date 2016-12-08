@@ -1,31 +1,43 @@
 
 <footer>
 	
-	<div class="address_box">
+	<div class="inner_footer">
 		
-		<img class="pin" src="<?php bloginfo('template_directory');?>/images/footer_map.png"/>
+		<div class="address_box_desktop_pattern">
+	
+			<div class="address_box">
 		
-		<span class="address">120 South 6th Street<br/>Suite 2600<br/>Minneapolis, MN 55402</span>
+				<img class="pin" src="<?php bloginfo('template_directory');?>/images/footer_map.png"/>
 		
-		<a class="tel" href="tel:612.333.8844">612.333.8844</a>
+				<span class="address">120 South 6th Street<br/>Suite 2600<br/>Minneapolis, MN 55402</span>
 		
-		<a class="green_button" href="">Map</a>
+				<a class="tel" href="tel:612.333.8844">612.333.8844</a>
 		
-	</div><!-- address_box -->
+				<a class="green_button" href="">Map</a>
+		
+			</div><!-- address_box -->
+	
+		</div><!-- address_box_desktop_pattern -->
 
-	<div class="social_media">
+		<div class="social_media">
 		
-		<span class="follow_us">Follow Us</span><!-- follow_us -->
+			<span class="follow_us">Follow Us</span><!-- follow_us -->
 		
-		<div class="social_media_wrapper">
+			<div class="social_media_wrapper">
 		
-		<a href="" target="_blank"><img class="sm_icon" src="<?php bloginfo('template_directory');?>/images/footer_fb_green.svg"/></a>
-		<a href="" target="_blank"><img class="sm_icon" src="<?php bloginfo('template_directory');?>/images/footer_google_green.svg"/></a>
-		<a href="" target="_blank"><img class="sm_icon" src="<?php bloginfo('template_directory');?>/images/footer_linkedin_green.svg"/></a>
+				<a href="" target="_blank"><img class="sm_icon" src="<?php bloginfo('template_directory');?>/images/footer_google_green.svg"/></a>
+				<a href="" target="_blank"><img class="sm_icon" src="<?php bloginfo('template_directory');?>/images/footer_fb_green.svg"/></a>
+				<a href="" target="_blank"><img class="sm_icon" src="<?php bloginfo('template_directory');?>/images/footer_linkedin_green.svg"/></a>
 		
-		</div><!-- social_media_wrapper -->
+			</div><!-- social_media_wrapper -->
 		
-	</div><!-- social_media -->
+		</div><!-- social_media -->
+		
+	
+	
+	</div><!-- inner_footer -->
+	
+	
 	
 	<div class="copyright">
 		
@@ -46,6 +58,8 @@
 		</a>
 		
 	</div><!-- ilawyer -->
+	
+	
 
 </footer>
 	

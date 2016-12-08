@@ -1963,6 +1963,69 @@ nav {
 
 
 
+
+/* Footer */
+
+
+footer {
+	background: transparent;
+	.inner_footer {
+		max-width:1725px;
+		margin:0 auto;
+		padding:0 25px;
+		.address_box_desktop_pattern {
+			background: url(images/element_pattern.png) top left repeat #fff;
+			float:right;
+			padding: 0 90px 27px;
+			margin-top: -91px;
+			.address_box {
+				padding:160px 145px 130px;
+				max-width:100%;
+				span.address {
+			
+				}
+				a.tel {
+					margin-bottom: 50px;
+				}
+			}
+		}
+	}
+}
+
+
+.social_media {
+	padding-top: 190px;
+	.follow_us {
+		
+	}
+	.social_media_wrapper {
+		.sm_icon {
+			margin: 0 30px;
+		}
+	}
+}
+
+.copyright {
+	clear:both;
+	span {
+		
+	}
+	a.disclaimer {
+		
+	}
+	a.dark_logo {
+		
+	}
+}
+
+.ilawyer {
+	
+	img {
+		
+	}
+}
+
+
 	
 	
 	
@@ -2132,11 +2195,7 @@ nav {
 /* News Updates */
 
 
-#news_updates {
-	
-	padding-top:302px;
-	
-}
+
 
 .news_loop_wrapper {
 	
@@ -2145,6 +2204,73 @@ nav {
 
 
 
+/* Request */
+
+#request {
+	padding:225px 50px;
+	span.large_header {
+		font-size:55px;
+		max-width:100%;
+		line-height: 55px;
+	}
+	span.sub_header {
+		margin-bottom:55px;
+	}
+}
+
+.form {
+	max-width:1336px;
+	overflow: hidden;
+	margin:0 auto;
+	ul {
+		
+		li#field_1_5 {
+			
+		}
+		li:after {
+					
+				}
+		li:first-of-type, li:nth-of-type(2) {
+			margin-right:1.5%;
+		}
+		li {
+			width: 32.3333%;
+			label {
+				
+			}
+			input,textarea {
+				padding: 25px 31px 25px 40px;
+				margin-bottom: 12px;
+			}
+			
+			textarea {
+				
+			}
+		}
+	}
+	span.field_required {
+		margin-right:0px;
+		span.required_dot {
+			
+		}
+	}
+}
+
+
+#gform_submit_button_1 {
+	
+	
+	
+	
+}
+
+.validation_error {
+	
+}
+
+.gfield_description, .validation_message {
+	
+}
 
 
 
@@ -2178,6 +2304,7 @@ nav {
 
 #news_updates {
 	margin-top:-330px;
+	padding-top:302px;
 }
 
 

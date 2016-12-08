@@ -1285,7 +1285,30 @@ footer {
       width: 58%;
       float: left; }
       .news_content_wrapper .inner_news_content p {
-        padding-right: 20px; } }
+        padding-right: 20px; }
+  /* Footer */
+  footer {
+    background: transparent; }
+    footer .inner_footer {
+      max-width: 1725px;
+      margin: 0 auto;
+      padding: 0 25px; }
+      footer .inner_footer .address_box_desktop_pattern {
+        background: url(images/element_pattern.png) top left repeat #fff;
+        float: right;
+        padding: 0 90px 27px;
+        margin-top: -91px; }
+        footer .inner_footer .address_box_desktop_pattern .address_box {
+          padding: 160px 145px 130px;
+          max-width: 100%; }
+          footer .inner_footer .address_box_desktop_pattern .address_box a.tel {
+            margin-bottom: 50px; }
+  .social_media {
+    padding-top: 190px; }
+    .social_media .social_media_wrapper .sm_icon {
+      margin: 0 30px; }
+  .copyright {
+    clear: both; } }
 
 /* Media Query */
 @media screen and (min-width: 1400px) {
@@ -1342,8 +1365,28 @@ footer {
     padding-right: 0;
     max-width: 820px; }
   /* News Updates */
-  #news_updates {
-    padding-top: 302px; } }
+  /* Request */
+  #request {
+    padding: 225px 50px; }
+    #request span.large_header {
+      font-size: 55px;
+      max-width: 100%;
+      line-height: 55px; }
+    #request span.sub_header {
+      margin-bottom: 55px; }
+  .form {
+    max-width: 1336px;
+    overflow: hidden;
+    margin: 0 auto; }
+    .form ul li:first-of-type, .form ul li:nth-of-type(2) {
+      margin-right: 1.5%; }
+    .form ul li {
+      width: 32.3333%; }
+      .form ul li input, .form ul li textarea {
+        padding: 25px 31px 25px 40px;
+        margin-bottom: 12px; }
+    .form span.field_required {
+      margin-right: 0px; } }
 
 /* Media Query */
 @media screen and (min-width: 1450px) {
@@ -1353,6 +1396,7 @@ footer {
 /* Media Query */
 @media screen and (min-width: 1700px) {
   #news_updates {
-    margin-top: -330px; } }
+    margin-top: -330px;
+    padding-top: 302px; } }
 
 /* Media Query */
