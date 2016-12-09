@@ -335,12 +335,15 @@ header {
 		font-style: normal;
 		padding:0 0 25px 30px;
 		display: block;
-// 		border-bottom:1px solid $gold;
-		max-width:300px;
+		border-bottom:1px solid $gold;
+		margin-right:30px;
+		line-height:46px;
 	}
-	.about_content {
-// 		border-top:1px solid $gold;
+	.about_inner_wrapper {
+		border-top:1px solid $gold;
 		margin-top:10px;
+	.about_content {
+		
 		padding:35px 30px;
 		span.about_excerpt {
 			color:$greydark;
@@ -389,6 +392,7 @@ header {
 		img.tritwo.ipad {
 			display: none;
 		}
+	}
 	}
 }
 
@@ -1050,6 +1054,7 @@ footer {
 		padding: 0 0 25px 40px;
 		margin-right:70px;
 	}
+	.about_inner_wrapper {
 	.about_content {
 		padding: 45px 45px 75px;
 		span.about_excerpt {
@@ -1066,9 +1071,7 @@ footer {
 		max-width:592px;
 		margin:0 auto;
 		padding:0;
-		img.group_pic {
-			
-		}
+		
 		img.group_pic.mobile {
 			display: none;
 		}
@@ -1086,6 +1089,7 @@ footer {
 			top:-53px;
 			right:29px;
 		}
+	}
 	}
 }
 
@@ -1650,7 +1654,7 @@ nav {
 		.hero_banner_content {
 			top:56%;
 			max-width:750px;
-			margin-left:1%;
+			margin-left:6%;
 			span.description {
 				display:block;
 				color:$goldlight;
@@ -1758,19 +1762,22 @@ nav {
 #about {
 	padding-top:135px;
 	padding-bottom:135px;
-	span.large_header {
-		font-size:72px;
-		letter-spacing: .15px;
-		padding-bottom:30px;
+	.large_header_desktop_wrapper {
 		max-width:1680px;
 		margin:0 auto;
+		span.large_header {
+			font-size:72px;
+			letter-spacing: .15px;
+			padding-bottom:30px;
+			 margin-right: 15%;
+		}
 	}
 	.about_inner_wrapper {
-		margin:0 auto;
+		margin:10px auto 0px;
 		max-width:1680px;
 		overflow: hidden;
 		.about_content {
-			padding-top:70px;
+// 			padding-top:70px;
 			float:left;
 			width:50%;
 			border:none;

@@ -87,8 +87,12 @@ get_header(); ?>
 
 <section id="about">
 	
-	<span class="large_header">Minneapolis Class Action Attorneys</span><!-- large_header -->
+	<div class="large_header_desktop_wrapper">
 	
+		<span class="large_header">Minneapolis Class Action Attorneys</span><!-- large_header -->
+	
+	</div><!-- large_header_desktop_wrapper -->
+
 	
 	<div class="about_inner_wrapper">
 	
