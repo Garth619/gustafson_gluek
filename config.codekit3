@@ -6925,6 +6925,12 @@
 		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/author.php",
 		"oF": 0
 		},
+	"\/wp-content\/themes\/gustafsonandgluek\/banner.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/banner.php",
+		"oF": 0
+		},
 	"\/wp-content\/themes\/gustafsonandgluek\/category.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -7235,6 +7241,14 @@
 		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/images\/award_04.png",
 		"oF": 0,
 		"opt": 0
+		},
+	"\/wp-content\/themes\/gustafsonandgluek\/images\/dot.jpg": {
+		"ft": 16384,
+		"iS": 1193,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/images\/dot.jpg",
+		"oF": 0,
+		"opt": 1
 		},
 	"\/wp-content\/themes\/gustafsonandgluek\/images\/element_pattern.png": {
 		"ft": 32768,

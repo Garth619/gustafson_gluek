@@ -709,6 +709,65 @@ footer {
     max-width: 100%;
     height: auto; }
 
+nav {
+  display: none; }
+
+/* Internal Pages */
+.inner_container {
+  padding: 65px 30px; }
+
+.content {
+  font-family: "Nimbus Sans TW01";
+  font-size: 17px;
+  line-height: 32px; }
+  .content h1 {
+    color: #193334;
+    font-size: 42px;
+    line-height: 49px;
+    border-bottom: 1px solid #b6995a;
+    padding-bottom: 10px;
+    margin-bottom: 35px;
+    font-family: "Source Serif Pro";
+    font-weight: bold;
+    font-style: normal; }
+  .content h2 {
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #45806e;
+    line-height: 25px;
+    margin-bottom: 10px;
+    color: #45806e;
+    font-family: "Source Serif Pro";
+    font-weight: bold;
+    font-style: normal; }
+  .content h3 {
+    font-family: "Source Serif Pro";
+    font-weight: bold;
+    font-style: normal;
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #b6995a;
+    line-height: 30px; }
+  .content h4 {
+    font-style: none;
+    font-weight: 300;
+    font-family: "Source Serif Pro";
+    font-weight: bold;
+    font-style: normal;
+    font-size: 17px;
+    letter-spacing: 3.7px;
+    text-transform: uppercase;
+    margin-bottom: 15px; }
+  .content p {
+    margin-bottom: 30px; }
+  .content ul {
+    margin-bottom: 35px; }
+    .content ul li {
+      margin-bottom: 15px;
+      background: url(images/dot.jpg) no-repeat scroll 0 10px;
+      list-style: none;
+      padding: 0 0 0 19px; }
+
 @media screen and (min-width: 730px) {
   /* Header */
   .logo {
@@ -1437,7 +1496,8 @@ footer {
         margin-top: 316px; }
     #case_results .case_results_inner_wrapper {
       width: 93%;
-      float: left; }
+      float: left;
+      max-width: 1540px; }
       #case_results .case_results_inner_wrapper span.large_header {
         text-align: right;
         padding-right: 0;
