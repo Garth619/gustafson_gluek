@@ -2470,6 +2470,75 @@ footer {
 
 
 
+/* Second Experience Section */
+
+#experience_second_section {
+	overflow: hidden;
+	.experience_header_wrapper {
+		position:relative;
+		&:after {
+			right: -545px;
+			width: 130%;
+			height:1px;
+			border-top:1px solid $gold;
+			height:13px;
+			content: "";
+			position: absolute;
+			bottom:0px;
+			
+		}
+		span.large_header {
+			border:none;
+			&:after {
+			border-top:1px solid $gold;
+			width: 130%;
+			height:1px;
+			background:$gold;
+			content: "";
+			position: absolute;
+			bottom:0px;
+			right:-482px;
+		}
+		}
+	}
+	.experience_inner_wrapper {
+		border-top:none;
+		position: relative;
+		margin:0px auto 0;
+		
+	.experience_second_section_content {
+		
+		
+		span.large_header {
+			
+			
+		}
+		p {
+			
+		}
+		span.sub_header {
+			
+		}
+	}
+	.ex_pic_wrapper {
+		
+		img.ex_pic {
+			
+			
+		}
+		img.ex_pic.ipad, img.desktop {
+					}
+		img.tritwo {
+			
+		}
+		}
+	}
+	
+}
+
+
+
+
 
 
 
