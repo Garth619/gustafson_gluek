@@ -146,6 +146,10 @@ get_header(); ?>
 <section id="case_results">
 	
 	
+	<div class="spacer"></div><!-- spacer -->
+	
+	<div class="case_results_inner_wrapper">
+	
 	<div class="desktop_case_results_content_wrapper">
 	
 		<span class="large_header">Our Case Summaries</span><!-- large_header -->
@@ -220,6 +224,10 @@ get_header(); ?>
 		</div><!-- slide_wrapper -->
 		
 	</div><!-- case_results_slide_wrapper -->
+	
+	</div><!-- case_results_inner_wrapper -->
+	
+	<div class="spacer"></div><!-- spacer -->
 	
 </section><!-- case_results -->
 
