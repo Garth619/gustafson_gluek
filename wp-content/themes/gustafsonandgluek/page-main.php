@@ -90,9 +90,10 @@ get_header(); ?>
 	<div class="large_header_desktop_wrapper">
 	
 		<span class="large_header">Minneapolis Class Action Attorneys</span><!-- large_header -->
-	
+		
 	</div><!-- large_header_desktop_wrapper -->
 
+	
 	
 	<div class="about_inner_wrapper">
 	
@@ -253,21 +254,20 @@ get_header(); ?>
 
 <section id="experience_second_section">
 	
-	<span class="large_header">Gustafson Gluek has over 70 years of experience in complex class action litigation</span><!-- large_header -->
+	
+	<div class="experience_header_wrapper">
+	
+		<span class="large_header">Gustafson Gluek has over 70 years of experience in complex class action litigation</span><!-- large_header -->
+	
+	</div><!-- experience_header_wrapper -->
 	
 	<div class="experience_inner_wrapper">
 	
-		
-		
-		
-			<div class="ex_pic_wrapper">
+		<div class="ex_pic_wrapper">
 		
 				<img class="ex_pic mobile" src="<?php bloginfo('template_directory');?>/images/image_02_mobile.jpg"/>
 				<img class="ex_pic ipad" src="<?php bloginfo('template_directory');?>/images/image_02_ipad.jpg"/>
 				<img class="ex_pic desktop" src="<?php bloginfo('template_directory');?>/images/image_02.jpg"/>
-				
-				
-				
 				
 				<img class="tritwo mobile" src="<?php bloginfo('template_directory');?>/images/element_triangle2.svg"/>
 		
