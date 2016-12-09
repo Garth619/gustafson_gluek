@@ -767,6 +767,13 @@ nav {
       background: url(images/dot.jpg) no-repeat scroll 0 10px;
       list-style: none;
       padding: 0 0 0 19px; }
+  .content a {
+    font-weight: bold;
+    color: #193334;
+    text-decoration: none;
+    transition: all .2s ease-in-out; }
+    .content a:hover {
+      color: #b6995a; }
 
 @media screen and (min-width: 730px) {
   /* Header */

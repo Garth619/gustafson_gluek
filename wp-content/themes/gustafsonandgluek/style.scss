@@ -980,6 +980,15 @@ nav {display:none;}
 			padding: 0 0 0 19px;
 		}
 	}
+	a {
+		font-weight: bold;
+		color:$greendark;
+		text-decoration: none;
+		transition:all .2s ease-in-out;
+		&:hover {
+			color:$gold;
+		}
+	}
 }
 
 
