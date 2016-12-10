@@ -21,6 +21,12 @@
 		"oAP": "\/.htaccess",
 		"oF": 0
 		},
+	"\/gus-migrate-201612100401402.sql.gz": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/gus-migrate-201612100401402.sql.gz",
+		"oF": 0
+		},
 	"\/index.php": {
 		"ft": 8192,
 		"oA": 2,
