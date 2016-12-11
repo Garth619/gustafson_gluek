@@ -1716,13 +1716,7 @@ footer {
 	
 	
 	
-	/* Internal Pages */
-
-
-.inner_banner {
-	display: block;
 	
-}
 	
 	
 	header {
@@ -1828,7 +1822,7 @@ nav {
 		height:930px;
 		margin:0 auto;
 		.hero_banner_content {
-			top:56%;
+			top:51%;
 			max-width:750px;
 			margin-left:6%;
 			span.description {
@@ -2282,10 +2276,113 @@ footer {
 
 
 
+/* Internal Pages */
 
 
+.inner_banner {
+	display: block;
+	position: relative;
+	.inner_hero_wrapper {
+		max-width:2000px;
+		height:auto;
+		margin:0 auto;
+		.hero_banner_content {
+			top:42%;
+			max-width:750px;
+			margin-left:6%;
+			position: absolute;
+			span.sub_header {
+				font-size:23px;
+				color:#45806e;
+				font-family: $sourceserif;
+				font-weight: 900;
+				font-style: normal;
+				text-transform: uppercase;
+				letter-spacing: 1.2px;
+				margin-bottom: 11px;
+				display: block;
+			}
+			span.large_header {
+				font-size:75px;
+				font-family: $sourceserif;
+				font-weight: 900;
+				font-style: normal;
+				line-height:75px;
+				margin-bottom:20px;
+				display:block;
+			}
+			span.description {
+				display:block;
+				color:$goldlight;
+				font-size:17px;
+				letter-spacing: 3.5px;
+				text-transform: uppercase;
+				font-family: $nimbusblack;
+				margin-bottom:35px;
+				&:before {
+					content: "";
+					width:37px;
+					height:1px;
+					background:$goldlight;
+					display:inline-block;
+					position: relative;
+					top:-4px;
+					margin-right:12px;
+					margin-left:80px;
+				}
+			}
+			a.request_button {
+				font-size: 22px;
+				letter-spacing: 0.65px;
+				padding: 22px 48px;
+				text-transform: lowercase;
+			}
+		}
+	}
+}
+
+.inner_container {
+	background: url(images/element_pattern.png) top left repeat;
+	overflow: hidden;
+	padding:0;
+}
 
 
+.sidebar_wrapper {
+	width:30%;
+	float:left;
+	background: transparent;
+	padding:80px 0 0;
+	ul {
+		margin:0px 60px;
+		li {
+			float:none;
+			width:100%;
+			a {
+				
+			}
+			&:nth-last-child(-2n+2) {
+				border-bottom:none;
+			}
+		}
+	}
+}
+
+.content_wrapper {
+	width:70%;
+	float:right;
+	background:#fff;
+	padding:70px;
+}
+
+.content {
+	h1 {
+		font-size:68px;
+		letter-spacing: 0.15px;
+		padding-bottom:30px;
+		margin-bottom: 53px;
+	}
+}
 
 	
 	
@@ -2491,6 +2588,92 @@ footer {
 
 
 
+/* Internal Pages */
+
+
+.inner_banner {
+	
+	.inner_hero_wrapper {
+		
+		.hero_banner_content {
+			margin-left:200px;
+			span.sub_header {
+				
+			}
+			span.large_header {
+				
+			}
+			span.description {
+				
+				&:before {
+					
+				}
+			}
+			a.request_button {
+				
+			}
+		}
+	}
+}
+
+.inner_container {
+	
+}
+
+
+.desktop_container_wrapper {
+
+	max-width: 1700px;
+	margin:0 auto;
+	overflow:hidden;
+
+}
+
+.sidebar_wrapper {
+	
+	float:left;
+	
+	
+	ul {
+// 		max-width:330px;
+		margin: 0 50px;
+		float:right;
+		li {
+			
+			a {
+				
+			}
+			&:nth-last-child(-2n+2) {
+				
+			}
+		}
+	}
+}
+
+.content_wrapper {
+	
+	float:right;
+	max-width:1400px;
+}
+
+.content {
+	h1 {
+		
+	}
+	.inner_content {
+		max-width:975px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
 } /* Media Query */
 
 
@@ -2584,6 +2767,84 @@ footer {
 	
 	
 } /* Media Query */
+
+
+
+@media screen and (min-width: 1600px) {
+
+
+.inner_banner {
+	
+	.inner_hero_wrapper {
+		
+		.hero_banner_content {
+			
+			span.sub_header {
+				
+			}
+			span.large_header {
+				
+			}
+			span.description {
+				
+				&:before {
+					
+				}
+			}
+			a.request_button {
+				
+			}
+		}
+	}
+}
+
+.inner_container {
+	
+}
+
+
+.desktop_container_wrapper {
+
+	
+}
+
+.sidebar_wrapper {
+	
+	width:25%;
+	
+	ul {
+		margin-right:70px;
+		li {
+			
+			a {
+				
+			}
+			&:nth-last-child(-2n+2) {
+				
+			}
+		}
+	}
+}
+
+.content_wrapper {
+	
+	width:75%;
+}
+
+.content {
+	h1 {
+		
+	}
+	.inner_content {
+		
+	}
+}
+
+
+
+} /* Media Query */
+
+
 
 
 @media screen and (min-width: 1700px) {
@@ -2730,12 +2991,38 @@ footer {
 	
 }
 
+} /* Media Query */
 
 
 
+@media screen and (min-width: 1900px) {
+
+.inner_banner {
+	
+	.inner_hero_wrapper {
+		
+		.hero_banner_content {
+			margin-left:260px;
+			span.sub_header {
+				
+			}
+			span.large_header {
+				
+			}
+			span.description {
+				
+				&:before {
+					
+				}
+			}
+			a.request_button {
+				
+			}
+		}
+	}
+}
 
 
 
 
 } /* Media Query */
-

@@ -49,7 +49,9 @@
 	
 	<div class="inner_header">
 	
-		<img class="logo" src="<?php bloginfo('template_directory');?>/images/logo.svg"/>
+		<a href="<?php bloginfo('url');?>">
+			<img class="logo" src="<?php bloginfo('template_directory');?>/images/logo.svg"/>
+		</a>
 	
 		<div class="inner_header_right">
 		
