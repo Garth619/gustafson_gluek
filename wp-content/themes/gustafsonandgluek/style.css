@@ -1657,7 +1657,6 @@ footer {
 
   .desktop_container_wrapper {
     max-width: 1700px;
-    margin: 0 auto;
     overflow: hidden; }
 
   .sidebar_wrapper {
@@ -1726,13 +1725,40 @@ footer {
           padding: 100px 80px 235px; } }
 /* Media Query */
 @media screen and (min-width: 1600px) {
+  .inner_container {
+    position: relative;
+    display: flex;
+    width: 100%; }
+
+  .inner_flex_spacer {
+    flex-grow: 1;
+    float: left; }
+    .inner_flex_spacer:last-of-type {
+      background: #fff; }
+
+  .desktop_container_wrapper {
+    float: left;
+    width: 85%; }
+
   .sidebar_wrapper {
     width: 25%; }
     .sidebar_wrapper ul {
       margin-right: 70px; }
 
   .content_wrapper {
-    width: 75%; } }
+    width: 75%; }
+
+  .content h1 {
+    border-bottom: 0;
+    position: relative; }
+    .content h1:after {
+      content: "";
+      height: 1px;
+      background: #b6995a;
+      position: absolute;
+      top: 0px;
+      left: 0;
+      width: 1172vw; } }
 /* Media Query */
 @media screen and (min-width: 1700px) {
   #news_updates {

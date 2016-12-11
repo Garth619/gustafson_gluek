@@ -2624,7 +2624,7 @@ footer {
 .desktop_container_wrapper {
 
 	max-width: 1700px;
-	margin:0 auto;
+// 	margin:0 auto;
 	overflow:hidden;
 
 }
@@ -2799,12 +2799,27 @@ footer {
 }
 
 .inner_container {
-	
+	position: relative;
+	display: flex;
+	width:100%;
 }
 
 
-.desktop_container_wrapper {
 
+
+.inner_flex_spacer {
+	flex-grow: 1;
+	float:left;
+	&:last-of-type {
+		background:#fff;
+	}
+}
+
+
+
+.desktop_container_wrapper {
+	float:left;
+	width:85%;
 	
 }
 
@@ -2829,11 +2844,23 @@ footer {
 .content_wrapper {
 	
 	width:75%;
+	
 }
 
 .content {
 	h1 {
-		
+		border-bottom:0;
+		position: relative;
+		&:after {
+			content:"";
+// 			width:1000px;
+			height:1px;
+			background: $gold;
+			position: absolute;
+			top:0px;
+			left:0;
+			width: 1172vw;
+		}
 	}
 	.inner_content {
 		

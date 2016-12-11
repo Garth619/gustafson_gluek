@@ -15,6 +15,9 @@ get_header(); ?>
 <div class="inner_container">
 	
 	
+	<div class="inner_flex_spacer"></div><!-- inner_flex_spacer -->
+	
+	
 	<div class="desktop_container_wrapper">
 	
 		<div class="content_wrapper">
@@ -36,10 +39,16 @@ get_header(); ?>
 		</div><!-- content_wrapper -->
 	
 		<?php get_sidebar(); ?>
+		
+		</div><!-- desktop_container_wrapper -->
+		
+		<div class="inner_flex_spacer"></div><!-- inner_flex_spacer -->
 	
 	</div><!-- inner_container -->
 
-</div><!-- desktop_container_wrapper -->
+
+
+
 
 
 
