@@ -2381,6 +2381,9 @@ footer {
 		letter-spacing: 0.15px;
 		padding-bottom:30px;
 		margin-bottom: 53px;
+		position: relative;
+    width: 203vw;
+    z-index: 1000;
 	}
 }
 
@@ -2623,9 +2626,9 @@ footer {
 
 .desktop_container_wrapper {
 
-	max-width: 1700px;
+
 // 	margin:0 auto;
-	overflow:hidden;
+// 	overflow:hidden;
 
 }
 
@@ -2820,6 +2823,7 @@ footer {
 .desktop_container_wrapper {
 	float:left;
 	width:85%;
+	max-width: 1700px;
 	
 }
 
@@ -2849,19 +2853,8 @@ footer {
 
 .content {
 	h1 {
-		border-bottom:0;
-		position: relative;
-		&:after {
-			content:"";
-// 			width:1000px;
-			height:1px;
-			background: $gold;
-			position: absolute;
-			top:0px;
-			left:0;
-			width: 1172vw;
+		
 		}
-	}
 	.inner_content {
 		
 	}

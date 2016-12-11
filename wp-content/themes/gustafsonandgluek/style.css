@@ -1601,7 +1601,10 @@ footer {
     font-size: 68px;
     letter-spacing: 0.15px;
     padding-bottom: 30px;
-    margin-bottom: 53px; } }
+    margin-bottom: 53px;
+    position: relative;
+    width: 203vw;
+    z-index: 1000; } }
 /* Media Query */
 @media screen and (min-width: 1400px) {
   /* Experience Section */
@@ -1654,10 +1657,6 @@ footer {
   /* Internal Pages */
   .inner_banner .inner_hero_wrapper .hero_banner_content {
     margin-left: 200px; }
-
-  .desktop_container_wrapper {
-    max-width: 1700px;
-    overflow: hidden; }
 
   .sidebar_wrapper {
     float: left; }
@@ -1738,7 +1737,8 @@ footer {
 
   .desktop_container_wrapper {
     float: left;
-    width: 85%; }
+    width: 85%;
+    max-width: 1700px; }
 
   .sidebar_wrapper {
     width: 25%; }
@@ -1746,19 +1746,7 @@ footer {
       margin-right: 70px; }
 
   .content_wrapper {
-    width: 75%; }
-
-  .content h1 {
-    border-bottom: 0;
-    position: relative; }
-    .content h1:after {
-      content: "";
-      height: 1px;
-      background: #b6995a;
-      position: absolute;
-      top: 0px;
-      left: 0;
-      width: 1172vw; } }
+    width: 75%; } }
 /* Media Query */
 @media screen and (min-width: 1700px) {
   #news_updates {
