@@ -26,8 +26,10 @@ get_header(); ?>
 		
 	</div><!-- content_wrapper -->
 	
+	<?php get_sidebar(); ?>
+	
 </div><!-- inner_container -->
 
 
-<?php // get_sidebar(); ?>
+
 <?php get_footer(); ?>

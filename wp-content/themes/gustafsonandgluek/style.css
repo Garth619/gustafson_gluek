@@ -450,7 +450,6 @@ a.green_button {
   padding-left: 30px;
   margin-bottom: 40px;
   display: block; }
-
 .news_loop_wrapper .news_info {
   border: 2px solid #b6995a;
   margin: 0 30px;
@@ -583,7 +582,6 @@ a.green_button {
       resize: none;
       width: 100%;
       height: 208px; }
-
 .form span.field_required {
   color: #fff;
   font-family: "Nimbus Sans TW01Bla";
@@ -718,7 +716,10 @@ footer {
   display: none; }
 
 .inner_container {
-  padding: 65px 30px; }
+  padding: 65px 0 0; }
+
+.content_wrapper {
+  padding: 0 30px; }
 
 .content {
   font-family: "Nimbus Sans TW01";
@@ -779,16 +780,41 @@ footer {
     .content a:hover {
       color: #b6995a; }
 
+.sidebar_wrapper {
+  background: url(images/element_pattern.png) top left repeat;
+  width: 100%;
+  font-family: "Source Serif Pro";
+  font-weight: 900;
+  font-style: normal;
+  padding: 45px 30px; }
+  .sidebar_wrapper ul {
+    list-style: none; }
+    .sidebar_wrapper ul li {
+      border-top: solid #ccc 1px; }
+      .sidebar_wrapper ul li a {
+        color: #000;
+        text-decoration: none;
+        display: block;
+        padding: 20px 0;
+        transition: all .2s ease-in-out; }
+        .sidebar_wrapper ul li a:hover {
+          color: #b6995a; }
+    .sidebar_wrapper ul li:last-of-type {
+      border-bottom: solid #ccc 1px; }
+
 @media screen and (min-width: 730px) {
   /* Header */
   .logo {
     max-width: 195px;
     padding: 12px 20px;
     float: left; }
+
   .inner_header_right {
     height: 74px; }
+
   .lower_header a.tel {
     font-size: 37px; }
+
   /* Hero Banner */
   .hero_banner {
     background: url(images/hero_ipad.jpg) top center no-repeat;
@@ -814,9 +840,11 @@ footer {
         margin-top: 5px;
         margin-bottom: 40px;
         line-height: 63px; }
+
   /* Free Consultation */
   .free_consultation {
     display: none; }
+
   /* Experience Section */
   #experience_section {
     padding: 0px 30px 68px; }
@@ -847,6 +875,7 @@ footer {
       width: 48%;
       float: right;
       padding-left: 3%; }
+
   /* About */
   #about {
     padding: 70px 50px 70px 0px; }
@@ -876,6 +905,7 @@ footer {
         width: 75px;
         top: -53px;
         right: 29px; }
+
   /* Meet Our Team */
   #meet_our_team span.large_header {
     margin-bottom: 30px; }
@@ -885,6 +915,7 @@ footer {
     line-height: 45px;
     max-width: 650px;
     margin: 0 auto 30px; }
+
   /* Case Results */
   #case_results {
     padding: 115px 50px 115px 0;
@@ -908,6 +939,7 @@ footer {
         padding: 28px 50px;
         display: inline-block;
         float: left; }
+
   .case_results_slide_wrapper {
     clear: both;
     padding-top: 80px;
@@ -964,6 +996,7 @@ footer {
             color: #fff;
             padding-left: 22px;
             margin-top: -13px; }
+
   /* Awards */
   #awards {
     padding-top: 150px; }
@@ -975,6 +1008,7 @@ footer {
       text-align: left;
       display: block;
       margin-bottom: 27px; }
+
   /* Second Experience Section */
   #experience_second_section {
     padding: 80px 50px 80px 0; }
@@ -998,10 +1032,12 @@ footer {
       #experience_second_section .experience_inner_wrapper .ex_pic_wrapper img.tritwo {
         width: 75px;
         top: -30px; }
+
   /* News Updates */
   #news_updates {
     padding-top: 114px;
     padding-bottom: 76px; }
+
   .news_loop_wrapper {
     overflow: hidden;
     max-width: 705px;
@@ -1032,6 +1068,7 @@ footer {
       float: left;
       margin-left: 15px;
       margin-right: 0; }
+
   .news_content_wrapper {
     padding: 135px 37px 67px;
     margin: 335px 20px 17px;
@@ -1044,6 +1081,7 @@ footer {
     .news_content_wrapper span.content_header {
       font-size: 45px;
       margin-bottom: 25px; }
+
   /* Request */
   #request {
     text-align: center;
@@ -1058,6 +1096,7 @@ footer {
       font-size: 17px;
       letter-spacing: 2.5px;
       margin-bottom: 45px; }
+
   .form ul li:after {
     content: "•";
     right: 19px; }
@@ -1093,13 +1132,16 @@ footer {
     letter-spacing: 5px;
     text-align: right;
     margin-right: 25px; }
+
   #gform_submit_button_1 {
     width: 50%;
     float: left;
     max-width: 325px;
     padding: 23px 0; }
+
   .validation_error {
     display: none; }
+
   .gfield_description, .validation_message {
     color: #ceb675;
     font-family: "Nimbus Sans TW01Bla";
@@ -1108,12 +1150,14 @@ footer {
     margin-top: 8px;
     letter-spacing: 0.85px;
     text-align: left; }
+
   /* Footer */
   footer .address_box {
     width: 100%;
     max-width: 520px;
     top: -60px;
     padding: 150px 15px 100px; }
+
   .social_media {
     margin-bottom: 60px; }
     .social_media .follow_us {
@@ -1121,6 +1165,7 @@ footer {
     .social_media .social_media_wrapper .sm_icon {
       margin: 0 45px;
       height: 40px; }
+
   .copyright {
     padding: 20px;
     font-size: 13px; }
@@ -1132,14 +1177,28 @@ footer {
     .copyright a.dark_logo {
       display: block;
       margin-top: 5px; }
-  .ilawyer {
-    display: none; } }
 
+  .ilawyer {
+    display: none; }
+
+  .sidebar_wrapper ul {
+    overflow: hidden; }
+    .sidebar_wrapper ul li {
+      width: 49%; }
+      .sidebar_wrapper ul li:nth-of-type(2n + 1) {
+        float: left;
+        margin-right: 1%; }
+      .sidebar_wrapper ul li:nth-of-type(2n + 2) {
+        float: right;
+        margin-left: 1%; }
+      .sidebar_wrapper ul li:nth-last-child(-2n+2) {
+        border-bottom: #ccc solid 1px; } }
 /* Media Query */
 @media screen and (min-width: 1150px) {
   /* Internal Pages */
   .inner_banner {
     display: block; }
+
   header {
     position: absolute;
     top: 0;
@@ -1149,6 +1208,7 @@ footer {
     header .inner_header {
       max-width: 2000px;
       margin: 0 auto; }
+
   .logo {
     width: 200px;
     padding: 12px 0px;
@@ -1158,20 +1218,24 @@ footer {
     float: left;
     margin-left: 3%;
     margin-bottom: 10px; }
+
   .inner_header_right {
     display: none; }
+
   .lower_header {
     clear: none;
     float: right;
     background: transparent;
     padding-right: 30px;
     margin-top: 15px; }
+
   .lower_header {
     position: relative;
     z-index: 100;
     width: 300px;
     float: right;
     margin-right: 1%; }
+
   /* Nav */
   nav {
     width: 100%;
@@ -1198,6 +1262,7 @@ footer {
             letter-spacing: 1px;
             display: block;
             padding: 33px 0; }
+
   /* Hero Banner */
   .hero_banner {
     width: 100%;
@@ -1252,6 +1317,7 @@ footer {
           font-style: normal;
           line-height: 75px;
           margin-bottom: 20px; }
+
   /* Experience Section */
   #experience_section .experience_inner_wrapper {
     max-width: 2000px;
@@ -1270,6 +1336,7 @@ footer {
       #experience_section .experience_inner_wrapper .slide_wrapper .single_slide_wrapper {
         float: left;
         width: 400px; }
+
   /* About */
   #about {
     padding-top: 135px;
@@ -1308,15 +1375,18 @@ footer {
           width: 95px;
           top: -66px;
           right: 50px; }
+
   /* Meet Our Team */
   #meet_our_team {
     margin-top: -115px;
     padding: 110px 0 130px; }
+
   /* Awards */
   #awards .awards_inner {
     max-width: 1370px;
     height: auto;
     margin: 0 auto; }
+
   /* Second Experience Section */
   #experience_second_section {
     padding-top: 118px;
@@ -1356,9 +1426,11 @@ footer {
           width: 95px;
           top: -4px;
           left: 40px; }
+
   /* News Media */
   #news_updates {
     padding-bottom: 108px; }
+
   .news_loop_wrapper {
     max-width: 1400px;
     padding: 0 50px; }
@@ -1372,6 +1444,7 @@ footer {
       width: 20%;
       margin-left: 0;
       margin-top: 144px; }
+
   .news_content_wrapper {
     float: left;
     margin: 15px 0px 17px 3%;
@@ -1400,6 +1473,7 @@ footer {
       float: left; }
       .news_content_wrapper .inner_news_content p {
         padding-right: 20px; }
+
   /* Footer */
   footer {
     background: transparent; }
@@ -1417,10 +1491,12 @@ footer {
           max-width: 100%; }
           footer .inner_footer .address_box_desktop_pattern .address_box a.tel {
             margin-bottom: 50px; }
+
   .social_media {
     padding-top: 190px; }
     .social_media .social_media_wrapper .sm_icon {
       margin: 0 30px; }
+
   .copyright {
     overflow: hidden;
     text-align: left;
@@ -1445,12 +1521,12 @@ footer {
       .copyright a.dark_logo img {
         max-width: 100%;
         height: auto; } }
-
 /* Media Query */
 @media screen and (min-width: 1400px) {
   /* Experience Section */
   #experience_section .experience_content {
     padding: 135px 80px; }
+
   /* Meet Our Team */
   #meet_our_team {
     margin-top: -215px;
@@ -1464,9 +1540,11 @@ footer {
       font-size: 40px;
       line-height: 60px;
       max-width: 1020px; }
+
   /* Second Experience Section */
   #experience_second_section .experience_inner_wrapper .ex_pic_wrapper {
     padding-right: 0; }
+
   /* News Updates */
   /* Request */
   #request {
@@ -1477,6 +1555,7 @@ footer {
       line-height: 55px; }
     #request span.sub_header {
       margin-bottom: 55px; }
+
   .form {
     max-width: 1336px;
     overflow: hidden;
@@ -1490,11 +1569,11 @@ footer {
         margin-bottom: 12px; }
     .form span.field_required {
       margin-right: 0px; } }
-
 /* Media Query */
 @media screen and (min-width: 1450px) {
   .news_loop_wrapper {
     padding: 0px; }
+
   /* Case Results */
   #case_results {
     background: url(images/result_bkg.jpg) top center no-repeat;
@@ -1542,12 +1621,12 @@ footer {
           max-width: 800px;
           height: 555px;
           padding: 100px 80px 235px; } }
-
 /* Media Query */
 @media screen and (min-width: 1700px) {
   #news_updates {
     margin-top: -330px;
     padding-top: 302px; }
+
   /* About */
   #about {
     padding-top: 135px;
@@ -1571,6 +1650,7 @@ footer {
         position: absolute;
         bottom: -11px;
         left: -400px; }
+
   /* Second Experience Section */
   #experience_second_section {
     overflow: hidden; }
@@ -1600,5 +1680,4 @@ footer {
       border-top: none;
       position: relative;
       margin: 0px auto 0; } }
-
 /* Media Query */
