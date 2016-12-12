@@ -930,7 +930,7 @@ footer {
 
 .content_wrapper {
 	padding:0 30px;
-	min-height: 700px;
+	min-height: 725px;
 }
 
 
@@ -1160,7 +1160,7 @@ footer {
 
 	.directory {
 		text-align: center;
-		margin-top:60px;
+		margin-top:70px;
 		ul {
 			list-style: none;
 			padding:0 30px;
@@ -1178,7 +1178,7 @@ footer {
 					font-size:15px;
 					letter-spacing: .55px;
 					display: block;
-					padding:20px 0;
+					padding:22px 0;
 					transition:all .2s ease-in-out;
 					&:hover {
 						color:$gold;
@@ -2492,7 +2492,7 @@ footer {
 		height:auto;
 		margin:0 auto;
 		.hero_banner_content {
-			top:42%;
+			top:40%;
 			max-width:750px;
 			margin-left:6%;
 			position: absolute;
@@ -2608,7 +2608,7 @@ footer {
 /* Practice Areas */
 
 .no_sidebar_wrapper {
-	padding:105px 50px 105px 0;
+	padding:105px 50px 145px 0;
 	
 	.header_wrapper {
 		max-width:1360px;
@@ -2917,7 +2917,7 @@ max-width:1700px;
 .sidebar_wrapper {
 	
 	float:left;
-	padding: 105px 70px 80px 50px;
+	padding: 105px 70px 105px 50px;
 	
 	ul.inner_page_list {
 // 		max-width:330px;
@@ -2939,7 +2939,7 @@ max-width:1700px;
 
 
 .content_wrapper {
-	padding:105px 0px 105px 125px;
+	padding:105px 0px 105px 180px;
 	float:right;
 	max-width:1400px;
 }
@@ -3325,6 +3325,14 @@ max-width:1700px;
 			}
 		}
 	}
+}
+
+.desktop_container_wrapper {
+    max-width: 1800px;
+}
+
+.sidebar_wrapper {
+	padding-left:0;
 }
 
 

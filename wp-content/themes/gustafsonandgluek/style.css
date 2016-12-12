@@ -450,6 +450,7 @@ a.green_button {
   padding-left: 30px;
   margin-bottom: 40px;
   display: block; }
+
 .news_loop_wrapper .news_info {
   border: 2px solid #b6995a;
   margin: 0 30px;
@@ -582,6 +583,7 @@ a.green_button {
       resize: none;
       width: 100%;
       height: 208px; }
+
 .form span.field_required {
   color: #fff;
   font-family: "Nimbus Sans TW01Bla";
@@ -720,7 +722,7 @@ footer {
 
 .content_wrapper {
   padding: 0 30px;
-  min-height: 700px; }
+  min-height: 725px; }
 
 .content {
   font-family: "Nimbus Sans TW01";
@@ -892,7 +894,7 @@ footer {
 
 .directory {
   text-align: center;
-  margin-top: 60px; }
+  margin-top: 70px; }
   .directory ul {
     list-style: none;
     padding: 0 30px; }
@@ -909,7 +911,7 @@ footer {
         font-size: 15px;
         letter-spacing: .55px;
         display: block;
-        padding: 20px 0;
+        padding: 22px 0;
         transition: all .2s ease-in-out; }
         .directory ul li a:hover {
           color: #b6995a; }
@@ -920,13 +922,10 @@ footer {
     max-width: 195px;
     padding: 12px 20px;
     float: left; }
-
   .inner_header_right {
     height: 74px; }
-
   .lower_header a.tel {
     font-size: 37px; }
-
   /* Hero Banner */
   .hero_banner {
     background: url(images/hero_ipad.jpg) top center no-repeat;
@@ -952,11 +951,9 @@ footer {
         margin-top: 5px;
         margin-bottom: 40px;
         line-height: 63px; }
-
   /* Free Consultation */
   .free_consultation {
     display: none; }
-
   /* Experience Section */
   #experience_section {
     padding: 0px 30px 68px; }
@@ -987,7 +984,6 @@ footer {
       width: 48%;
       float: right;
       padding-left: 3%; }
-
   /* About */
   #about {
     padding: 70px 50px 70px 0px; }
@@ -1017,7 +1013,6 @@ footer {
         width: 75px;
         top: -53px;
         right: 29px; }
-
   /* Meet Our Team */
   #meet_our_team span.large_header {
     margin-bottom: 30px; }
@@ -1027,7 +1022,6 @@ footer {
     line-height: 45px;
     max-width: 650px;
     margin: 0 auto 30px; }
-
   /* Case Results */
   #case_results {
     padding: 115px 50px 115px 0;
@@ -1051,7 +1045,6 @@ footer {
         padding: 28px 50px;
         display: inline-block;
         float: left; }
-
   .case_results_slide_wrapper {
     clear: both;
     padding-top: 80px;
@@ -1108,7 +1101,6 @@ footer {
             color: #fff;
             padding-left: 22px;
             margin-top: -13px; }
-
   /* Awards */
   #awards {
     padding-top: 150px; }
@@ -1120,7 +1112,6 @@ footer {
       text-align: left;
       display: block;
       margin-bottom: 27px; }
-
   /* Second Experience Section */
   #experience_second_section {
     padding: 80px 50px 80px 0; }
@@ -1144,12 +1135,10 @@ footer {
       #experience_second_section .experience_inner_wrapper .ex_pic_wrapper img.tritwo {
         width: 75px;
         top: -30px; }
-
   /* News Updates */
   #news_updates {
     padding-top: 114px;
     padding-bottom: 76px; }
-
   .news_loop_wrapper {
     overflow: hidden;
     max-width: 705px;
@@ -1180,7 +1169,6 @@ footer {
       float: left;
       margin-left: 15px;
       margin-right: 0; }
-
   .news_content_wrapper {
     padding: 135px 37px 67px;
     margin: 335px 20px 17px;
@@ -1193,7 +1181,6 @@ footer {
     .news_content_wrapper span.content_header {
       font-size: 45px;
       margin-bottom: 25px; }
-
   /* Request */
   #request {
     text-align: center;
@@ -1208,7 +1195,6 @@ footer {
       font-size: 17px;
       letter-spacing: 2.5px;
       margin-bottom: 45px; }
-
   .form ul li:after {
     content: "•";
     right: 19px; }
@@ -1244,16 +1230,13 @@ footer {
     letter-spacing: 5px;
     text-align: right;
     margin-right: 25px; }
-
   #gform_submit_button_1 {
     width: 50%;
     float: left;
     max-width: 325px;
     padding: 23px 0; }
-
   .validation_error {
     display: none; }
-
   .gfield_description, .validation_message {
     color: #ceb675;
     font-family: "Nimbus Sans TW01Bla";
@@ -1262,14 +1245,12 @@ footer {
     margin-top: 8px;
     letter-spacing: 0.85px;
     text-align: left; }
-
   /* Footer */
   footer .address_box {
     width: 100%;
     max-width: 520px;
     top: -60px;
     padding: 150px 15px 100px; }
-
   .social_media {
     margin-bottom: 60px; }
     .social_media .follow_us {
@@ -1277,7 +1258,6 @@ footer {
     .social_media .social_media_wrapper .sm_icon {
       margin: 0 45px;
       height: 40px; }
-
   .copyright {
     padding: 20px;
     font-size: 13px; }
@@ -1289,10 +1269,8 @@ footer {
     .copyright a.dark_logo {
       display: block;
       margin-top: 5px; }
-
   .ilawyer {
     display: none; }
-
   .sidebar_wrapper {
     overflow: hidden; }
     .sidebar_wrapper ul.blog_list {
@@ -1315,12 +1293,10 @@ footer {
           margin-left: 1%; }
         .sidebar_wrapper ul.inner_page_list li:nth-last-child(-2n+2) {
           border-bottom: #ccc solid 1px; }
-
   /* Practice Areas */
   .no_sidebar_wrapper {
     padding-right: 30px;
     overflow: hidden; }
-
   .directory ul {
     padding-right: 0px; }
     .directory ul li {
@@ -1331,6 +1307,7 @@ footer {
         float: right; }
       .directory ul li:last-of-type {
         border-bottom: none; } }
+
 /* Media Query */
 @media screen and (min-width: 1150px) {
   header {
@@ -1342,7 +1319,6 @@ footer {
     header .inner_header {
       max-width: 2000px;
       margin: 0 auto; }
-
   .logo {
     width: 200px;
     padding: 12px 0px;
@@ -1352,24 +1328,20 @@ footer {
     float: left;
     margin-left: 3%;
     margin-bottom: 10px; }
-
   .inner_header_right {
     display: none; }
-
   .lower_header {
     clear: none;
     float: right;
     background: transparent;
     padding-right: 30px;
     margin-top: 15px; }
-
   .lower_header {
     position: relative;
     z-index: 100;
     width: 300px;
     float: right;
     margin-right: 1%; }
-
   /* Nav */
   nav {
     width: 100%;
@@ -1396,7 +1368,6 @@ footer {
             letter-spacing: 1px;
             display: block;
             padding: 33px 0; }
-
   /* Hero Banner */
   .hero_banner {
     width: 100%;
@@ -1451,7 +1422,6 @@ footer {
           font-style: normal;
           line-height: 75px;
           margin-bottom: 20px; }
-
   /* Experience Section */
   #experience_section .experience_inner_wrapper {
     max-width: 2000px;
@@ -1470,7 +1440,6 @@ footer {
       #experience_section .experience_inner_wrapper .slide_wrapper .single_slide_wrapper {
         float: left;
         width: 400px; }
-
   /* About */
   #about {
     padding-top: 135px;
@@ -1509,18 +1478,15 @@ footer {
           width: 95px;
           top: -66px;
           right: 50px; }
-
   /* Meet Our Team */
   #meet_our_team {
     margin-top: -115px;
     padding: 110px 0 130px; }
-
   /* Awards */
   #awards .awards_inner {
     max-width: 1370px;
     height: auto;
     margin: 0 auto; }
-
   /* Second Experience Section */
   #experience_second_section {
     padding-top: 118px;
@@ -1560,11 +1526,9 @@ footer {
           width: 95px;
           top: -4px;
           left: 40px; }
-
   /* News Media */
   #news_updates {
     padding-bottom: 108px; }
-
   .news_loop_wrapper {
     max-width: 1400px;
     padding: 0 50px; }
@@ -1578,7 +1542,6 @@ footer {
       width: 20%;
       margin-left: 0;
       margin-top: 144px; }
-
   .news_content_wrapper {
     float: left;
     margin: 15px 0px 17px 3%;
@@ -1607,7 +1570,6 @@ footer {
       float: left; }
       .news_content_wrapper .inner_news_content p {
         padding-right: 20px; }
-
   /* Footer */
   footer {
     background: transparent; }
@@ -1625,12 +1587,10 @@ footer {
           max-width: 100%; }
           footer .inner_footer .address_box_desktop_pattern .address_box a.tel {
             margin-bottom: 50px; }
-
   .social_media {
     padding-top: 190px; }
     .social_media .social_media_wrapper .sm_icon {
       margin: 0 30px; }
-
   .copyright {
     overflow: hidden;
     text-align: left;
@@ -1655,7 +1615,6 @@ footer {
       .copyright a.dark_logo img {
         max-width: 100%;
         height: auto; }
-
   /* Internal Pages */
   .inner_banner {
     display: block;
@@ -1665,7 +1624,7 @@ footer {
       height: auto;
       margin: 0 auto; }
       .inner_banner .inner_hero_wrapper .hero_banner_content {
-        top: 42%;
+        top: 40%;
         max-width: 750px;
         margin-left: 6%;
         position: absolute; }
@@ -1710,12 +1669,10 @@ footer {
           letter-spacing: 0.65px;
           padding: 22px 48px;
           text-transform: lowercase; }
-
   .inner_container {
     background: url(images/element_pattern.png) top left repeat;
     overflow: hidden;
     padding: 0; }
-
   .sidebar_wrapper {
     width: 25%;
     float: left;
@@ -1734,13 +1691,11 @@ footer {
       width: 100%; }
       .sidebar_wrapper ul.inner_page_list li:nth-last-child(-2n+2) {
         border-bottom: none; }
-
   .content_wrapper {
     width: 75%;
     float: right;
     background: #fff;
     padding: 105px 70px; }
-
   .content h1 {
     font-size: 68px;
     letter-spacing: 0.15px;
@@ -1749,10 +1704,9 @@ footer {
     position: relative;
     width: 203vw;
     z-index: 1000; }
-
   /* Practice Areas */
   .no_sidebar_wrapper {
-    padding: 105px 50px 105px 0; }
+    padding: 105px 50px 145px 0; }
     .no_sidebar_wrapper .header_wrapper {
       max-width: 1360px;
       margin-left: auto;
@@ -1773,7 +1727,6 @@ footer {
         padding-bottom: 30px;
         padding-left: 50px;
         border: none; }
-
   .directory {
     max-width: 1360px;
     margin-left: auto;
@@ -1794,12 +1747,12 @@ footer {
           float: left; }
         .directory ul li:last-of-type {
           border-bottom: none; } }
+
 /* Media Query */
 @media screen and (min-width: 1400px) {
   /* Experience Section */
   #experience_section .experience_content {
     padding: 135px 80px; }
-
   /* Meet Our Team */
   #meet_our_team {
     margin-top: -215px;
@@ -1813,11 +1766,9 @@ footer {
       font-size: 40px;
       line-height: 60px;
       max-width: 1020px; }
-
   /* Second Experience Section */
   #experience_second_section .experience_inner_wrapper .ex_pic_wrapper {
     padding-right: 0; }
-
   /* News Updates */
   /* Request */
   #request {
@@ -1828,7 +1779,6 @@ footer {
       line-height: 55px; }
     #request span.sub_header {
       margin-bottom: 55px; }
-
   .form {
     max-width: 1336px;
     overflow: hidden;
@@ -1842,32 +1792,27 @@ footer {
         margin-bottom: 12px; }
     .form span.field_required {
       margin-right: 0px; }
-
   /* Internal Pages */
   .inner_banner .inner_hero_wrapper .hero_banner_content {
     margin-left: 200px; }
-
   .desktop_container_wrapper {
     max-width: 1700px; }
-
   .sidebar_wrapper {
     float: left;
-    padding: 105px 70px 80px 50px; }
+    padding: 105px 70px 105px 50px; }
     .sidebar_wrapper ul.inner_page_list {
       float: right; }
-
   .content_wrapper {
-    padding: 105px 0px 105px 125px;
+    padding: 105px 0px 105px 180px;
     float: right;
     max-width: 1400px; }
-
   .content .inner_content {
     max-width: 1000px; } }
+
 /* Media Query */
 @media screen and (min-width: 1450px) {
   .news_loop_wrapper {
     padding: 0px; }
-
   /* Case Results */
   #case_results {
     background: url(images/result_bkg.jpg) top center no-repeat;
@@ -1915,35 +1860,32 @@ footer {
           max-width: 800px;
           height: 555px;
           padding: 100px 80px 235px; } }
+
 /* Media Query */
 @media screen and (min-width: 1600px) {
   .inner_container {
     position: relative;
     display: flex;
     width: 100%; }
-
   .inner_flex_spacer {
     flex-grow: 1;
     float: left; }
     .inner_flex_spacer:last-of-type {
       background: #fff; }
-
   .desktop_container_wrapper {
     float: left;
     width: 98%; }
-
   .sidebar_wrapper {
     width: 20%;
     padding-left: 20px; }
-
   .content_wrapper {
     width: 80%; } }
+
 /* Media Query */
 @media screen and (min-width: 1700px) {
   #news_updates {
     margin-top: -330px;
     padding-top: 302px; }
-
   /* About */
   #about {
     padding-top: 135px;
@@ -1967,7 +1909,6 @@ footer {
         position: absolute;
         bottom: -11px;
         left: -400px; }
-
   /* Second Experience Section */
   #experience_second_section {
     overflow: hidden; }
@@ -1997,8 +1938,14 @@ footer {
       border-top: none;
       position: relative;
       margin: 0px auto 0; } }
+
 /* Media Query */
 @media screen and (min-width: 1950px) {
   .inner_banner .inner_hero_wrapper .hero_banner_content {
-    margin-left: 360px; } }
+    margin-left: 360px; }
+  .desktop_container_wrapper {
+    max-width: 1800px; }
+  .sidebar_wrapper {
+    padding-left: 0; } }
+
 /* Media Query */
