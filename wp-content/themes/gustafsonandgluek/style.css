@@ -1019,11 +1019,13 @@ a.directions_button {
   display: block;
   height: auto;
   margin: 0 auto 10px;
-  max-width: 100%; }
+  width: 100%;
+  max-width: 600px; }
 
 .bio_sidebar .bio_content {
-  margin-top: 60px;
-  padding: 0 30px; }
+  margin: 60px auto 0;
+  padding: 0 30px;
+  max-width: 600px; }
   .bio_sidebar .bio_content span.bio_sidebar_title {
     font-family: "Source Serif Pro";
     font-weight: 900;
@@ -1059,6 +1061,11 @@ a.directions_button {
       list-style: none;
       padding: 0 0 0 13px;
       line-height: 25px; }
+
+.bio_content_wrapper {
+  padding: 0 30px 75px;
+  max-width: 600px;
+  margin: 0 auto; }
 
 span.pull_quote {
   font-family: "Source Serif Pro";
@@ -1488,7 +1495,13 @@ span.pull_quote {
       .meet_the_team_wrapper a.team_link:nth-of-type(2n + 1) {
         margin-right: 4%; }
       .meet_the_team_wrapper a.team_link:nth-of-type(2n + 2) {
-        margin-right: 0; } }
+        margin-right: 0; }
+  /* Bio */
+  .bio_sidebar .bio_content {
+    padding: 0; }
+  .bio_content_wrapper {
+    padding-left: 0;
+    padding-right: 0; } }
 
 /* Media Query */
 @media screen and (min-width: 1035px) {

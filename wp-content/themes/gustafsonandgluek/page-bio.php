@@ -23,7 +23,7 @@ get_header(); ?>
 		<?php get_sidebar('bio'); ?>
 		
 		
-		<div class="content_wrapper">
+		<div class="bio_content_wrapper">
 		
 		
 			<div class="content">

@@ -1321,12 +1321,14 @@ footer {
 			 display: block;
 			 height: auto;
 			 margin: 0 auto 10px;
-			 max-width: 100%;
+			 width: 100%;
+			 max-width:600px;
 			 
 		}
 		.bio_content {
-			margin-top:60px;
+			margin:60px auto 0;
 			padding:0 30px;
+			max-width:600px;
 			span.bio_sidebar_title {
 				font-family: $sourceserif;
 				font-weight:900;
@@ -1369,6 +1371,13 @@ footer {
 				}
 			}
 		}
+	}
+	
+	
+	.bio_content_wrapper {
+		padding:0 30px 75px;
+		max-width:600px;
+		margin:0 auto;
 	}
 	
 	span.pull_quote {
@@ -2246,7 +2255,50 @@ footer {
 	}
 	
 	
+	/* Bio */
 	
+	
+	.bio_sidebar {
+		
+		h1 {
+			
+		}
+		img {
+			 
+			 
+		}
+		.bio_content {
+			padding:0;
+			span.bio_sidebar_title {
+				
+			}
+			a {
+				
+				&:hover {
+					
+				}
+			}
+			p {
+				
+			}
+			ul {
+				
+				li {
+					
+				}
+			}
+		}
+	}
+	
+	
+	.bio_content_wrapper {
+		padding-left:0;
+		padding-right:0;
+	}
+	
+	span.pull_quote {
+		
+	} 
 
 
 
