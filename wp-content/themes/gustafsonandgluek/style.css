@@ -1326,11 +1326,9 @@ footer {
     .directory ul li {
       width: 48%; }
       .directory ul li:nth-of-type(2n + 1) {
-        float: left;
-        margin-right: 1%; }
+        float: left; }
       .directory ul li:nth-of-type(2n + 2) {
-        float: right;
-        margin-left: 1%; }
+        float: right; }
       .directory ul li:last-of-type {
         border-bottom: none; } }
 /* Media Query */
@@ -1719,10 +1717,10 @@ footer {
     padding: 0; }
 
   .sidebar_wrapper {
-    width: 30%;
+    width: 25%;
     float: left;
     background: transparent;
-    padding: 80px 40px; }
+    padding: 105px 40px; }
     .sidebar_wrapper ul.blog_list {
       width: 100%; }
       .sidebar_wrapper ul.blog_list:first-of-type {
@@ -1738,10 +1736,10 @@ footer {
         border-bottom: none; }
 
   .content_wrapper {
-    width: 70%;
+    width: 75%;
     float: right;
     background: #fff;
-    padding: 70px; }
+    padding: 105px 70px; }
 
   .content h1 {
     font-size: 68px;
@@ -1753,25 +1751,49 @@ footer {
     z-index: 1000; }
 
   /* Practice Areas */
-  .directory ul {
-    overflow: hidden; }
-    .directory ul li {
-      width: 30%;
-      float: left;
-      margin-right: 2%; }
-      .directory ul li:nth-of-type(2n + 1) {
-        float: left;
-        margin-right: 2%; }
-      .directory ul li:nth-of-type(2n + 2) {
-        float: left;
-        margin-left: 0%;
-        margin-right: 2%; }
-      .directory ul li:nth-of-type(3n + 3) {
-        float: left;
-        margin-left: 0%;
-        margin-right: 0%; }
-      .directory ul li:last-of-type {
-        border-bottom: none; } }
+  .no_sidebar_wrapper {
+    padding: 105px 50px 105px 0; }
+    .no_sidebar_wrapper .header_wrapper {
+      max-width: 1360px;
+      margin-left: auto;
+      margin-right: auto;
+      position: relative; }
+      .no_sidebar_wrapper .header_wrapper:after {
+        border-top: 1px solid #b6995a;
+        bottom: -10px;
+        content: "";
+        height: 11px;
+        right: 0px;
+        position: absolute;
+        width: 1000%; }
+      .no_sidebar_wrapper .header_wrapper span {
+        font-size: 68px;
+        letter-spacing: 0.15px;
+        margin-bottom: 53px;
+        padding-bottom: 30px;
+        padding-left: 50px;
+        border: none; }
+
+  .directory {
+    max-width: 1360px;
+    margin-left: auto;
+    margin-right: auto; }
+    .directory ul {
+      overflow: hidden;
+      padding-left: 50px; }
+      .directory ul li {
+        width: 30%;
+        float: left; }
+        .directory ul li:nth-of-type(3n + 1) {
+          margin-right: 5%; }
+        .directory ul li:nth-of-type(3n + 2) {
+          margin-right: 5%; }
+        .directory ul li:nth-of-type(2n + 1) {
+          float: left; }
+        .directory ul li:nth-of-type(2n + 2) {
+          float: left; }
+        .directory ul li:last-of-type {
+          border-bottom: none; } }
 /* Media Query */
 @media screen and (min-width: 1400px) {
   /* Experience Section */
@@ -1825,18 +1847,22 @@ footer {
   .inner_banner .inner_hero_wrapper .hero_banner_content {
     margin-left: 200px; }
 
+  .desktop_container_wrapper {
+    max-width: 1700px; }
+
   .sidebar_wrapper {
     float: left;
-    padding: 80px 70px; }
+    padding: 105px 70px 80px 50px; }
     .sidebar_wrapper ul.inner_page_list {
       float: right; }
 
   .content_wrapper {
+    padding: 105px 0px 105px 125px;
     float: right;
     max-width: 1400px; }
 
   .content .inner_content {
-    max-width: 975px; } }
+    max-width: 1000px; } }
 /* Media Query */
 @media screen and (min-width: 1450px) {
   .news_loop_wrapper {
@@ -1904,15 +1930,14 @@ footer {
 
   .desktop_container_wrapper {
     float: left;
-    width: 85%;
-    max-width: 1700px; }
+    width: 98%; }
 
   .sidebar_wrapper {
-    width: 25%;
-    padding-left: 0; }
+    width: 20%;
+    padding-left: 20px; }
 
   .content_wrapper {
-    width: 75%; } }
+    width: 80%; } }
 /* Media Query */
 @media screen and (min-width: 1700px) {
   #news_updates {
@@ -1973,7 +1998,7 @@ footer {
       position: relative;
       margin: 0px auto 0; } }
 /* Media Query */
-@media screen and (min-width: 1900px) {
+@media screen and (min-width: 1950px) {
   .inner_banner .inner_hero_wrapper .hero_banner_content {
-    margin-left: 260px; } }
+    margin-left: 360px; } }
 /* Media Query */

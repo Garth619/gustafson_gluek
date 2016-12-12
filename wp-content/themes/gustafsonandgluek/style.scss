@@ -1898,12 +1898,12 @@ footer {
 				width:48%;
 				&:nth-of-type(2n + 1) {
 					float:left;
-					margin-right:1%;
+					
 					
 				}
 				&:nth-of-type(2n + 2) {
 					float:right;
-					margin-left:1%;
+					
 				}
 				&:last-of-type {
 						border-bottom:none;
@@ -2554,10 +2554,10 @@ footer {
 
 
 .sidebar_wrapper {
-	width:30%;
+	width:25%;
 	float:left;
 	background: transparent;
-	padding:80px 40px;
+	padding:105px 40px;
 	ul.blog_list {
 		width:100%;
 		
@@ -2587,10 +2587,10 @@ footer {
 }
 
 .content_wrapper {
-	width:70%;
+	width:75%;
 	float:right;
 	background:#fff;
-	padding:70px;
+	padding:105px 70px;
 }
 
 .content {
@@ -2608,37 +2608,59 @@ footer {
 /* Practice Areas */
 
 .no_sidebar_wrapper {
+	padding:105px 50px 105px 0;
 	
 	.header_wrapper {
-		span {
+		max-width:1360px;
+		margin-left: auto;
+		margin-right:auto;
+		position: relative;
+		&:after {
 			
+    border-top: 1px solid #b6995a;
+    bottom: -10px;
+    content: "";
+    height: 11px;
+    right: 0px;
+    position: absolute;
+    width: 1000%;
+		}
+		span {
+			font-size: 68px;
+			letter-spacing: 0.15px;
+			margin-bottom: 53px;
+			padding-bottom: 30px;
+			padding-left:50px;
+			border:none;
 		}
 	}
 }
 
 	.directory {
-		
+		max-width:1360px;
+		margin-left: auto;
+		margin-right:auto;
 		ul {
 			overflow: hidden;
+			padding-left:50px;
 			li {
 				width:30%;
 				float:left;
-				margin-right:2%;
+// 				margin-right:2%;
+				&:nth-of-type(3n + 1) {
+					margin-right:5%;
+				}
+				&:nth-of-type(3n + 2) {
+					margin-right:5%;
+				}
 				&:nth-of-type(2n + 1) {
 					float:left;
-					margin-right:2%;
-					
 				}
 				&:nth-of-type(2n + 2) {
 					float:left;
-					margin-left:0%;
-					margin-right:2%;
+					
 				}
-				&:nth-of-type(3n + 3) {
-					float:left;
-					margin-left:0%;
-					margin-right:0%;
-				}
+				
 				&:last-of-type {
 						border-bottom:none;
 					}
@@ -2885,7 +2907,7 @@ footer {
 
 
 .desktop_container_wrapper {
-
+max-width:1700px;
 
 // 	margin:0 auto;
 // 	overflow:hidden;
@@ -2895,7 +2917,7 @@ footer {
 .sidebar_wrapper {
 	
 	float:left;
-	padding:80px 70px;
+	padding: 105px 70px 80px 50px;
 	
 	ul.inner_page_list {
 // 		max-width:330px;
@@ -2913,8 +2935,11 @@ footer {
 	}
 }
 
+
+
+
 .content_wrapper {
-	
+	padding:105px 0px 105px 125px;
 	float:right;
 	max-width:1400px;
 }
@@ -2924,7 +2949,7 @@ footer {
 		
 	}
 	.inner_content {
-		max-width:975px;
+		max-width:1000px;
 	}
 }
 
@@ -3082,15 +3107,15 @@ footer {
 
 .desktop_container_wrapper {
 	float:left;
-	width:85%;
-	max-width: 1700px;
+	width:98%;
+// 	max-width: 1700px;
 	
 }
 
 .sidebar_wrapper {
 	
-	width:25%;
-	padding-left: 0;
+	width:20%;
+	padding-left: 20px;
 	ul.inner_page_list {
 // 		margin-right:70px;
 		li {
@@ -3107,7 +3132,7 @@ footer {
 
 .content_wrapper {
 	
-	width:75%;
+	width:80%;
 	
 }
 
@@ -3275,14 +3300,14 @@ footer {
 
 
 
-@media screen and (min-width: 1900px) {
+@media screen and (min-width: 1950px) {
 
 .inner_banner {
 	
 	.inner_hero_wrapper {
 		
 		.hero_banner_content {
-			margin-left:260px;
+			margin-left:360px;
 			span.sub_header {
 				
 			}
