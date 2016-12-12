@@ -9,22 +9,53 @@
 
 get_header(); ?>
 
-	<div id="container">
-		<div id="content" role="main">
 
-			<div id="post-0" class="post error404 not-found">
-				<h1 class="entry-title"><?php _e( 'Not Found', 'twentyten' ); ?></h1>
-				<div class="entry-content">
-					<p><?php _e( 'Apologies, but the page you requested could not be found. Perhaps searching will help.', 'twentyten' ); ?></p>
-					<?php get_search_form(); ?>
-				</div><!-- .entry-content -->
-			</div><!-- #post-0 -->
+<?php include('banner.php');?>
 
-		</div><!-- #content -->
-	</div><!-- #container -->
-	<script type="text/javascript">
-		// focus on search field after it has loaded
-		document.getElementById('s') && document.getElementById('s').focus();
-	</script>
+
+<div class="inner_container">
+	
+	
+	<div class="inner_flex_spacer"></div><!-- inner_flex_spacer -->
+	
+	
+	<div class="desktop_container_wrapper">
+	
+		<div class="content_wrapper">
+		
+		
+			<div class="content">
+			
+				<h1 class="inner_header"><?php _e( 'Not Found', 'twentyten' ); ?></h1><!-- inner_header -->
+			
+				<div class="inner_content">
+			
+					<?php _e( 'Apologies, but the page you requested could not be found.', 'twentyten' ); ?>
+			
+				</div><!-- inner_content -->
+			
+			</div><!-- content -->
+		
+		
+		</div><!-- content_wrapper -->
+	
+		<?php get_sidebar(); ?>
+		
+		</div><!-- desktop_container_wrapper -->
+		
+		<div class="inner_flex_spacer"></div><!-- inner_flex_spacer -->
+	
+	</div><!-- inner_container -->
 
 <?php get_footer(); ?>
+
+	
+				
+				
+				
+				
+				
+				
+					
+				
+		

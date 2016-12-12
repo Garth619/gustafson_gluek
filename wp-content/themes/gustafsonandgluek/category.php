@@ -1,21 +1,36 @@
 <?php
 /**
- * Template for displaying Category Archive pages
- *
- * @package WordPress
- * @subpackage Twenty_Ten
- * @since Twenty Ten 1.0
+
  */
 
 get_header(); ?>
 
-		<div id="container">
-			<div id="content" role="main">
+		
+		
+		
+<?php include('banner.php');?>
 
-				<h1 class="page-title"><?php
+
+<div class="inner_container">
+	
+	
+	<div class="inner_flex_spacer"></div><!-- inner_flex_spacer -->
+	
+	
+	<div class="desktop_container_wrapper">
+	
+		<div class="content_wrapper">
+		
+		
+			<div class="content">
+			
+				<h1 class="inner_header"><?php
 					printf( __( 'Category Archives: %s', 'twentyten' ), '<span>' . single_cat_title( '', false ) . '</span>' );
-				?></h1>
-				<?php
+				?></h1><!-- inner_header -->
+			
+				<div class="inner_content">
+			
+					<?php
 					$category_description = category_description();
 					if ( ! empty( $category_description ) )
 						echo '<div class="archive-meta">' . $category_description . '</div>';
@@ -28,8 +43,24 @@ get_header(); ?>
 				get_template_part( 'loop', 'category' );
 				?>
 
-			</div><!-- #content -->
-		</div><!-- #container -->
+			
+				</div><!-- inner_content -->
+			
+			</div><!-- content -->
+		
+		
+		</div><!-- content_wrapper -->
+	
+		<?php get_sidebar('blog'); ?>
+		
+		</div><!-- desktop_container_wrapper -->
+		
+		<div class="inner_flex_spacer"></div><!-- inner_flex_spacer -->
+	
+	</div><!-- inner_container -->
 
-<?php get_sidebar(); ?>
 <?php get_footer(); ?>
+		
+		
+
+				

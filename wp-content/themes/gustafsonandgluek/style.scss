@@ -990,7 +990,7 @@ footer {
 	ul {
 		margin-bottom:35px;
 		li {
-			margin-bottom:15px;
+			margin-bottom:7px;
 			background:url(images/dot.jpg) no-repeat scroll 0 10px;
 			list-style: none;
 			padding: 0 0 0 19px;
@@ -1048,6 +1048,9 @@ footer {
 	a {
 		color:#c0a96b;
 		text-decoration: underline;
+		&:hover {
+			color:#45806e;
+		}
 	}
 }
 

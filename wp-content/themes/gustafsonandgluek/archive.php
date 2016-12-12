@@ -1,23 +1,40 @@
 <?php
 /**
- * Template for displaying Archive pages
- *
- * Used to display archive-type pages if nothing more specific matches a query.
- * For example, puts together date-based pages if no date.php file exists.
- *
- * @link https://codex.wordpress.org/Template_Hierarchy
- *
- * @package WordPress
- * @subpackage Twenty_Ten
- * @since Twenty Ten 1.0
+
  */
 
 get_header(); ?>
 
-		<div id="container">
-			<div id="content" role="main">
+		
+<?php include('banner.php');?>
 
-<?php
+
+<div class="inner_container">
+	
+	
+	<div class="inner_flex_spacer"></div><!-- inner_flex_spacer -->
+	
+	
+	<div class="desktop_container_wrapper">
+	
+		<div class="content_wrapper">
+		
+		
+			<div class="content">
+			
+				<h1 class="inner_header"><?php if ( is_day() ) : ?>
+				<?php printf( __( 'Daily Archives: <span>%s</span>', 'twentyten' ), get_the_date() ); ?>
+<?php elseif ( is_month() ) : ?>
+				<?php printf( __( 'Monthly Archives: <span>%s</span>', 'twentyten' ), get_the_date( _x( 'F Y', 'monthly archives date format', 'twentyten' ) ) ); ?>
+<?php elseif ( is_year() ) : ?>
+				<?php printf( __( 'Yearly Archives: <span>%s</span>', 'twentyten' ), get_the_date( _x( 'Y', 'yearly archives date format', 'twentyten' ) ) ); ?>
+<?php else : ?>
+				<?php _e( 'Blog Archives', 'twentyten' ); ?>
+<?php endif; ?></h1><!-- inner_header -->
+			
+				<div class="inner_content">
+			
+					<?php
 	/*
 	 * Queue the first post, that way we know
 	 * what date we're dealing with (if that is the case).
@@ -29,17 +46,6 @@ get_header(); ?>
 		the_post();
 ?>
 
-			<h1 class="page-title">
-<?php if ( is_day() ) : ?>
-				<?php printf( __( 'Daily Archives: <span>%s</span>', 'twentyten' ), get_the_date() ); ?>
-<?php elseif ( is_month() ) : ?>
-				<?php printf( __( 'Monthly Archives: <span>%s</span>', 'twentyten' ), get_the_date( _x( 'F Y', 'monthly archives date format', 'twentyten' ) ) ); ?>
-<?php elseif ( is_year() ) : ?>
-				<?php printf( __( 'Yearly Archives: <span>%s</span>', 'twentyten' ), get_the_date( _x( 'Y', 'yearly archives date format', 'twentyten' ) ) ); ?>
-<?php else : ?>
-				<?php _e( 'Blog Archives', 'twentyten' ); ?>
-<?php endif; ?>
-			</h1>
 
 <?php
 	/*
@@ -57,8 +63,25 @@ get_header(); ?>
 	get_template_part( 'loop', 'archive' );
 ?>
 
-			</div><!-- #content -->
-		</div><!-- #container -->
 
-<?php get_sidebar(); ?>
-<?php get_footer(); ?>
+			
+				</div><!-- inner_content -->
+			
+			</div><!-- content -->
+		
+		
+		</div><!-- content_wrapper -->
+	
+		<?php get_sidebar('blog'); ?>
+		
+		</div><!-- desktop_container_wrapper -->
+		
+		<div class="inner_flex_spacer"></div><!-- inner_flex_spacer -->
+	
+	</div><!-- inner_container -->
+
+<?php get_footer(); ?>		
+		
+		
+
+

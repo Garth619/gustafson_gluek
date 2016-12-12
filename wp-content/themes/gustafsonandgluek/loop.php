@@ -140,15 +140,11 @@
 	<?php if ( is_archive() || is_search() ) : // Only display excerpts for archives and search. ?>
 			<div class="entry-summary">
 				
+				<?php the_excerpt(); ?>
+				
 			</div><!-- .entry-summary -->
 	<?php else : ?>
 			
-			
-			
-			
-				
-				
-				
 				<?php the_excerpt(); ?>
 				<?php wp_link_pages( array( 'before' => '<div class="page-link">' . __( 'Pages:', 'twentyten' ), 'after' => '</div>' ) ); ?>
 			

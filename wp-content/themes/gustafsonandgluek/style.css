@@ -772,7 +772,7 @@ footer {
   .content ul {
     margin-bottom: 35px; }
     .content ul li {
-      margin-bottom: 15px;
+      margin-bottom: 7px;
       background: url(images/dot.jpg) no-repeat scroll 0 10px;
       list-style: none;
       padding: 0 0 0 19px; }
@@ -817,6 +817,8 @@ footer {
   .entry-utility a {
     color: #c0a96b;
     text-decoration: underline; }
+    .entry-utility a:hover {
+      color: #45806e; }
 
 .sidebar_wrapper {
   background: url(images/element_pattern.png) top left repeat;
