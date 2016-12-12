@@ -847,7 +847,7 @@ footer {
           border-top: solid #ccc 1px;
           font-family: "Source Serif Pro";
           font-weight: 900;
-          font-style: none; }
+          font-style: normal; }
           .sidebar_wrapper ul.blog_list > li ul li a {
             color: #000;
             text-decoration: none;
@@ -1002,6 +1002,74 @@ a.directions_button {
           transition: all .2s ease-in-out; }
           .meet_the_team_wrapper a.team_link .single_profile_wrapper .profile_caption span.view_profile:hover {
             color: #45806e; }
+
+/* Bio */
+.bio_sidebar h1 {
+  border-bottom: 1px solid #b6995a;
+  color: #193334;
+  font-family: "Source Serif Pro";
+  font-size: 42px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 49px;
+  padding: 0 30px 10px;
+  margin: 0 0px 35px; }
+
+.bio_sidebar img {
+  display: block;
+  height: auto;
+  margin: 0 auto 10px;
+  max-width: 100%; }
+
+.bio_sidebar .bio_content {
+  margin-top: 60px;
+  padding: 0 30px; }
+  .bio_sidebar .bio_content span.bio_sidebar_title {
+    font-family: "Source Serif Pro";
+    font-weight: 900;
+    font-style: normal;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    display: block; }
+  .bio_sidebar .bio_content a {
+    color: #b6995a;
+    text-decoration: underline;
+    transition: all 0.2s ease-in-out; }
+    .bio_sidebar .bio_content a:hover {
+      color: #45806e; }
+  .bio_sidebar .bio_content p {
+    font-family: "Source Serif Pro";
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+    margin-bottom: 39px;
+    list-style: none;
+    line-height: 25px; }
+  .bio_sidebar .bio_content ul {
+    margin-bottom: 39px; }
+    .bio_sidebar .bio_content ul li {
+      font-family: "Source Serif Pro";
+      font-weight: 600;
+      font-style: normal;
+      font-size: 16px;
+      margin-bottom: 7px;
+      background: url(images/dot-small.png) no-repeat scroll 0 10px;
+      list-style: none;
+      padding: 0 0 0 13px;
+      line-height: 25px; }
+
+span.pull_quote {
+  font-family: "Source Serif Pro";
+  font-weight: 900;
+  font-style: normal;
+  line-height: 46px;
+  font-size: 30px;
+  color: #45806e;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  display: block; }
 
 @media screen and (min-width: 390px) {
   /* Contact Us */

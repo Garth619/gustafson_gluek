@@ -7351,6 +7351,14 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/wp-content\/themes\/gustafsonandgluek\/images\/dot-small.png": {
+		"ft": 32768,
+		"iS": 982,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/images\/dot-small.png",
+		"oF": 0,
+		"opt": 1
+		},
 	"\/wp-content\/themes\/gustafsonandgluek\/images\/dot.jpg": {
 		"ft": 16384,
 		"iS": 1193,
@@ -7771,6 +7779,12 @@
 		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/loop.php",
 		"oF": 0
 		},
+	"\/wp-content\/themes\/gustafsonandgluek\/page-bio.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/page-bio.php",
+		"oF": 0
+		},
 	"\/wp-content\/themes\/gustafsonandgluek\/page-contact.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -7829,6 +7843,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/search.php",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/gustafsonandgluek\/sidebar-bio.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/sidebar-bio.php",
 		"oF": 0
 		},
 	"\/wp-content\/themes\/gustafsonandgluek\/sidebar-blog.php": {
