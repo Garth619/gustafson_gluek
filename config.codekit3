@@ -7601,7 +7601,7 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/images\/profile_gustafson.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/wp-content\/themes\/gustafsonandgluek\/images\/profile_placeholder.jpg": {
 		"ft": 16384,
@@ -7787,6 +7787,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/page-practiceareas.php",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/gustafsonandgluek\/page-team.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/page-team.php",
 		"oF": 0
 		},
 	"\/wp-content\/themes\/gustafsonandgluek\/page.php": {

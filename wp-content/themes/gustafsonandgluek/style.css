@@ -963,6 +963,46 @@ a.directions_button {
     height: 325px;
     max-width: 700px; }
 
+/* Meet the Team */
+.meet_the_team_wrapper {
+  width: 100%;
+  margin-top: 70px;
+  text-align: center; }
+  .meet_the_team_wrapper a.team_link {
+    text-decoration: none;
+    display: block;
+    max-width: 470px;
+    margin: 0 auto 45px; }
+    .meet_the_team_wrapper a.team_link .single_profile_wrapper {
+      width: 100%; }
+      .meet_the_team_wrapper a.team_link .single_profile_wrapper img {
+        max-width: 100%;
+        height: auto;
+        display: block; }
+      .meet_the_team_wrapper a.team_link .single_profile_wrapper .profile_caption {
+        background: url(images/element_pattern.png) top left repeat;
+        padding: 48px 10px; }
+        .meet_the_team_wrapper a.team_link .single_profile_wrapper .profile_caption span.caption_title {
+          font-family: "Source Serif Pro";
+          font-weight: 900;
+          font-style: normal;
+          color: #193334;
+          text-transform: uppercase;
+          letter-spacing: 1.85px;
+          display: block;
+          margin-bottom: 20px;
+          font-size: 22px; }
+        .meet_the_team_wrapper a.team_link .single_profile_wrapper .profile_caption span.view_profile {
+          color: #b6995a;
+          font-family: "Nimbus Sans TW01Bla";
+          font-size: 14px;
+          text-transform: uppercase;
+          letter-spacing: 2.5px;
+          text-decoration: underline;
+          transition: all .2s ease-in-out; }
+          .meet_the_team_wrapper a.team_link .single_profile_wrapper .profile_caption span.view_profile:hover {
+            color: #45806e; }
+
 @media screen and (min-width: 390px) {
   /* Contact Us */
   br.mobile {
@@ -1369,7 +1409,27 @@ a.directions_button {
   .address_icons_wrapper {
     width: 50%;
     float: left;
-    margin: 0 0 55px 0; } }
+    margin: 0 0 55px 0; }
+  /* Meet the Team */
+  .meet_the_team_wrapper {
+    padding-left: 30px;
+    overflow: hidden; }
+    .meet_the_team_wrapper a.team_link {
+      width: 48%;
+      float: left; }
+      .meet_the_team_wrapper a.team_link:nth-of-type(2n + 1) {
+        margin-right: 4%; }
+      .meet_the_team_wrapper a.team_link:nth-of-type(2n + 2) {
+        margin-right: 0; } }
+
+/* Media Query */
+@media screen and (min-width: 1035px) {
+  /* Meet the Team */
+  .meet_the_team_wrapper {
+    padding-left: 0px;
+    max-width: 980px;
+    margin-left: auto;
+    margin-right: auto; } }
 
 /* Media Query */
 @media screen and (min-width: 1150px) {
@@ -1636,19 +1696,23 @@ a.directions_button {
   /* Footer */
   footer {
     background: transparent; }
-    footer .inner_footer {
+    footer 1
+.inner_footer {
       max-width: 1725px;
       margin: 0 auto;
       padding: 0 25px; }
-      footer .inner_footer .address_box_desktop_pattern {
+      footer 1
+.inner_footer .address_box_desktop_pattern {
         background: url(images/element_pattern.png) top left repeat #fff;
         float: right;
         padding: 0 90px 27px;
         margin-top: -91px; }
-        footer .inner_footer .address_box_desktop_pattern .address_box {
+        footer 1
+.inner_footer .address_box_desktop_pattern .address_box {
           padding: 160px 145px 130px;
           max-width: 100%; }
-          footer .inner_footer .address_box_desktop_pattern .address_box a.tel {
+          footer 1
+.inner_footer .address_box_desktop_pattern .address_box a.tel {
             margin-bottom: 50px; }
   .social_media {
     padding-top: 190px; }
@@ -1809,7 +1873,17 @@ a.directions_button {
         .directory ul li:nth-of-type(2n + 2) {
           float: left; }
         .directory ul li:last-of-type {
-          border-bottom: none; } }
+          border-bottom: none; }
+  /* Meet the Team */
+  .meet_the_team_wrapper {
+    max-width: 1475px;
+    padding-left: 50px; }
+    .meet_the_team_wrapper a.team_link {
+      width: 30%; }
+      .meet_the_team_wrapper a.team_link:nth-of-type(2n + 1) {
+        margin-right: 3%; }
+      .meet_the_team_wrapper a.team_link:nth-of-type(2n + 2) {
+        margin-right: 3%; } }
 
 /* Media Query */
 @media screen and (min-width: 1400px) {
