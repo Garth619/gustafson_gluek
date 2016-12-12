@@ -46,10 +46,4 @@ get_header(); ?>
 	
 	</div><!-- inner_container -->
 
-
-
-
-
-
-
 <?php get_footer(); ?>

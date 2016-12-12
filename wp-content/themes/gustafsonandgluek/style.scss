@@ -930,6 +930,7 @@ footer {
 
 .content_wrapper {
 	padding:0 30px;
+	min-height: 700px;
 }
 
 
@@ -958,6 +959,10 @@ footer {
 		font-family: $sourceserif;
 		font-weight: bold;
 		font-style: normal;
+		letter-spacing: 1.85px;
+		a {
+			color:#45806e;
+		}
 	}
 	h3 {
 		font-family: $sourceserif;
@@ -999,6 +1004,50 @@ footer {
 		&:hover {
 			color:$gold;
 		}
+	}
+}
+
+#nav-above {
+	display: none;
+}
+
+#nav-below {
+	margin-top:35px;
+}
+
+.post {
+	padding-bottom:65px;
+	border-bottom: #959595 solid 1px;
+	&:last-of-type {
+		border-bottom: none;
+	}
+	&:not(:first-of-type) {
+		padding-top:65px;
+	}
+	
+}
+
+
+.entry-meta {
+	font-size:14px;
+	margin-top:-9px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 0.9px;
+	margin-bottom:15px;
+	font-family: $nimbusblack;
+}
+
+.entry-utility {
+	color:#c0a96b;
+	font-size:14px;
+	text-transform: uppercase;
+	letter-spacing: 0.9px;
+	margin-top:-14px;
+	font-family: $nimbusbold;
+	a {
+		color:#c0a96b;
+		text-decoration: underline;
 	}
 }
 

@@ -719,7 +719,8 @@ footer {
   padding: 65px 0 0; }
 
 .content_wrapper {
-  padding: 0 30px; }
+  padding: 0 30px;
+  min-height: 700px; }
 
 .content {
   font-family: "Nimbus Sans TW01";
@@ -744,7 +745,10 @@ footer {
     color: #45806e;
     font-family: "Source Serif Pro";
     font-weight: bold;
-    font-style: normal; }
+    font-style: normal;
+    letter-spacing: 1.85px; }
+    .content h2 a {
+      color: #45806e; }
   .content h3 {
     font-family: "Source Serif Pro";
     font-weight: bold;
@@ -779,6 +783,40 @@ footer {
     transition: all .2s ease-in-out; }
     .content a:hover {
       color: #b6995a; }
+
+#nav-above {
+  display: none; }
+
+#nav-below {
+  margin-top: 35px; }
+
+.post {
+  padding-bottom: 65px;
+  border-bottom: #959595 solid 1px; }
+  .post:last-of-type {
+    border-bottom: none; }
+  .post:not(:first-of-type) {
+    padding-top: 65px; }
+
+.entry-meta {
+  font-size: 14px;
+  margin-top: -9px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.9px;
+  margin-bottom: 15px;
+  font-family: "Nimbus Sans TW01Bla"; }
+
+.entry-utility {
+  color: #c0a96b;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.9px;
+  margin-top: -14px;
+  font-family: "Nimbus Sans TW01 Bold"; }
+  .entry-utility a {
+    color: #c0a96b;
+    text-decoration: underline; }
 
 .sidebar_wrapper {
   background: url(images/element_pattern.png) top left repeat;
