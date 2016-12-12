@@ -1,16 +1,16 @@
 <div class="sidebar_wrapper">
 	
-	<span class="archive_title">Month</span><!-- archive_title -->
+<!-- 	<span class="archive_title">Month</span> --><!-- archive_title -->
 	
-	<ul>
+	<ul class="blog_list">
 		<?php dynamic_sidebar( 'archive-area' ); ?>
 	</ul>
 	
 <!-- 	<span class="archive_title">Categories</span><!-- archive_title -->
 	
-	<ul>
+	<ul class="blog_list">
 	
-		<?php wp_list_categories(); ?>
+		<?php dynamic_sidebar( 'category-area' ); ?>
 
 	</ul>
 	

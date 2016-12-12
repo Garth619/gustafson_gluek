@@ -428,6 +428,17 @@ function twentyten_widgets_init() {
 		'before_title' => '<h3 class="widget-title">',
 		'after_title' => '</h3>',
 	) );
+	
+	// Area 2, located at the top of the sidebar.
+	register_sidebar( array(
+		'name' => __( 'Category Area', 'twentyten' ),
+		'id' => 'category-area',
+		'description' => __( 'Add widgets here to appear in your sidebar.', 'twentyten' ),
+		'before_widget' => '<li id="%1$s" class="widget-container %2$s">',
+		'after_widget' => '</li>',
+		'before_title' => '<h3 class="widget-title">',
+		'after_title' => '</h3>',
+	) );
 
 	}
 /** Register sidebars by running twentyten_widgets_init() on the widgets_init hook. */

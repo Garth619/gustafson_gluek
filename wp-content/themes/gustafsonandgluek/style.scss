@@ -1061,16 +1061,49 @@ footer {
 	font-weight:900;
 	font-style: normal;
 	padding:45px 30px;
-	span.archive_title {
-		color:#c0a96b;
-		display: block;
-		font-family: $nimbusblack;
-		font-size:14px;
-		letter-spacing: 1.85px;
-		text-transform: uppercase;
-		padding-bottom: 15px;
+	ul.blog_list {
+		margin-bottom: 85px;
+		> li {
+			color:#c0a96b;
+			display: block;
+			font-family: $nimbusblack;
+			font-size:14px;
+			letter-spacing: 1.85px;
+			text-transform: uppercase;
+			
+			.widget-title {
+				border-bottom: 4px solid #ccc;
+				padding-bottom:15px;
+			}
+			ul {
+				list-style: none;
+				li {
+					border-top:solid #ccc 1px;
+					font-family: $sourceserif;
+					font-weight: 900;
+					font-style: none;
+					a {
+						color:#000;
+						text-decoration: none;
+						display: block;
+						padding:20px 0;
+						transition:all .2s ease-in-out;
+						&:hover {
+						color:$gold;
+					}
+					}
+				}
+				li:last-of-type {
+					border-bottom:solid #ccc 1px;
+				}
+				li:first-of-type {
+					border-top:none;
+				}
+			}
+			
+		}
 	}
-	ul {
+	ul.inner_page_list {
 		list-style: none;
 		width:100%;
 		li {
@@ -1090,21 +1123,11 @@ footer {
 			border-bottom:solid #ccc 1px;
 		}
 	}
+
 }
 
 
-body.blog {
-	.sidebar_wrapper {
-		span.archive_title {
-			border-bottom: 4px solid #ccc;
-			ul {
-				li:first-of-type {
-					border-top:none;
-				}
-			}
-		}
-	}
-}
+
 
 
 
@@ -1753,8 +1776,19 @@ footer {
 
 
 .sidebar_wrapper {
-	
-	ul {
+	overflow: hidden;
+	ul.blog_list {
+		width:49%;
+		&:first-of-type {
+				float:left;
+				margin-right:1%;
+			}
+			&:last-of-type {
+				float:right;
+				margin-left:1%;
+			}
+	}
+	ul.inner_page_list {
 		overflow: hidden;
 		li {
 			width:49%;
@@ -2430,7 +2464,19 @@ footer {
 	float:left;
 	background: transparent;
 	padding:80px 40px;
-	ul {
+	ul.blog_list {
+		width:100%;
+		
+		&:first-of-type {
+				float:none;
+				margin-right:0;
+			}
+			&:last-of-type {
+				float:right;
+				margin-left:0;
+			}
+	}
+	ul.inner_page_list {
 // 		margin:0px 60px;
 
 		li {
@@ -2713,9 +2759,9 @@ footer {
 .sidebar_wrapper {
 	
 	float:left;
-	padding:80px 70px 80px 0;
+	padding:80px 70px;
 	
-	ul {
+	ul.inner_page_list {
 // 		max-width:330px;
 // 		margin: 0 50px;
 		float:right;
@@ -2908,8 +2954,8 @@ footer {
 .sidebar_wrapper {
 	
 	width:25%;
-	
-	ul {
+	padding-left: 0;
+	ul.inner_page_list {
 // 		margin-right:70px;
 		li {
 			
