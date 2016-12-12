@@ -916,6 +916,59 @@ footer {
         .directory ul li a:hover {
           color: #b6995a; }
 
+/* Contact Us */
+br.mobile {
+  display: none; }
+
+a.adress {
+  font-size: 20px;
+  font-family: "Source Serif Pro";
+  font-weight: 900;
+  font-style: normal;
+  line-height: 30px;
+  display: block;
+  margin-bottom: 30px; }
+
+a.directions_button {
+  border: 2px #b6995a solid;
+  padding: 8px 28px;
+  display: inline-block;
+  font-size: 14px;
+  font-family: "Nimbus Sans TW01Bla";
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: #b6995a; }
+
+.address_icons_wrapper {
+  font-family: "Source Serif Pro";
+  font-weight: 900;
+  font-style: normal;
+  font-size: 25px;
+  letter-spacing: 0.15px;
+  margin-top: 30px;
+  width: 100%;
+  overflow: hidden; }
+  .address_icons_wrapper img, .address_icons_wrapper a {
+    float: left; }
+  .address_icons_wrapper img {
+    width: 49px; }
+  .address_icons_wrapper a {
+    margin-top: 5px;
+    margin-left: 30px; }
+
+.map {
+  margin-top: 45px; }
+  .map iframe {
+    width: 100%;
+    height: 325px;
+    max-width: 700px; }
+
+@media screen and (min-width: 390px) {
+  /* Contact Us */
+  br.mobile {
+    display: inline-block; } }
+
+/* Media Query */
 @media screen and (min-width: 730px) {
   /* Header */
   .logo {
@@ -1306,7 +1359,17 @@ footer {
       .directory ul li:nth-of-type(2n + 2) {
         float: right; }
       .directory ul li:last-of-type {
-        border-bottom: none; } }
+        border-bottom: none; }
+  /* Contact Us */
+  .address_wrapper {
+    width: 50%;
+    float: left; }
+  a.adress {
+    margin-bottom: 20px; }
+  .address_icons_wrapper {
+    width: 50%;
+    float: left;
+    margin: 0 0 55px 0; } }
 
 /* Media Query */
 @media screen and (min-width: 1150px) {
@@ -1807,7 +1870,8 @@ footer {
     float: right;
     max-width: 1400px; }
   .content .inner_content {
-    max-width: 1000px; } }
+    max-width: 1000px;
+    padding-right: 50px; } }
 
 /* Media Query */
 @media screen and (min-width: 1450px) {
@@ -1879,7 +1943,10 @@ footer {
     width: 20%;
     padding-left: 20px; }
   .content_wrapper {
-    width: 80%; } }
+    width: 80%; }
+  .address_wrapper {
+    width: 42%;
+    float: left; } }
 
 /* Media Query */
 @media screen and (min-width: 1700px) {
@@ -1937,7 +2004,10 @@ footer {
     #experience_second_section .experience_inner_wrapper {
       border-top: none;
       position: relative;
-      margin: 0px auto 0; } }
+      margin: 0px auto 0; }
+  .content .inner_content {
+    max-width: 1000px;
+    padding-right: 0px; } }
 
 /* Media Query */
 @media screen and (min-width: 1950px) {

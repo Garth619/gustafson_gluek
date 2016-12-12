@@ -7587,6 +7587,14 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/wp-content\/themes\/gustafsonandgluek\/images\/printer-icon.png": {
+		"ft": 32768,
+		"iS": 2228,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/images\/printer-icon.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/wp-content\/themes\/gustafsonandgluek\/images\/profile_gustafson.jpg": {
 		"ft": 16384,
 		"iS": 224525,
@@ -7713,6 +7721,14 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/wp-content\/themes\/gustafsonandgluek\/images\/tel-icon.png": {
+		"ft": 32768,
+		"iS": 2952,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/images\/tel-icon.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/wp-content\/themes\/gustafsonandgluek\/index.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -7753,6 +7769,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/loop.php",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/gustafsonandgluek\/page-contact.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/page-contact.php",
 		"oF": 0
 		},
 	"\/wp-content\/themes\/gustafsonandgluek\/page-main.php": {
