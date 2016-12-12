@@ -1132,7 +1132,63 @@ footer {
 
 
 
+/* Practice Areas */
 
+
+.no_sidebar_wrapper {
+	padding:65px 0;
+}
+
+.no_sidebar_wrapper {
+	.header_wrapper {
+		span {
+			border-bottom: 1px solid #b6995a;
+			color: #193334;
+			font-family: $sourceserif;
+			font-size: 42px;
+			font-style: normal;
+			font-weight: bold;
+			line-height: 49px;
+			margin-bottom: 35px;
+			padding:0 30px 10px;
+			display: block;
+			
+		}
+	}
+
+}
+
+	.directory {
+		text-align: center;
+		margin-top:60px;
+		ul {
+			list-style: none;
+			padding:0 30px;
+			li {
+				font-family: $sourceserif;
+				font-weight: 900;
+				font-style: normal;
+				border-top:1px solid #ccc;
+				&:last-of-type {
+					border-bottom:1px solid #ccc;
+				}
+				a {
+					text-decoration: none;
+					color:$greendark;
+					font-size:15px;
+					letter-spacing: .55px;
+					display: block;
+					padding:20px 0;
+					transition:all .2s ease-in-out;
+					&:hover {
+						color:$gold;
+					}
+				}
+			}
+		}
+	}
+
+ 
 
 
 @media screen and (min-width: 730px) {
@@ -1819,7 +1875,42 @@ footer {
 
 
 
+/* Practice Areas */
 
+
+.no_sidebar_wrapper {
+	padding-right:30px;
+	overflow: hidden;
+	.header_wrapper {
+		span {
+			
+			
+		}
+	}
+
+}
+
+	.directory {
+		
+		ul {
+			padding-right:0px;
+			li {
+				width:48%;
+				&:nth-of-type(2n + 1) {
+					float:left;
+					margin-right:1%;
+					
+				}
+				&:nth-of-type(2n + 2) {
+					float:right;
+					margin-left:1%;
+				}
+				&:last-of-type {
+						border-bottom:none;
+					}
+			}
+		}
+	}
 
 
 
@@ -2513,6 +2604,48 @@ footer {
     z-index: 1000;
 	}
 }
+
+/* Practice Areas */
+
+.no_sidebar_wrapper {
+	
+	.header_wrapper {
+		span {
+			
+		}
+	}
+}
+
+	.directory {
+		
+		ul {
+			overflow: hidden;
+			li {
+				width:30%;
+				float:left;
+				margin-right:2%;
+				&:nth-of-type(2n + 1) {
+					float:left;
+					margin-right:2%;
+					
+				}
+				&:nth-of-type(2n + 2) {
+					float:left;
+					margin-left:0%;
+					margin-right:2%;
+				}
+				&:nth-of-type(3n + 3) {
+					float:left;
+					margin-left:0%;
+					margin-right:0%;
+				}
+				&:last-of-type {
+						border-bottom:none;
+					}
+			}
+		}
+	}
+
 
 	
 	

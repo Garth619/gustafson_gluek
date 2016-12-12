@@ -874,6 +874,46 @@ footer {
     .sidebar_wrapper ul.inner_page_list li:last-of-type {
       border-bottom: solid #ccc 1px; }
 
+/* Practice Areas */
+.no_sidebar_wrapper {
+  padding: 65px 0; }
+
+.no_sidebar_wrapper .header_wrapper span {
+  border-bottom: 1px solid #b6995a;
+  color: #193334;
+  font-family: "Source Serif Pro";
+  font-size: 42px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 49px;
+  margin-bottom: 35px;
+  padding: 0 30px 10px;
+  display: block; }
+
+.directory {
+  text-align: center;
+  margin-top: 60px; }
+  .directory ul {
+    list-style: none;
+    padding: 0 30px; }
+    .directory ul li {
+      font-family: "Source Serif Pro";
+      font-weight: 900;
+      font-style: normal;
+      border-top: 1px solid #ccc; }
+      .directory ul li:last-of-type {
+        border-bottom: 1px solid #ccc; }
+      .directory ul li a {
+        text-decoration: none;
+        color: #193334;
+        font-size: 15px;
+        letter-spacing: .55px;
+        display: block;
+        padding: 20px 0;
+        transition: all .2s ease-in-out; }
+        .directory ul li a:hover {
+          color: #b6995a; }
+
 @media screen and (min-width: 730px) {
   /* Header */
   .logo {
@@ -1274,7 +1314,25 @@ footer {
           float: right;
           margin-left: 1%; }
         .sidebar_wrapper ul.inner_page_list li:nth-last-child(-2n+2) {
-          border-bottom: #ccc solid 1px; } }
+          border-bottom: #ccc solid 1px; }
+
+  /* Practice Areas */
+  .no_sidebar_wrapper {
+    padding-right: 30px;
+    overflow: hidden; }
+
+  .directory ul {
+    padding-right: 0px; }
+    .directory ul li {
+      width: 48%; }
+      .directory ul li:nth-of-type(2n + 1) {
+        float: left;
+        margin-right: 1%; }
+      .directory ul li:nth-of-type(2n + 2) {
+        float: right;
+        margin-left: 1%; }
+      .directory ul li:last-of-type {
+        border-bottom: none; } }
 /* Media Query */
 @media screen and (min-width: 1150px) {
   header {
@@ -1692,7 +1750,28 @@ footer {
     margin-bottom: 53px;
     position: relative;
     width: 203vw;
-    z-index: 1000; } }
+    z-index: 1000; }
+
+  /* Practice Areas */
+  .directory ul {
+    overflow: hidden; }
+    .directory ul li {
+      width: 30%;
+      float: left;
+      margin-right: 2%; }
+      .directory ul li:nth-of-type(2n + 1) {
+        float: left;
+        margin-right: 2%; }
+      .directory ul li:nth-of-type(2n + 2) {
+        float: left;
+        margin-left: 0%;
+        margin-right: 2%; }
+      .directory ul li:nth-of-type(3n + 3) {
+        float: left;
+        margin-left: 0%;
+        margin-right: 0%; }
+      .directory ul li:last-of-type {
+        border-bottom: none; } }
 /* Media Query */
 @media screen and (min-width: 1400px) {
   /* Experience Section */
