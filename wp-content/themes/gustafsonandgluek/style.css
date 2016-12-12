@@ -1875,8 +1875,11 @@ a.directions_button {
         .directory ul li:last-of-type {
           border-bottom: none; }
   /* Meet the Team */
-  .meet_the_team_wrapper {
+  body.page-template-page-team .no_sidebar_wrapper .header_wrapper {
     max-width: 1475px; }
+  .meet_the_team_wrapper {
+    max-width: 1475px;
+    padding-left: 50px; }
     .meet_the_team_wrapper a.team_link {
       width: 31.666666666%; }
       .meet_the_team_wrapper a.team_link:nth-of-type(2n + 1) {
@@ -2021,7 +2024,8 @@ a.directions_button {
     width: 80%; }
   .address_wrapper {
     width: 42%;
-    float: left; } }
+    float: left; }
+  /* Meet the Team */ }
 
 /* Media Query */
 @media screen and (min-width: 1700px) {

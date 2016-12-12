@@ -2979,9 +2979,25 @@ footer {
 	
 	/* Meet the Team */
 	
+	
+	
+body.page-template-page-team {	
+	.no_sidebar_wrapper {
+	
+	
+	.header_wrapper {
+		max-width: 1475px;
+		
+	}
+}
+}
+	
+	
+	
+	
 	.meet_the_team_wrapper {
 		max-width:1475px;
-		
+		padding-left:50px;
 		a.team_link {
 			width:31.666666666%;
 			
@@ -3406,6 +3422,21 @@ max-width:1700px;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (min-width: 1600px) {
 
 
@@ -3498,6 +3529,50 @@ max-width:1700px;
 	width:42%;
 	float:left;
 }
+
+
+
+
+/* Meet the Team */
+	
+	.meet_the_team_wrapper {
+		
+		
+		a.team_link {
+			
+			
+			&:nth-of-type(2n + 1) {
+				
+			}
+			&:nth-of-type(2n + 2) {
+				
+			}
+			&:nth-of-type(3n + 3) {
+				
+			}
+			.single_profile_wrapper {
+				
+				img {
+					
+				}
+				.profile_caption {
+					
+					span.caption_title {
+						
+					}
+					span.view_profile {
+						
+						&:hover {
+							
+						}
+					}
+				}
+			}
+		}
+	}
+
+
+
 
 
 
