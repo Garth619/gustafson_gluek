@@ -2981,15 +2981,18 @@ footer {
 	
 	.meet_the_team_wrapper {
 		max-width:1475px;
-		padding-left:50px;
+		
 		a.team_link {
-			width:30%;
+			width:31.666666666%;
 			
 			&:nth-of-type(2n + 1) {
-				margin-right:3%;
+				margin-right:2.5%;
 			}
 			&:nth-of-type(2n + 2) {
-				margin-right:3%;
+				margin-right:2.5%;
+			}
+			&:nth-of-type(3n + 3) {
+				margin-right:0%;
 			}
 			.single_profile_wrapper {
 				
