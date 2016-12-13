@@ -2008,12 +2008,16 @@ span.pull_quote {
     max-width: 100%;
     background: #fff;
     padding-top: 213px;
-    padding-left: 13%;
-    padding-right: 50px; }
+    padding-left: 19%;
+    padding-right: 250px; }
     .bio_content_wrapper .bio_inner_content {
       max-width: 690px; } }
 
 /* Media Query */
+@media screen and (min-width: 1320px) {
+  .bio_content_wrapper {
+    padding-left: 243px; } }
+
 /* Media Query */
 @media screen and (min-width: 1400px) {
   /* Experience Section */
@@ -2084,9 +2088,7 @@ span.pull_quote {
       background: #fff; }
   .bio_desktop_container_wrapper {
     display: flex;
-    float: left; }
-  .bio_content_wrapper {
-    padding-left: 167px; } }
+    float: left; } }
 
 /* Media Query */
 @media screen and (min-width: 1450px) {
@@ -2163,8 +2165,20 @@ span.pull_quote {
     width: 42%;
     float: left; }
   /* Meet the Team */
-  .bio_sidebar .inner_header_wrapper h1 {
-    border: none; } }
+  .bio_sidebar .inner_header_wrapper {
+    position: relative; }
+    .bio_sidebar .inner_header_wrapper:after {
+      width: 120%;
+      height: 1px;
+      content: "";
+      background: #b6995a;
+      display: block;
+      position: absolute;
+      z-index: 500;
+      bottom: 0;
+      left: -600px; }
+  .bio_content_wrapper {
+    padding-left: 156px; } }
 
 /* Media Query */
 @media screen and (min-width: 1700px) {
@@ -2234,6 +2248,20 @@ span.pull_quote {
   .desktop_container_wrapper {
     max-width: 1800px; }
   .sidebar_wrapper {
-    padding-left: 0; } }
+    padding-left: 0; }
+  .bio_sidebar .inner_header_wrapper {
+    position: relative; }
+    .bio_sidebar .inner_header_wrapper h1 {
+      width: 70vw; }
+    .bio_sidebar .inner_header_wrapper:after {
+      width: 120%;
+      height: 1px;
+      content: "";
+      background: #b6995a;
+      display: block;
+      position: absolute;
+      z-index: 500;
+      bottom: 0;
+      left: -600px; } }
 
 /* Media Query */
