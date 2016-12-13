@@ -1971,9 +1971,10 @@ span.pull_quote {
         margin-right: 0%; }
   /* Bio */
   .bio_desktop_container_wrapper {
-    width: 100%; }
+    width: 100%;
+    max-width: 1590px; }
   .bio_sidebar {
-    width: 42%;
+    width: 34%;
     float: left;
     position: relative;
     z-index: 5;
@@ -1986,7 +1987,7 @@ span.pull_quote {
       letter-spacing: 1.8px;
       padding-left: 50px; }
     .bio_sidebar img {
-      width: 120%;
+      width: 145%;
       padding-left: 50px;
       margin-top: 74px;
       max-width: 650px; }
@@ -2002,37 +2003,17 @@ span.pull_quote {
       .bio_sidebar .bio_content ul {
         margin-bottom: 60px; }
   .bio_content_wrapper {
-    width: 58%;
+    width: 66%;
     float: left;
     max-width: 100%;
     background: #fff;
     padding-top: 213px;
     padding-left: 13%;
-    padding-right: 50px; } }
+    padding-right: 50px; }
+    .bio_content_wrapper .bio_inner_content {
+      max-width: 690px; } }
 
 /* Media Query */
-@media screen and (min-width: 1290px) {
-  /* Bio */
-  .bio_inner_flex_spacer {
-    flex-grow: 1;
-    float: left; }
-    .bio_inner_flex_spacer:last-of-type {
-      content: "";
-      background: #fff; }
-  .bio_desktop_container_wrapper {
-    width: 90%;
-    display: flex;
-    float: left;
-    max-width: 1445px; }
-  .bio_sidebar {
-    width: 31%; }
-    .bio_sidebar img {
-      width: 145%; }
-  .bio_content_wrapper {
-    padding-left: 167px;
-    max-width: 840px;
-    width: 69%; } }
-
 /* Media Query */
 @media screen and (min-width: 1400px) {
   /* Experience Section */
@@ -2093,7 +2074,19 @@ span.pull_quote {
     max-width: 1400px; }
   .content .inner_content {
     max-width: 1000px;
-    padding-right: 50px; } }
+    padding-right: 50px; }
+  /* Bio */
+  .bio_inner_flex_spacer {
+    flex-grow: 1;
+    float: left; }
+    .bio_inner_flex_spacer:last-of-type {
+      content: "";
+      background: #fff; }
+  .bio_desktop_container_wrapper {
+    display: flex;
+    float: left; }
+  .bio_content_wrapper {
+    padding-left: 167px; } }
 
 /* Media Query */
 @media screen and (min-width: 1450px) {
@@ -2169,7 +2162,9 @@ span.pull_quote {
   .address_wrapper {
     width: 42%;
     float: left; }
-  /* Meet the Team */ }
+  /* Meet the Team */
+  .bio_sidebar .inner_header_wrapper h1 {
+    border: none; } }
 
 /* Media Query */
 @media screen and (min-width: 1700px) {
