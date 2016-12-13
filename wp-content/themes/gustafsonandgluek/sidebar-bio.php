@@ -1,7 +1,11 @@
 <div class="bio_sidebar">
 
 	
-	<h1 class="inner_header"><?php the_title(); ?></h1><!-- inner_header -->
+	<div class="inner_header_wrapper">
+	
+		<h1 class="inner_header"><?php the_title(); ?></h1><!-- inner_header -->
+	
+	</div><!-- inner_header_wrapper -->
 	
 	<img src="<?php bloginfo('template_directory');?>/images/profile_gustafson.jpg"/>
 	
@@ -27,6 +31,8 @@
 			<li>U.S. Court of Appeals for the Eleventh Circuit</li>
 			<li>U.S. Supreme Court</li>
 		</ul>
+		
+
 		
 		
 	</div><!-- bio_content -->

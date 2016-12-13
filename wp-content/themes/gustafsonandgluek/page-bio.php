@@ -15,10 +15,10 @@ get_header(); ?>
 <div class="inner_container">
 	
 	
-	<div class="inner_flex_spacer"></div><!-- inner_flex_spacer -->
+	<div class="bio_inner_flex_spacer"></div><!-- inner_flex_spacer -->
 	
 	
-	<div class="desktop_container_wrapper">
+	<div class="bio_desktop_container_wrapper">
 	
 		<?php get_sidebar('bio'); ?>
 		
@@ -28,7 +28,7 @@ get_header(); ?>
 		
 			<div class="content">
 			
-				<div class="inner_content">
+				<div class="bio_inner_content">
 					
 					<span class="pull_quote">Dan has been designated a “Super Lawyer” by Law & Politics magazine in the fields of business litigation and class actions for the last twelve years.</span><!-- pull_quote -->
 			
@@ -51,7 +51,7 @@ Minnesota Lawyer magazine named Dan one of its Attorneys of the Year for the sec
 		
 		</div><!-- desktop_container_wrapper -->
 		
-		<div class="inner_flex_spacer"></div><!-- inner_flex_spacer -->
+		<div class="bio_inner_flex_spacer"></div><!-- bio_inner_flex_spacer -->
 	
 	</div><!-- inner_container -->
 
