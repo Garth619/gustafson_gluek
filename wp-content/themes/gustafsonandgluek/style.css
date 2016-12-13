@@ -1078,6 +1078,97 @@ span.pull_quote {
   margin-bottom: 30px;
   display: block; }
 
+/* Case Results */
+.case_sidebar h1 {
+  border-bottom: 1px solid #b6995a;
+  color: #193334;
+  font-family: "Source Serif Pro";
+  font-size: 42px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 49px;
+  padding: 0 30px 10px;
+  margin: 0 0px 35px; }
+
+.case_sidebar .case_content {
+  margin: 60px auto 0;
+  padding: 0 30px;
+  max-width: 600px; }
+
+#accordion h3 {
+  width: 100%;
+  background: #eeeff0;
+  border: #b6995a 1px solid;
+  outline: none;
+  font-family: "Source Serif Pro";
+  font-weight: 900;
+  font-style: normal;
+  font-size: 15px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  padding: 34px 14px;
+  display: block;
+  margin-bottom: 29px;
+  line-height: 15px; }
+  #accordion h3:before {
+    content: "";
+    background: url(images/results_antitrust.png) top left no-repeat;
+    width: 66px;
+    height: 66px;
+    float: left;
+    margin-top: -25px;
+    margin-right: 20px; }
+
+#accordion h3.ui-accordion-header-active {
+  border: none;
+  text-align: center;
+  color: #fff;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e5d598+0,b89c5d+100 */
+  background: #e5d598;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #e5d598 0%, #b89c5d 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #e5d598 0%, #b89c5d 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #e5d598 0%, #b89c5d 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5d598', endColorstr='#b89c5d',GradientType=0 );
+  /* IE6-9 */ }
+  #accordion h3.ui-accordion-header-active:before {
+    content: "";
+    background: transparent;
+    width: auto;
+    height: auto; }
+
+#accordion div {
+  margin: 35px 0; }
+  #accordion div span.img_title {
+    color: #b6995a;
+    font-size: 16px;
+    text-transform: uppercase;
+    display: block;
+    text-align: center;
+    margin-bottom: 25px; }
+    #accordion div span.img_title img.accordian_img {
+      display: block;
+      margin: 0 auto; }
+  #accordion div span.accordian_title {
+    color: #45806e;
+    font-size: 22px;
+    line-height: 28px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-family: "Source Serif Pro";
+    font-weight: 900;
+    font-style: normal;
+    margin-bottom: 25px;
+    display: block; }
+  #accordion div p {
+    font-size: 17px;
+    line-height: 32px;
+    font-family: "Nimbus Sans TW01";
+    display: block; }
+
 @media screen and (min-width: 390px) {
   /* Contact Us */
   br.mobile {

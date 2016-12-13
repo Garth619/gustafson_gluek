@@ -7743,6 +7743,99 @@
 		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/index.php",
 		"oF": 0
 		},
+	"\/wp-content\/themes\/gustafsonandgluek\/js\/jquery-ui-1.12.1.custom\/AUTHORS.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/js\/jquery-ui-1.12.1.custom\/AUTHORS.txt",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/gustafsonandgluek\/js\/jquery-ui-1.12.1.custom\/external\/jquery\/jquery.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/js\/jquery-ui-1.12.1.custom\/external\/jquery\/min\/jquery-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/themes\/gustafsonandgluek\/js\/jquery-ui-1.12.1.custom\/index.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/js\/jquery-ui-1.12.1.custom\/index.html",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/gustafsonandgluek\/js\/jquery-ui-1.12.1.custom\/jquery-ui.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/js\/jquery-ui-1.12.1.custom\/jquery-ui-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/wp-content\/themes\/gustafsonandgluek\/js\/jquery-ui-1.12.1.custom\/jquery-ui.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/js\/jquery-ui-1.12.1.custom\/min\/jquery-ui-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/themes\/gustafsonandgluek\/js\/jquery-ui-1.12.1.custom\/jquery-ui.min.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/js\/jquery-ui-1.12.1.custom\/jquery-ui.min-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/wp-content\/themes\/gustafsonandgluek\/js\/jquery-ui-1.12.1.custom\/jquery-ui.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/js\/jquery-ui-1.12.1.custom\/min\/jquery-ui.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/wp-content\/themes\/gustafsonandgluek\/js\/jquery-ui-1.12.1.custom\/jquery-ui.structure.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/js\/jquery-ui-1.12.1.custom\/jquery-ui.structure-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/wp-content\/themes\/gustafsonandgluek\/js\/jquery-ui-1.12.1.custom\/jquery-ui.structure.min.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/js\/jquery-ui-1.12.1.custom\/jquery-ui.structure.min-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/wp-content\/themes\/gustafsonandgluek\/js\/jquery-ui-1.12.1.custom\/LICENSE.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/js\/jquery-ui-1.12.1.custom\/LICENSE.txt",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/gustafsonandgluek\/js\/jquery-ui-1.12.1.custom\/package.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/js\/jquery-ui-1.12.1.custom\/package-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
 	"\/wp-content\/themes\/gustafsonandgluek\/languages\/twentyten.pot": {
 		"ft": 8192,
 		"oA": 2,
@@ -7783,6 +7876,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/page-bio.php",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/gustafsonandgluek\/page-caseresults.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/page-caseresults.php",
 		"oF": 0
 		},
 	"\/wp-content\/themes\/gustafsonandgluek\/page-contact.php": {
@@ -7855,6 +7954,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/sidebar-blog.php",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/gustafsonandgluek\/sidebar-caseresults.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/sidebar-caseresults.php",
 		"oF": 0
 		},
 	"\/wp-content\/themes\/gustafsonandgluek\/sidebar-footer.php": {
