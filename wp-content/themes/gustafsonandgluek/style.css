@@ -1094,6 +1094,9 @@ span.pull_quote {
   padding: 0 30px;
   max-width: 600px; }
 
+#tabs, .case_content_wrapper {
+  display: none; }
+
 #accordion h3 {
   width: 100%;
   background: #eeeff0;
@@ -2186,99 +2189,104 @@ span.pull_quote {
     background: #fff;
     padding-top: 213px;
     padding-left: 19%;
-    padding-right: 250px; }
+    padding-right: 250px;
+    display: block; }
     .case_content_wrapper .bio_inner_content {
       max-width: 690px; }
   #accordion {
     display: none; }
-  #tabs h3 {
-    width: 100%;
-    background: #eeeff0;
-    border: #b6995a 1px solid;
-    outline: none;
-    font-family: "Source Serif Pro";
-    font-weight: 900;
-    font-style: normal;
-    font-size: 15px;
-    letter-spacing: 1.5px;
-    text-transform: uppercase;
-    padding: 34px 14px;
-    display: block;
-    margin-bottom: 29px;
-    line-height: 15px;
-    cursor: pointer; }
-    #tabs h3:nth-of-type(1):before {
-      content: "";
-      background: url(images/results_antitrust.png) top left no-repeat;
-      width: 66px;
-      height: 66px;
-      float: left;
-      margin-top: -25px;
-      margin-right: 20px; }
-    #tabs h3:nth-of-type(2):before {
-      content: "";
-      background: url(images/results_data.png) top left no-repeat;
-      width: 66px;
-      height: 66px;
-      float: left;
-      margin-top: -25px;
-      margin-right: 20px; }
-    #tabs h3:nth-of-type(3):before {
-      content: "";
-      background: url(images/results_consumer.png) top left no-repeat;
-      width: 66px;
-      height: 66px;
-      float: left;
-      margin-top: -25px;
-      margin-right: 20px; }
-    #tabs h3:nth-of-type(4):before {
-      content: "";
-      background: url(images/results_securities.png) top left no-repeat;
-      width: 66px;
-      height: 66px;
-      float: left;
-      margin-top: -25px;
-      margin-right: 20px; }
-    #tabs h3:nth-of-type(5):before {
-      content: "";
-      background: url(images/results_prod_liability.png) top left no-repeat;
-      width: 66px;
-      height: 66px;
-      float: left;
-      margin-top: -25px;
-      margin-right: 20px; }
-    #tabs h3:nth-of-type(6):before {
-      content: "";
-      background: url(images/results_patents.png) top left no-repeat;
-      width: 66px;
-      height: 66px;
-      float: left;
-      margin-top: -25px;
-      margin-right: 20px; }
-  #tabs h3.active {
-    border: none;
-    text-align: center;
-    color: #fff;
-    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e5d598+0,b89c5d+100 */
-    background: #e5d598;
-    /* Old browsers */
-    background: -moz-linear-gradient(top, #e5d598 0%, #b89c5d 100%);
-    /* FF3.6-15 */
-    background: -webkit-linear-gradient(top, #e5d598 0%, #b89c5d 100%);
-    /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, #e5d598 0%, #b89c5d 100%);
-    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5d598', endColorstr='#b89c5d',GradientType=0 );
-    /* IE6-9 */ }
-    #tabs h3.active:before {
-      content: "";
-      background: transparent;
-      width: auto;
-      height: auto; }
+  #tabs {
+    display: block; }
+    #tabs h3 {
+      width: 100%;
+      background: #eeeff0;
+      border: #b6995a 1px solid;
+      outline: none;
+      font-family: "Source Serif Pro";
+      font-weight: 900;
+      font-style: normal;
+      font-size: 15px;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      padding: 34px 14px;
+      display: block;
+      margin-bottom: 29px;
+      line-height: 15px;
+      cursor: pointer; }
+      #tabs h3:nth-of-type(1):before {
+        content: "";
+        background: url(images/results_antitrust.png) top left no-repeat;
+        width: 66px;
+        height: 66px;
+        float: left;
+        margin-top: -25px;
+        margin-right: 20px; }
+      #tabs h3:nth-of-type(2):before {
+        content: "";
+        background: url(images/results_data.png) top left no-repeat;
+        width: 66px;
+        height: 66px;
+        float: left;
+        margin-top: -25px;
+        margin-right: 20px; }
+      #tabs h3:nth-of-type(3):before {
+        content: "";
+        background: url(images/results_consumer.png) top left no-repeat;
+        width: 66px;
+        height: 66px;
+        float: left;
+        margin-top: -25px;
+        margin-right: 20px; }
+      #tabs h3:nth-of-type(4):before {
+        content: "";
+        background: url(images/results_securities.png) top left no-repeat;
+        width: 66px;
+        height: 66px;
+        float: left;
+        margin-top: -25px;
+        margin-right: 20px; }
+      #tabs h3:nth-of-type(5):before {
+        content: "";
+        background: url(images/results_prod_liability.png) top left no-repeat;
+        width: 66px;
+        height: 66px;
+        float: left;
+        margin-top: -25px;
+        margin-right: 20px; }
+      #tabs h3:nth-of-type(6):before {
+        content: "";
+        background: url(images/results_patents.png) top left no-repeat;
+        width: 66px;
+        height: 66px;
+        float: left;
+        margin-top: -25px;
+        margin-right: 20px; }
+    #tabs h3.active {
+      border: none;
+      text-align: center;
+      color: #fff;
+      /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e5d598+0,b89c5d+100 */
+      background: #e5d598;
+      /* Old browsers */
+      background: -moz-linear-gradient(top, #e5d598 0%, #b89c5d 100%);
+      /* FF3.6-15 */
+      background: -webkit-linear-gradient(top, #e5d598 0%, #b89c5d 100%);
+      /* Chrome10-25,Safari5.1-6 */
+      background: linear-gradient(to bottom, #e5d598 0%, #b89c5d 100%);
+      /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5d598', endColorstr='#b89c5d',GradientType=0 );
+      /* IE6-9 */ }
+      #tabs h3.active:before {
+        content: "";
+        background: transparent;
+        width: auto;
+        height: auto; }
   .case_inner_content {
     min-height: 1000px; }
   .tabs_content {
     display: none; }
+    .tabs_content .single_tab_content:last-of-type {
+      border-bottom: none; }
   .tabs_content.one {
     display: block; }
   .case_content_wrapper {

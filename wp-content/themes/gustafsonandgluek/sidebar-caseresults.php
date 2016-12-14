@@ -284,12 +284,12 @@
 		
 		<div id="tabs">
 			
-			<h3 class="mytab one">Title</h3>
-			<h3 class="mytab two">Title</h3>
-			<h3 class="mytab three">Title</h3>
-			<h3 class="mytab four">Title</h3>
-			<h3 class="mytab five">Title</h3>
-			<h3 class="mytab six">Title</h3>
+			<h3 class="mytab one">Antitrust</h3>
+			<h3 class="mytab two">Data Breach</h3>
+			<h3 class="mytab three">Consumer Protection</h3>
+			<h3 class="mytab four">Securities</h3>
+			<h3 class="mytab five">Product Liability</h3>
+			<h3 class="mytab six">Intellectual Property & Patent Misuse</h3>
 		
 		</div><!-- tabs -->
 

@@ -1418,6 +1418,10 @@ footer {
 		}
 	}
 	
+	#tabs, .case_content_wrapper {
+		display: none;
+	}
+	
 	
 	#accordion {
 		
@@ -3504,6 +3508,7 @@ body.page-template-page-team {
 		padding-top: 213px;
 		padding-left:19%;
 		padding-right:250px;
+		display: block;
 		.bio_inner_content {
 			max-width: 690px;
 		}
@@ -3520,6 +3525,7 @@ body.page-template-page-team {
 	
 	
 	#tabs {
+		display: block;
 		h3 {
 				width:100%;
 				background: #eeeff0;
@@ -3633,6 +3639,9 @@ body.page-template-page-team {
 		
 		.tabs_content {
 			display:none;
+			.single_tab_content:last-of-type {
+				border-bottom: none;
+			}
 		}
 		
 		
