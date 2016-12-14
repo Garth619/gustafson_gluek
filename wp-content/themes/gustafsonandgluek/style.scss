@@ -1,6 +1,6 @@
 /*
 Theme Name: Gustafson and Gluek
-Author: 1point21 (Garrett Cullen)
+Author: 1Point21 (Garrett Cullen)
 */
 
 * {margin:0;padding:0;}
@@ -78,7 +78,7 @@ $sourceserif: 'Source Serif Pro';
 body {
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	text-shadow: 1px 1px 1px rgba(0,0,0,0.05);
+// 	text-shadow: 1px 1px 1px rgba(0,0,0,0.05);
 	line-height: 1;
 	color:$blacktext;
 }
@@ -1436,16 +1436,73 @@ footer {
 			display: block;
 			margin-bottom:29px;
 			line-height:15px;
-			&:before {
-				content:"";
-				background:url(images/results_antitrust.png) top left no-repeat;
-				width:66px;
-				height:66px;
-				float:left;
-				margin-top: -25px;
-				margin-right:20px;
+			cursor: pointer;
+			&:nth-of-type(1) {
+				&:before {
+					content:"";
+					background:url(images/results_antitrust.png) top left no-repeat;
+					width:66px;
+					height:66px;
+					float:left;
+					margin-top: -25px;
+					margin-right:20px;
+				}
 			}
-			
+			&:nth-of-type(2) {
+				&:before {
+					content:"";
+					background:url(images/results_data.png) top left no-repeat;
+					width:66px;
+					height:66px;
+					float:left;
+					margin-top: -25px;
+					margin-right:20px;
+				}
+			}
+			&:nth-of-type(3) {
+				&:before {
+					content:"";
+					background:url(images/results_consumer.png) top left no-repeat;
+					width:66px;
+					height:66px;
+					float:left;
+					margin-top: -25px;
+					margin-right:20px;
+				}
+			}
+			&:nth-of-type(4) {
+				&:before {
+					content:"";
+					background:url(images/results_securities.png) top left no-repeat;
+					width:66px;
+					height:66px;
+					float:left;
+					margin-top: -25px;
+					margin-right:20px;
+				}
+			}
+			&:nth-of-type(5) {
+				&:before {
+					content:"";
+					background:url(images/results_prod_liability.png) top left no-repeat;
+					width:66px;
+					height:66px;
+					float:left;
+					margin-top: -25px;
+					margin-right:20px;
+				}
+			}
+			&:nth-of-type(6) {
+				&:before {
+					content:"";
+					background:url(images/results_patents.png) top left no-repeat;
+					width:66px;
+					height:66px;
+					float:left;
+					margin-top: -25px;
+					margin-right:20px;
+				}
+			}
 		}
 		
 		h3.ui-accordion-header-active {
@@ -1473,7 +1530,7 @@ footer {
 		}
 		
 		div {
-			margin:35px 0;
+			margin:45px 0;
 			
 			span.img_title {
 				color:$gold;
@@ -1481,7 +1538,7 @@ footer {
 				text-transform: uppercase;
 				display: block;
 				text-align: center;
-				margin-bottom:25px;
+				 margin-bottom: 45px;
 				img.accordian_img {
 					display: block;
 					margin:0 auto 15px;
@@ -1505,6 +1562,10 @@ footer {
 				line-height: 32px;
 				font-family: $nimbusbreg;
 				display: block;
+			}
+			hr {
+				margin:45px 0;
+				border-top:#ccc 1px solid;
 			}
 		}
 	

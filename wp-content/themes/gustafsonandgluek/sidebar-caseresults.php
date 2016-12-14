@@ -19,83 +19,264 @@
 				
 				<span class="accordian_title">In re Capacitors Antitrust Litigation (N.D. Cal.)</span><!-- accordian_title -->
 				
-				<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p>Gustafson Gluek serves on the executive committee representing a proposed class of indirect purchaser plaintiffs who purchased electrolytic or film capacitors and paid artificially inflated prices. This is a major international cartel case. Plaintiffs allege that at least fifteen multinational corporations conspired to fix the prices of the electrolytic and film capacitors that they manufactured and sold worldwide and into the United States.</p>
 				
 				<hr/>
 				
-				<span class="accordian_title">In re Capacitors Antitrust Litigation (N.D. Cal.)</span><!-- accordian_title -->
+				<span class="accordian_title">In re Lithium Ion Batteries Antitrust Litigation (N.D. Cal.)</span><!-- accordian_title -->
 				
-				<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p>Gustafson Gluek has had a significant discovery role in the prosecution of this antitrust class action against the manufacturers of Lithium Ion batteries.</p>
 
 <hr/>
 
-<span class="accordian_title">In re Capacitors Antitrust Litigation (N.D. Cal.)</span><!-- accordian_title -->
 				
-				<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<span class="accordian_title">In re DRAM Antitrust Litigation (N.D. Cal. and multiple state court actions)</span><!-- accordian_title -->
+				
+				<p>Gustafson Gluek was appointed co-lead counsel for the indirect purchasers in this nationwide class action against both national and international memory-chip manufacturers. This case dealt with the conspiracy surrounding the pricing of the memory chips commonly known as Dynamic Random Access Memory (or DRAM). DRAM is used in thousands of devices on a daily basis, and Gustafson Gluek has been integral in achieving what is to date, one of the largest settlements on behalf of indirect purchasers in history.</p>
+				
+				<hr/>
+				
+				<span class="accordian_title">In re Disposable Contact Lens Antitrust Litigation (M.D. Fla.)</span><!-- accordian_title -->
+				
+				<p>Gustafson Gluek represents plaintiffs and a proposed class of individuals who purchased contact lenses made by Alcon, CooperVision, Bausch + Lomb, and Johnson & Johnson. Plaintiffs allege that these manufacturers unlawfully conspired to impose minimum resale price agreements on retailers, which restricts retailers' ability to lower prices to consumers.</p>
+				
+				
+			<hr/>
+				
+				<span class="accordian_title">In re Containerboard Antitrust Litigation (N.D. Ill.)</span><!-- accordian_title -->
+				
+				<p>Gustafson Gluek is a defendant team leader in an on-going price fixing case against containerboard manufacturers. As team leader, Gustafson Gluek handled all aspects of discovery, including the depositions of several senior executives. Plaintiffs' motion for class certification was granted, a decision which is currently on appeal at the 7th Circuit. The two smallest defendants have settled for over $20 million. Trial is currently scheduled for 2016 against the largest defendants.</p>
+
 
 				
 			</div>
+			
+			
+			
+			
+			
+			
+			
 	
 			<h3>Data Breach</h3>
 			
 			<div>
 				
-				<span class="img_title"><img class="accordian_img" src="<?php bloginfo('template_directory');?>/images/results_antitrust.png"/>antitrust case summaries</span><!-- img_title -->
+				<span class="img_title"><img class="accordian_img" src="<?php bloginfo('template_directory');?>/images/results_data.png"/>Data Breach</span><!-- img_title -->
 				
 				<span class="accordian_title">In re Capacitors Antitrust Litigation (N.D. Cal.)</span><!-- accordian_title -->
 				
-				<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p>Gustafson Gluek serves on the executive committee representing a proposed class of indirect purchaser plaintiffs who purchased electrolytic or film capacitors and paid artificially inflated prices. This is a major international cartel case. Plaintiffs allege that at least fifteen multinational corporations conspired to fix the prices of the electrolytic and film capacitors that they manufactured and sold worldwide and into the United States.</p>
+				
+				<hr/>
+				
+				<span class="accordian_title">In re Lithium Ion Batteries Antitrust Litigation (N.D. Cal.)</span><!-- accordian_title -->
+				
+				<p>Gustafson Gluek has had a significant discovery role in the prosecution of this antitrust class action against the manufacturers of Lithium Ion batteries.</p>
+
+<hr/>
+
+				
+				<span class="accordian_title">In re DRAM Antitrust Litigation (N.D. Cal. and multiple state court actions)</span><!-- accordian_title -->
+				
+				<p>Gustafson Gluek was appointed co-lead counsel for the indirect purchasers in this nationwide class action against both national and international memory-chip manufacturers. This case dealt with the conspiracy surrounding the pricing of the memory chips commonly known as Dynamic Random Access Memory (or DRAM). DRAM is used in thousands of devices on a daily basis, and Gustafson Gluek has been integral in achieving what is to date, one of the largest settlements on behalf of indirect purchasers in history.</p>
+				
+				<hr/>
+				
+				<span class="accordian_title">In re Disposable Contact Lens Antitrust Litigation (M.D. Fla.)</span><!-- accordian_title -->
+				
+				<p>Gustafson Gluek represents plaintiffs and a proposed class of individuals who purchased contact lenses made by Alcon, CooperVision, Bausch + Lomb, and Johnson & Johnson. Plaintiffs allege that these manufacturers unlawfully conspired to impose minimum resale price agreements on retailers, which restricts retailers' ability to lower prices to consumers.</p>
+				
+				
+			<hr/>
+				
+				<span class="accordian_title">In re Containerboard Antitrust Litigation (N.D. Ill.)</span><!-- accordian_title -->
+				
+				<p>Gustafson Gluek is a defendant team leader in an on-going price fixing case against containerboard manufacturers. As team leader, Gustafson Gluek handled all aspects of discovery, including the depositions of several senior executives. Plaintiffs' motion for class certification was granted, a decision which is currently on appeal at the 7th Circuit. The two smallest defendants have settled for over $20 million. Trial is currently scheduled for 2016 against the largest defendants.</p>
+				
 			
 			</div>
+			
+			
+			
+			
+			
+			
+			
 	
 			<h3>Consumer Protection</h3>
 			
 			<div>
 				
-				<span class="img_title"><img class="accordian_img" src="<?php bloginfo('template_directory');?>/images/results_antitrust.png"/>antitrust case summaries</span><!-- img_title -->
+				<span class="img_title"><img class="accordian_img" src="<?php bloginfo('template_directory');?>/images/results_consumer.png"/>Consumer Protection</span><!-- img_title -->
 				
 				<span class="accordian_title">In re Capacitors Antitrust Litigation (N.D. Cal.)</span><!-- accordian_title -->
 				
-				<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p>Gustafson Gluek serves on the executive committee representing a proposed class of indirect purchaser plaintiffs who purchased electrolytic or film capacitors and paid artificially inflated prices. This is a major international cartel case. Plaintiffs allege that at least fifteen multinational corporations conspired to fix the prices of the electrolytic and film capacitors that they manufactured and sold worldwide and into the United States.</p>
+				
+				<hr/>
+				
+				<span class="accordian_title">In re Lithium Ion Batteries Antitrust Litigation (N.D. Cal.)</span><!-- accordian_title -->
+				
+				<p>Gustafson Gluek has had a significant discovery role in the prosecution of this antitrust class action against the manufacturers of Lithium Ion batteries.</p>
+
+<hr/>
+
+				
+				<span class="accordian_title">In re DRAM Antitrust Litigation (N.D. Cal. and multiple state court actions)</span><!-- accordian_title -->
+				
+				<p>Gustafson Gluek was appointed co-lead counsel for the indirect purchasers in this nationwide class action against both national and international memory-chip manufacturers. This case dealt with the conspiracy surrounding the pricing of the memory chips commonly known as Dynamic Random Access Memory (or DRAM). DRAM is used in thousands of devices on a daily basis, and Gustafson Gluek has been integral in achieving what is to date, one of the largest settlements on behalf of indirect purchasers in history.</p>
+				
+				<hr/>
+				
+				<span class="accordian_title">In re Disposable Contact Lens Antitrust Litigation (M.D. Fla.)</span><!-- accordian_title -->
+				
+				<p>Gustafson Gluek represents plaintiffs and a proposed class of individuals who purchased contact lenses made by Alcon, CooperVision, Bausch + Lomb, and Johnson & Johnson. Plaintiffs allege that these manufacturers unlawfully conspired to impose minimum resale price agreements on retailers, which restricts retailers' ability to lower prices to consumers.</p>
+				
+				
+			<hr/>
+				
+				<span class="accordian_title">In re Containerboard Antitrust Litigation (N.D. Ill.)</span><!-- accordian_title -->
+				
+				<p>Gustafson Gluek is a defendant team leader in an on-going price fixing case against containerboard manufacturers. As team leader, Gustafson Gluek handled all aspects of discovery, including the depositions of several senior executives. Plaintiffs' motion for class certification was granted, a decision which is currently on appeal at the 7th Circuit. The two smallest defendants have settled for over $20 million. Trial is currently scheduled for 2016 against the largest defendants.</p>
 							
 			</div>
+			
+			
+			
+			
+			
+			
+			
 			
 			
 			<h3>Securities</h3>
 			
 			<div>
 				
-				<span class="img_title"><img class="accordian_img" src="<?php bloginfo('template_directory');?>/images/results_antitrust.png"/>antitrust case summaries</span><!-- img_title -->
+				<span class="img_title"><img class="accordian_img" src="<?php bloginfo('template_directory');?>/images/results_securities.png"/>Securities</span><!-- img_title -->
 				
 				<span class="accordian_title">In re Capacitors Antitrust Litigation (N.D. Cal.)</span><!-- accordian_title -->
 				
-				<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p>Gustafson Gluek serves on the executive committee representing a proposed class of indirect purchaser plaintiffs who purchased electrolytic or film capacitors and paid artificially inflated prices. This is a major international cartel case. Plaintiffs allege that at least fifteen multinational corporations conspired to fix the prices of the electrolytic and film capacitors that they manufactured and sold worldwide and into the United States.</p>
+				
+				<hr/>
+				
+				<span class="accordian_title">In re Lithium Ion Batteries Antitrust Litigation (N.D. Cal.)</span><!-- accordian_title -->
+				
+				<p>Gustafson Gluek has had a significant discovery role in the prosecution of this antitrust class action against the manufacturers of Lithium Ion batteries.</p>
+
+<hr/>
+
+				
+				<span class="accordian_title">In re DRAM Antitrust Litigation (N.D. Cal. and multiple state court actions)</span><!-- accordian_title -->
+				
+				<p>Gustafson Gluek was appointed co-lead counsel for the indirect purchasers in this nationwide class action against both national and international memory-chip manufacturers. This case dealt with the conspiracy surrounding the pricing of the memory chips commonly known as Dynamic Random Access Memory (or DRAM). DRAM is used in thousands of devices on a daily basis, and Gustafson Gluek has been integral in achieving what is to date, one of the largest settlements on behalf of indirect purchasers in history.</p>
+				
+				<hr/>
+				
+				<span class="accordian_title">In re Disposable Contact Lens Antitrust Litigation (M.D. Fla.)</span><!-- accordian_title -->
+				
+				<p>Gustafson Gluek represents plaintiffs and a proposed class of individuals who purchased contact lenses made by Alcon, CooperVision, Bausch + Lomb, and Johnson & Johnson. Plaintiffs allege that these manufacturers unlawfully conspired to impose minimum resale price agreements on retailers, which restricts retailers' ability to lower prices to consumers.</p>
+				
+				
+			<hr/>
+				
+				<span class="accordian_title">In re Containerboard Antitrust Litigation (N.D. Ill.)</span><!-- accordian_title -->
+				
+				<p>Gustafson Gluek is a defendant team leader in an on-going price fixing case against containerboard manufacturers. As team leader, Gustafson Gluek handled all aspects of discovery, including the depositions of several senior executives. Plaintiffs' motion for class certification was granted, a decision which is currently on appeal at the 7th Circuit. The two smallest defendants have settled for over $20 million. Trial is currently scheduled for 2016 against the largest defendants.</p>
 							
 			</div>
+			
+			
+			
+			
+			
+			
+			
 			
 			
 			<h3>Product Liability</h3>
 			
 			<div>
 				
-				<span class="img_title"><img class="accordian_img" src="<?php bloginfo('template_directory');?>/images/results_antitrust.png"/>antitrust case summaries</span><!-- img_title -->
+				<span class="img_title"><img class="accordian_img" src="<?php bloginfo('template_directory');?>/images/results_prod_liability.png"/>Product Liability</span><!-- img_title -->
 				
 				<span class="accordian_title">In re Capacitors Antitrust Litigation (N.D. Cal.)</span><!-- accordian_title -->
 				
-				<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p>Gustafson Gluek serves on the executive committee representing a proposed class of indirect purchaser plaintiffs who purchased electrolytic or film capacitors and paid artificially inflated prices. This is a major international cartel case. Plaintiffs allege that at least fifteen multinational corporations conspired to fix the prices of the electrolytic and film capacitors that they manufactured and sold worldwide and into the United States.</p>
+				
+				<hr/>
+				
+				<span class="accordian_title">In re Lithium Ion Batteries Antitrust Litigation (N.D. Cal.)</span><!-- accordian_title -->
+				
+				<p>Gustafson Gluek has had a significant discovery role in the prosecution of this antitrust class action against the manufacturers of Lithium Ion batteries.</p>
+
+<hr/>
+
+				
+				<span class="accordian_title">In re DRAM Antitrust Litigation (N.D. Cal. and multiple state court actions)</span><!-- accordian_title -->
+				
+				<p>Gustafson Gluek was appointed co-lead counsel for the indirect purchasers in this nationwide class action against both national and international memory-chip manufacturers. This case dealt with the conspiracy surrounding the pricing of the memory chips commonly known as Dynamic Random Access Memory (or DRAM). DRAM is used in thousands of devices on a daily basis, and Gustafson Gluek has been integral in achieving what is to date, one of the largest settlements on behalf of indirect purchasers in history.</p>
+				
+				<hr/>
+				
+				<span class="accordian_title">In re Disposable Contact Lens Antitrust Litigation (M.D. Fla.)</span><!-- accordian_title -->
+				
+				<p>Gustafson Gluek represents plaintiffs and a proposed class of individuals who purchased contact lenses made by Alcon, CooperVision, Bausch + Lomb, and Johnson & Johnson. Plaintiffs allege that these manufacturers unlawfully conspired to impose minimum resale price agreements on retailers, which restricts retailers' ability to lower prices to consumers.</p>
+				
+				
+			<hr/>
+				
+				<span class="accordian_title">In re Containerboard Antitrust Litigation (N.D. Ill.)</span><!-- accordian_title -->
+				
+				<p>Gustafson Gluek is a defendant team leader in an on-going price fixing case against containerboard manufacturers. As team leader, Gustafson Gluek handled all aspects of discovery, including the depositions of several senior executives. Plaintiffs' motion for class certification was granted, a decision which is currently on appeal at the 7th Circuit. The two smallest defendants have settled for over $20 million. Trial is currently scheduled for 2016 against the largest defendants.</p>
 							
 			</div>
+			
+			
+			
+			
+			
+			
+			
 			
 			
 			<h3>Intellectual Property & Patent Misuse</h3>
 			
 			<div>
 				
-				<span class="img_title"><img class="accordian_img" src="<?php bloginfo('template_directory');?>/images/results_antitrust.png"/>antitrust case summaries</span><!-- img_title -->
+				<span class="img_title"><img class="accordian_img" src="<?php bloginfo('template_directory');?>/images/results_patents.png"/>Intellectual Property & Patent Misuse</span><!-- img_title -->
 				
 				<span class="accordian_title">In re Capacitors Antitrust Litigation (N.D. Cal.)</span><!-- accordian_title -->
 				
-				<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<p>Gustafson Gluek serves on the executive committee representing a proposed class of indirect purchaser plaintiffs who purchased electrolytic or film capacitors and paid artificially inflated prices. This is a major international cartel case. Plaintiffs allege that at least fifteen multinational corporations conspired to fix the prices of the electrolytic and film capacitors that they manufactured and sold worldwide and into the United States.</p>
+				
+				<hr/>
+				
+				<span class="accordian_title">In re Lithium Ion Batteries Antitrust Litigation (N.D. Cal.)</span><!-- accordian_title -->
+				
+				<p>Gustafson Gluek has had a significant discovery role in the prosecution of this antitrust class action against the manufacturers of Lithium Ion batteries.</p>
+
+<hr/>
+
+				
+				<span class="accordian_title">In re DRAM Antitrust Litigation (N.D. Cal. and multiple state court actions)</span><!-- accordian_title -->
+				
+				<p>Gustafson Gluek was appointed co-lead counsel for the indirect purchasers in this nationwide class action against both national and international memory-chip manufacturers. This case dealt with the conspiracy surrounding the pricing of the memory chips commonly known as Dynamic Random Access Memory (or DRAM). DRAM is used in thousands of devices on a daily basis, and Gustafson Gluek has been integral in achieving what is to date, one of the largest settlements on behalf of indirect purchasers in history.</p>
+				
+				<hr/>
+				
+				<span class="accordian_title">In re Disposable Contact Lens Antitrust Litigation (M.D. Fla.)</span><!-- accordian_title -->
+				
+				<p>Gustafson Gluek represents plaintiffs and a proposed class of individuals who purchased contact lenses made by Alcon, CooperVision, Bausch + Lomb, and Johnson & Johnson. Plaintiffs allege that these manufacturers unlawfully conspired to impose minimum resale price agreements on retailers, which restricts retailers' ability to lower prices to consumers.</p>
+				
+				
+			<hr/>
+				
+				<span class="accordian_title">In re Containerboard Antitrust Litigation (N.D. Ill.)</span><!-- accordian_title -->
+				
+				<p>Gustafson Gluek is a defendant team leader in an on-going price fixing case against containerboard manufacturers. As team leader, Gustafson Gluek handled all aspects of discovery, including the depositions of several senior executives. Plaintiffs' motion for class certification was granted, a decision which is currently on appeal at the 7th Circuit. The two smallest defendants have settled for over $20 million. Trial is currently scheduled for 2016 against the largest defendants.</p>
 							
 			</div>
 
