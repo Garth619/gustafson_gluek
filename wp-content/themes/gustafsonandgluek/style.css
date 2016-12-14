@@ -2145,7 +2145,180 @@ span.pull_quote {
     padding-left: 19%;
     padding-right: 250px; }
     .bio_content_wrapper .bio_inner_content {
-      max-width: 690px; } }
+      max-width: 690px; }
+  /* Case Results */
+  .case_desktop_container_wrapper {
+    width: 100%;
+    max-width: 1590px; }
+  .case_sidebar {
+    width: 34%;
+    float: left;
+    position: relative;
+    z-index: 5;
+    margin-top: 75px;
+    margin-bottom: 75px; }
+    .case_sidebar .inner_header_wrapper h1 {
+      width: 100vw;
+      font-size: 72px;
+      line-height: 80px;
+      letter-spacing: 1.8px;
+      padding-left: 50px; }
+    .case_sidebar img {
+      width: 145%;
+      padding-left: 50px;
+      margin-top: 74px;
+      max-width: 650px; }
+    .case_sidebar .case_content {
+      padding-left: 50px;
+      padding-right: 120px;
+      /*
+			margin-top:75px;
+			margin-bottom:75px;
+*/ }
+      .case_sidebar .case_content p {
+        margin-bottom: 60px; }
+      .case_sidebar .case_content ul {
+        margin-bottom: 60px; }
+  .case_content_wrapper {
+    width: 66%;
+    float: left;
+    max-width: 100%;
+    background: #fff;
+    padding-top: 213px;
+    padding-left: 19%;
+    padding-right: 250px; }
+    .case_content_wrapper .bio_inner_content {
+      max-width: 690px; }
+  #accordion {
+    display: none; }
+  #tabs h3 {
+    width: 100%;
+    background: #eeeff0;
+    border: #b6995a 1px solid;
+    outline: none;
+    font-family: "Source Serif Pro";
+    font-weight: 900;
+    font-style: normal;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    padding: 34px 14px;
+    display: block;
+    margin-bottom: 29px;
+    line-height: 15px;
+    cursor: pointer; }
+    #tabs h3:nth-of-type(1):before {
+      content: "";
+      background: url(images/results_antitrust.png) top left no-repeat;
+      width: 66px;
+      height: 66px;
+      float: left;
+      margin-top: -25px;
+      margin-right: 20px; }
+    #tabs h3:nth-of-type(2):before {
+      content: "";
+      background: url(images/results_data.png) top left no-repeat;
+      width: 66px;
+      height: 66px;
+      float: left;
+      margin-top: -25px;
+      margin-right: 20px; }
+    #tabs h3:nth-of-type(3):before {
+      content: "";
+      background: url(images/results_consumer.png) top left no-repeat;
+      width: 66px;
+      height: 66px;
+      float: left;
+      margin-top: -25px;
+      margin-right: 20px; }
+    #tabs h3:nth-of-type(4):before {
+      content: "";
+      background: url(images/results_securities.png) top left no-repeat;
+      width: 66px;
+      height: 66px;
+      float: left;
+      margin-top: -25px;
+      margin-right: 20px; }
+    #tabs h3:nth-of-type(5):before {
+      content: "";
+      background: url(images/results_prod_liability.png) top left no-repeat;
+      width: 66px;
+      height: 66px;
+      float: left;
+      margin-top: -25px;
+      margin-right: 20px; }
+    #tabs h3:nth-of-type(6):before {
+      content: "";
+      background: url(images/results_patents.png) top left no-repeat;
+      width: 66px;
+      height: 66px;
+      float: left;
+      margin-top: -25px;
+      margin-right: 20px; }
+  #tabs h3.active {
+    border: none;
+    text-align: center;
+    color: #fff;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e5d598+0,b89c5d+100 */
+    background: #e5d598;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #e5d598 0%, #b89c5d 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #e5d598 0%, #b89c5d 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #e5d598 0%, #b89c5d 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5d598', endColorstr='#b89c5d',GradientType=0 );
+    /* IE6-9 */ }
+    #tabs h3.active:before {
+      content: "";
+      background: transparent;
+      width: auto;
+      height: auto; }
+  .case_inner_content {
+    min-height: 1000px; }
+  .tabs_content {
+    display: none; }
+  .tabs_content.one {
+    display: block; }
+  .case_content_wrapper {
+    padding-left: 70px;
+    padding-top: 235px; }
+  .tab_content_title_wrapper img.tab_accordian_img {
+    display: inline-block;
+    margin-right: 15px; }
+  .tab_content_title_wrapper span.tab_img_title {
+    color: #b6995a;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 19px;
+    text-align: left;
+    text-transform: uppercase;
+    position: relative;
+    top: -25px;
+    font-family: "Source Serif Pro";
+    font-weight: 900;
+    font-style: normal;
+    letter-spacing: 2.5px;
+    font-size: 16px; }
+  .single_tab_content {
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 95px;
+    padding-bottom: 45px; }
+    .single_tab_content span.accordian_title {
+      margin-left: 85px;
+      display: block;
+      color: #45806e;
+      font-family: "Source Serif Pro";
+      font-size: 22px;
+      font-style: normal;
+      font-weight: 900;
+      letter-spacing: 1.5px;
+      line-height: 28px;
+      margin-bottom: 14px;
+      text-transform: uppercase; }
+    .single_tab_content p {
+      margin-left: 85px; } }
 
 /* Media Query */
 @media screen and (min-width: 1320px) {

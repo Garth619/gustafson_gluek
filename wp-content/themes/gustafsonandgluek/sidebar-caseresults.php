@@ -11,7 +11,7 @@
 		
 		<div id="accordion">
 	
-			<h3>Antirust</h3>
+			<h3>Antitrust</h3>
 			
 			<div>
 				
@@ -282,8 +282,22 @@
 
 		</div><!-- accordion -->
 		
+		<div id="tabs">
+			
+			<h3 class="mytab one">Title</h3>
+			<h3 class="mytab two">Title</h3>
+			<h3 class="mytab three">Title</h3>
+			<h3 class="mytab four">Title</h3>
+			<h3 class="mytab five">Title</h3>
+			<h3 class="mytab six">Title</h3>
 		
-	</div><!-- bio_content -->
+		</div><!-- tabs -->
+
+
+
+		
+		
+	</div><!-- case_content -->
 	
 	
-</div><!-- bio_sidebar -->
+</div><!-- case_sidebar -->
