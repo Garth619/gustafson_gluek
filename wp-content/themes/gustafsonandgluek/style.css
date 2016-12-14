@@ -1091,7 +1091,7 @@ span.pull_quote {
   margin: 0 0px 35px; }
 
 .case_sidebar .case_content {
-  margin: 60px auto 0;
+  margin: 70px auto 70px;
   padding: 0 30px;
   max-width: 600px; }
 
@@ -1151,7 +1151,7 @@ span.pull_quote {
     margin-bottom: 25px; }
     #accordion div span.img_title img.accordian_img {
       display: block;
-      margin: 0 auto; }
+      margin: 0 auto 15px; }
   #accordion div span.accordian_title {
     color: #45806e;
     font-size: 22px;
