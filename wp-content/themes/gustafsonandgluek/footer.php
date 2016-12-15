@@ -40,9 +40,38 @@
 		
 			<div class="social_media_wrapper">
 		
-				<a href="" target="_blank"><img class="sm_icon" src="<?php bloginfo('template_directory');?>/images/footer_google_green.svg"/></a>
-				<a href="" target="_blank"><img class="sm_icon" src="<?php bloginfo('template_directory');?>/images/footer_fb_green.svg"/></a>
-				<a href="" target="_blank"><img class="sm_icon" src="<?php bloginfo('template_directory');?>/images/footer_linkedin_green.svg"/></a>
+				<div class="single_social_icon">
+				
+					<a href="" target="_blank">
+						
+						<img class="sm_icon" src="<?php bloginfo('template_directory');?>/images/footer_google_green.svg"/>
+						<img class="sm_icon_hover" src="<?php bloginfo('template_directory');?>/images/footer_google_gold.svg"/>
+					
+					</a>
+				
+				</div><!-- single_social_icon -->
+				
+				<div class="single_social_icon">
+				
+					<a href="" target="_blank">
+						
+						<img class="sm_icon" src="<?php bloginfo('template_directory');?>/images/footer_fb_green.svg"/>
+						<img class="sm_icon_hover" src="<?php bloginfo('template_directory');?>/images/footer_fb_gold.svg"/>
+					
+					</a>
+				
+				</div><!-- single_social_icon -->
+				
+				<div class="single_social_icon">
+				
+					<a href="" target="_blank">
+						
+						<img class="sm_icon" src="<?php bloginfo('template_directory');?>/images/footer_linkedin_green.svg"/>
+						<img class="sm_icon_hover" src="<?php bloginfo('template_directory');?>/images/footer_linkedin_gold.svg"/>
+					
+					</a>
+				
+				</div><!-- single_social_icon -->
 		
 			</div><!-- social_media_wrapper -->
 		

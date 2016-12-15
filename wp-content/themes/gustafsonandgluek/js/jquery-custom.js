@@ -123,6 +123,26 @@ jQuery(function() {
     }
   });
 });
+
+
+// Social Icons 
+
+jQuery('.single_social_icon').mouseenter(function() {
+	
+	jQuery(this).find('.sm_icon').fadeOut(200);
+	jQuery(this).find('.sm_icon_hover').fadeIn(200);
+	
+	
+});
+
+
+jQuery('.single_social_icon').mouseleave(function() {
+	
+	jQuery(this).find('.sm_icon').fadeIn(200);
+	jQuery(this).find('.sm_icon_hover').fadeOut(200);
+	
+	
+});
 	
 	
 	

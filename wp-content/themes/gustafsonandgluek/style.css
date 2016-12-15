@@ -118,9 +118,7 @@ a.green_button {
   text-decoration: none;
   transition: background .2s ease-in-out; }
   a.green_button:hover {
-    background: #fff;
-    color: #45806e;
-    border: 2px solid #ceb675; }
+    background: #1a3536; }
 
 /* Header */
 .mobile_fixed_wrapper {
@@ -707,6 +705,7 @@ nav.mobile {
   cursor: pointer;
   -webkit-appearance: none;
   border-radius: 0;
+  transition: background .2s ease-in-out;
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b6995a+0,dac280+100 */
   background: #b6995a;
   /* Old browsers */
@@ -718,6 +717,11 @@ nav.mobile {
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b6995a', endColorstr='#dac280',GradientType=1 );
   /* IE6-9 */ }
+  #gform_submit_button_1:hover {
+    background: #fff;
+    color: #b6995a;
+    border: 2px solid #b6995a;
+    padding: 21px 0; }
 
 .validation_error {
   display: none; }
@@ -776,9 +780,21 @@ footer {
     padding-bottom: 8px;
     display: inline-block;
     margin-bottom: 40px; }
-  .social_media .social_media_wrapper .sm_icon {
+  .social_media .social_media_wrapper a {
+    display: block; }
+  .social_media .social_media_wrapper .single_social_icon {
     height: 32px;
-    margin: 0 8%; }
+    width: 50px;
+    margin: 0 8%;
+    display: inline-block;
+    position: relative; }
+    .social_media .social_media_wrapper .single_social_icon .sm_icon, .social_media .social_media_wrapper .single_social_icon .sm_icon_hover {
+      height: 32px;
+      position: absolute;
+      top: 0;
+      left: 0; }
+    .social_media .social_media_wrapper .single_social_icon .sm_icon_hover {
+      display: none; }
 
 .copyright {
   background: #fff;
@@ -792,7 +808,10 @@ footer {
     display: block;
     color: #ceb675;
     margin-top: 12px;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    transition: all .2s ease-in-out; }
+    .copyright a.disclaimer:hover {
+      color: #45806e; }
   .copyright a.dark_logo {
     display: none; }
 
@@ -1348,6 +1367,8 @@ span.pull_quote {
           font-size: 18px;
           padding: 20px 53px;
           display: inline-block; }
+          .hero_banner .inner_hero_wrapper .hero_banner_content a.request_button:hover {
+            padding: 18px 51px; }
         .hero_banner .inner_hero_wrapper .hero_banner_content .sub_header {
           font-size: 35px; }
         .hero_banner .inner_hero_wrapper .hero_banner_content .large_header {
@@ -1697,9 +1718,11 @@ span.pull_quote {
     margin-bottom: 60px; }
     .social_media .follow_us {
       padding-bottom: 12px; }
-    .social_media .social_media_wrapper .sm_icon {
+    .social_media .social_media_wrapper .single_social_icon {
       margin: 0 45px;
       height: 40px; }
+      .social_media .social_media_wrapper .single_social_icon .sm_icon, .social_media .social_media_wrapper .single_social_icon .sm_icon_hover {
+        height: 40px; }
   .copyright {
     padding: 20px;
     font-size: 13px; }
@@ -1847,7 +1870,8 @@ span.pull_quote {
         text-align: center;
         background: rgba(25, 51, 52, 0.2);
         font-family: "Nimbus Sans TW01Bla";
-        color: #193334; }
+        color: #193334;
+        font-size: 14px; }
         nav.desktop .inner_nav ul.menu > li.menu-item-has-children > a:after {
           content: "";
           width: 0;
@@ -1882,7 +1906,7 @@ span.pull_quote {
             line-height: 35px;
             letter-spacing: 0.55px;
             position: absolute;
-            top: 82px;
+            top: 80px;
             opacity: 0;
             visibility: hidden;
             transition: all .2s ease-in-out; }
@@ -1912,7 +1936,7 @@ span.pull_quote {
       margin: 0 auto; }
       .hero_banner .inner_hero_wrapper .hero_banner_content {
         top: 51%;
-        max-width: 830px;
+        max-width: 860px;
         margin-left: 6%; }
         .hero_banner .inner_hero_wrapper .hero_banner_content span.description {
           display: block;
@@ -2126,7 +2150,7 @@ span.pull_quote {
             margin-bottom: 50px; }
   .social_media {
     padding-top: 190px; }
-    .social_media .social_media_wrapper .sm_icon {
+    .social_media .social_media_wrapper .single_social_icon {
       margin: 0 30px; }
   .copyright {
     overflow: hidden;

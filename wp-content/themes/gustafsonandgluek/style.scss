@@ -155,9 +155,10 @@ a.green_button {
 	text-decoration: none;
 	transition: background .2s ease-in-out;
 	&:hover {
-		background: #fff;
-		color:#45806e;
-		border:2px solid #ceb675;
+		background:#1a3536;
+		
+		
+	
 	
 	}
 }
@@ -920,6 +921,7 @@ a.summaries_button {
 	cursor: pointer;
 	-webkit-appearance: none;
 	border-radius: 0;
+	transition: background .2s ease-in-out;
 	
 	
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b6995a+0,dac280+100 */
@@ -928,6 +930,13 @@ a.summaries_button {
 	background: -webkit-linear-gradient(left,  #b6995a 0%,#dac280 100%); /* Chrome10-25,Safari5.1-6 */
 	background: linear-gradient(to right,  #b6995a 0%,#dac280 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b6995a', endColorstr='#dac280',GradientType=1 ); /* IE6-9 */
+	&:hover {
+		background:#fff;
+		color:$gold;
+		border:2px solid $gold;
+		padding:21px 0;
+		
+	}
 }
 
 .validation_error {
@@ -999,9 +1008,24 @@ footer {
 		margin-bottom: 40px;
 	}
 	.social_media_wrapper {
-		.sm_icon {
+		a {
+			display: block;
+		}
+		.single_social_icon {
 			height:32px;
+			width:50px;
 			margin:0 8%;
+			display: inline-block;
+			position: relative;
+		.sm_icon, .sm_icon_hover {
+			height:32px;
+			position: absolute;
+			top:0;
+			left:0;
+		}
+		.sm_icon_hover {
+			display: none;
+		}
 		}
 	}
 }
@@ -1020,6 +1044,10 @@ footer {
 		color:$goldlight;
 		margin-top:12px;
 		text-transform: uppercase;
+		transition: all .2s ease-in-out;
+		&:hover {
+			color:#45806e;
+		}
 	}
 	a.dark_logo {
 		display:none;
@@ -1805,6 +1833,9 @@ footer {
 				font-size:18px;
 				padding: 20px 53px;
 				display: inline-block;
+				&:hover {
+					padding:18px 51px;
+				}
 			}
 			.sub_header {
 				font-size:35px;
@@ -2460,9 +2491,13 @@ footer {
 		padding-bottom:12px;
 	}
 	.social_media_wrapper {
-		.sm_icon {
+		.single_social_icon {
 			margin:0 45px;
 			height:40px;
+			.sm_icon, .sm_icon_hover  {
+				
+				height:40px;
+			}
 		}
 	}
 }
@@ -2862,7 +2897,7 @@ nav.desktop {
 			background:rgba(25, 51, 52, 0.2);
 			font-family: $nimbusblack;
 			color:$greendark;
-			
+			font-size:14px;
 			>li.menu-item-has-children {
 				> a {
 					&:after {
@@ -2907,7 +2942,7 @@ nav.desktop {
 						line-height: 35px;
 						letter-spacing: 0.55px;
 						position: absolute;
-						top:82px;
+						top:80px;
 						
 						opacity: 0;
 						visibility: hidden;
@@ -2953,7 +2988,7 @@ nav.desktop {
 		margin:0 auto;
 		.hero_banner_content {
 			top:51%;
-			max-width:830px;
+			max-width:860px;
 			margin-left:6%;
 			span.description {
 				display:block;
@@ -3368,8 +3403,11 @@ footer {
 		
 	}
 	.social_media_wrapper {
-		.sm_icon {
+		.single_social_icon {
 			margin: 0 30px;
+			.sm_icon, .sm_icon_hover  {
+				
+			}
 		}
 	}
 }
