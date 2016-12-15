@@ -100,6 +100,11 @@ a.gold_outline_button {
 	letter-spacing: 2.5px;
 	padding:26px 51px;
 	display: inline-block;
+	transition: all .2s ease-in-out;
+	&:hover {
+		background: $gold;
+		color:#fff;
+	}
 }
 
 a.gold_button {
@@ -148,6 +153,13 @@ a.green_button {
 	letter-spacing: 2.5px;
 	padding:17px 65px;
 	text-decoration: none;
+	transition: background .2s ease-in-out;
+	&:hover {
+		background: #fff;
+		color:#45806e;
+		border:2px solid #ceb675;
+	
+	}
 }
 
 
@@ -324,29 +336,34 @@ nav.mobile {
 
 .hero_banner {
 	width:100%;
-	height:376px;
+// 	height:376px;
 	background:url(images/hero_mobile.jpg) top center no-repeat;
 	font-family:$nimbusblack;
 	color:#fff;
 	text-align: center;
-	display: table;
+	
 	padding: 50px 5px;
-	.hero_banner_content {
-		display: table-cell;
-		vertical-align: bottom;
-		span.description {
-			display: none;
-		}
-		a.request_button {
-			display: none;
-		}
-		.sub_header {
-			font-size:22px;
-			display: block;
-		}
-		.large_header {
-			font-size:44px;
-			display: block;
+	.inner_hero_wrapper {
+		display: table;
+		height:260px;
+	
+		.hero_banner_content {
+			display: table-cell;
+			vertical-align: bottom;
+			span.description {
+				display: none;
+			}
+			a.request_button {
+				display: none;
+			}
+			.sub_header {
+				font-size:22px;
+				display: block;
+			}
+			.large_header {
+				font-size:44px;
+				display: block;
+			}
 		}
 	}
 }
@@ -1772,27 +1789,32 @@ footer {
 	display: block;
 	text-align: left;
 	height:500px;
-	.hero_banner_content {
+	.inner_hero_wrapper {
+		height:392px;
 		display: block;
-		position: relative;
-		top: 50%;
-		transform: translateY(-50%);
-		color:$greendark;
-		a.request_button {
-			text-transform: lowercase;
-			letter-spacing: 0.65px;
-			font-size:18px;
-			padding: 20px 53px;
-			display: inline-block;
-		}
-		.sub_header {
-			font-size:35px;
-		}
-		.large_header {
-			font-size:63px;
-			margin-top:5px;
-			margin-bottom:40px;
-			line-height: 63px;
+		.hero_banner_content {
+			display: block;
+			position: relative;
+			top: 50%;
+			transform: translateY(-50%);
+			color:$greendark;
+			padding-left:6%;
+			a.request_button {
+				text-transform: lowercase;
+				letter-spacing: 0.65px;
+				font-size:18px;
+				padding: 20px 53px;
+				display: inline-block;
+			}
+			.sub_header {
+				font-size:35px;
+			}
+			.large_header {
+				font-size:63px;
+				margin-top:5px;
+				margin-bottom:40px;
+				line-height: 63px;
+			}
 		}
 	}
 }
@@ -2038,6 +2060,20 @@ nav.mobile {
 			padding: 28px 50px;
 			display: inline-block;
 			float: left;
+			transition: all .2s ease-in-out;
+			&:hover {
+				border:none;
+				color:#fff;
+				
+				
+				/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b6995a+0,dac280+100 */
+				background: #b6995a; /* Old browsers */
+				background: -moz-linear-gradient(left,  #b6995a 0%, #dac280 100%); /* FF3.6-15 */
+				background: -webkit-linear-gradient(left,  #b6995a 0%,#dac280 100%); /* Chrome10-25,Safari5.1-6 */
+				background: linear-gradient(to right,  #b6995a 0%,#dac280 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b6995a', endColorstr='#dac280',GradientType=1 ); /* IE6-9 */
+
+			}
 		}
 	}
 }
@@ -2203,6 +2239,20 @@ nav.mobile {
 		margin:-68px 0px 0 0;
 		position: relative;
 		z-index:100;
+		transition: background .2s ease-in-out;
+		
+		&:hover {
+			color:#fff;
+			border:none;
+			padding:32px 52px;
+			
+			/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e5d598+0,b89c5d+100 */
+			background: #e5d598; /* Old browsers */
+			background: -moz-linear-gradient(top,  #e5d598 0%, #b89c5d 100%); /* FF3.6-15 */
+			background: -webkit-linear-gradient(top,  #e5d598 0%,#b89c5d 100%); /* Chrome10-25,Safari5.1-6 */
+			background: linear-gradient(to bottom,  #e5d598 0%,#b89c5d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5d598', endColorstr='#b89c5d',GradientType=0 ); /* IE6-9 */
+		}
 	}
 	span.large_header {
 		text-align: right;
@@ -2262,7 +2312,11 @@ nav.mobile {
 		
 	}
 	a.read_more {
+			display: inline-block;
+		&:hover {
+			color:#45806e;
 		
+		}
 	}
 	
 }
@@ -2803,6 +2857,7 @@ nav.desktop {
 		}
 		ul.menu {
 			display:flex;
+			justify-content: space-around;
 			text-align: center;
 			background:rgba(25, 51, 52, 0.2);
 			font-family: $nimbusblack;
@@ -2825,7 +2880,7 @@ nav.desktop {
 				}
 			}
 			> li {
-				flex-grow: 1;
+				
 				position: relative;
 				transition: all .2s ease-in-out;
 				&:hover {
@@ -2853,7 +2908,7 @@ nav.desktop {
 						letter-spacing: 0.55px;
 						position: absolute;
 						top:82px;
-						left:45px;
+						
 						opacity: 0;
 						visibility: hidden;
 						transition: all .2s ease-in-out;
@@ -2898,7 +2953,7 @@ nav.desktop {
 		margin:0 auto;
 		.hero_banner_content {
 			top:51%;
-			max-width:750px;
+			max-width:830px;
 			margin-left:6%;
 			span.description {
 				display:block;
@@ -2924,6 +2979,13 @@ nav.desktop {
 				font-size:22px;
 				letter-spacing: 1.2px;
 				padding: 22px 48px;
+				transition: background .2s ease-in-out;
+				&:hover {
+					background: #fff;
+					color:#45806e;
+					border:2px solid #ceb675;
+					padding: 20px 46px;
+				}
 			}
 			.sub_header {
 				font-size:23px;
@@ -3411,6 +3473,13 @@ footer {
 				letter-spacing: 0.65px;
 				padding: 22px 48px;
 				text-transform: lowercase;
+				transition: background .2s ease-in-out;
+				&:hover {
+					background: #fff;
+					color:#45806e;
+					border:2px solid #ceb675;
+					padding: 20px 46px;
+				}
 			}
 		}
 	}

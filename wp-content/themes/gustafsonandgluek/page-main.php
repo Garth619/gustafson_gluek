@@ -19,7 +19,7 @@ get_header(); ?>
 		
 			<span class="description">National Complex litigation practice</span><!-- description -->
 		
-			<a class="green_button request_button" href="">request your free consultation</a>
+			<a class="green_button request_button" href="#request">request your free consultation</a>
 	
 		</div><!-- hero_banner_content -->
 	
@@ -33,7 +33,7 @@ get_header(); ?>
 
 <section class="free_consultation">
 	
-	<a href="">Free Case Consultation</a>
+	<a href="#request">Free Case Consultation</a>
 	
 </section><!-- free_consultation -->
 
@@ -138,7 +138,7 @@ get_header(); ?>
 	
 	<p>We are a talented group of attorneys & professionals who do not back down from challenging cases and have prevailed against some of the biggest and most well-funded companies in the world.</p>
 	
-	<a class="meet_the_team gold_outline_button" href="">Meet Our Team</a>
+	<a class="meet_the_team gold_outline_button" href="<?php bloginfo('url');?>/attorneys">Meet Our Team</a>
 	
 </section><!-- meet_our_team -->
 
@@ -344,13 +344,13 @@ get_header(); ?>
 			
 				<p>On Tuesday, Gustafson Gluek PLLC filed a complaint on behalf of purchasers of chicken alleging that the companies comprising 98% of the chicken meat produced in the United States conspired to fix prices for chicken. The complaint alleges a conspiracy dating back to 2008 that involved the restriction of production to increase prices. The complaint also seeks damages on behalf of a class of indirect purchasers of chicken, who purchased via a distributor. If you purchased chicken via a distributor and would like to learn more about your potential claim.....</p>
 			
-				<a class="read_more" href="">Read More</a><!-- read_more -->
+				<a class="read_more" href="<?php bloginfo('url');?>/2016/12/11/poultry-price-fixing/">Read More</a><!-- read_more -->
 			
 			</div><!-- inner_news_content -->
 			
 		</div><!-- news_content_wrapper -->
 		
-		<a class="view_more gold_gradient_button" href="">View More</a>
+		<a class="view_more gold_gradient_button" href="<?php bloginfo('url');?>/latest-news">View More</a>
 		
 	</div><!-- news_loop_wrapper -->
 	

@@ -23,7 +23,7 @@ get_header(); ?>
 		
 			<div class="content">
 			
-				<h1 class="inner_header">Latest News</h1><!-- inner_header -->
+				<h1 class="inner_header"><?php the_title();?></h1><!-- inner_header -->
 			
 				<div class="inner_content">
 			

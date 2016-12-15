@@ -9,7 +9,7 @@
 		
 			<span class="description">National Complex litigation practice</span><!-- description -->
 		
-			<a class="green_button request_button" href="">request your free consultation</a>
+			<a class="green_button request_button" href="#request">request your free consultation</a>
 	
 		</div><!-- hero_banner_content -->
 	
