@@ -464,7 +464,7 @@ nav.mobile {
   padding: 50px;
   text-align: center; }
   #awards span.large_header {
-    display: none; }
+    display: none !important; }
   #awards img {
     max-width: 100%;
     height: auto; }
@@ -1553,7 +1553,7 @@ span.pull_quote {
       font-family: "Nimbus Sans TW01Bla";
       letter-spacing: 4.5px;
       text-align: left;
-      display: block;
+      display: block !important;
       margin-bottom: 27px; }
   /* Second Experience Section */
   #experience_second_section {

@@ -195,33 +195,7 @@ get_header(); ?>
 			
 		</div><!-- slide_wrapper -->
 		
-		
-		<div class="slide_wrapper">
-			
-			<div class="slide">
-				
-				<div class="title_left">
-				
-					<span class="slide_header">St. Paul Travelers</span><!-- large_header -->
-					<span class="slide_sub_header">Securities</span><!-- slide_sub_header -->
-				
-				</div><!-- title_left -->
-				
-				<img class="case_results_icon" src="<?php bloginfo('template_directory');?>/images/results_securities.png"/>
-				
-				<div class="case_results_content">
-					
-					
-					<div class="gold_line"></div><!-- gold_line -->
-					
-					<span>At issue in the cases were public statements as well as material omissions St. Paul Travelers made that negatively impacted the stock prices of the Company. On behalf of New Mexico State Funds, Gustafson Gluek worked to litigate the two separate class actions against St. Paul Travelers, resulting in multi-million dollar settlements.</span>
-					
-					
-				</div><!-- case_results_content -->
-				
-			</div><!-- slide -->
-			
-		</div><!-- slide_wrapper -->
+	
 		
 	</div><!-- case_results_slide_wrapper -->
 	
@@ -246,7 +220,37 @@ get_header(); ?>
 	
 			<div class="slide">
 		
+			<img src="<?php bloginfo('template_directory');?>/images/award_01.png"/>
+		
+		</div><!-- slide -->
+		
+		<div class="slide">
+		
 			<img src="<?php bloginfo('template_directory');?>/images/award_02.png"/>
+		
+		</div><!-- slide -->
+		
+		<div class="slide">
+		
+			<img src="<?php bloginfo('template_directory');?>/images/award_03.png"/>
+		
+		</div><!-- slide -->
+		
+		<div class="slide">
+		
+			<img src="<?php bloginfo('template_directory');?>/images/award_04.png"/>
+		
+		</div><!-- slide -->
+		
+		<div class="slide">
+		
+			<img src="<?php bloginfo('template_directory');?>/images/award_04.png"/>
+		
+		</div><!-- slide -->
+		
+		<div class="slide">
+		
+			<img src="<?php bloginfo('template_directory');?>/images/award_04.png"/>
 		
 		</div><!-- slide -->
 	

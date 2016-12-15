@@ -121,6 +121,9 @@
 
 <script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
 <script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/jquery-custom-min.js"></script>
+<script type="text/javascript" src="<?php bloginfo('template_directory');?>/js/slick/slick/slick.min.js"></script>
+
+
 
 </body>
 </html>

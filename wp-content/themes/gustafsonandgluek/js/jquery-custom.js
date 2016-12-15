@@ -105,10 +105,6 @@ jQuery(document).ready(function(){
 	
 	// Consultaton Scroll
 	
-	// Consultation Scroll 
-
-
-
 jQuery(function() {
   jQuery('a[href*="#"]:not([href="#"])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
@@ -143,6 +139,43 @@ jQuery('.single_social_icon').mouseleave(function() {
 	
 	
 });
+
+
+
+// Awards Slides
+
+jQuery('#awards .slide_wrapper').slick({
+  	slidesToShow: 4,
+		slidesToScroll: 4,
+		arrows:false,
+	
+	
+		responsive: [
+    {
+      breakpoint: 1150,
+      settings: {
+        infinite: true,
+				slidesToShow: 2,
+				slidesToScroll: 2,
+				arrows:false
+				
+      }
+    },
+    {
+      breakpoint: 620,
+      settings: {
+        infinite: true,
+				slidesToShow: 1,
+				slidesToScroll: 1,
+				arrows:false
+				
+				
+      }
+    }
+    
+  ]
+});
+
 	
 	
 	
