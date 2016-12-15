@@ -1,5 +1,16 @@
 jQuery(document).ready(function(){
 
+	
+	
+		
+	
+	
+	
+	
+	
+	// Case Results 
+	
+	
 	jQuery( "#accordion" ).accordion({
 		
 		active: false,
@@ -73,7 +84,23 @@ jQuery(document).ready(function(){
 	
 		
 	
+	// Mobile Menu
 	
+	
+	jQuery('.inner_header_right').click(function() {
+		
+		jQuery('nav').slideToggle(200);
+		
+	});
+	
+	
+	jQuery('ul.menu > li.menu-item-has-children').click(function() {
+		
+		jQuery(this).children('ul.sub-menu').slideToggle(200);
+		jQuery(this).toggleClass('active');
+		
+	});
+
 	
 	
 	

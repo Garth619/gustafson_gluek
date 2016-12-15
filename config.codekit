@@ -7963,6 +7963,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/wp-content\/themes\/gustafsonandgluek\/images\/dot-small.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 962,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/gustafsonandgluek\/images\/dot-small.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/gustafsonandgluek\/images\/dot-small.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/wp-content\/themes\/gustafsonandgluek\/images\/dot.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -8150,6 +8161,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/wp-content\/themes\/gustafsonandgluek\/images\/printer-icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2228,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/gustafsonandgluek\/images\/printer-icon.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/gustafsonandgluek\/images\/printer-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/wp-content\/themes\/gustafsonandgluek\/images\/profile_gustafson.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -8282,6 +8304,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/wp-content\/themes\/gustafsonandgluek\/images\/tel-icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2952,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/gustafsonandgluek\/images\/tel-icon.png",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/gustafsonandgluek\/images\/tel-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/wp-content\/themes\/gustafsonandgluek\/index.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -8290,6 +8323,206 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/themes\/gustafsonandgluek\/js\/jquery-custom-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/gustafsonandgluek\/js\/jquery-custom-min.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/gustafsonandgluek\/js\/min\/jquery-custom-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/themes\/gustafsonandgluek\/js\/jquery-custom.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/gustafsonandgluek\/js\/jquery-custom.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/gustafsonandgluek\/js\/jquery-custom-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 1,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/themes\/gustafsonandgluek\/js\/jquery-ui-1.12.1.custom-done\/external\/jquery\/jquery.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/gustafsonandgluek\/js\/jquery-ui-1.12.1.custom-done\/external\/jquery\/jquery.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/gustafsonandgluek\/js\/jquery-ui-1.12.1.custom-done\/external\/jquery\/min\/jquery-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/themes\/gustafsonandgluek\/js\/jquery-ui-1.12.1.custom-done\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/gustafsonandgluek\/js\/jquery-ui-1.12.1.custom-done\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/themes\/gustafsonandgluek\/js\/jquery-ui-1.12.1.custom-done\/jquery-ui.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/gustafsonandgluek\/js\/jquery-ui-1.12.1.custom-done\/jquery-ui.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/themes\/gustafsonandgluek\/js\/jquery-ui-1.12.1.custom-done\/jquery-ui.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/gustafsonandgluek\/js\/jquery-ui-1.12.1.custom-done\/jquery-ui.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/gustafsonandgluek\/js\/jquery-ui-1.12.1.custom-done\/min\/jquery-ui-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/themes\/gustafsonandgluek\/js\/jquery-ui-1.12.1.custom-done\/jquery-ui.min.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/gustafsonandgluek\/js\/jquery-ui-1.12.1.custom-done\/jquery-ui.min.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/themes\/gustafsonandgluek\/js\/jquery-ui-1.12.1.custom-done\/jquery-ui.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/gustafsonandgluek\/js\/jquery-ui-1.12.1.custom-done\/jquery-ui.min.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/gustafsonandgluek\/js\/jquery-ui-1.12.1.custom-done\/min\/jquery-ui.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/themes\/gustafsonandgluek\/js\/jquery-ui-1.12.1.custom-done\/jquery-ui.structure.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/gustafsonandgluek\/js\/jquery-ui-1.12.1.custom-done\/jquery-ui.structure.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/themes\/gustafsonandgluek\/js\/jquery-ui-1.12.1.custom-done\/jquery-ui.structure.min.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/gustafsonandgluek\/js\/jquery-ui-1.12.1.custom-done\/jquery-ui.structure.min.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/themes\/gustafsonandgluek\/js\/jquery-ui-1.12.1.custom-done\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/gustafsonandgluek\/js\/jquery-ui-1.12.1.custom-done\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/wp-content\/themes\/gustafsonandgluek\/js\/jquery-ui-1.12.1.custom-done\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
+	"\/wp-content\/themes\/gustafsonandgluek\/js\/jquery-ui-1.12.1.custom\/external\/jquery\/jquery.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/gustafsonandgluek\/js\/jquery-ui-1.12.1.custom\/external\/jquery\/jquery.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/gustafsonandgluek\/js\/jquery-ui-1.12.1.custom\/external\/jquery\/min\/jquery-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/themes\/gustafsonandgluek\/js\/jquery-ui-1.12.1.custom\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/gustafsonandgluek\/js\/jquery-ui-1.12.1.custom\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/themes\/gustafsonandgluek\/js\/jquery-ui-1.12.1.custom\/jquery-ui.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/gustafsonandgluek\/js\/jquery-ui-1.12.1.custom\/jquery-ui.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/themes\/gustafsonandgluek\/js\/jquery-ui-1.12.1.custom\/jquery-ui.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/gustafsonandgluek\/js\/jquery-ui-1.12.1.custom\/jquery-ui.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/gustafsonandgluek\/js\/jquery-ui-1.12.1.custom\/min\/jquery-ui-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/themes\/gustafsonandgluek\/js\/jquery-ui-1.12.1.custom\/jquery-ui.min.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/gustafsonandgluek\/js\/jquery-ui-1.12.1.custom\/jquery-ui.min.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/themes\/gustafsonandgluek\/js\/jquery-ui-1.12.1.custom\/jquery-ui.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/gustafsonandgluek\/js\/jquery-ui-1.12.1.custom\/jquery-ui.min.js",
+		"outputAbbreviatedPath": "\/wp-content\/themes\/gustafsonandgluek\/js\/jquery-ui-1.12.1.custom\/min\/jquery-ui.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/wp-content\/themes\/gustafsonandgluek\/js\/jquery-ui-1.12.1.custom\/jquery-ui.structure.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/gustafsonandgluek\/js\/jquery-ui-1.12.1.custom\/jquery-ui.structure.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/themes\/gustafsonandgluek\/js\/jquery-ui-1.12.1.custom\/jquery-ui.structure.min.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/gustafsonandgluek\/js\/jquery-ui-1.12.1.custom\/jquery-ui.structure.min.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/themes\/gustafsonandgluek\/js\/jquery-ui-1.12.1.custom\/package.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/gustafsonandgluek\/js\/jquery-ui-1.12.1.custom\/package.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/wp-content\/themes\/gustafsonandgluek\/js\/jquery-ui-1.12.1.custom\/package-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
 		},
 	"\/wp-content\/themes\/gustafsonandgluek\/loop-attachment.php": {
 		"fileType": 8192,
@@ -8327,6 +8560,33 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/wp-content\/themes\/gustafsonandgluek\/page-bio.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/gustafsonandgluek\/page-bio.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/themes\/gustafsonandgluek\/page-caseresults.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/gustafsonandgluek\/page-caseresults.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/themes\/gustafsonandgluek\/page-contact.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/gustafsonandgluek\/page-contact.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/wp-content\/themes\/gustafsonandgluek\/page-main.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -8341,6 +8601,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/themes\/gustafsonandgluek\/page-practiceareas.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/themes\/gustafsonandgluek\/page-team.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/gustafsonandgluek\/page-team.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -8383,11 +8652,29 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/wp-content\/themes\/gustafsonandgluek\/sidebar-bio.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/gustafsonandgluek\/sidebar-bio.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/wp-content\/themes\/gustafsonandgluek\/sidebar-blog.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/wp-content\/themes\/gustafsonandgluek\/sidebar-blog.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/wp-content\/themes\/gustafsonandgluek\/sidebar-caseresults.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/wp-content\/themes\/gustafsonandgluek\/sidebar-caseresults.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0

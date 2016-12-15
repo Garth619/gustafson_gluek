@@ -49,6 +49,8 @@
 	
 	<div class="inner_header">
 	
+		<div class="mobile_fixed_wrapper">
+		
 		<a href="<?php bloginfo('url');?>">
 			<img class="logo" src="<?php bloginfo('template_directory');?>/images/logo.svg"/>
 		</a>
@@ -67,6 +69,8 @@
 		
 		</div><!-- inner_header_right-->
 		
+		</div><!-- mobile_fixed_wrapper -->
+		
 		<div class="lower_header">
 			
 			<a class="tel" href="tel:612.333.8844">612.333.8844</a>
@@ -76,7 +80,7 @@
 		
 	</div><!-- inner_header -->
 		
-	<nav>
+	<nav class="menu">
 		
 		<div class="inner_nav">
 			
