@@ -166,7 +166,10 @@ a.green_button {
     letter-spacing: .5px; }
 
 /* Nav */
-nav {
+nav.desktop {
+  display: none; }
+
+nav.mobile {
   background: #1a3536;
   position: fixed;
   top: 71px;
@@ -176,14 +179,14 @@ nav {
   overflow-y: scroll;
   display: none;
   z-index: 999999; }
-  nav .inner_nav {
+  nav.mobile .inner_nav {
     padding-bottom: 100px; }
-    nav .inner_nav ul.menu {
+    nav.mobile .inner_nav ul.menu {
       text-align: center;
       list-style: none; }
-      nav .inner_nav ul.menu > li.menu-item-has-children > a {
+      nav.mobile .inner_nav ul.menu > li.menu-item-has-children > a {
         position: relative; }
-        nav .inner_nav ul.menu > li.menu-item-has-children > a:after {
+        nav.mobile .inner_nav ul.menu > li.menu-item-has-children > a:after {
           content: "";
           width: 0;
           height: 0;
@@ -194,12 +197,12 @@ nav {
           right: 6%;
           position: absolute;
           top: 25px; }
-      nav .inner_nav ul.menu > li.menu-item-has-children.active {
+      nav.mobile .inner_nav ul.menu > li.menu-item-has-children.active {
         background: #fff; }
-        nav .inner_nav ul.menu > li.menu-item-has-children.active > a {
+        nav.mobile .inner_nav ul.menu > li.menu-item-has-children.active > a {
           color: #ceb675;
           position: relative; }
-          nav .inner_nav ul.menu > li.menu-item-has-children.active > a:after {
+          nav.mobile .inner_nav ul.menu > li.menu-item-has-children.active > a:after {
             content: "";
             width: 0;
             height: 0;
@@ -210,31 +213,31 @@ nav {
             right: 6%;
             position: absolute;
             top: 25px; }
-      nav .inner_nav ul.menu > li {
+      nav.mobile .inner_nav ul.menu > li {
         font-family: "Nimbus Sans TW01Bla";
         text-transform: uppercase;
         letter-spacing: 1px; }
-      nav .inner_nav ul.menu li {
+      nav.mobile .inner_nav ul.menu li {
         cursor: pointer;
         border-bottom: 1px solid #142b2c; }
-        nav .inner_nav ul.menu li a {
+        nav.mobile .inner_nav ul.menu li a {
           font-size: 14px;
           text-decoration: none;
           color: #fff;
           display: block;
           padding: 23px 10px; }
-        nav .inner_nav ul.menu li > ul.sub-menu {
+        nav.mobile .inner_nav ul.menu li > ul.sub-menu {
           display: none;
           background: #213f40; }
-          nav .inner_nav ul.menu li > ul.sub-menu > li:last-of-type {
+          nav.mobile .inner_nav ul.menu li > ul.sub-menu > li:last-of-type {
             border: none; }
-          nav .inner_nav ul.menu li > ul.sub-menu > li {
+          nav.mobile .inner_nav ul.menu li > ul.sub-menu > li {
             font-family: "Source Serif Pro";
             font-weight: 900;
             font-style: normal;
             text-transform: none;
             letter-spacing: 1.5px; }
-            nav .inner_nav ul.menu li > ul.sub-menu > li a {
+            nav.mobile .inner_nav ul.menu li > ul.sub-menu > li a {
               font-size: 15px; }
 
 /* Hero Banner */
@@ -1339,8 +1342,7 @@ span.pull_quote {
         margin-bottom: 40px;
         line-height: 63px; }
   /* Nav */
-  /* Nav */
-  nav {
+  nav.mobile {
     top: 78px; }
   /* Free Consultation */
   .free_consultation {
@@ -1770,31 +1772,85 @@ span.pull_quote {
     float: right;
     margin-right: 1%; }
   /* Nav */
-  nav {
+  .mobile_fixed_wrapper {
+    position: relative;
+    top: 0; }
+  nav.mobile {
+    display: none !important; }
+  nav.desktop {
     width: 100%;
-    background: rgba(25, 51, 52, 0.2);
     clear: both;
     line-height: 1;
     position: relative;
-    z-index: 200; }
-    nav .inner_nav {
+    z-index: 200;
+    top: 0;
+    display: block; }
+    nav.desktop .inner_nav {
       max-width: 2000px;
       margin: 0 auto; }
-      nav .inner_nav ul {
-        list-style: none;
+      nav.desktop .inner_nav ul {
+        list-style: none; }
+        nav.desktop .inner_nav ul li a {
+          cursor: pointer; }
+      nav.desktop .inner_nav ul.menu {
         display: flex;
         text-align: center;
+        background: rgba(25, 51, 52, 0.2);
         font-family: "Nimbus Sans TW01Bla";
         color: #193334; }
-        nav .inner_nav ul li {
-          flex-grow: 1; }
-          nav .inner_nav ul li a {
+        nav.desktop .inner_nav ul.menu > li.menu-item-has-children > a:after {
+          content: "";
+          width: 0;
+          height: 0;
+          border-left: 4px solid transparent;
+          border-right: 4px solid transparent;
+          border-top: 4px solid #193334;
+          display: inline-block;
+          position: relative;
+          top: -3px;
+          left: 7px; }
+        nav.desktop .inner_nav ul.menu > li {
+          flex-grow: 1;
+          position: relative;
+          transition: all .2s ease-in-out; }
+          nav.desktop .inner_nav ul.menu > li:hover > ul.sub-menu {
+            opacity: 1;
+            visibility: visible; }
+          nav.desktop .inner_nav ul.menu > li > a {
             color: #193334;
             text-decoration: none;
             text-transform: uppercase;
             letter-spacing: 1px;
             display: block;
             padding: 33px 0; }
+          nav.desktop .inner_nav ul.menu > li > ul.sub-menu {
+            background: #1c3536;
+            text-align: left;
+            font-family: "Source Serif Pro";
+            font-weight: 900;
+            font-style: normal;
+            font-size: 15px;
+            line-height: 35px;
+            letter-spacing: 0.55px;
+            position: absolute;
+            top: 82px;
+            left: 45px;
+            opacity: 0;
+            visibility: hidden;
+            transition: all .2s ease-in-out; }
+            nav.desktop .inner_nav ul.menu > li > ul.sub-menu > li {
+              border-bottom: 1px solid #213f40; }
+              nav.desktop .inner_nav ul.menu > li > ul.sub-menu > li:last-of-type {
+                border: none; }
+              nav.desktop .inner_nav ul.menu > li > ul.sub-menu > li > a {
+                color: #fff;
+                text-decoration: none;
+                display: block;
+                padding: 10px 35px;
+                transition: all .2s ease-in-out;
+                min-width: 325px; }
+                nav.desktop .inner_nav ul.menu > li > ul.sub-menu > li > a:hover {
+                  color: #b6995a; }
   /* Hero Banner */
   .hero_banner {
     width: 100%;

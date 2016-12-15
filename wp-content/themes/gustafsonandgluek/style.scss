@@ -223,7 +223,12 @@ header {
 
 /* Nav */
 
-nav {
+
+nav.desktop {
+	display: none;
+}
+
+nav.mobile {
 	background:#1a3536;
 	position: fixed;
 	top:71px;
@@ -1795,13 +1800,12 @@ footer {
 
 
 
-/* Nav */
 
 
 
 /* Nav */
 
-nav {
+nav.mobile {
 	top:78px;
 	.inner_nav {
 		
@@ -2767,31 +2771,109 @@ footer {
 /* Nav */
 
 
-nav {
+.mobile_fixed_wrapper {
+	position: relative;
+	top:0;
+	
+}
+
+nav.mobile {
+	display: none !important;
+}
+
+nav.desktop {
 	width:100%;
-	background:rgba(25, 51, 52, 0.2);
 	clear:both;
 	line-height: 1;
 	position: relative;
 	z-index:200;
+	top:0;
+	display:block;
 	.inner_nav {
 		max-width:2000px;
 		margin:0 auto;
 		ul {
 			list-style: none;
+			
+			li {
+				a {
+					cursor: pointer;
+				}
+			}
+		}
+		ul.menu {
 			display:flex;
 			text-align: center;
+			background:rgba(25, 51, 52, 0.2);
 			font-family: $nimbusblack;
 			color:$greendark;
-			li {
+			
+			>li.menu-item-has-children {
+				> a {
+					&:after {
+						content:"";
+						width: 0; 
+						height: 0; 
+						border-left: 4px solid transparent;
+						border-right: 4px solid transparent;
+						border-top: 4px solid $greendark;
+						display: inline-block;
+						position: relative;
+						top:-3px;
+						left:7px;
+					}
+				}
+			}
+			> li {
 				flex-grow: 1;
-				a {
+				position: relative;
+				transition: all .2s ease-in-out;
+				&:hover {
+					> ul.sub-menu {
+						opacity: 1;
+						visibility: visible;
+					}
+				}
+				> a {
 					color:$greendark;
 					text-decoration: none;
 					text-transform: uppercase;
 					letter-spacing: 1px;
 					display: block;
 					padding:33px 0;
+				}
+				> ul.sub-menu {
+						background: #1c3536;
+						text-align: left;
+						font-family: $sourceserif;
+						font-weight:900;
+						font-style:normal;
+						font-size:15px;
+						line-height: 35px;
+						letter-spacing: 0.55px;
+						position: absolute;
+						top:82px;
+						left:45px;
+						opacity: 0;
+						visibility: hidden;
+						transition: all .2s ease-in-out;
+						> li {
+							border-bottom:1px solid #213f40;
+							&:last-of-type {
+								border:none;
+							}
+							> a {
+								color:#fff;
+								text-decoration: none;
+								display: block;
+								padding:10px 35px;
+								transition: all .2s ease-in-out;
+								min-width:325px;
+								&:hover {
+									color:$gold;
+								}
+							}
+						}
 				}
 			}
 		}

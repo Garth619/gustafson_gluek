@@ -80,7 +80,7 @@
 		
 	</div><!-- inner_header -->
 		
-	<nav class="menu">
+	<nav class="mobile">
 		
 		<div class="inner_nav">
 			
@@ -88,7 +88,18 @@
 		
 		</div><!-- inner_nav -->
 			
-	</nav>
+	</nav><!-- mobile -->
+	
+	
+	<nav class="desktop">
+		
+		<div class="inner_nav">
+			
+			<?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'primary' ) ); ?>
+		
+		</div><!-- inner_nav -->
+			
+	</nav><!-- desktop -->
 		
 	
 </header>
