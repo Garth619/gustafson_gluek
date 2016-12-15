@@ -274,10 +274,12 @@ nav {
 					}
 				}
 			}
-			li {
+			> li {
 				font-family: $nimbusblack;
 				text-transform: uppercase;
 				letter-spacing: 1px;
+			}
+			li {
 				cursor: pointer;
 				border-bottom:1px solid #142b2c;
 				a {
@@ -293,10 +295,15 @@ nav {
 					background:#213f40;
 					> li:last-of-type {
 						border: none;
-						li {
-							font-family: $sourceserif;
-							font-weight:900;
-							font-style: normal;
+					}
+					> li {
+						font-family: $sourceserif;
+						font-weight:900;
+						font-style: normal;
+						text-transform: none;
+						letter-spacing: 1.5px;
+						a {
+							font-size:15px;
 						}
 					}
 				}
@@ -1535,7 +1542,7 @@ footer {
 			padding: 34px 14px;
 			display: block;
 			margin-bottom:29px;
-			line-height:15px;
+			line-height:20px;
 			cursor: pointer;
 			&:nth-of-type(1) {
 				&:before {
@@ -1784,6 +1791,65 @@ footer {
 		}
 	}
 }
+
+
+
+
+/* Nav */
+
+
+
+/* Nav */
+
+nav {
+	top:78px;
+	.inner_nav {
+		
+		ul.menu {
+			
+			> li.menu-item-has-children {
+				> a {
+					
+					&:after {
+						
+					}
+				}
+			}
+			> li.menu-item-has-children.active {
+				
+				> a {
+					
+					&:after {
+						
+					}
+				}
+			}
+			> li {
+				
+			}
+			li {
+				
+				a {
+					
+					
+				}
+				> ul.sub-menu {
+					
+					> li:last-of-type {
+						
+					}
+					> li {
+						
+						a {
+							
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
 
 
 

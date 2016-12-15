@@ -65,7 +65,7 @@
 			
 			</div><!-- mobile_menu -->
 			
-			<span class="mobile_menu_title">Menu</span><!-- mobile_menu_title -->
+			<span id="menu_text_change" class="mobile_menu_title">Menu</span><!-- mobile_menu_title -->
 		
 		</div><!-- inner_header_right-->
 		
