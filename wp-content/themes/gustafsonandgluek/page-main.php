@@ -226,6 +226,9 @@ get_header(); ?>
 			
 		</div><!-- slide_wrapper -->
 		
+		
+		
+		
 	
 		
 	</div><!-- case_results_slide_wrapper -->

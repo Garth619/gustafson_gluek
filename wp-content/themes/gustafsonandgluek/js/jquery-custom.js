@@ -170,6 +170,33 @@ jQuery('#experience_section .slide_wrapper').slick({
 
 
 
+// Case Results
+
+
+jQuery('.case_results_slide_wrapper .slide_wrapper').slick({
+  	slidesToShow: 2,
+		slidesToScroll: 2,
+		arrows:false,
+		dots:true,
+	
+		responsive: [
+    {
+      breakpoint: 1150,
+      settings: {
+        infinite: true,
+				slidesToShow: 1,
+				slidesToScroll: 1,
+				arrows:false,
+				dots:true,
+      }
+    }
+    
+  ]
+});
+
+
+
+
 
 
 // Awards Slides
