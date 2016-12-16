@@ -422,7 +422,8 @@ nav.mobile {
 					display: block;
 					text-transform: uppercase;
 					letter-spacing: .85px;
-				
+					max-width:300px;
+					margin:0 auto;
 					
 				}
 				.gold_line {
@@ -439,7 +440,7 @@ nav.mobile {
 					font-size:20px;
 					line-height: 1.3;
 					color:$greendark;
-					max-width:300px;
+					max-width:400px;
 					display: inline-block;
 					
 				}
@@ -448,7 +449,11 @@ nav.mobile {
 	}
 	.slick-dots {
 		bottom: -57px;
-		
+			li.slick-active {
+				button::before {
+					color:#45806e;
+				}
+			}
 			li {
 				margin:0;
 				button::before {
@@ -635,7 +640,11 @@ a.summaries_button {
 	}
 	.slick-dots {
 		bottom: -60px;
-		
+			li.slick-active {
+				button::before {
+					color:$gold;
+				}
+			}
 			li {
 				margin:0;
 				button::before {
@@ -1809,6 +1818,43 @@ footer {
 			
 		}
 	}
+	
+	
+	
+	
+	
+	
+	
+	.hero_banner {
+	
+	
+	padding: 50px 30px;
+	.inner_hero_wrapper {
+			
+		.hero_banner_content {
+			
+			span.description {
+				
+			}
+			a.request_button {
+				
+			}
+			.sub_header {
+				
+			}
+			.large_header {
+				
+			}
+		}
+	}
+}
+
+	
+	
+	
+	
+	
+	
 	 
 
  } /* Media Query */
@@ -1984,7 +2030,13 @@ nav.mobile {
 
 
 #experience_section {
-	padding:0px 30px 68px;
+	padding:0px 30px 30px;
+/*
+	.slide_vertical_center {
+			height: 352px;
+// 			margin-top:35px
+		}
+*/
 	.experience_content {
 		display: block;
 		width:52%;
@@ -1994,6 +2046,7 @@ nav.mobile {
 // 		margin-top:-40px;
 		position: relative;
 		top:-40px;
+		
 		span.experience_content_header {
 			display: block;
 			color:$gold;
@@ -2012,11 +2065,20 @@ nav.mobile {
 			font-size:17px;
 		}
 	}
+
+	
+
 	.slide_wrapper {
 		width:48%;
 		float:right;
-// 		margin-top:87px;
-		padding-left:3%;
+		padding-left:2%;
+		margin-top:100px;
+/*
+		position: relative;
+		top: 50%;
+		transform: translateY(-50%);
+*/
+		
 		
 			.slide {
 				
@@ -2037,6 +2099,24 @@ nav.mobile {
 				}
 			}
 		}
+		
+		.slick-dots {
+		bottom: -20px;
+		position:relative;
+			li.slick-active {
+				button::before {
+					color:#45806e;
+				}
+			}
+			li {
+			
+				button::before {
+					
+				}
+			}
+		
+	}
+	
 	
 }
 
@@ -2795,6 +2875,83 @@ footer {
 
 
 } /* Media Query */
+
+
+
+@media screen and (min-width: 950px) {
+	
+	
+	
+	/* Experience Section */
+
+
+#experience_section {
+	
+	.experience_content {
+		
+		
+		span.experience_content_header {
+			
+		}
+		p {
+			
+		}
+	}
+
+	
+
+	.slide_wrapper {
+		
+		margin-top:55px;
+		
+			.slide {
+				
+				img.svg_icon {
+					
+				}
+				span.large_header {
+					
+				
+					
+				}
+				.gold_line {
+					
+				}
+				span.sub_content {
+					
+					
+				}
+			}
+		}
+		
+		.slick-dots {
+		
+			li.slick-active {
+				button::before {
+					
+				}
+			}
+			li {
+				
+				button::before {
+					
+				}
+			}
+		
+	}
+	.slick-dots li button:hover::before, .slick-dots li button:focus::before {
+    
+	}
+	
+}
+
+	
+	
+	
+} /* Media Query */
+
+
+
 
 
 

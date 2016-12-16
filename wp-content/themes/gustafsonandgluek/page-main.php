@@ -63,7 +63,7 @@ get_header(); ?>
 		
 					<img class="svg_icon" src="<?php bloginfo('template_directory');?>/images/sp-03.svg"/>
 		
-					<span class="large_header">Over 70 years of&nbsp;experience</span><!-- large_header -->
+					<span class="large_header">Over 70 years of experience</span><!-- large_header -->
 		
 					<div class="gold_line"></div><!-- Gold Line -->
 		
