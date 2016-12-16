@@ -148,17 +148,17 @@ jQuery('#awards .slide_wrapper').slick({
   	slidesToShow: 4,
 		slidesToScroll: 4,
 		arrows:false,
-	
+		dots:true,
 	
 		responsive: [
     {
       breakpoint: 1150,
       settings: {
         infinite: true,
-				slidesToShow: 2,
-				slidesToScroll: 2,
-				arrows:false
-				
+				slidesToShow: 3,
+				slidesToScroll: 3,
+				arrows:false,
+				dots:true,
       }
     },
     {
@@ -167,8 +167,8 @@ jQuery('#awards .slide_wrapper').slick({
         infinite: true,
 				slidesToShow: 1,
 				slidesToScroll: 1,
-				arrows:false
-				
+				arrows:false,
+				dots:true,
 				
       }
     }

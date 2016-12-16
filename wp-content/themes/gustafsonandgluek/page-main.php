@@ -242,18 +242,6 @@ get_header(); ?>
 		
 		</div><!-- slide -->
 		
-		<div class="slide">
-		
-			<img src="<?php bloginfo('template_directory');?>/images/award_04.png"/>
-		
-		</div><!-- slide -->
-		
-		<div class="slide">
-		
-			<img src="<?php bloginfo('template_directory');?>/images/award_04.png"/>
-		
-		</div><!-- slide -->
-	
 	</div><!-- slide_wrapper -->
 
 	</div><!-- awards_inner -->

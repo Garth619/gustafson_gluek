@@ -607,7 +607,7 @@ a.summaries_button {
 #awards {
 	background: url(images/element_pattern.png) top left repeat;
 	width:100%;
-	padding:50px;
+	padding: 50px 0 66px;
 	text-align: center;
 	span.large_header {
 		display: none !important;
@@ -615,7 +615,31 @@ a.summaries_button {
 	img {
 		max-width: 100%;
 		height:auto;
+		margin: 0 auto;
 	}
+	.slick-dots {
+		bottom: -60px;
+		
+			li {
+				margin:0;
+				button::before {
+					color:#000;
+					opacity: 1;
+					font-size: 7px;
+				}
+			}
+		
+	}
+	
+	
+	
+	
+	.slick-dots li button:hover::before, .slick-dots li button:focus::before {
+    color:$gold;
+}
+	
+	
+	
 	
 }
 
@@ -1781,6 +1805,33 @@ footer {
  } /* Media Query */
 
 
+
+@media screen and (min-width: 620px) {
+
+
+/* Awards */
+
+
+#awards {
+// 	padding-top:150px;
+	span.large_header {
+		color:$gold;
+		text-transform: uppercase;
+		font-family: $nimbusblack;
+		letter-spacing: 4.5px;
+		text-align: left;
+		display: block !important;
+		margin-bottom:27px;
+		padding-left: 9%;
+	}
+}
+
+
+} /* Media Query */
+
+
+
+
 @media screen and (min-width: 730px) {
 	
 	
@@ -2178,23 +2229,12 @@ nav.mobile {
 }
 
 
-
 /* Awards */
 
 
 #awards {
 	padding-top:150px;
-	span.large_header {
-		color:$gold;
-		text-transform: uppercase;
-		font-family: $nimbusblack;
-		letter-spacing: 4.5px;
-		text-align: left;
-		display: block !important;
-		margin-bottom:27px;
 	}
-}
-
 
 
 
@@ -3192,20 +3232,29 @@ nav.desktop {
 
 
 #awards {
+	padding:208px 0 75px;
+	overflow: hidden;
 	.awards_inner {
 		max-width:1370px;
 		height:auto;
 		margin:0 auto;
+		padding-left:40px;
+		padding-right:40px;
 		span.large_header {
-		
+			float:left;
+			width:13%;
+			padding-left:0;
+			margin-top: 61px;
 		}
-		img {
-		
+		.slide_wrapper {
+		width:87%;
+		float:left;
+		.slide {
+			
 		}
 	}
+	}
 }
-
-
 
 
 
