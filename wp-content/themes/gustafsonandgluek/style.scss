@@ -3085,6 +3085,7 @@ nav.desktop {
 	z-index:200;
 	top:0;
 	display:block;
+	background:rgba(25, 51, 52, 0.2);
 	.inner_nav {
 		max-width:2000px;
 		margin:0 auto;
@@ -3101,7 +3102,7 @@ nav.desktop {
 			display:flex;
 			justify-content: space-around;
 			text-align: center;
-			background:rgba(25, 51, 52, 0.2);
+			background:transparent;
 			font-family: $nimbusblack;
 			color:$greendark;
 			font-size:14px;

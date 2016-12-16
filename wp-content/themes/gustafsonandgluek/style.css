@@ -1914,7 +1914,8 @@ span.pull_quote {
     position: relative;
     z-index: 200;
     top: 0;
-    display: block; }
+    display: block;
+    background: rgba(25, 51, 52, 0.2); }
     nav.desktop .inner_nav {
       max-width: 2000px;
       margin: 0 auto; }
@@ -1926,7 +1927,7 @@ span.pull_quote {
         display: flex;
         justify-content: space-around;
         text-align: center;
-        background: rgba(25, 51, 52, 0.2);
+        background: transparent;
         font-family: "Nimbus Sans TW01Bla";
         color: #193334;
         font-size: 14px; }
