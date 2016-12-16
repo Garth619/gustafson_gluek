@@ -155,7 +155,7 @@ jQuery('#experience_section .slide_wrapper').slick({
 	
 		responsive: [
     {
-      breakpoint: 1150,
+      breakpoint: 1400,
       settings: {
         infinite: true,
 				slidesToShow: 1,
