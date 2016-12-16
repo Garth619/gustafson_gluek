@@ -60,17 +60,57 @@ get_header(); ?>
 	
 				<div class="slide">
 		
-					<img class="svg_icon" src="<?php bloginfo('template_directory');?>/images/sp-01.svg"/>
+					<img class="svg_icon" src="<?php bloginfo('template_directory');?>/images/sp-03.svg"/>
 		
-					<span class="large_header">Over 70 years of experience</span><!-- large_header -->
+					<span class="large_header">Over 70 years of&nbsp;experience</span><!-- large_header -->
 		
 					<div class="gold_line"></div><!-- Gold Line -->
 		
-					<span class="sub_content">Nulla sagittis eleifend tellus, et ultrices massa rutrum id. Maecenas justo augue </span><!-- sub_content -->
+					<span class="sub_content">Put our experience to work for&nbsp;you!</span><!-- sub_content -->
 		
 			</div><!-- slide -->
 	
 		</div><!-- single_slide_wrapper -->
+		
+		
+		
+		<div class="single_slide_wrapper">
+	
+				<div class="slide">
+		
+					<img class="svg_icon" src="<?php bloginfo('template_directory');?>/images/sp-01.svg"/>
+		
+					<span class="large_header">History of Results</span><!-- large_header -->
+		
+					<div class="gold_line"></div><!-- Gold Line -->
+		
+					<span class="sub_content">Successful track record in class action&nbsp;cases.</span><!-- sub_content -->
+		
+			</div><!-- slide -->
+	
+		</div><!-- single_slide_wrapper -->
+		
+		
+		
+		
+		
+		<div class="single_slide_wrapper">
+	
+				<div class="slide">
+		
+					<img class="svg_icon" src="<?php bloginfo('template_directory');?>/images/sp-02.svg"/>
+		
+					<span class="large_header">Award Winning Attorneys</span><!-- large_header -->
+		
+					<div class="gold_line"></div><!-- Gold Line -->
+		
+					<span class="sub_content">Our attorneys have named as Super Lawyers, Rising Stars and&nbsp;more.</span><!-- sub_content -->
+		
+			</div><!-- slide -->
+	
+		</div><!-- single_slide_wrapper -->
+		
+		
 	
 	</div><!-- slide_wrapper -->
 	

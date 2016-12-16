@@ -142,6 +142,36 @@ jQuery('.single_social_icon').mouseleave(function() {
 
 
 
+
+// Experience Section
+
+
+
+jQuery('#experience_section .slide_wrapper').slick({
+  	slidesToShow: 3,
+		slidesToScroll: 3,
+		arrows:false,
+		dots:true,
+	
+		responsive: [
+    {
+      breakpoint: 1150,
+      settings: {
+        infinite: true,
+				slidesToShow: 1,
+				slidesToScroll: 1,
+				arrows:false,
+				dots:true,
+      }
+    }
+    
+  ]
+});
+
+
+
+
+
 // Awards Slides
 
 jQuery('#awards .slide_wrapper').slick({

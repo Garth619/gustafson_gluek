@@ -400,7 +400,7 @@ nav.mobile {
 #experience_section {
 	width:100%;
 	background: url(images/element_pattern.png) top left repeat;
-	padding:55px;
+	padding: 55px 20px 68px;
 	.experience_content {
 		display: none;
 	}
@@ -445,6 +445,22 @@ nav.mobile {
 				}
 			}
 		}
+	}
+	.slick-dots {
+		bottom: -57px;
+		
+			li {
+				margin:0;
+				button::before {
+					color:#000;
+					opacity: 1;
+					font-size: 9px;
+				}
+			}
+		
+	}
+	.slick-dots li button:hover::before, .slick-dots li button:focus::before {
+    color:#45806e;
 	}
 }
 
@@ -630,16 +646,9 @@ a.summaries_button {
 			}
 		
 	}
-	
-	
-	
-	
 	.slick-dots li button:hover::before, .slick-dots li button:focus::before {
     color:$gold;
-}
-	
-	
-	
+	}
 	
 }
 
@@ -2171,7 +2180,7 @@ nav.mobile {
 		text-align: left;
 		margin:0 auto;
 		position: relative;
-		z-index:1000000;
+		z-index:10;
 		height:655px;
 		max-width:900px;
 		.slide {

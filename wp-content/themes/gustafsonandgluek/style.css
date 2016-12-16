@@ -300,7 +300,7 @@ nav.mobile {
 #experience_section {
   width: 100%;
   background: url(images/element_pattern.png) top left repeat;
-  padding: 55px; }
+  padding: 55px 20px 68px; }
   #experience_section .experience_content {
     display: none; }
   #experience_section .slide_wrapper .single_slide_wrapper .slide {
@@ -333,6 +333,16 @@ nav.mobile {
       color: #193334;
       max-width: 300px;
       display: inline-block; }
+  #experience_section .slick-dots {
+    bottom: -57px; }
+    #experience_section .slick-dots li {
+      margin: 0; }
+      #experience_section .slick-dots li button::before {
+        color: #000;
+        opacity: 1;
+        font-size: 9px; }
+  #experience_section .slick-dots li button:hover::before, #experience_section .slick-dots li button:focus::before {
+    color: #45806e; }
 
 /* About */
 #about {
@@ -1523,7 +1533,7 @@ span.pull_quote {
       text-align: left;
       margin: 0 auto;
       position: relative;
-      z-index: 1000000;
+      z-index: 10;
       height: 655px;
       max-width: 900px; }
       .case_results_slide_wrapper .slide_wrapper .slide {
