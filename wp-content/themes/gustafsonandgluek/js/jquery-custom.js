@@ -179,16 +179,30 @@ jQuery('.case_results_slide_wrapper').slick({
 		slidesToScroll: 2,
 		arrows:false,
 		dots:true,
-	
+		vertical:true,
+		autoplay: true,
+		 autoplaySpeed: 9000,
 		responsive: [
     {
-      breakpoint: 1150,
+      breakpoint: 1600,
+      settings: {
+        infinite: true,
+				slidesToShow: 2,
+				slidesToScroll: 2,
+				arrows:false,
+				dots:true,
+				vertical:false,
+      }
+    },
+    {
+      breakpoint: 1145,
       settings: {
         infinite: true,
 				slidesToShow: 1,
 				slidesToScroll: 1,
 				arrows:false,
 				dots:true,
+				vertical:false,
       }
     }
     
@@ -232,6 +246,20 @@ jQuery('#awards .slide_wrapper').slick({
     }
     
   ]
+});
+
+
+
+// Attorneys Bio Additional Content
+
+
+jQuery('span.bio_view_additional_content').click(function() {
+	
+	
+	jQuery(this).fadeOut(200);
+	jQuery('.bio_additional_content').delay(500).fadeIn();
+	
+	
 });
 
 	

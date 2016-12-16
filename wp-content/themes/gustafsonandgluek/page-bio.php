@@ -39,6 +39,28 @@ Dan is a member of the Hennepin County, Minnesota State, Federal, and American B
 
 <p>Dan was the president of the Federal Bar Association, Minnesota Chapter for the 2002-2003 year, and vice-chair of the 2003 Eighth Circuit Judicial Conference. He was involved in helping develop the Federal Bar Association’s Pro Se Project, which coordinates volunteer representation for pro se litigants.
 Minnesota Lawyer magazine named Dan one of its Attorneys of the Year for the second time in 2013. He received the peer-nominated honor for the first time in 2010.</p>
+
+<a class="card" href="">Download VCard</a>
+
+
+				<span class="bio_view_additional_content">View Representative Cases</span><!-- view_additional_content -->
+				
+				
+				<div class="bio_additional_content">
+					
+					
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					
+					
+				</div><!-- additionaL_content -->
+				
+				
 			
 				</div><!-- inner_content -->
 			
