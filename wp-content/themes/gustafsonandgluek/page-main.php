@@ -52,12 +52,13 @@ get_header(); ?>
 		
 		</div><!-- experience_content -->
 	
-		
+		<div class="slide_vertical_center">
 		
 		<div class="slide_wrapper">
+			
+			
 		
-			<div class="single_slide_wrapper">
-	
+			
 				<div class="slide">
 		
 					<img class="svg_icon" src="<?php bloginfo('template_directory');?>/images/sp-03.svg"/>
@@ -70,13 +71,8 @@ get_header(); ?>
 		
 			</div><!-- slide -->
 	
-		</div><!-- single_slide_wrapper -->
 		
-		
-		
-		<div class="single_slide_wrapper">
-	
-				<div class="slide">
+			<div class="slide">
 		
 					<img class="svg_icon" src="<?php bloginfo('template_directory');?>/images/sp-01.svg"/>
 		
@@ -88,15 +84,9 @@ get_header(); ?>
 		
 			</div><!-- slide -->
 	
-		</div><!-- single_slide_wrapper -->
 		
 		
-		
-		
-		
-		<div class="single_slide_wrapper">
-	
-				<div class="slide">
+			<div class="slide">
 		
 					<img class="svg_icon" src="<?php bloginfo('template_directory');?>/images/sp-02.svg"/>
 		
@@ -107,12 +97,13 @@ get_header(); ?>
 					<span class="sub_content">Our attorneys have named as Super Lawyers, Rising Stars and&nbsp;more.</span><!-- sub_content -->
 		
 			</div><!-- slide -->
+			
+			
 	
-		</div><!-- single_slide_wrapper -->
-		
-		
+		</div><!-- slide_wrapper -->
 	
-	</div><!-- slide_wrapper -->
+	</div><!-- slide_vertical_center -->
+	
 	
 	<div style="clear:both;"></div><!-- clear hack -->
 	

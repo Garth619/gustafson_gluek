@@ -303,13 +303,13 @@ nav.mobile {
   padding: 55px 20px 68px; }
   #experience_section .experience_content {
     display: none; }
-  #experience_section .slide_wrapper .single_slide_wrapper .slide {
+  #experience_section .slide_wrapper .slide {
     text-align: center; }
-    #experience_section .slide_wrapper .single_slide_wrapper .slide img.svg_icon {
+    #experience_section .slide_wrapper .slide img.svg_icon {
       width: 100px;
       display: block;
       margin: 0 auto 25px; }
-    #experience_section .slide_wrapper .single_slide_wrapper .slide span.large_header {
+    #experience_section .slide_wrapper .slide span.large_header {
       font-family: "Source Serif Pro";
       font-weight: 900;
       font-style: normal;
@@ -318,13 +318,13 @@ nav.mobile {
       display: block;
       text-transform: uppercase;
       letter-spacing: .85px; }
-    #experience_section .slide_wrapper .single_slide_wrapper .slide .gold_line {
+    #experience_section .slide_wrapper .slide .gold_line {
       width: 75px;
       height: 1px;
       background: #b6995a;
       display: block;
       margin: 30px auto; }
-    #experience_section .slide_wrapper .single_slide_wrapper .slide span.sub_content {
+    #experience_section .slide_wrapper .slide span.sub_content {
       font-family: "Source Serif Pro";
       font-weight: 600;
       font-style: normal;
@@ -2055,7 +2055,7 @@ span.pull_quote {
         margin-top: 15px; }
     #experience_section .experience_inner_wrapper .slide_wrapper {
       width: 100%; }
-      #experience_section .experience_inner_wrapper .slide_wrapper .single_slide_wrapper {
+      #experience_section .experience_inner_wrapper .slide_wrapper .slide {
         float: left;
         width: 400px; }
 

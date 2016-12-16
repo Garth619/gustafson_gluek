@@ -405,7 +405,7 @@ nav.mobile {
 		display: none;
 	}
 	.slide_wrapper {
-		.single_slide_wrapper {
+		
 			.slide {
 				text-align: center;
 				img.svg_icon {
@@ -444,7 +444,7 @@ nav.mobile {
 					
 				}
 			}
-		}
+		
 	}
 	.slick-dots {
 		bottom: -57px;
@@ -2017,7 +2017,7 @@ nav.mobile {
 		float:right;
 // 		margin-top:87px;
 		padding-left:3%;
-		.single_slide_wrapper {
+		
 			.slide {
 				
 				img.svg_icon {
@@ -2037,7 +2037,7 @@ nav.mobile {
 				}
 			}
 		}
-	}
+	
 }
 
 
@@ -3117,11 +3117,11 @@ nav.desktop {
 		}
 		.slide_wrapper {
 			width:100%;
-			.single_slide_wrapper {
+			
+				
+				.slide {
 				float:left;
 				width:400px;
-				.slide {
-				
 					img.svg_icon {
 					
 					}
@@ -3138,7 +3138,7 @@ nav.desktop {
 					
 					}
 				}
-			}
+			
 		}
 	}
 
