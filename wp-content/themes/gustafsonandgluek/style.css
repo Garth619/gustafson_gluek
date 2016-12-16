@@ -1421,7 +1421,7 @@ span.pull_quote {
           line-height: 63px; }
   /* Nav */
   nav.mobile {
-    top: 78px; }
+    top: 74px; }
   /* Free Consultation */
   .free_consultation {
     display: none; }
@@ -1550,17 +1550,19 @@ span.pull_quote {
           /* IE6-9 */ }
   .case_results_slide_wrapper {
     clear: both;
-    padding-top: 80px;
+    padding-top: 100px;
     margin-left: 50px; }
     .case_results_slide_wrapper .slide_wrapper {
       border: 2px solid #b6995a;
       padding: 100px 40px 235px;
       text-align: left;
-      margin: 0 auto;
+      margin: 0;
       position: relative;
       z-index: 10;
-      height: 655px;
-      max-width: 900px; }
+      height: 669px;
+      max-width: 900px;
+      margin-left: 20px;
+      margin-right: 20px; }
       .case_results_slide_wrapper .slide_wrapper .slide {
         overflow: hidden; }
         .case_results_slide_wrapper .slide_wrapper .slide .title_left {
@@ -1604,6 +1606,22 @@ span.pull_quote {
             color: #fff;
             padding-left: 22px;
             margin-top: -13px; }
+    .case_results_slide_wrapper .slick-dots {
+      bottom: 213px;
+      margin-left: 27%;
+      position: relative;
+      text-align: left;
+      width: 44%; }
+      .case_results_slide_wrapper .slick-dots li.slick-active button::before {
+        color: #45806e; }
+      .case_results_slide_wrapper .slick-dots li {
+        margin: 0; }
+        .case_results_slide_wrapper .slick-dots li button::before {
+          color: #fff;
+          opacity: 1;
+          font-size: 7px; }
+    .case_results_slide_wrapper .slick-dots li button:hover::before, .case_results_slide_wrapper .slick-dots li button:focus::before {
+      color: #45806e; }
   /* Awards */
   #awards {
     padding-top: 150px; }

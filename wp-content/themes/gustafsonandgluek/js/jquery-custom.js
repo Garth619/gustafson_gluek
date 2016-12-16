@@ -89,7 +89,7 @@ jQuery(document).ready(function(){
 	
 	jQuery('.inner_header_right').click(function() {
 		
-		jQuery('nav').slideToggle(200);
+		jQuery('nav.mobile').slideToggle(200);
 		
 		
 	});
@@ -162,6 +162,7 @@ jQuery('#experience_section .slide_wrapper').slick({
 				slidesToScroll: 1,
 				arrows:false,
 				dots:true,
+				
       }
     }
     
@@ -173,7 +174,7 @@ jQuery('#experience_section .slide_wrapper').slick({
 // Case Results
 
 
-jQuery('.case_results_slide_wrapper .slide_wrapper').slick({
+jQuery('.case_results_slide_wrapper').slick({
   	slidesToShow: 2,
 		slidesToScroll: 2,
 		arrows:false,

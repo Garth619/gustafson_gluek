@@ -1966,7 +1966,7 @@ footer {
 /* Nav */
 
 nav.mobile {
-	top:78px;
+	top:74px;
 	.inner_nav {
 		
 		ul.menu {
@@ -2252,18 +2252,20 @@ nav.mobile {
 
 .case_results_slide_wrapper {
 	clear:both;
-	padding-top:80px;
+	padding-top:100px;
 	margin-left:50px;
 	
 	.slide_wrapper {
 		border:2px solid $gold;
 		padding:100px 40px 235px;
 		text-align: left;
-		margin:0 auto;
+		margin:0;
 		position: relative;
 		z-index:10;
-		height:655px;
+		height: 669px;
 		max-width:900px;
+		margin-left:20px;
+		margin-right:20px;
 		.slide {
 			overflow: hidden;
 			.title_left {
@@ -2316,6 +2318,36 @@ nav.mobile {
 			}
 		}
 	}
+	.slick-dots {
+		bottom: 213px;
+    margin-left: 27%;
+    position: relative;
+    text-align: left;
+    width: 44%;
+		ul {
+			
+		
+		}
+			li.slick-active {
+				button::before {
+					color:#45806e;
+				}
+			}
+			li {
+				margin:0;
+				
+				button::before {
+					color:#fff;
+					opacity: 1;
+					font-size: 7px;
+				}
+			}
+		
+	}
+	.slick-dots li button:hover::before, .slick-dots li button:focus::before {
+    color:#45806e;
+	}
+
 }
 
 
