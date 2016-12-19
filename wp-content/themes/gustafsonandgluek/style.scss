@@ -3816,8 +3816,16 @@ footer {
 		padding-bottom:30px;
 		margin-bottom: 53px;
 		position: relative;
-    width: 203vw;
+//     width: 203vw;
     z-index: 1000;
+    border:none;
+    &:after {
+	    background:$gold;
+	    content: "";
+	    width:204vw;
+	    height:1px;
+	    display: block;
+    }
 	}
 }
 
