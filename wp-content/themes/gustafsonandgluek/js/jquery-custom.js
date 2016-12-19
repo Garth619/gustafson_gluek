@@ -101,6 +101,8 @@ jQuery(document).ready(function(){
 		jQuery(this).toggleClass('active');
 		
 	});
+	
+		
 
 	
 	// Consultaton Scroll
@@ -180,6 +182,7 @@ jQuery('.case_results_slide_wrapper').slick({
 		arrows:false,
 		dots:true,
 		vertical:true,
+		pauseOnHover: false,
 		autoplay: true,
 		 autoplaySpeed: 9000,
 		responsive: [
@@ -189,6 +192,7 @@ jQuery('.case_results_slide_wrapper').slick({
         infinite: true,
 				slidesToShow: 2,
 				slidesToScroll: 2,
+				pauseOnHover: false,
 				arrows:false,
 				dots:true,
 				vertical:false,
@@ -200,6 +204,7 @@ jQuery('.case_results_slide_wrapper').slick({
         infinite: true,
 				slidesToShow: 1,
 				slidesToScroll: 1,
+				pauseOnHover: false,
 				arrows:false,
 				dots:true,
 				vertical:false,

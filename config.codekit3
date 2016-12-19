@@ -7,7 +7,7 @@
 		"uuidString": "65710E13-1D86-4E64-B965-023E06E81C03"
 		}
 	],
-"creatorBuild": "25444",
+"creatorBuild": "25479",
 "files": {
 	"\/.gitignore": {
 		"ft": 8192,
@@ -4256,6 +4256,68 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/wp-content\/plugins\/akismet\/wrapper.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/bugherd\/bugherd.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/bugherd\/bugherd.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/bugherd\/license.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/bugherd\/license.txt",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/bugherd\/readme.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/bugherd\/readme.txt",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/bugherd\/screenshot-1.jpg": {
+		"ft": 16384,
+		"iS": 107236,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/bugherd\/screenshot-1.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/plugins\/bugherd\/screenshot-2.jpg": {
+		"ft": 16384,
+		"iS": 56953,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/bugherd\/screenshot-2.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/plugins\/bugherd\/screenshot-3.jpg": {
+		"ft": 16384,
+		"iS": 60422,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/bugherd\/screenshot-3.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/plugins\/bugherd\/screenshot-4.jpg": {
+		"ft": 16384,
+		"iS": 72074,
+		"oA": 0,
+		"oAP": "\/wp-content\/plugins\/bugherd\/screenshot-4.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/plugins\/bugherd\/wp-bugherd-client.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/bugherd\/wp-bugherd-client.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/bugherd\/wp-bugherd-view.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/bugherd\/wp-bugherd-view.php",
 		"oF": 0
 		},
 	"\/wp-content\/plugins\/gravityforms\/change_log.txt": {
@@ -8752,6 +8814,19 @@
 		"oA": 2,
 		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/single.php",
 		"oF": 0
+		},
+	"\/wp-content\/themes\/gustafsonandgluek\/style copy.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/css\/style copy.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
 		},
 	"\/wp-content\/themes\/gustafsonandgluek\/style.css": {
 		"aP": 0,
@@ -15215,6 +15290,10 @@
 			"active": 0,
 			"optionString": "{'properties': 'always'}"
 			},
+		"capitalized-comments": {
+			"active": 0,
+			"optionString": "'always', {'ignoreInlineComments': false, 'ignoreConsecutiveComments': false}"
+			},
 		"class-methods-use-this": {
 			"active": 0,
 			"optionString": "{'exceptMethods': []}"
@@ -15378,6 +15457,10 @@
 		"max-statements": {
 			"active": 0,
 			"optionString": "{'max': 10}, {'ignoreTopLevelFunctions': true}"
+			},
+		"max-statements-per-line": {
+			"active": 0,
+			"optionString": "{'max': 1}"
 			},
 		"multiline-ternary": {
 			"active": 0,
@@ -15743,6 +15826,10 @@
 			"active": 0,
 			"optionString": "'except-parens'"
 			},
+		"no-return-await": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-script-url": {
 			"active": 0,
 			"optionString": ""
@@ -15974,6 +16061,10 @@
 		"radix": {
 			"active": 0,
 			"optionString": "'always'"
+			},
+		"require-await": {
+			"active": 0,
+			"optionString": ""
 			},
 		"require-jsdoc": {
 			"active": 0,
@@ -16807,6 +16898,10 @@
 			},
 		"space-colon": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"support-ie8": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"toplevel": {

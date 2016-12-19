@@ -432,7 +432,7 @@ nav.mobile {
 					height:1px;
 					background: $gold;
 					display: block;
-					margin:25px auto;
+					margin:30px auto;
 				}
 				span.sub_content {
 					font-family: $sourceserif;
@@ -2300,7 +2300,7 @@ nav.mobile {
 		margin:0;
 		position: relative;
 		z-index:10;
-		height: 650px;
+		height: 669px;
 // 		max-width:900px;
 		margin-left:20px;
 		margin-right:20px;
@@ -2357,7 +2357,7 @@ nav.mobile {
 		}
 	}
 	.slick-dots {
-		bottom: 185px;
+		bottom: 213px;
     margin-left: 27%;
     position: relative;
     text-align: left;
@@ -3814,21 +3814,10 @@ footer {
 		font-size:68px;
 		letter-spacing: 0.15px;
 		padding-bottom:30px;
-		margin-bottom: 25px;
+		margin-bottom: 53px;
 		position: relative;
-//     width: 203vw;
+    width: 203vw;
     z-index: 1000;
-    border:none;
-    width:auto;
-    line-height: 80px;
-    &:after {
-	    background:$gold;
-	    content: "";
-	    width:204vw;
-	    height:1px;
-	    display: block;
-	    margin-top:30px;
-    }
 	}
 }
 
@@ -4171,7 +4160,6 @@ body.page-template-page-team {
 				margin-bottom:29px;
 				line-height:15px;
 				cursor: pointer;
-// 				transition:all .2s ease-in-out;
 				&:nth-of-type(1) {
 					&:before {
 						content:"";
@@ -4243,7 +4231,6 @@ body.page-template-page-team {
 				border:none;
 				text-align: center;
 				color:#fff;
-				padding:34px 14px;
 		
 				/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e5d598+0,b89c5d+100 */
 		
