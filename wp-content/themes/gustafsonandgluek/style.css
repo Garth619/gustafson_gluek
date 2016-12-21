@@ -161,16 +161,24 @@ a.green_button {
   background: #193334;
   clear: both;
   text-align: right;
-  padding: 19px 13px;
-  margin-top: 71px; }
+  margin-top: 71px;
+  overflow: hidden; }
+  .lower_header .email_free_consultation a {
+    float: left;
+    background: #1E3B3A;
+    padding: 15px 20px 11px; }
+    .lower_header .email_free_consultation a img {
+      width: 48px; }
   .lower_header a.tel {
-    color: #ceb675;
+    color: #fff;
     font-family: "Source Serif Pro";
     font-weight: bold;
     font-style: normal;
     font-size: 25px;
     text-decoration: none;
-    letter-spacing: .5px; }
+    letter-spacing: .5px;
+    padding: 19px 13px;
+    float: right; }
 
 /* Nav */
 nav.desktop {
@@ -946,7 +954,7 @@ footer {
       list-style: none;
       padding: 0 0 0 19px; }
   .content a {
-    font-weight: bold;
+    font-family: "Nimbus Sans TW01 Bold";
     color: #193334;
     text-decoration: none;
     transition: all .2s ease-in-out; }
@@ -1134,7 +1142,7 @@ a.directions_button {
   padding: 8px 28px;
   display: inline-block;
   font-size: 13px;
-  font-family: "Nimbus Sans TW01Bla";
+  font-family: "Nimbus Sans TW01 Bold";
   letter-spacing: 2.5px;
   text-transform: uppercase;
   color: #b6995a; }
@@ -1449,6 +1457,8 @@ span.pull_quote {
     float: left; }
   .inner_header_right {
     height: 74px; }
+  .lower_header .email_free_consultation a {
+    padding: 23px 20px 15px; }
   .lower_header a.tel {
     font-size: 37px; }
   /* Hero Banner */
@@ -1986,6 +1996,10 @@ span.pull_quote {
     background: transparent;
     padding-right: 30px;
     margin-top: 15px; }
+    .lower_header .email_free_consultation {
+      display: none; }
+    .lower_header a.tel {
+      color: #ceb675; }
   .lower_header {
     position: relative;
     z-index: 100;

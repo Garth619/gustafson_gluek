@@ -7699,6 +7699,40 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/wp-content\/themes\/gustafsonandgluek\/fonts\/source-serif-pro-bold\/demo.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/fonts\/source-serif-pro-bold\/demo.html",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/gustafsonandgluek\/fonts\/source-serif-pro-bold\/SourceSerifPro-Bold.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/fonts\/source-serif-pro-bold\/SourceSerifPro-Bold.eot",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/gustafsonandgluek\/fonts\/source-serif-pro-bold\/SourceSerifPro-Bold.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/fonts\/source-serif-pro-bold\/SourceSerifPro-Bold.ttf",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/gustafsonandgluek\/fonts\/source-serif-pro-bold\/SourceSerifPro-Bold.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/fonts\/source-serif-pro-bold\/SourceSerifPro-Bold.woff",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/gustafsonandgluek\/fonts\/source-serif-pro-bold\/stylesheet.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/fonts\/source-serif-pro-bold\/stylesheet-min.css",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/wp-content\/themes\/gustafsonandgluek\/fonts\/source-serif-pro\/demo.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -7960,6 +7994,26 @@
 		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/images\/footer_map.png",
 		"oF": 0,
 		"opt": 0
+		},
+	"\/wp-content\/themes\/gustafsonandgluek\/images\/hero-email-original.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/images\/hero-email-original.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/wp-content\/themes\/gustafsonandgluek\/images\/hero-email.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/images\/hero-email.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/wp-content\/themes\/gustafsonandgluek\/images\/hero.jpg": {
 		"ft": 16384,

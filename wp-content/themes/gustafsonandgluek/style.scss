@@ -220,16 +220,30 @@ header {
 	background: $greendark;
 	clear: both;
 	text-align: right;
-	padding:19px 13px;
+// 	padding:19px 13px;
 	margin-top:71px;
+	overflow: hidden;
+	.email_free_consultation {
+		a {
+			float:left;
+			background:#1E3B3A;
+			padding:15px 20px 11px;
+			img {
+				width:48px;
+			}
+		}
+	}
 	a.tel {
-		color:$goldlight;
+		color:#fff;
 		font-family: $sourceserif;
 		font-weight: bold;
 		font-style: normal;
 		font-size: 25px;
 		text-decoration: none;
 		letter-spacing: .5px;
+		padding:19px 13px;
+		
+		float:right;
 	}
 }
 
@@ -1226,7 +1240,7 @@ display: none;
 		}
 	}
 	a {
-		font-weight: bold;
+		font-family: $nimbusbold;
 		color:$greendark;
 		text-decoration: none;
 		transition:all .2s ease-in-out;
@@ -1481,7 +1495,7 @@ display: none;
 		padding:8px 28px;
 		display:inline-block;
 		font-size:13px;
-		font-family: $nimbusblack;
+		font-family: $nimbusbold;
 		letter-spacing: 2.5px;
 		text-transform: uppercase;
 		color:$gold;
@@ -1983,6 +1997,17 @@ display: none;
 	
 	
 	.lower_header {
+	
+	.email_free_consultation {
+		a {
+			
+			padding:23px 20px 15px;
+			img {
+				
+			}
+		}
+	}
+	
 	
 	a.tel {
 		
@@ -3164,8 +3189,11 @@ footer {
 	background: transparent;
 	padding-right:30px;
 	margin-top:15px;
+	.email_free_consultation {
+		display: none;
+	}
 	a.tel {
-		
+		color:$goldlight;
 	}
 }
 

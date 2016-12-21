@@ -35,7 +35,7 @@
 
 	?></title>
 <link rel="profile" href="http://gmpg.org/xfn/11" />
-<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>?v=38" />
+<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>?v=12" />
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'template_directory' ); ?>/fonts/nimbus_sans/demo.css" />
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'template_directory' ); ?>/fonts/source-serif-pro/stylesheet.css" />
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/js/slick/slick/slick.css"/>
@@ -76,6 +76,16 @@
 		<div class="lower_header">
 			
 			<a class="tel" href="tel:612.333.8844">612.333.8844</a>
+			
+			<div class="email_free_consultation">
+				
+				<a href="#request">
+				
+					<img src="<?php bloginfo('template_directory');?>/images/hero-email.svg"/>
+				
+				</a>
+				
+			</div><!-- email_free_consultation -->
 			
 		</div><!-- lower_header -->
 		
