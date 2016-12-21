@@ -7699,40 +7699,6 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"\/wp-content\/themes\/gustafsonandgluek\/fonts\/source-serif-pro-bold\/demo.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/fonts\/source-serif-pro-bold\/demo.html",
-		"oF": 0
-		},
-	"\/wp-content\/themes\/gustafsonandgluek\/fonts\/source-serif-pro-bold\/SourceSerifPro-Bold.eot": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/fonts\/source-serif-pro-bold\/SourceSerifPro-Bold.eot",
-		"oF": 0
-		},
-	"\/wp-content\/themes\/gustafsonandgluek\/fonts\/source-serif-pro-bold\/SourceSerifPro-Bold.ttf": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/fonts\/source-serif-pro-bold\/SourceSerifPro-Bold.ttf",
-		"oF": 0
-		},
-	"\/wp-content\/themes\/gustafsonandgluek\/fonts\/source-serif-pro-bold\/SourceSerifPro-Bold.woff": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/fonts\/source-serif-pro-bold\/SourceSerifPro-Bold.woff",
-		"oF": 0
-		},
-	"\/wp-content\/themes\/gustafsonandgluek\/fonts\/source-serif-pro-bold\/stylesheet.css": {
-		"aP": 0,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 2,
-		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/fonts\/source-serif-pro-bold\/stylesheet-min.css",
-		"oF": 0,
-		"oS": 0
-		},
 	"\/wp-content\/themes\/gustafsonandgluek\/fonts\/source-serif-pro\/demo.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -7792,6 +7758,16 @@
 		"oA": 2,
 		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/fonts\/source-serif-pro\/SourceSerifPro-Semibold.woff",
 		"oF": 0
+		},
+	"\/wp-content\/themes\/gustafsonandgluek\/fonts\/source-serif-pro\/stylesheet-min.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/fonts\/source-serif-pro\/stylesheet-min-min.css",
+		"oF": 0,
+		"oS": 0
 		},
 	"\/wp-content\/themes\/gustafsonandgluek\/fonts\/source-serif-pro\/stylesheet.css": {
 		"aP": 0,
