@@ -28,7 +28,7 @@
 		
 				<a class="tel" href="tel:612.333.8844">612.333.8844</a>
 		
-				<a class="green_button" href="">Map</a>
+				<a class="green_button map_button" href="https://www.google.com/maps?ll=44.976167,-93.26158&z=15&t=m&hl=en-US&gl=US&mapclient=embed&q=120+South+6th+St+%232600+Minneapolis,+MN+55402" target="_blank">Map</a>
 		
 			</div><!-- address_box -->
 	
@@ -55,8 +55,8 @@
 				
 					<a href="" target="_blank">
 						
-						<img class="sm_icon" src="<?php bloginfo('template_directory');?>/images/footer_fb_green.svg"/>
-						<img class="sm_icon_hover" src="<?php bloginfo('template_directory');?>/images/footer_fb_gold.svg"/>
+						<img class="sm_icon fb" src="<?php bloginfo('template_directory');?>/images/footer_fb_green.svg"/>
+						<img class="sm_icon_hover fb" src="<?php bloginfo('template_directory');?>/images/footer_fb_gold.svg"/>
 					
 					</a>
 				
@@ -66,8 +66,8 @@
 				
 					<a href="" target="_blank">
 						
-						<img class="sm_icon" src="<?php bloginfo('template_directory');?>/images/footer_linkedin_green.svg"/>
-						<img class="sm_icon_hover" src="<?php bloginfo('template_directory');?>/images/footer_linkedin_gold.svg"/>
+						<img class="sm_icon linkedin" src="<?php bloginfo('template_directory');?>/images/footer_linkedin_green.svg"/>
+						<img class="sm_icon_hover linkedin" src="<?php bloginfo('template_directory');?>/images/footer_linkedin_gold.svg"/>
 					
 					</a>
 				

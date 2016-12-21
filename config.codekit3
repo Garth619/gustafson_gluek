@@ -8869,6 +8869,12 @@
 		"oAP": "\/wp-content\/uploads\/wp-migrate-db\/.htaccess",
 		"oF": 0
 		},
+	"\/wp-content\/uploads\/wp-migrate-db\/gus-backup-20161221161604-wpx13.sql": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/uploads\/wp-migrate-db\/gus-backup-20161221161604-wpx13.sql",
+		"oF": 0
+		},
 	"\/wp-content\/uploads\/wp-migrate-db\/index.php": {
 		"ft": 8192,
 		"oA": 2,

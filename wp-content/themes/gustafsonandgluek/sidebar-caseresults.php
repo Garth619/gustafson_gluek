@@ -3,7 +3,7 @@
 	
 	<div class="inner_header_wrapper">
 	
-		<h1 class="inner_header">Case Suggestions</h1><!-- inner_header -->
+		<h1 class="inner_header">Case Summaries</h1><!-- inner_header -->
 	
 	</div><!-- inner_header_wrapper -->
 	

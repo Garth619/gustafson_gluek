@@ -48,7 +48,7 @@ get_header(); ?>
 		
 			<span class="experience_content_header">We are here for you</span>
 		
-			<p>At Gustafson Gluek PLLC we seek to vindicate the rights and recover damages for those harmed by unfair business practices such as illegal price fixing, deceptive trade practices, and the distribution of unsafe medical devices, as well as enjoin companies from engaging in these types of practices in the future.</p>
+			<p>At Gustafson Gluek PLLC we seek to vindicate the rights and recover damages for those harmed by unfair business practices such as illegal price fixing, deceptive trade practices, and the distribution of unsafe medical devices, as well as enjoin companies from engaging in these types of practices in the&nbsp;future.</p>
 		
 		</div><!-- experience_content -->
 	
@@ -169,7 +169,11 @@ get_header(); ?>
 	
 	<p>We are a talented group of attorneys & professionals who do not back down from challenging cases and have prevailed against some of the biggest and most well-funded companies in the world.</p>
 	
-	<a class="meet_the_team gold_outline_button" href="<?php bloginfo('url');?>/attorneys">Meet Our Team</a>
+	<div class="meet_the_team_center">
+	
+		<a class="meet_the_team gold_outline_button" href="<?php bloginfo('url');?>/attorneys">Meet Our Team</a>
+	
+	</div><!-- meet_the_team_center -->
 	
 </section><!-- meet_our_team -->
 
@@ -190,7 +194,7 @@ get_header(); ?>
 			<p>Our law firm  has a national complex litigation practice focused on antitrust and consumer protection class actions.</p>
 	
 			<a class="gold_button mobile" href="<?php bloginfo('url');?>/case-results">Case Summaries</a><!-- gold_button -->
-			<a class="green_button summaries_button" href="">View More Summaries</a><!-- green_button -->
+			<a class="green_button summaries_button" href="<?php bloginfo('url');?>/case-results">View More Summaries</a><!-- green_button -->
 		
 		</div><!-- case_results_content_wrapper -->
 	
