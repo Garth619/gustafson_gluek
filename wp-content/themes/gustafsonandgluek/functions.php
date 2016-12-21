@@ -277,7 +277,7 @@ if ( ! function_exists( 'twentyten_continue_reading_link' ) ) :
  * @return string "Continue Reading" link.
  */
 function twentyten_continue_reading_link() {
-	return ' <a href="'. get_permalink() . '">' . __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'twentyten' ) . '</a>';
+	return ' <a href="'. get_permalink() . '">' . __( 'Continue reading', 'twentyten' ) . '</a>';
 }
 endif;
 

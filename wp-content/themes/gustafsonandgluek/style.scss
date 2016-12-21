@@ -1152,7 +1152,7 @@ display: none;
 
 
 .inner_container {
-	padding:65px 0 0;
+	padding: 50px 0;
 	
 }
 
@@ -1523,13 +1523,14 @@ display: none;
 	
 	.meet_the_team_wrapper {
 		width:100%;
-		margin-top: 70px;
+		margin-top: 40px;
 		text-align: center;
 		a.team_link {
 			text-decoration: none;
 			display: block;
 			max-width:470px;
 			margin: 0 auto 45px;
+			padding: 0 20px;
 			.single_profile_wrapper {
 				width:100%;
 				img {
@@ -1589,7 +1590,7 @@ display: none;
 		img {
 			 display: block;
 			 height: auto;
-			 margin: 70px auto 10px;
+			 margin: 30px auto 10px;
 			 width: 100%;
 			 max-width:600px;
 			 
@@ -1653,8 +1654,8 @@ display: none;
 		font-family: $sourceserif;
 		font-weight: bold;
 		font-style: normal;
-		line-height:46px;
-		font-size:30px;
+		line-height:38px;
+		font-size:28px;
 		color:#45806e;
 		margin-top:15px;
 		margin-bottom: 30px;
@@ -2875,7 +2876,7 @@ footer {
 	
 	
 	a.adress {
-		margin-bottom:20px;
+		margin-bottom:30px;
 	}
 	
 	a.directions_button {
@@ -2886,7 +2887,7 @@ footer {
 	.address_icons_wrapper {
 		width:50%;
 		float:left;
-		margin:0 0 55px 0;
+		margin:0 0 75px 0;
 		img, a {
 			
 		}
@@ -2916,6 +2917,7 @@ footer {
 		a.team_link {
 			width:48%;
 			float:left;
+			padding:0;
 			&:nth-of-type(2n + 1) {
 				margin-right:4%;
 			}

@@ -34,7 +34,7 @@ get_header(); ?>
 					<div class="address_wrapper">
 					
 					
-					<a class="adress" href="https://www.google.com/maps?ll=44.976167,-93.26158&z=15&t=m&hl=en-US&gl=US&mapclient=embed&q=120+South+6th+St+%232600+Minneapolis,+MN+55402" target="_blank">120 South 6th Street Suite 2600<br class="mobile"/> Minneapolis, MN 55402</a><!-- adress -->
+					<a class="adress" href="https://www.google.com/maps?ll=44.976167,-93.26158&z=15&t=m&hl=en-US&gl=US&mapclient=embed&q=120+South+6th+St+%232600+Minneapolis,+MN+55402" target="_blank">120 South 6th Street<br/>Suite 2600<br/>Minneapolis, MN 55402</a><!-- adress -->
 					
 					<a class="directions_button" href="">Directions</a>
 					
