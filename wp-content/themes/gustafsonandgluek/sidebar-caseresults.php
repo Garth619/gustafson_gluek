@@ -157,7 +157,7 @@
 		
 			<div>
 				
-				<span class="img_title"><img class="accordian_img" src="<?php bloginfo('template_directory');?>/images/results_securities.png"/>Securities</span><!-- img_title -->
+<!-- 				<span class="img_title"><img class="accordian_img" src="<?php bloginfo('template_directory');?>/images/results_securities.png"/>Securities</span> -->
 				
 				<span class="accordian_title">In re Capacitors Antitrust Litigation (N.D. Cal.)</span><!-- accordian_title -->
 				
@@ -294,7 +294,7 @@
 			<h3 class="mytab three">Consumer Protection</h3>
 			<h3 class="mytab four">Securities</h3>
 			<h3 class="mytab five">Product Liability</h3>
-			<h3 class="mytab six">Intellectual Property & Patent Misuse</h3>
+			<h3 class="mytab six">Intellectual Property & Patent&nbsp;Misuse</h3>
 		
 		</div><!-- tabs -->
 

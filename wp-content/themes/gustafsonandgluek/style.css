@@ -1297,11 +1297,13 @@ span.pull_quote {
   font-weight: bold;
   line-height: 49px;
   padding: 0 30px 10px;
-  margin: 0 0px 35px; }
+  margin: 0 10% 9px 0;
+  display: block; }
 
 .case_sidebar .case_content {
-  margin: 45px auto;
-  max-width: 600px; }
+  margin: 0px auto 45px;
+  border-top: 1px solid #b6995a;
+  padding-top: 35px; }
 
 #tabs, .case_content_wrapper {
   display: none; }
@@ -1314,7 +1316,7 @@ span.pull_quote {
   background: -moz-linear-gradient(top, #e5d598 0%, #b89c5d 100%);
   /* FF3.6-15 */
   background: -webkit-linear-gradient(top, #e5d598 0%, #b89c5d 100%);
-  /* Chrome10-25,Safari5.1-6 */
+  /* Chrome10-19,Safari5.1-6 */
   background: linear-gradient(to bottom, #e5d598 0%, #b89c5d 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5d598', endColorstr='#b89c5d',GradientType=0 );
@@ -1324,55 +1326,79 @@ span.pull_quote {
     background: url(images/results_antitrust_hover.png) top left no-repeat;
     background-size: 55px 55px;
     width: 55px;
-    height: 55px;
+    height: 72px;
     float: left;
-    margin-top: -25px;
+    margin-top: -19px;
     margin-right: 20px; }
   #accordion h3:hover:nth-of-type(2):before {
     content: "";
     background: url(images/results_data_hover.png) top left no-repeat;
     background-size: 55px 55px;
     width: 55px;
-    height: 55px;
+    height: 72px;
     float: left;
-    margin-top: -25px;
+    margin-top: -19px;
     margin-right: 20px; }
   #accordion h3:hover:nth-of-type(3):before {
     content: "";
     background: url(images/results_consumer_hover.png) top left no-repeat;
     background-size: 55px 55px;
     width: 55px;
-    height: 55px;
+    height: 72px;
     float: left;
-    margin-top: -25px;
+    margin-top: -19px;
     margin-right: 20px; }
   #accordion h3:hover:nth-of-type(4):before {
     content: "";
     background: url(images/results_securities_hover.png) top left no-repeat;
     background-size: 55px 55px;
     width: 55px;
-    height: 55px;
+    height: 72px;
     float: left;
-    margin-top: -25px;
+    margin-top: -19px;
     margin-right: 20px; }
   #accordion h3:hover:nth-of-type(5):before {
     content: "";
     background: url(images/results_prod_liability_hover.png) top left no-repeat;
     background-size: 55px 55px;
     width: 55px;
-    height: 55px;
+    height: 72px;
     float: left;
-    margin-top: -25px;
+    margin-top: -19px;
     margin-right: 20px; }
   #accordion h3:hover:nth-of-type(6):before {
     content: "";
     background: url(images/results_patents_hover.png) top left no-repeat;
     background-size: 55px 55px;
     width: 55px;
-    height: 55px;
+    height: 72px;
     float: left;
-    margin-top: -25px;
+    margin-top: -19px;
     margin-right: 20px; }
+
+#accordion h3:hover:after {
+  width: 0;
+  height: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid #fff;
+  position: absolute;
+  top: 40px;
+  right: 20px;
+  z-index: 500;
+  content: ""; }
+
+#accordion h3:after {
+  width: 0;
+  height: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid #1a3334;
+  position: absolute;
+  top: 40px;
+  right: 20px;
+  z-index: 500;
+  content: ""; }
 
 #accordion h3 {
   width: 100%;
@@ -1384,10 +1410,13 @@ span.pull_quote {
   font-size: 15px;
   letter-spacing: 1.5px;
   text-transform: uppercase;
-  padding: 33px 14px;
+  padding: 33px 50px 33px 14px;
   display: block;
   line-height: 20px;
-  cursor: pointer; }
+  cursor: pointer;
+  position: relative; }
+  #accordion h3:last-of-type {
+    border-bottom: 1px solid #e1e1e1; }
   #accordion h3 img {
     float: left; }
   #accordion h3 span.h3_title {
@@ -1399,55 +1428,67 @@ span.pull_quote {
     background: url(images/results_antitrust.png) top left no-repeat;
     background-size: 55px 55px;
     width: 55px;
-    height: 55px;
+    height: 72px;
     float: left;
-    margin-top: -25px;
+    margin-top: -19px;
     margin-right: 20px; }
   #accordion h3:nth-of-type(2):before {
     content: "";
     background: url(images/results_data.png) top left no-repeat;
     background-size: 55px 55px;
     width: 55px;
-    height: 55px;
+    height: 72px;
     float: left;
-    margin-top: -25px;
+    margin-top: -19px;
     margin-right: 20px; }
   #accordion h3:nth-of-type(3):before {
     content: "";
     background: url(images/results_consumer.png) top left no-repeat;
     background-size: 55px 55px;
     width: 55px;
-    height: 55px;
+    height: 72px;
     float: left;
-    margin-top: -25px;
+    margin-top: -19px;
     margin-right: 20px; }
   #accordion h3:nth-of-type(4):before {
     content: "";
     background: url(images/results_securities.png) top left no-repeat;
     background-size: 55px 55px;
     width: 55px;
-    height: 55px;
+    height: 72px;
     float: left;
-    margin-top: -25px;
+    margin-top: -19px;
     margin-right: 20px; }
   #accordion h3:nth-of-type(5):before {
     content: "";
     background: url(images/results_prod_liability.png) top left no-repeat;
     background-size: 55px 55px;
     width: 55px;
-    height: 55px;
+    height: 72px;
     float: left;
-    margin-top: -25px;
+    margin-top: -19px;
     margin-right: 20px; }
   #accordion h3:nth-of-type(6):before {
     content: "";
     background: url(images/results_patents.png) top left no-repeat;
     background-size: 55px 55px;
     width: 55px;
-    height: 55px;
+    height: 72px;
     float: left;
-    margin-top: -25px;
+    margin-top: -19px;
     margin-right: 20px; }
+
+#accordion h3.ui-accordion-header-active:after {
+  width: 0;
+  height: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid #fff;
+  position: absolute;
+  top: 40px;
+  right: 20px;
+  z-index: 500;
+  content: ""; }
 
 #accordion h3.ui-accordion-header-active {
   color: #fff;
@@ -1457,7 +1498,7 @@ span.pull_quote {
   background: -moz-linear-gradient(top, #e5d598 0%, #b89c5d 100%);
   /* FF3.6-15 */
   background: -webkit-linear-gradient(top, #e5d598 0%, #b89c5d 100%);
-  /* Chrome10-25,Safari5.1-6 */
+  /* Chrome10-19,Safari5.1-6 */
   background: linear-gradient(to bottom, #e5d598 0%, #b89c5d 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5d598', endColorstr='#b89c5d',GradientType=0 );
@@ -1467,58 +1508,58 @@ span.pull_quote {
     background: url(images/results_antitrust_hover.png) top left no-repeat;
     background-size: 55px 55px;
     width: 55px;
-    height: 55px;
+    height: 72px;
     float: left;
-    margin-top: -25px;
+    margin-top: -19px;
     margin-right: 20px; }
   #accordion h3.ui-accordion-header-active:nth-of-type(2):before {
     content: "";
     background: url(images/results_data_hover.png) top left no-repeat;
     background-size: 55px 55px;
     width: 55px;
-    height: 55px;
+    height: 72px;
     float: left;
-    margin-top: -25px;
+    margin-top: -19px;
     margin-right: 20px; }
   #accordion h3.ui-accordion-header-active:nth-of-type(3):before {
     content: "";
     background: url(images/results_consumer_hover.png) top left no-repeat;
     background-size: 55px 55px;
     width: 55px;
-    height: 55px;
+    height: 72px;
     float: left;
-    margin-top: -25px;
+    margin-top: -19px;
     margin-right: 20px; }
   #accordion h3.ui-accordion-header-active:nth-of-type(4):before {
     content: "";
     background: url(images/results_securities_hover.png) top left no-repeat;
     background-size: 55px 55px;
     width: 55px;
-    height: 55px;
+    height: 72px;
     float: left;
-    margin-top: -25px;
+    margin-top: -19px;
     margin-right: 20px; }
   #accordion h3.ui-accordion-header-active:nth-of-type(5):before {
     content: "";
     background: url(images/results_prod_liability_hover.png) top left no-repeat;
     background-size: 55px 55px;
     width: 55px;
-    height: 55px;
+    height: 72px;
     float: left;
-    margin-top: -25px;
+    margin-top: -19px;
     margin-right: 20px; }
   #accordion h3.ui-accordion-header-active:nth-of-type(6):before {
     content: "";
     background: url(images/results_patents_hover.png) top left no-repeat;
     background-size: 55px 55px;
     width: 55px;
-    height: 55px;
+    height: 72px;
     float: left;
-    margin-top: -25px;
+    margin-top: -19px;
     margin-right: 20px; }
 
 #accordion div {
-  margin: 45px 0; }
+  margin: 45px 30px; }
   #accordion div span.img_title {
     color: #b6995a;
     font-size: 16px;
@@ -1531,7 +1572,7 @@ span.pull_quote {
       margin: 0 auto 15px; }
   #accordion div span.accordian_title {
     color: #45806e;
-    font-size: 22px;
+    font-size: 20px;
     line-height: 28px;
     letter-spacing: 1.5px;
     text-transform: uppercase;
@@ -2716,7 +2757,8 @@ span.pull_quote {
       max-width: 650px; }
     .case_sidebar .case_content {
       padding-left: 50px;
-      padding-right: 120px;
+      padding-right: 40px;
+      border: none;
       /*
 			margin-top:75px;
 			margin-bottom:75px;
@@ -2804,11 +2846,11 @@ span.pull_quote {
         float: left;
         margin-top: -25px;
         margin-right: 20px; }
-    #tabs h3.active {
+    #tabs h3:hover, #tabs h3.active {
       border: none;
       text-align: center;
       color: #fff;
-      padding: 34px 14px;
+      padding: 35px 14px;
       /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e5d598+0,b89c5d+100 */
       background: #e5d598;
       /* Old browsers */
@@ -2820,7 +2862,7 @@ span.pull_quote {
       /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
       filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5d598', endColorstr='#b89c5d',GradientType=0 );
       /* IE6-9 */ }
-      #tabs h3.active:before {
+      #tabs h3:hover:before, #tabs h3.active:before {
         content: "";
         background: transparent;
         width: auto;
@@ -2975,7 +3017,9 @@ span.pull_quote {
       background: #fff; }
   .bio_desktop_container_wrapper {
     display: flex;
-    float: left; } }
+    float: left; }
+  .case_sidebar .case_content {
+    padding-right: 120px; } }
 
 /* Media Query */
 @media screen and (min-width: 1450px) {
