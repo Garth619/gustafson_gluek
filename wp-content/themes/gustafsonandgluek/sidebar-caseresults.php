@@ -11,11 +11,13 @@
 		
 		<div id="accordion">
 	
+<!-- 			<h3><img src="<?php bloginfo('template_directory');?>/images/results_antitrust.png"/> <span class="h3_title">Antitrust</span></h3> -->
+
 			<h3>Antitrust</h3>
 			
 			<div>
 				
-				<span class="img_title"><img class="accordian_img" src="<?php bloginfo('template_directory');?>/images/results_antitrust.png"/>antitrust case summaries</span><!-- img_title -->
+<!-- 				<span class="img_title"><img class="accordian_img" src="<?php bloginfo('template_directory');?>/images/results_antitrust.png"/>antitrust case summaries</span> -->
 				
 				<span class="accordian_title">In re Capacitors Antitrust Litigation (N.D. Cal.)</span><!-- accordian_title -->
 				
@@ -55,14 +57,14 @@
 			
 			
 			
+<!-- 			<h3><img src="<?php bloginfo('template_directory');?>/images/results_data.png"/> <span class="h3_title">Data Breach</span></h3> -->
 			
-			
-	
 			<h3>Data Breach</h3>
 			
+	
 			<div>
 				
-				<span class="img_title"><img class="accordian_img" src="<?php bloginfo('template_directory');?>/images/results_data.png"/>Data Breach</span><!-- img_title -->
+<!-- 				<span class="img_title"><img class="accordian_img" src="<?php bloginfo('template_directory');?>/images/results_data.png"/>Data Breach</span> -->
 				
 				<span class="accordian_title">In re Capacitors Antitrust Litigation (N.D. Cal.)</span><!-- accordian_title -->
 				
@@ -101,14 +103,14 @@
 			
 			
 			
-			
-			
-	
+<!-- 			<h3><img src="<?php bloginfo('template_directory');?>/images/results_consumer.png"/> <span class="h3_title">Consumer Protection</span></h3> -->
+
 			<h3>Consumer Protection</h3>
 			
+	
 			<div>
 				
-				<span class="img_title"><img class="accordian_img" src="<?php bloginfo('template_directory');?>/images/results_consumer.png"/>Consumer Protection</span><!-- img_title -->
+<!-- 				<span class="img_title"><img class="accordian_img" src="<?php bloginfo('template_directory');?>/images/results_consumer.png"/>Consumer Protection</span> -->
 				
 				<span class="accordian_title">In re Capacitors Antitrust Litigation (N.D. Cal.)</span><!-- accordian_title -->
 				
@@ -148,10 +150,11 @@
 			
 			
 			
-			
-			
+<!-- 			<h3><img src="<?php bloginfo('template_directory');?>/images/results_securities.png"/> <span class="h3_title">Securities</span></h3> -->
+
 			<h3>Securities</h3>
 			
+		
 			<div>
 				
 				<span class="img_title"><img class="accordian_img" src="<?php bloginfo('template_directory');?>/images/results_securities.png"/>Securities</span><!-- img_title -->
@@ -194,13 +197,14 @@
 			
 			
 			
-			
+<!-- 			<h3><img src="<?php bloginfo('template_directory');?>/images/results_prod_liability.png"/> <span class="h3_title">Product Liability</span></h3> -->
 			
 			<h3>Product Liability</h3>
 			
+			
 			<div>
 				
-				<span class="img_title"><img class="accordian_img" src="<?php bloginfo('template_directory');?>/images/results_prod_liability.png"/>Product Liability</span><!-- img_title -->
+<!-- 				<span class="img_title"><img class="accordian_img" src="<?php bloginfo('template_directory');?>/images/results_prod_liability.png"/>Product Liability</span> -->
 				
 				<span class="accordian_title">In re Capacitors Antitrust Litigation (N.D. Cal.)</span><!-- accordian_title -->
 				
@@ -240,13 +244,14 @@
 			
 			
 			
-			
+<!-- 			<h3><img src="<?php bloginfo('template_directory');?>/images/results_patents.png"/> <span class="h3_title">Intellectual Property & Patent Misuse</span></h3> -->
 			
 			<h3>Intellectual Property & Patent Misuse</h3>
 			
+		
 			<div>
 				
-				<span class="img_title"><img class="accordian_img" src="<?php bloginfo('template_directory');?>/images/results_patents.png"/>Intellectual Property & Patent Misuse</span><!-- img_title -->
+<!-- 				<span class="img_title"><img class="accordian_img" src="<?php bloginfo('template_directory');?>/images/results_patents.png"/>Intellectual Property & Patent Misuse</span> -->
 				
 				<span class="accordian_title">In re Capacitors Antitrust Litigation (N.D. Cal.)</span><!-- accordian_title -->
 				

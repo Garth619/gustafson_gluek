@@ -8171,11 +8171,27 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/wp-content\/themes\/gustafsonandgluek\/images\/results_antitrust_hover.png": {
+		"ft": 32768,
+		"iS": 2844,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/images\/results_antitrust_hover.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/wp-content\/themes\/gustafsonandgluek\/images\/results_consumer.png": {
 		"ft": 32768,
 		"iS": 2127,
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/images\/results_consumer.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/themes\/gustafsonandgluek\/images\/results_consumer_hover.png": {
+		"ft": 32768,
+		"iS": 1770,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/images\/results_consumer_hover.png",
 		"oF": 0,
 		"opt": 0
 		},
@@ -8187,11 +8203,27 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/wp-content\/themes\/gustafsonandgluek\/images\/results_data_hover.png": {
+		"ft": 32768,
+		"iS": 1839,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/images\/results_data_hover.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/wp-content\/themes\/gustafsonandgluek\/images\/results_patents.png": {
 		"ft": 32768,
 		"iS": 3096,
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/images\/results_patents.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/themes\/gustafsonandgluek\/images\/results_patents_hover.png": {
+		"ft": 32768,
+		"iS": 2584,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/images\/results_patents_hover.png",
 		"oF": 0,
 		"opt": 0
 		},
@@ -8203,11 +8235,27 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/wp-content\/themes\/gustafsonandgluek\/images\/results_prod_liability_hover.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/images\/results_prod_liability_hover.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/wp-content\/themes\/gustafsonandgluek\/images\/results_securities.png": {
 		"ft": 32768,
 		"iS": 5796,
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/images\/results_securities.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/themes\/gustafsonandgluek\/images\/results_securities_hover.png": {
+		"ft": 32768,
+		"iS": 3834,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/images\/results_securities_hover.png",
 		"oF": 0,
 		"opt": 0
 		},

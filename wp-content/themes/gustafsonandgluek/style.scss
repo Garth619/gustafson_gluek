@@ -1696,8 +1696,8 @@ display: none;
 			margin:0 0px 35px;
 		}
 		.case_content {
-			margin:70px auto 70px;
-			padding:0 30px;
+			margin:45px auto;
+// 			padding:0 30px;
 			max-width:600px;
 		}
 	}
@@ -1708,11 +1708,98 @@ display: none;
 	
 	
 	#accordion {
+		h3:hover {
+			color:#fff;
+			
+			/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e5d598+0,b89c5d+100 */
 		
+			background: #e5d598; /* Old browsers */
+			background: -moz-linear-gradient(top,  #e5d598 0%, #b89c5d 100%); /* FF3.6-15 */
+			background: -webkit-linear-gradient(top,  #e5d598 0%,#b89c5d 100%); /* Chrome10-25,Safari5.1-6 */
+			background: linear-gradient(to bottom,  #e5d598 0%,#b89c5d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5d598', endColorstr='#b89c5d',GradientType=0 ); /* IE6-9 */
+			
+			&:nth-of-type(1) {
+				&:before {
+					content:"";
+					background:url(images/results_antitrust_hover.png) top left no-repeat;
+					background-size: 55px 55px;
+					width:55px;
+					height:55px;
+					float:left;
+					margin-top: -25px;
+					margin-right:20px;
+				}
+			}
+			
+			
+			&:nth-of-type(2) {
+				&:before {
+					content:"";
+					background:url(images/results_data_hover.png) top left no-repeat;
+					background-size: 55px 55px;
+					width:55px;
+					height:55px;
+					float:left;
+					margin-top: -25px;
+					margin-right:20px;
+				}
+			}
+			&:nth-of-type(3) {
+				&:before {
+					content:"";
+					background:url(images/results_consumer_hover.png) top left no-repeat;
+					background-size: 55px 55px;
+					width:55px;
+					height:55px;
+					float:left;
+					margin-top: -25px;
+					margin-right:20px;
+				}
+			}
+			&:nth-of-type(4) {
+				&:before {
+					content:"";
+					background:url(images/results_securities_hover.png) top left no-repeat;
+					background-size: 55px 55px;
+					width:55px;
+					height:55px;
+					float:left;
+					margin-top: -25px;
+					margin-right:20px;
+				}
+			}
+			&:nth-of-type(5) {
+				&:before {
+					content:"";
+					background:url(images/results_prod_liability_hover.png) top left no-repeat;
+					background-size: 55px 55px;
+					width:55px;
+					height:55px;
+					float:left;
+					margin-top: -25px;
+					margin-right:20px;
+				}
+			}
+			&:nth-of-type(6) {
+				&:before {
+					content:"";
+					background:url(images/results_patents_hover.png) top left no-repeat;
+					background-size: 55px 55px;
+					width:55px;
+					height:55px;
+					float:left;
+					margin-top: -25px;
+					margin-right:20px;
+				}
+			}
+			
+			
+			
+		}
 		h3 {
 			width:100%;
-			background: #eeeff0;
-			border: $gold 1px solid;
+			border-top:1px solid #e1e1e1;
 			outline: none;
 			font-family: $sourceserif;
 			font-weight: 900;
@@ -1720,28 +1807,41 @@ display: none;
 			font-size:15px;
 			letter-spacing: 1.5px;
 			text-transform: uppercase;
-			padding: 34px 14px;
+			padding: 33px 14px;
 			display: block;
-			margin-bottom:29px;
 			line-height:20px;
 			cursor: pointer;
+
+			img {
+				float:left;
+			}
+			span.h3_title {
+				float:left;
+				margin-top:25px;
+				margin-left:15px;
+			}
+
 			&:nth-of-type(1) {
 				&:before {
 					content:"";
 					background:url(images/results_antitrust.png) top left no-repeat;
-					width:66px;
-					height:66px;
+					background-size: 55px 55px;
+					width:55px;
+					height:55px;
 					float:left;
 					margin-top: -25px;
 					margin-right:20px;
 				}
 			}
+			
+			
 			&:nth-of-type(2) {
 				&:before {
 					content:"";
 					background:url(images/results_data.png) top left no-repeat;
-					width:66px;
-					height:66px;
+					background-size: 55px 55px;
+					width:55px;
+					height:55px;
 					float:left;
 					margin-top: -25px;
 					margin-right:20px;
@@ -1751,8 +1851,9 @@ display: none;
 				&:before {
 					content:"";
 					background:url(images/results_consumer.png) top left no-repeat;
-					width:66px;
-					height:66px;
+					background-size: 55px 55px;
+					width:55px;
+					height:55px;
 					float:left;
 					margin-top: -25px;
 					margin-right:20px;
@@ -1762,8 +1863,9 @@ display: none;
 				&:before {
 					content:"";
 					background:url(images/results_securities.png) top left no-repeat;
-					width:66px;
-					height:66px;
+					background-size: 55px 55px;
+					width:55px;
+					height:55px;
 					float:left;
 					margin-top: -25px;
 					margin-right:20px;
@@ -1773,8 +1875,9 @@ display: none;
 				&:before {
 					content:"";
 					background:url(images/results_prod_liability.png) top left no-repeat;
-					width:66px;
-					height:66px;
+					background-size: 55px 55px;
+					width:55px;
+					height:55px;
 					float:left;
 					margin-top: -25px;
 					margin-right:20px;
@@ -1784,21 +1887,21 @@ display: none;
 				&:before {
 					content:"";
 					background:url(images/results_patents.png) top left no-repeat;
-					width:66px;
-					height:66px;
+					background-size: 55px 55px;
+					width:55px;
+					height:55px;
 					float:left;
 					margin-top: -25px;
 					margin-right:20px;
 				}
 			}
+
 		}
 		
 		h3.ui-accordion-header-active {
 			
-			border:none;
-			text-align: center;
 			color:#fff;
-		
+			
 			/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e5d598+0,b89c5d+100 */
 		
 			background: #e5d598; /* Old browsers */
@@ -1806,15 +1909,81 @@ display: none;
 			background: -webkit-linear-gradient(top,  #e5d598 0%,#b89c5d 100%); /* Chrome10-25,Safari5.1-6 */
 			background: linear-gradient(to bottom,  #e5d598 0%,#b89c5d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5d598', endColorstr='#b89c5d',GradientType=0 ); /* IE6-9 */
-
-		
-		&:before {
-			content:"";
-			background:transparent;
-			width:auto;
-			height:auto;
-		}
-		
+			
+			&:nth-of-type(1) {
+				&:before {
+					content:"";
+					background:url(images/results_antitrust_hover.png) top left no-repeat;
+					background-size: 55px 55px;
+					width:55px;
+					height:55px;
+					float:left;
+					margin-top: -25px;
+					margin-right:20px;
+				}
+			}
+			
+			
+			&:nth-of-type(2) {
+				&:before {
+					content:"";
+					background:url(images/results_data_hover.png) top left no-repeat;
+					background-size: 55px 55px;
+					width:55px;
+					height:55px;
+					float:left;
+					margin-top: -25px;
+					margin-right:20px;
+				}
+			}
+			&:nth-of-type(3) {
+				&:before {
+					content:"";
+					background:url(images/results_consumer_hover.png) top left no-repeat;
+					background-size: 55px 55px;
+					width:55px;
+					height:55px;
+					float:left;
+					margin-top: -25px;
+					margin-right:20px;
+				}
+			}
+			&:nth-of-type(4) {
+				&:before {
+					content:"";
+					background:url(images/results_securities_hover.png) top left no-repeat;
+					background-size: 55px 55px;
+					width:55px;
+					height:55px;
+					float:left;
+					margin-top: -25px;
+					margin-right:20px;
+				}
+			}
+			&:nth-of-type(5) {
+				&:before {
+					content:"";
+					background:url(images/results_prod_liability_hover.png) top left no-repeat;
+					background-size: 55px 55px;
+					width:55px;
+					height:55px;
+					float:left;
+					margin-top: -25px;
+					margin-right:20px;
+				}
+			}
+			&:nth-of-type(6) {
+				&:before {
+					content:"";
+					background:url(images/results_patents_hover.png) top left no-repeat;
+					background-size: 55px 55px;
+					width:55px;
+					height:55px;
+					float:left;
+					margin-top: -25px;
+					margin-right:20px;
+				}
+			}		
 		}
 		
 		div {
@@ -1855,6 +2024,7 @@ display: none;
 				margin:45px 0;
 				border-top:#ccc 1px solid;
 			}
+			
 		}
 	
 
