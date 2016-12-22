@@ -17,3 +17,9 @@
 	
 	
 </div><!-- inner_banner -->
+
+<section class="free_consultation">
+	
+	<a href="#request">Free Case Consultation</a>
+	
+</section><!-- free_consultation -->
