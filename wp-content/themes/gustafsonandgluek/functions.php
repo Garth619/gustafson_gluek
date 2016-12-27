@@ -580,3 +580,17 @@ return $content;
 $content = ' }, false );';
 return $content;
 }
+
+
+
+// Limit Archives
+
+
+function my_limit_archives( $args ) {
+    $args['limit'] = 5;
+    return $args;
+}
+
+add_filter( 'widget_archives_args', 'my_limit_archives' );
+
+

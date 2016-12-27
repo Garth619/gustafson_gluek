@@ -1079,6 +1079,19 @@ footer {
   padding: 45px 30px; }
   .sidebar_wrapper ul.blog_list {
     margin-bottom: 85px; }
+    .sidebar_wrapper ul.blog_list li.view_all_blog {
+      font-family: "Source Serif Pro";
+      font-weight: 900;
+      font-style: normal;
+      border-bottom: solid #ccc 1px; }
+      .sidebar_wrapper ul.blog_list li.view_all_blog a {
+        color: #000;
+        text-decoration: none;
+        display: block;
+        padding: 20px 0;
+        transition: all .2s ease-in-out; }
+        .sidebar_wrapper ul.blog_list li.view_all_blog a:hover {
+          color: #b6995a; }
     .sidebar_wrapper ul.blog_list > li {
       color: #c0a96b;
       display: block;

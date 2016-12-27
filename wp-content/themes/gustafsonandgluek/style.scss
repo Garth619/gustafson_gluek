@@ -1410,8 +1410,26 @@ display: none;
 	font-weight:900;
 	font-style: normal;
 	padding:45px 30px;
+	
 	ul.blog_list {
 		margin-bottom: 85px;
+		li.view_all_blog {
+			font-family: $sourceserif;
+			font-weight: 900;
+			font-style: normal;
+			border-bottom:solid #ccc 1px;
+			a {
+				color:#000;
+				text-decoration: none;
+				display: block;
+				padding:20px 0;
+				transition:all .2s ease-in-out;
+				&:hover {
+					color:$gold;
+				}
+			}
+			
+		}
 		> li {
 			color:#c0a96b;
 			display: block;
@@ -4300,6 +4318,7 @@ footer {
 	float:left;
 	background: transparent;
 	padding:105px 40px;
+	
 	ul.blog_list {
 		width:100%;
 		

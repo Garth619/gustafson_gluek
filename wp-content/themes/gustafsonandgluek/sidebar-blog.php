@@ -4,6 +4,7 @@
 	
 	<ul class="blog_list">
 		<?php dynamic_sidebar( 'archive-area' ); ?>
+		<li class="view_all_blog"><a href="">View All +</a></li>
 	</ul>
 	
 <!-- 	<span class="archive_title">Categories</span><!-- archive_title -->
