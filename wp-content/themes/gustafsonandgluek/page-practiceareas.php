@@ -24,31 +24,33 @@ get_header(); ?>
 			
 			<div class="directory">
 				
+			
+			
+			<?php $posts = get_field('practice_area_directory');
+
+				if( $posts ): ?>
+   
 				<ul>
-					<li><a href="">Practice Areas 1</a></li>
-					<li><a href="">Practice Areas 2</a></li>
-					<li><a href="">Practice Areas 3</a></li>
-					<li><a href="">Practice Areas 4</a></li>
-					<li><a href="">Practice Areas 5</a></li>
-					<li><a href="">Practice Areas</a></li>
-					<li><a href="">Practice Areas</a></li>
-					<li><a href="">Practice Areas</a></li>
-					<li><a href="">Practice Areas</a></li>
-					<li><a href="">Practice Areas</a></li>
-					<li><a href="">Practice Areas</a></li>
-					<li><a href="">Practice Areas</a></li>
-					<li><a href="">Practice Areas</a></li>
-					<li><a href="">Practice Areas</a></li>
-					<li><a href="">Practice Areas</a></li>
-					<li><a href="">Practice Areas</a></li>
-					<li><a href="">Practice Areas</a></li>
-					<li><a href="">Practice Areas</a></li>
-				</ul>
 				
-			</div><!-- directory -->
+				<?php foreach( $posts as $post): // variable must be called $post (IMPORTANT) ?>
+        
+        	<?php setup_postdata($post); ?>
+        
+						<li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
+					
+					<?php endforeach; ?>
+    
+    		</ul>
+    
+				<?php wp_reset_postdata(); // IMPORTANT - reset the $post object so the rest of the page works correctly ?>
+
+		<?php endif; ?>
+			
+	
+	</div><!-- directory -->
 						
 			
-		</div><!-- no_sidebar_wrapper -->
+</div><!-- no_sidebar_wrapper -->
 		
 
 

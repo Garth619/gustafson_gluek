@@ -1543,6 +1543,7 @@ body.archive, body.single-post {
 				font-weight: 900;
 				font-style: normal;
 				border-top:1px solid #ccc;
+				line-height:21px;
 				&:nth-last-of-type(-n + 2) {
 					border-bottom:1px solid #ccc;
 				}
