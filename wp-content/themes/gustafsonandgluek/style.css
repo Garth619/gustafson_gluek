@@ -212,12 +212,13 @@ nav.mobile {
           right: 6%;
           position: absolute;
           top: 25px; }
-      nav.mobile .inner_nav ul.menu > li.menu-item-has-children.active {
-        background: #fff; }
-        nav.mobile .inner_nav ul.menu > li.menu-item-has-children.active > a {
+      nav.mobile .inner_nav ul.menu > li.menu-item-has-children {
+        /* Start here */ }
+        nav.mobile .inner_nav ul.menu > li.menu-item-has-children > a.active {
           color: #ceb675;
-          position: relative; }
-          nav.mobile .inner_nav ul.menu > li.menu-item-has-children.active > a:after {
+          position: relative;
+          background: #fff; }
+          nav.mobile .inner_nav ul.menu > li.menu-item-has-children > a.active:after {
             content: "";
             width: 0;
             height: 0;
@@ -2255,6 +2256,17 @@ span.pull_quote {
         font-family: "Nimbus Sans TW01Bla";
         color: #193334;
         font-size: 14px; }
+        nav.desktop .inner_nav ul.menu > li.menu-item-has-children:hover > a:after {
+          content: "";
+          width: 0;
+          height: 0;
+          border-left: 4px solid transparent;
+          border-right: 4px solid transparent;
+          border-top: 4px solid #45806e;
+          display: inline-block;
+          position: relative;
+          top: -3px;
+          left: 7px; }
         nav.desktop .inner_nav ul.menu > li.menu-item-has-children > a:after {
           content: "";
           width: 0;
@@ -2265,7 +2277,8 @@ span.pull_quote {
           display: inline-block;
           position: relative;
           top: -3px;
-          left: 7px; }
+          left: 7px;
+          transition: all .2s ease-in-out; }
         nav.desktop .inner_nav ul.menu > li.menu-item-has-children > a:hover:after {
           content: "";
           width: 0;
@@ -2279,7 +2292,10 @@ span.pull_quote {
           left: 7px; }
         nav.desktop .inner_nav ul.menu > li {
           position: relative;
-          transition: all .2s ease-in-out; }
+          transition: all .2s ease-in-out;
+          /* > */ }
+          nav.desktop .inner_nav ul.menu > li:hover a {
+            color: #45806e; }
           nav.desktop .inner_nav ul.menu > li:hover > ul.sub-menu {
             opacity: 1;
             visibility: visible; }
@@ -2293,7 +2309,7 @@ span.pull_quote {
             transition: all .2s ease-in-out; }
             nav.desktop .inner_nav ul.menu > li > a:hover {
               color: #45806e; }
-          nav.desktop .inner_nav ul.menu > li > ul.sub-menu {
+          nav.desktop .inner_nav ul.menu > li ul.sub-menu {
             background: #1c3536;
             text-align: left;
             font-family: "Source Serif Pro";
@@ -2305,21 +2321,72 @@ span.pull_quote {
             position: absolute;
             top: 80px;
             opacity: 0;
+            /* */
             visibility: hidden;
             transition: all .2s ease-in-out; }
-            nav.desktop .inner_nav ul.menu > li > ul.sub-menu > li {
+            nav.desktop .inner_nav ul.menu > li ul.sub-menu > li.menu-item-has-children {
+              position: relative; }
+              nav.desktop .inner_nav ul.menu > li ul.sub-menu > li.menu-item-has-children:hover > a {
+                color: #b6995a; }
+              nav.desktop .inner_nav ul.menu > li ul.sub-menu > li.menu-item-has-children:hover > a:after {
+                content: "";
+                width: 0;
+                height: 0;
+                border-left: 4px solid transparent;
+                border-right: 4px solid transparent;
+                border-top: 4px solid #b6995a;
+                display: inline-block;
+                position: absolute;
+                top: 20px;
+                right: 25px;
+                transition: all .2s ease-in-out; }
+              nav.desktop .inner_nav ul.menu > li ul.sub-menu > li.menu-item-has-children > a {
+                position: relative; }
+                nav.desktop .inner_nav ul.menu > li ul.sub-menu > li.menu-item-has-children > a:after {
+                  content: "";
+                  width: 0;
+                  height: 0;
+                  border-left: 4px solid transparent;
+                  border-right: 4px solid transparent;
+                  border-top: 4px solid #fff;
+                  display: inline-block;
+                  position: absolute;
+                  top: 20px;
+                  right: 25px;
+                  transition: all .2s ease-in-out; }
+              nav.desktop .inner_nav ul.menu > li ul.sub-menu > li.menu-item-has-children > a:hover:after {
+                content: "";
+                width: 0;
+                height: 0;
+                border-left: 4px solid transparent;
+                border-right: 4px solid transparent;
+                border-top: 4px solid #b6995a;
+                display: inline-block;
+                position: absolute;
+                top: 20px;
+                right: 25px; }
+            nav.desktop .inner_nav ul.menu > li ul.sub-menu > li {
               border-bottom: 1px solid #213f40; }
-              nav.desktop .inner_nav ul.menu > li > ul.sub-menu > li:last-of-type {
+              nav.desktop .inner_nav ul.menu > li ul.sub-menu > li:hover {
+                color: #b6995a; }
+                nav.desktop .inner_nav ul.menu > li ul.sub-menu > li:hover > ul.sub-menu {
+                  opacity: 1;
+                  visibility: visible; }
+              nav.desktop .inner_nav ul.menu > li ul.sub-menu > li:last-of-type {
                 border: none; }
-              nav.desktop .inner_nav ul.menu > li > ul.sub-menu > li > a {
+              nav.desktop .inner_nav ul.menu > li ul.sub-menu > li > a {
                 color: #fff;
                 text-decoration: none;
                 display: block;
                 padding: 13px 25px;
                 transition: all .2s ease-in-out;
                 min-width: 325px; }
-                nav.desktop .inner_nav ul.menu > li > ul.sub-menu > li > a:hover {
+                nav.desktop .inner_nav ul.menu > li ul.sub-menu > li > a:hover {
                   color: #b6995a; }
+              nav.desktop .inner_nav ul.menu > li ul.sub-menu > li > ul.sub-menu {
+                position: absolute;
+                top: 0;
+                right: -325px; }
   /* Hero Banner */
   .hero_banner {
     width: 100%;

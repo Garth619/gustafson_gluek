@@ -95,9 +95,17 @@ jQuery(document).ready(function(){
 	});
 	
 	
-	jQuery('ul.menu > li.menu-item-has-children').click(function() {
+	jQuery('ul.menu > li.menu-item-has-children > a').click(function() {
 		
-		jQuery(this).children('ul.sub-menu').slideToggle(200);
+		jQuery(this).next('ul.sub-menu').slideToggle(200);
+		jQuery(this).toggleClass('active');
+		
+	});
+	
+	
+	jQuery('ul.menu > li.menu-item-has-children > ul.sub-menu > li.menu-item-has-children a').click(function() {
+		
+		jQuery(this).next('ul.sub-menu').slideToggle(200);
 		jQuery(this).toggleClass('active');
 		
 	});
