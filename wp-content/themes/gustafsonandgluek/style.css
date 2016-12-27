@@ -941,7 +941,7 @@ footer {
   padding: 0 30px;
   min-height: 725px; }
 
-body.archive .content_wrapper {
+body.archive .content_wrapper, body.single-post .content_wrapper {
   min-height: 1600px; }
 
 .content {
@@ -1647,10 +1647,19 @@ span.pull_quote {
     font-size: 17px;
     line-height: 32px;
     font-family: "Nimbus Sans TW01";
-    display: block; }
+    display: block;
+    margin-bottom: 45px;
+    padding-bottom: 45px;
+    border-bottom: #ccc 1px solid; }
+    #accordion div p:last-of-type {
+      border: none;
+      margin-bottom: 0;
+      padding-bottom: 0; }
   #accordion div hr {
-    margin: 45px 0;
-    border-top: #ccc 1px solid; }
+    /*
+				margin:45px 0;
+				border-top:#ccc 1px solid;
+*/ }
 
 @media screen and (min-width: 390px) {
   /* Contact Us */

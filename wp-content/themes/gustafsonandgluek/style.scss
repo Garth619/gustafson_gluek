@@ -1241,7 +1241,7 @@ display: none;
 	min-height: 725px;
 }
 
-body.archive {
+body.archive, body.single-post {
 	.content_wrapper {
 		min-height: 1600px;
 	}
@@ -2159,10 +2159,20 @@ body.archive {
 				line-height: 32px;
 				font-family: $nimbusbreg;
 				display: block;
+				margin-bottom:45px;
+				padding-bottom:45px;
+				border-bottom:#ccc 1px solid;
+				&:last-of-type {
+					border:none;
+					margin-bottom: 0;
+					padding-bottom:0;
+				}
 			}
 			hr {
+/*
 				margin:45px 0;
 				border-top:#ccc 1px solid;
+*/
 			}
 			
 		}

@@ -30,13 +30,7 @@ get_header(); ?>
 			
 				<div class="case_inner_content">
 					
-					
-					
-					
-					
-					
-					
-					
+	
 					<div class="tabs_content one">
 	
 						
@@ -45,82 +39,65 @@ get_header(); ?>
 							
 							<img class="tab_accordian_img" src="<?php bloginfo('template_directory');?>/images/results_antitrust.png"/>
 							
-							<span class="tab_img_title">antitrust case summaries</span><!-- img_title -->
+							<span class="tab_img_title"><?php the_field('antitrust_title');?></span><!-- img_title -->
 						
 						</div><!-- tab_content_title_wrapper -->
 						
-						
-						
-						<div class="single_tab_content">
+						<?php if(get_field('anti_trust_cases')): ?>
+						 
+							<?php while(has_sub_field('anti_trust_cases')): ?>
+						 
+								
+								<div class="single_tab_content">
 							
-							<span class="accordian_title">One In re Capacitors Antitrust Litigation (N.D. Cal.)</span><!-- accordian_title -->
+									<span class="accordian_title"><?php the_sub_field('title');?></span><!-- accordian_title -->
 				
-							<p>Gustafson Gluek serves on the executive committee representing a proposed class of indirect purchaser plaintiffs who purchased electrolytic or film capacitors and paid artificially inflated prices. This is a major international cartel case. Plaintiffs allege that at least fifteen multinational corporations conspired to fix the prices of the electrolytic and film capacitors that they manufactured and sold worldwide and into the United States.</p>
+									<?php the_sub_field('summary');?>
 
-						</div><!-- single_tab_content -->
+								</div><!-- single_tab_content -->
+								
+								
+								<?php endwhile; ?>
+						 
+						<?php endif; ?>
 						
-						
-						<div class="single_tab_content">
-							
-							<span class="accordian_title">One In re Capacitors Antitrust Litigation (N.D. Cal.)</span><!-- accordian_title -->
-				
-							<p>Gustafson Gluek serves on the executive committee representing a proposed class of indirect purchaser plaintiffs who purchased electrolytic or film capacitors and paid artificially inflated prices. This is a major international cartel case. Plaintiffs allege that at least fifteen multinational corporations conspired to fix the prices of the electrolytic and film capacitors that they manufactured and sold worldwide and into the United States.</p>
-
-						</div><!-- single_tab_content -->
-						
-						
-					
+												
 					</div><!-- tabs_content -->
-					
-					
-					
-					
-					
-					
-					
 					
 					
 					
 					<div class="tabs_content two">
 	
-						
-						
 						<div class="tab_content_title_wrapper">
 							
 							<img class="tab_accordian_img" src="<?php bloginfo('template_directory');?>/images/results_data.png"/>
 							
-							<span class="tab_img_title">date breach</span><!-- img_title -->
+							<span class="tab_img_title"><?php the_field('data_breach_title');?></span><!-- img_title -->
 						
 						</div><!-- tab_content_title_wrapper -->
 						
 						
 						
-						<div class="single_tab_content">
+						<?php if(get_field('data_breach_cases')): ?>
+						 
+							<?php while(has_sub_field('data_breach_cases')): ?>
+						 
+								
+								<div class="single_tab_content">
 							
-							<span class="accordian_title">One In re Capacitors Antitrust Litigation (N.D. Cal.)</span><!-- accordian_title -->
+									<span class="accordian_title"><?php the_sub_field('title');?></span><!-- accordian_title -->
 				
-							<p>Gustafson Gluek serves on the executive committee representing a proposed class of indirect purchaser plaintiffs who purchased electrolytic or film capacitors and paid artificially inflated prices. This is a major international cartel case. Plaintiffs allege that at least fifteen multinational corporations conspired to fix the prices of the electrolytic and film capacitors that they manufactured and sold worldwide and into the United States.</p>
+									<?php the_sub_field('summary');?>
 
-						</div><!-- single_tab_content -->
-						
-						
-						<div class="single_tab_content">
-							
-							<span class="accordian_title">One In re Capacitors Antitrust Litigation (N.D. Cal.)</span><!-- accordian_title -->
-				
-							<p>Gustafson Gluek serves on the executive committee representing a proposed class of indirect purchaser plaintiffs who purchased electrolytic or film capacitors and paid artificially inflated prices. This is a major international cartel case. Plaintiffs allege that at least fifteen multinational corporations conspired to fix the prices of the electrolytic and film capacitors that they manufactured and sold worldwide and into the United States.</p>
-
-						</div><!-- single_tab_content -->
-						
+								</div><!-- single_tab_content -->
+								
+								
+								<?php endwhile; ?>
+						 
+						<?php endif; ?>
 						
 					
 					</div><!-- tabs_content -->
-					
-					
-					
-					
-					
-					
 					
 					
 					<div class="tabs_content three">
@@ -131,31 +108,28 @@ get_header(); ?>
 							
 							<img class="tab_accordian_img" src="<?php bloginfo('template_directory');?>/images/results_consumer.png"/>
 							
-							<span class="tab_img_title">consumer protection</span><!-- img_title -->
+							<span class="tab_img_title"><?php the_field('consumer_protection_title');?></span><!-- img_title -->
 						
 						</div><!-- tab_content_title_wrapper -->
 						
-						
-						
-						<div class="single_tab_content">
+						<?php if(get_field('consumer_protection_cases')): ?>
+						 
+							<?php while(has_sub_field('consumer_protection_cases')): ?>
+						 
+								
+								<div class="single_tab_content">
 							
-							<span class="accordian_title">One In re Capacitors Antitrust Litigation (N.D. Cal.)</span><!-- accordian_title -->
+									<span class="accordian_title"><?php the_sub_field('title');?></span><!-- accordian_title -->
 				
-							<p>Gustafson Gluek serves on the executive committee representing a proposed class of indirect purchaser plaintiffs who purchased electrolytic or film capacitors and paid artificially inflated prices. This is a major international cartel case. Plaintiffs allege that at least fifteen multinational corporations conspired to fix the prices of the electrolytic and film capacitors that they manufactured and sold worldwide and into the United States.</p>
+									<?php the_sub_field('summary');?>
 
-						</div><!-- single_tab_content -->
+								</div><!-- single_tab_content -->
+								
+								
+								<?php endwhile; ?>
+						 
+						<?php endif; ?>
 						
-						
-						<div class="single_tab_content">
-							
-							<span class="accordian_title">One In re Capacitors Antitrust Litigation (N.D. Cal.)</span><!-- accordian_title -->
-				
-							<p>Gustafson Gluek serves on the executive committee representing a proposed class of indirect purchaser plaintiffs who purchased electrolytic or film capacitors and paid artificially inflated prices. This is a major international cartel case. Plaintiffs allege that at least fifteen multinational corporations conspired to fix the prices of the electrolytic and film capacitors that they manufactured and sold worldwide and into the United States.</p>
-
-						</div><!-- single_tab_content -->
-						
-						
-					
 					</div><!-- tabs_content -->
 					
 					
@@ -173,31 +147,29 @@ get_header(); ?>
 							
 							<img class="tab_accordian_img" src="<?php bloginfo('template_directory');?>/images/results_securities.png"/>
 							
-							<span class="tab_img_title">securities</span><!-- img_title -->
+							<span class="tab_img_title"><?php the_field('securities_title');?></span><!-- img_title -->
 						
 						</div><!-- tab_content_title_wrapper -->
 						
-						
-						
-						<div class="single_tab_content">
+						<?php if(get_field('securities_cases')): ?>
+						 
+							<?php while(has_sub_field('securities_cases')): ?>
+						 
+								
+								<div class="single_tab_content">
 							
-							<span class="accordian_title">One In re Capacitors Antitrust Litigation (N.D. Cal.)</span><!-- accordian_title -->
+									<span class="accordian_title"><?php the_sub_field('title');?></span><!-- accordian_title -->
 				
-							<p>Gustafson Gluek serves on the executive committee representing a proposed class of indirect purchaser plaintiffs who purchased electrolytic or film capacitors and paid artificially inflated prices. This is a major international cartel case. Plaintiffs allege that at least fifteen multinational corporations conspired to fix the prices of the electrolytic and film capacitors that they manufactured and sold worldwide and into the United States.</p>
+									<?php the_sub_field('summary');?>
 
-						</div><!-- single_tab_content -->
+								</div><!-- single_tab_content -->
+								
+								
+								<?php endwhile; ?>
+						 
+						<?php endif; ?>
 						
-						
-						<div class="single_tab_content">
-							
-							<span class="accordian_title">One In re Capacitors Antitrust Litigation (N.D. Cal.)</span><!-- accordian_title -->
-				
-							<p>Gustafson Gluek serves on the executive committee representing a proposed class of indirect purchaser plaintiffs who purchased electrolytic or film capacitors and paid artificially inflated prices. This is a major international cartel case. Plaintiffs allege that at least fifteen multinational corporations conspired to fix the prices of the electrolytic and film capacitors that they manufactured and sold worldwide and into the United States.</p>
 
-						</div><!-- single_tab_content -->
-						
-						
-					
 					</div><!-- tabs_content -->
 					
 					
@@ -215,31 +187,29 @@ get_header(); ?>
 							
 							<img class="tab_accordian_img" src="<?php bloginfo('template_directory');?>/images/results_prod_liability.png"/>
 							
-							<span class="tab_img_title">product liability</span><!-- img_title -->
+							<span class="tab_img_title"><?php the_field('securities_title');?></span><!-- img_title -->
 						
 						</div><!-- tab_content_title_wrapper -->
 						
-						
-						
-						<div class="single_tab_content">
+						<?php if(get_field('product_liability_cases')): ?>
+						 
+							<?php while(has_sub_field('product_liability_cases')): ?>
+						 
+								
+								<div class="single_tab_content">
 							
-							<span class="accordian_title">One In re Capacitors Antitrust Litigation (N.D. Cal.)</span><!-- accordian_title -->
+									<span class="accordian_title"><?php the_sub_field('title');?></span><!-- accordian_title -->
 				
-							<p>Gustafson Gluek serves on the executive committee representing a proposed class of indirect purchaser plaintiffs who purchased electrolytic or film capacitors and paid artificially inflated prices. This is a major international cartel case. Plaintiffs allege that at least fifteen multinational corporations conspired to fix the prices of the electrolytic and film capacitors that they manufactured and sold worldwide and into the United States.</p>
+									<?php the_sub_field('summary');?>
 
-						</div><!-- single_tab_content -->
+								</div><!-- single_tab_content -->
+								
+								
+								<?php endwhile; ?>
+						 
+						<?php endif; ?>
 						
 						
-						<div class="single_tab_content">
-							
-							<span class="accordian_title">One In re Capacitors Antitrust Litigation (N.D. Cal.)</span><!-- accordian_title -->
-				
-							<p>Gustafson Gluek serves on the executive committee representing a proposed class of indirect purchaser plaintiffs who purchased electrolytic or film capacitors and paid artificially inflated prices. This is a major international cartel case. Plaintiffs allege that at least fifteen multinational corporations conspired to fix the prices of the electrolytic and film capacitors that they manufactured and sold worldwide and into the United States.</p>
-
-						</div><!-- single_tab_content -->
-						
-						
-					
 					</div><!-- tabs_content -->
 					
 					
@@ -256,40 +226,28 @@ get_header(); ?>
 							
 							<img class="tab_accordian_img" src="<?php bloginfo('template_directory');?>/images/results_patents.png"/>
 							
-							<span class="tab_img_title">Intellectual Property & Patent Misuse</span><!-- img_title -->
+							<span class="tab_img_title"><?php the_field('intellectual_property_title');?></span><!-- img_title -->
 						
 						</div><!-- tab_content_title_wrapper -->
 						
-						
-						
-						<div class="single_tab_content">
+						<?php if(get_field('intellectual_property_cases')): ?>
+						 
+							<?php while(has_sub_field('intellectual_property_cases')): ?>
+						 
+								
+								<div class="single_tab_content">
 							
-							<span class="accordian_title">One In re Capacitors Antitrust Litigation (N.D. Cal.)</span><!-- accordian_title -->
+									<span class="accordian_title"><?php the_sub_field('title');?></span><!-- accordian_title -->
 				
-							<p>Gustafson Gluek serves on the executive committee representing a proposed class of indirect purchaser plaintiffs who purchased electrolytic or film capacitors and paid artificially inflated prices. This is a major international cartel case. Plaintiffs allege that at least fifteen multinational corporations conspired to fix the prices of the electrolytic and film capacitors that they manufactured and sold worldwide and into the United States.</p>
+									<?php the_sub_field('summary');?>
 
-						</div><!-- single_tab_content -->
+								</div><!-- single_tab_content -->
+								
+								
+								<?php endwhile; ?>
+						 
+						<?php endif; ?>
 						
-						
-						<div class="single_tab_content">
-							
-							<span class="accordian_title">One In re Capacitors Antitrust Litigation (N.D. Cal.)</span><!-- accordian_title -->
-				
-							<p>Gustafson Gluek serves on the executive committee representing a proposed class of indirect purchaser plaintiffs who purchased electrolytic or film capacitors and paid artificially inflated prices. This is a major international cartel case. Plaintiffs allege that at least fifteen multinational corporations conspired to fix the prices of the electrolytic and film capacitors that they manufactured and sold worldwide and into the United States.</p>
-
-						</div><!-- single_tab_content -->
-						
-						
-						<div class="single_tab_content">
-							
-							<span class="accordian_title">One In re Capacitors Antitrust Litigation (N.D. Cal.)</span><!-- accordian_title -->
-				
-							<p>Gustafson Gluek serves on the executive committee representing a proposed class of indirect purchaser plaintiffs who purchased electrolytic or film capacitors and paid artificially inflated prices. This is a major international cartel case. Plaintiffs allege that at least fifteen multinational corporations conspired to fix the prices of the electrolytic and film capacitors that they manufactured and sold worldwide and into the United States.</p>
-
-						</div><!-- single_tab_content -->
-						
-						
-					
 					</div><!-- tabs_content -->
 					
 					
