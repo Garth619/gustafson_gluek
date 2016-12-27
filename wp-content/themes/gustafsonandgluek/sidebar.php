@@ -1,15 +1,5 @@
 <div class="sidebar_wrapper">
 	
-	<ul class="inner_page_list">
-		<li><a href="">Practice Areas</a></li>
-		<li><a href="">Practice Areas</a></li>
-		<li><a href="">Practice Areas</a></li>
-		<li><a href="">Practice Areas</a></li>
-		<li><a href="">Practice Areas</a></li>
-		<li><a href="">Practice Areas</a></li>
-		<li><a href="">Practice Areas</a></li>
-		<li><a href="">Practice Areas</a></li>
-		<li><a href="">Practice Areas</a></li>
-	</ul>
+	<?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'sidenar' ) ); ?>
 	
 </div><!-- sidebar_wrapper -->

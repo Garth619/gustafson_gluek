@@ -941,6 +941,9 @@ footer {
   padding: 0 30px;
   min-height: 725px; }
 
+body.archive .content_wrapper {
+  min-height: 1600px; }
+
 .content {
   font-family: "Nimbus Sans TW01";
   font-size: 17px;
@@ -1110,12 +1113,13 @@ footer {
           border-top: solid #ccc 1px;
           font-family: "Source Serif Pro";
           font-weight: 900;
-          font-style: normal; }
+          font-style: normal;
+          line-height: 23px; }
           .sidebar_wrapper ul.blog_list > li ul li a {
             color: #000;
             text-decoration: none;
             display: block;
-            padding: 20px 0;
+            padding: 17px 0;
             transition: all .2s ease-in-out; }
             .sidebar_wrapper ul.blog_list > li ul li a:hover {
               color: #b6995a; }
@@ -1123,20 +1127,21 @@ footer {
           border-bottom: solid #ccc 1px; }
         .sidebar_wrapper ul.blog_list > li ul li:first-of-type {
           border-top: none; }
-  .sidebar_wrapper ul.inner_page_list {
+  .sidebar_wrapper ul#menu-sidebar-menu {
     list-style: none;
     width: 100%; }
-    .sidebar_wrapper ul.inner_page_list li {
-      border-top: solid #ccc 1px; }
-      .sidebar_wrapper ul.inner_page_list li a {
+    .sidebar_wrapper ul#menu-sidebar-menu li {
+      border-top: solid #ccc 1px;
+      line-height: 23px; }
+      .sidebar_wrapper ul#menu-sidebar-menu li a {
         color: #000;
         text-decoration: none;
         display: block;
         padding: 20px 0;
         transition: all .2s ease-in-out; }
-        .sidebar_wrapper ul.inner_page_list li a:hover {
+        .sidebar_wrapper ul#menu-sidebar-menu li a:hover {
           color: #b6995a; }
-    .sidebar_wrapper ul.inner_page_list li:last-of-type {
+    .sidebar_wrapper ul#menu-sidebar-menu li:last-of-type {
       border-bottom: solid #ccc 1px; }
 
 /* Practice Areas */
@@ -2148,17 +2153,17 @@ span.pull_quote {
       .sidebar_wrapper ul.blog_list:last-of-type {
         float: right;
         margin-left: 1%; }
-    .sidebar_wrapper ul.inner_page_list {
+    .sidebar_wrapper ul#menu-sidebar-menu {
       overflow: hidden; }
-      .sidebar_wrapper ul.inner_page_list li {
+      .sidebar_wrapper ul#menu-sidebar-menu li {
         width: 49%; }
-        .sidebar_wrapper ul.inner_page_list li:nth-of-type(2n + 1) {
+        .sidebar_wrapper ul#menu-sidebar-menu li:nth-of-type(2n + 1) {
           float: left;
           margin-right: 1%; }
-        .sidebar_wrapper ul.inner_page_list li:nth-of-type(2n + 2) {
+        .sidebar_wrapper ul#menu-sidebar-menu li:nth-of-type(2n + 2) {
           float: right;
           margin-left: 1%; }
-        .sidebar_wrapper ul.inner_page_list li:nth-last-child(-2n+2) {
+        .sidebar_wrapper ul#menu-sidebar-menu li:nth-last-child(-2n+2) {
           border-bottom: #ccc solid 1px; }
   /* Practice Areas */
   .no_sidebar_wrapper {
@@ -2323,6 +2328,19 @@ span.pull_quote {
           position: relative;
           top: -3px;
           left: 7px; }
+        nav.desktop .inner_nav ul.menu > li.current-menu-item > a, nav.desktop .inner_nav ul.menu > li.current-menu-parent > a, nav.desktop .inner_nav ul.menu > li.current-menu-ancestor > a {
+          color: #45806e; }
+        nav.desktop .inner_nav ul.menu > li.current-menu-item > a:after, nav.desktop .inner_nav ul.menu > li.current-menu-parent > a:after, nav.desktop .inner_nav ul.menu > li.current-menu-ancestor > a:after {
+          content: "";
+          width: 0;
+          height: 0;
+          border-left: 4px solid transparent;
+          border-right: 4px solid transparent;
+          border-top: 4px solid #45806e;
+          display: inline-block;
+          position: relative;
+          top: -3px;
+          left: 7px; }
         nav.desktop .inner_nav ul.menu > li {
           position: relative;
           transition: all .2s ease-in-out; }
@@ -2356,6 +2374,22 @@ span.pull_quote {
             /* */
             visibility: hidden;
             transition: all .2s ease-in-out; }
+            nav.desktop .inner_nav ul.menu > li ul.sub-menu > li.current-menu-item > a {
+              color: #b6995a; }
+            nav.desktop .inner_nav ul.menu > li ul.sub-menu > li.current-menu-parent > a {
+              color: #b6995a; }
+            nav.desktop .inner_nav ul.menu > li ul.sub-menu > li.current-menu-parent > a:after {
+              content: "";
+              width: 0;
+              height: 0;
+              border-top: 4px solid transparent;
+              border-bottom: 4px solid transparent;
+              border-left: 4px solid #b6995a !important;
+              display: inline-block;
+              position: absolute;
+              top: 20px;
+              right: 25px;
+              transition: all .2s ease-in-out; }
             nav.desktop .inner_nav ul.menu > li ul.sub-menu > li.menu-item-has-children {
               position: relative; }
               nav.desktop .inner_nav ul.menu > li ul.sub-menu > li.menu-item-has-children:hover > a {
@@ -2419,6 +2453,8 @@ span.pull_quote {
                 position: absolute;
                 top: 0;
                 right: -325px; }
+                nav.desktop .inner_nav ul.menu > li ul.sub-menu > li > ul.sub-menu li.current-menu-item a {
+                  color: #b6995a; }
   /* Hero Banner */
   .hero_banner {
     width: 100%;
@@ -2748,10 +2784,10 @@ span.pull_quote {
       .sidebar_wrapper ul.blog_list:last-of-type {
         float: right;
         margin-left: 0; }
-    .sidebar_wrapper ul.inner_page_list li {
+    .sidebar_wrapper ul#menu-sidebar-menu li {
       float: none;
       width: 100%; }
-      .sidebar_wrapper ul.inner_page_list li:nth-last-child(-2n+2) {
+      .sidebar_wrapper ul#menu-sidebar-menu li:nth-last-child(-2n+2) {
         border-bottom: none; }
   .content_wrapper {
     width: 75%;
@@ -3155,7 +3191,7 @@ span.pull_quote {
   .sidebar_wrapper {
     float: left;
     padding: 105px 70px 105px 50px; }
-    .sidebar_wrapper ul.inner_page_list {
+    .sidebar_wrapper ul#menu-sidebar-menu {
       float: right; }
   .content_wrapper {
     padding: 105px 0 105px 140px;
