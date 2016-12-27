@@ -25,7 +25,7 @@ get_header(); ?>
 			<div class="content">
 			
 				<h1 class="inner_header"><?php
-					printf( __( 'Category Archives: %s', 'twentyten' ), '<span>' . single_cat_title( '', false ) . '</span>' );
+					printf( __( '%s', 'twentyten' ), '<span>' . single_cat_title( '', false ) . '</span>' );
 				?></h1><!-- inner_header -->
 			
 				<div class="inner_content">
