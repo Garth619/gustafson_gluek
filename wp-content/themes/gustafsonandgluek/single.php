@@ -26,6 +26,8 @@ get_header(); ?>
 				<h1 class="inner_header"><?php the_title();?></h1><!-- inner_header -->
 			
 				<div class="inner_content">
+					
+					
 			
 					<?php get_template_part( 'loop', 'single' ); ?>
 			

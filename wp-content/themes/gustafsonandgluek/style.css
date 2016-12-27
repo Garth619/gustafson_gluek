@@ -2300,7 +2300,7 @@ span.pull_quote {
             font-weight: 900;
             font-style: normal;
             font-size: 15px;
-            line-height: 35px;
+            line-height: 20px;
             letter-spacing: 0.55px;
             position: absolute;
             top: 80px;
@@ -2315,7 +2315,7 @@ span.pull_quote {
                 color: #fff;
                 text-decoration: none;
                 display: block;
-                padding: 10px 35px;
+                padding: 13px 25px;
                 transition: all .2s ease-in-out;
                 min-width: 325px; }
                 nav.desktop .inner_nav ul.menu > li > ul.sub-menu > li > a:hover {

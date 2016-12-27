@@ -6950,6 +6950,30 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/wp-content\/plugins\/wordpress-importer\/languages\/wordpress-importer.pot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wordpress-importer\/languages\/wordpress-importer.pot",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wordpress-importer\/parsers.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wordpress-importer\/parsers.php",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wordpress-importer\/readme.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wordpress-importer\/readme.txt",
+		"oF": 0
+		},
+	"\/wp-content\/plugins\/wordpress-importer\/wordpress-importer.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/plugins\/wordpress-importer\/wordpress-importer.php",
+		"oF": 0
+		},
 	"\/wp-content\/plugins\/wp-migrate-db-pro-media-files\/asset\/dist\/css\/styles.css": {
 		"aP": 0,
 		"bl": 0,
@@ -8939,6 +8963,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/wp-content\/themes\/index.php",
+		"oF": 0
+		},
+	"\/wp-content\/uploads\/2016\/12\/gustafsongluekpllc.wordpress.2016-12-22.xml_.txt": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/uploads\/2016\/12\/gustafsongluekpllc.wordpress.2016-12-22.xml_.txt",
 		"oF": 0
 		},
 	"\/wp-content\/uploads\/wp-migrate-db\/.htaccess": {
