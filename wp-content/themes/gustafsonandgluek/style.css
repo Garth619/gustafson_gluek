@@ -212,27 +212,26 @@ nav.mobile {
           right: 6%;
           position: absolute;
           top: 25px; }
-      nav.mobile .inner_nav ul.menu > li.menu-item-has-children {
-        /* Start here */ }
-        nav.mobile .inner_nav ul.menu > li.menu-item-has-children > a.active {
-          color: #ceb675;
-          position: relative;
-          background: #fff; }
-          nav.mobile .inner_nav ul.menu > li.menu-item-has-children > a.active:after {
-            content: "";
-            width: 0;
-            height: 0;
-            border-left: 4px solid transparent;
-            border-right: 4px solid transparent;
-            border-top: 4px solid #ceb675;
-            display: inline-block;
-            right: 6%;
-            position: absolute;
-            top: 25px; }
+      nav.mobile .inner_nav ul.menu > li.menu-item-has-children > a.active {
+        color: #ceb675;
+        position: relative;
+        background: #fff; }
+        nav.mobile .inner_nav ul.menu > li.menu-item-has-children > a.active:after {
+          content: "";
+          width: 0;
+          height: 0;
+          border-left: 4px solid transparent;
+          border-right: 4px solid transparent;
+          border-top: 4px solid #ceb675;
+          display: inline-block;
+          right: 6%;
+          position: absolute;
+          top: 25px; }
       nav.mobile .inner_nav ul.menu > li {
         font-family: "Nimbus Sans TW01Bla";
         text-transform: uppercase;
-        letter-spacing: 1px; }
+        letter-spacing: 1px;
+        line-height: 19px; }
       nav.mobile .inner_nav ul.menu li {
         cursor: pointer;
         border-bottom: 1px solid #142b2c; }
@@ -241,10 +240,29 @@ nav.mobile {
           text-decoration: none;
           color: #fff;
           display: block;
-          padding: 23px 10px; }
+          padding: 23px 35px; }
         nav.mobile .inner_nav ul.menu li > ul.sub-menu {
           display: none;
           background: #213f40; }
+          nav.mobile .inner_nav ul.menu li > ul.sub-menu > li.menu-item-has-children {
+            position: relative; }
+            nav.mobile .inner_nav ul.menu li > ul.sub-menu > li.menu-item-has-children > a:after {
+              content: "";
+              width: 0;
+              height: 0;
+              border-left: 4px solid transparent;
+              border-right: 4px solid transparent;
+              border-top: 4px solid #fff;
+              display: inline-block;
+              right: 6%;
+              position: absolute;
+              top: 25px; }
+            nav.mobile .inner_nav ul.menu li > ul.sub-menu > li.menu-item-has-children > a.active {
+              background: #b5985e; }
+            nav.mobile .inner_nav ul.menu li > ul.sub-menu > li.menu-item-has-children > ul.sub-menu {
+              background: #cdb579; }
+              nav.mobile .inner_nav ul.menu li > ul.sub-menu > li.menu-item-has-children > ul.sub-menu li {
+                border-bottom: 1px solid #a29462; }
           nav.mobile .inner_nav ul.menu li > ul.sub-menu > li:last-of-type {
             border: none; }
           nav.mobile .inner_nav ul.menu li > ul.sub-menu > li {
@@ -2292,8 +2310,7 @@ span.pull_quote {
           left: 7px; }
         nav.desktop .inner_nav ul.menu > li {
           position: relative;
-          transition: all .2s ease-in-out;
-          /* > */ }
+          transition: all .2s ease-in-out; }
           nav.desktop .inner_nav ul.menu > li:hover a {
             color: #45806e; }
           nav.desktop .inner_nav ul.menu > li:hover > ul.sub-menu {
@@ -2332,9 +2349,9 @@ span.pull_quote {
                 content: "";
                 width: 0;
                 height: 0;
-                border-left: 4px solid transparent;
-                border-right: 4px solid transparent;
-                border-top: 4px solid #b6995a;
+                border-top: 4px solid transparent;
+                border-bottom: 4px solid transparent;
+                border-left: 4px solid #b6995a;
                 display: inline-block;
                 position: absolute;
                 top: 20px;
@@ -2346,9 +2363,9 @@ span.pull_quote {
                   content: "";
                   width: 0;
                   height: 0;
-                  border-left: 4px solid transparent;
-                  border-right: 4px solid transparent;
-                  border-top: 4px solid #fff;
+                  border-top: 4px solid transparent;
+                  border-bottom: 4px solid transparent;
+                  border-left: 4px solid #fff;
                   display: inline-block;
                   position: absolute;
                   top: 20px;
@@ -2358,9 +2375,9 @@ span.pull_quote {
                 content: "";
                 width: 0;
                 height: 0;
-                border-left: 4px solid transparent;
-                border-right: 4px solid transparent;
-                border-top: 4px solid #b6995a;
+                border-top: 4px solid transparent;
+                border-bottom: 4px solid transparent;
+                border-left: 4px solid #b6995a;
                 display: inline-block;
                 position: absolute;
                 top: 20px;

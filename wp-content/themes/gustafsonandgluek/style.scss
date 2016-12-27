@@ -288,7 +288,7 @@ nav.mobile {
 				}
 			}
 			> li.menu-item-has-children {
-				/* Start here */
+				
 				> a.active {
 					color:$goldlight;
 					position: relative;
@@ -311,6 +311,7 @@ nav.mobile {
 				font-family: $nimbusblack;
 				text-transform: uppercase;
 				letter-spacing: 1px;
+				line-height:19px;
 			}
 			li {
 				cursor: pointer;
@@ -320,12 +321,36 @@ nav.mobile {
 					text-decoration: none;
 					color:#fff;
 					display:block;
-					padding:23px 10px;
+					padding:23px 35px;
 					
 				}
 				> ul.sub-menu {
 					display: none;
 					background:#213f40;
+					> li.menu-item-has-children {
+						position: relative;
+						> a:after {
+							content:"";
+							width: 0; 
+							height: 0; 
+							border-left: 4px solid transparent;
+							border-right: 4px solid transparent;
+							border-top: 4px solid #fff;
+							display: inline-block;
+							right:6%;
+							position: absolute;
+							top:25px;
+						}
+						> a.active {
+							background:#b5985e;
+						}
+						> ul.sub-menu {
+							background: #cdb579;
+							li {
+								border-bottom:1px solid #a29462;
+							}
+						}
+					}
 					> li:last-of-type {
 						border: none;
 					}
@@ -3569,9 +3594,15 @@ nav.desktop {
 							content:"";
 							width: 0; 
 							height: 0; 
+
 							border-left: 4px solid transparent;
 							border-right: 4px solid transparent;
 							border-top: 4px solid #45806e;
+
+							
+							
+													
+							
 							display: inline-block;
 							position: relative;
 							top:-3px;
@@ -3631,7 +3662,7 @@ nav.desktop {
 						color:#45806e;
 					}
 				}
-				/* > */ ul.sub-menu {
+					ul.sub-menu {
 						background: #1c3536;
 						text-align: left;
 						font-family: $sourceserif;
@@ -3655,9 +3686,9 @@ nav.desktop {
 										content:"";
 										width: 0; 
 										height: 0; 
-										border-left: 4px solid transparent;
-										border-right: 4px solid transparent;
-										border-top: 4px solid $gold;
+										border-top: 4px solid transparent;
+										border-bottom: 4px solid transparent;
+										border-left: 4px solid $gold;
 										display: inline-block;
 										position: absolute;
 										top:20px;
@@ -3670,10 +3701,10 @@ nav.desktop {
 									&:after {
 										content:"";
 										width: 0; 
-										height: 0; 
-										border-left: 4px solid transparent;
-										border-right: 4px solid transparent;
-										border-top: 4px solid #fff;
+										height: 0;
+										border-top: 4px solid transparent;
+										border-bottom: 4px solid transparent;
+										border-left: 4px solid #fff;
 										display: inline-block;
 										position: absolute;
 										top:20px;
@@ -3686,9 +3717,9 @@ nav.desktop {
 										content:"";
 										width: 0; 
 										height: 0; 
-										border-left: 4px solid transparent;
-										border-right: 4px solid transparent;
-										border-top: 4px solid $gold;
+										border-top: 4px solid transparent;
+										border-bottom: 4px solid transparent;
+										border-left: 4px solid $gold;
 										display: inline-block;
 										position: absolute;
 										top:20px;
