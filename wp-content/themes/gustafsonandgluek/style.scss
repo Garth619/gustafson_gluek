@@ -1363,14 +1363,16 @@ display: none;
 
 .post {
 	padding-bottom:65px;
+	padding-top:65px;
 	border-bottom: #959595 solid 1px;
 	&:last-of-type {
 		border-bottom: none;
 	}
-	&:not(:first-of-type) {
-		padding-top:65px;
-	}
-	
+}
+
+
+.post:first-of-type {
+	padding-top:0px;
 }
 
 

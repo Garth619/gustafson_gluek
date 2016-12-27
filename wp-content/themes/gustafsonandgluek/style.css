@@ -1042,11 +1042,13 @@ footer {
 
 .post {
   padding-bottom: 65px;
+  padding-top: 65px;
   border-bottom: #959595 solid 1px; }
   .post:last-of-type {
     border-bottom: none; }
-  .post:not(:first-of-type) {
-    padding-top: 65px; }
+
+.post:first-of-type {
+  padding-top: 0px; }
 
 .entry-meta {
   font-size: 14px;
