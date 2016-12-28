@@ -10771,6 +10771,38 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/wp-content\/uploads\/2016\/12\/profile_gustafson2-150x150.jpg": {
+		"ft": 16384,
+		"iS": 1205,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/12\/profile_gustafson2-150x150.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/12\/profile_gustafson2-300x233.jpg": {
+		"ft": 16384,
+		"iS": 2111,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/12\/profile_gustafson2-300x233.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/12\/profile_gustafson2-580x198.jpg": {
+		"ft": 16384,
+		"iS": 3231,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/12\/profile_gustafson2-580x198.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/12\/profile_gustafson2.jpg": {
+		"ft": 16384,
+		"iS": 6066,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/12\/profile_gustafson2.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/wp-content\/uploads\/2016\/12\/profile_hedlund-150x150.jpg": {
 		"ft": 16384,
 		"iS": 4106,
@@ -11168,46 +11200,6 @@
 		"iS": 145709,
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2016\/12\/profile_payne.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/wp-content\/uploads\/2016\/12\/profile_placeholder-150x150.jpg": {
-		"ft": 16384,
-		"iS": 1185,
-		"oA": 0,
-		"oAP": "\/wp-content\/uploads\/2016\/12\/profile_placeholder-150x150.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/wp-content\/uploads\/2016\/12\/profile_placeholder-300x240.jpg": {
-		"ft": 16384,
-		"iS": 2070,
-		"oA": 0,
-		"oAP": "\/wp-content\/uploads\/2016\/12\/profile_placeholder-300x240.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/wp-content\/uploads\/2016\/12\/profile_placeholder-580x450.jpg": {
-		"ft": 16384,
-		"iS": 5559,
-		"oA": 0,
-		"oAP": "\/wp-content\/uploads\/2016\/12\/profile_placeholder-580x450.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/wp-content\/uploads\/2016\/12\/profile_placeholder-600x198.jpg": {
-		"ft": 16384,
-		"iS": 3324,
-		"oA": 0,
-		"oAP": "\/wp-content\/uploads\/2016\/12\/profile_placeholder-600x198.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/wp-content\/uploads\/2016\/12\/profile_placeholder.jpg": {
-		"ft": 16384,
-		"iS": 7413,
-		"oA": 0,
-		"oAP": "\/wp-content\/uploads\/2016\/12\/profile_placeholder.jpg",
 		"oF": 0,
 		"opt": 0
 		},

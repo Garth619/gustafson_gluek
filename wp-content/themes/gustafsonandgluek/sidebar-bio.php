@@ -21,7 +21,7 @@
 	
 	<?php else:?>
 	
-	<img alt="placeholder" src="<?php bloginfo('url');?>/wp-content/uploads/2016/12/profile_placeholder.jpg"/>
+	<img alt="placeholder" src="<?php bloginfo('url');?>/wp-content/uploads/2016/12/profile_gustafson2.jpg"/>
 	
 	
 	<?php endif;?>
