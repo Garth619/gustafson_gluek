@@ -3671,18 +3671,7 @@ nav.desktop {
 				> a {
 					color:#45806e;
 				}
-				> a:after {
-						content:"";
-						width: 0; 
-						height: 0; 
-						border-left: 4px solid transparent;
-						border-right: 4px solid transparent;
-						border-top: 4px solid #45806e;
-						display: inline-block;
-						position: relative;
-						top:-3px;
-						left:7px;
-				}
+
 			}
 			> li {
 				position: relative;
@@ -4063,6 +4052,7 @@ nav.desktop {
 			padding-right:40px;
 			padding-left:0px;
 			margin-left:90px;
+// 			max-width:920px;
 		}
 	}
 	.experience_inner_wrapper {

@@ -10485,6 +10485,70 @@
 		"oAP": "\/wp-content\/themes\/index.php",
 		"oF": 0
 		},
+	"\/wp-content\/uploads\/2016\/12\/award_01-150x85.png": {
+		"ft": 32768,
+		"iS": 5059,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/12\/award_01-150x85.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/12\/award_01.png": {
+		"ft": 32768,
+		"iS": 6825,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/12\/award_01.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/12\/award_02-150x85.png": {
+		"ft": 32768,
+		"iS": 19437,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/12\/award_02-150x85.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/12\/award_02.png": {
+		"ft": 32768,
+		"iS": 19320,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/12\/award_02.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/12\/award_03-150x85.png": {
+		"ft": 32768,
+		"iS": 2922,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/12\/award_03-150x85.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/12\/award_03.png": {
+		"ft": 32768,
+		"iS": 4231,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/12\/award_03.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/12\/award_04-150x85.png": {
+		"ft": 32768,
+		"iS": 2825,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/12\/award_04-150x85.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/12\/award_04.png": {
+		"ft": 32768,
+		"iS": 5487,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/12\/award_04.png",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/wp-content\/uploads\/2016\/12\/gustafsongluekpllc.wordpress.2016-12-22.xml_.txt": {
 		"ft": 8192,
 		"oA": 2,
@@ -10648,6 +10712,254 @@
 		"iS": 129889,
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2016\/12\/hero_mobile.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/12\/image_01_ipad-150x150.jpeg": {
+		"ft": 16384,
+		"iS": 7538,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/12\/image_01_ipad-150x150.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/12\/image_01_ipad-248x300.jpeg": {
+		"ft": 16384,
+		"iS": 18737,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/12\/image_01_ipad-248x300.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/12\/image_01_ipad-580x450.jpeg": {
+		"ft": 16384,
+		"iS": 44826,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/12\/image_01_ipad-580x450.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/12\/image_01_ipad-592x198.jpeg": {
+		"ft": 16384,
+		"iS": 22037,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/12\/image_01_ipad-592x198.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/12\/image_01_ipad.jpeg": {
+		"ft": 16384,
+		"iS": 354920,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/12\/image_01_ipad.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/12\/image_01_mobile-150x150.jpeg": {
+		"ft": 16384,
+		"iS": 7870,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/12\/image_01_mobile-150x150.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/12\/image_01_mobile-203x300.jpeg": {
+		"ft": 16384,
+		"iS": 16650,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/12\/image_01_mobile-203x300.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/12\/image_01_mobile-260x198.jpeg": {
+		"ft": 16384,
+		"iS": 14556,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/12\/image_01_mobile-260x198.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/12\/image_01_mobile.jpeg": {
+		"ft": 16384,
+		"iS": 104494,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/12\/image_01_mobile.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/12\/image_02-150x150.jpeg": {
+		"ft": 16384,
+		"iS": 8045,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/12\/image_02-150x150.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/12\/image_02-245x300.jpeg": {
+		"ft": 16384,
+		"iS": 19056,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/12\/image_02-245x300.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/12\/image_02-580x450.jpeg": {
+		"ft": 16384,
+		"iS": 52974,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/12\/image_02-580x450.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/12\/image_02-768x941.jpeg": {
+		"ft": 16384,
+		"iS": 109392,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/12\/image_02-768x941.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/12\/image_02-800x198.jpeg": {
+		"ft": 16384,
+		"iS": 30868,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/12\/image_02-800x198.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/12\/image_02.jpeg": {
+		"ft": 16384,
+		"iS": 193190,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/12\/image_02.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/12\/image_02_ipad-150x150.jpeg": {
+		"ft": 16384,
+		"iS": 7997,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/12\/image_02_ipad-150x150.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/12\/image_02_ipad-269x300.jpeg": {
+		"ft": 16384,
+		"iS": 21003,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/12\/image_02_ipad-269x300.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/12\/image_02_ipad-580x450.jpeg": {
+		"ft": 16384,
+		"iS": 51943,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/12\/image_02_ipad-580x450.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/12\/image_02_ipad-592x198.jpeg": {
+		"ft": 16384,
+		"iS": 27610,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/12\/image_02_ipad-592x198.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/12\/image_02_ipad.jpeg": {
+		"ft": 16384,
+		"iS": 159061,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/12\/image_02_ipad.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/12\/image_02_mobile-150x150.jpeg": {
+		"ft": 16384,
+		"iS": 8400,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/12\/image_02_mobile-150x150.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/12\/image_02_mobile-167x300.jpeg": {
+		"ft": 16384,
+		"iS": 14742,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/12\/image_02_mobile-167x300.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/12\/image_02_mobile-260x198.jpeg": {
+		"ft": 16384,
+		"iS": 15368,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/12\/image_02_mobile-260x198.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/12\/image_02_mobile-260x450.jpeg": {
+		"ft": 16384,
+		"iS": 30980,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/12\/image_02_mobile-260x450.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/12\/image_02_mobile.jpeg": {
+		"ft": 16384,
+		"iS": 131699,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/12\/image_02_mobile.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/12\/imge_01-150x150.jpeg": {
+		"ft": 16384,
+		"iS": 7810,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/12\/imge_01-150x150.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/12\/imge_01-248x300.jpeg": {
+		"ft": 16384,
+		"iS": 17802,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/12\/imge_01-248x300.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/12\/imge_01-580x450.jpeg": {
+		"ft": 16384,
+		"iS": 47531,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/12\/imge_01-580x450.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/12\/imge_01-768x930.jpeg": {
+		"ft": 16384,
+		"iS": 106825,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/12\/imge_01-768x930.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/12\/imge_01-795x198.jpeg": {
+		"ft": 16384,
+		"iS": 27990,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/12\/imge_01-795x198.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/12\/imge_01.jpeg": {
+		"ft": 16384,
+		"iS": 193195,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/12\/imge_01.jpg",
 		"oF": 0,
 		"opt": 0
 		},
@@ -11656,6 +11968,54 @@
 		"iS": 136819,
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2016\/12\/profile_williams.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/12\/results_antitrust.png": {
+		"ft": 32768,
+		"iS": 3885,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/12\/results_antitrust.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/12\/results_consumer.png": {
+		"ft": 32768,
+		"iS": 2127,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/12\/results_consumer.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/12\/results_data.png": {
+		"ft": 32768,
+		"iS": 2327,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/12\/results_data.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/12\/results_patents.png": {
+		"ft": 32768,
+		"iS": 3096,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/12\/results_patents.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/12\/results_prod_liability.png": {
+		"ft": 32768,
+		"iS": 3998,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/12\/results_prod_liability.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/12\/results_securities.png": {
+		"ft": 32768,
+		"iS": 5796,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/12\/results_securities.png",
 		"oF": 0,
 		"opt": 0
 		},

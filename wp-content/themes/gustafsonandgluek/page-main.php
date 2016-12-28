@@ -14,10 +14,10 @@ get_header(); ?>
 	
 		<div class="hero_banner_content">
 	
-			<span class="sub_header">Dedicated to the protection of </span><!-- sub_header -->
-			<span class="large_header">Consumer Rights and Fair Competition</span><!-- large_header -->
+			<span class="sub_header"><?php the_field('sub_title','option');?> </span><!-- sub_header -->
+			<span class="large_header"><?php the_field('main_title','option');?></span><!-- large_header -->
 		
-			<span class="description">National Complex litigation practice</span><!-- description -->
+			<span class="description"><?php the_field('description','option');?></span><!-- description -->
 		
 			<a class="green_button request_button" href="#request">request your free consultation</a>
 	
@@ -46,9 +46,9 @@ get_header(); ?>
 	
 		<div class="experience_content">
 		
-			<span class="experience_content_header">We are here for you</span>
+			<span class="experience_content_header"><?php the_field('we_are_here_for_you_title');?></span>
 		
-			<p>At Gustafson Gluek PLLC we seek to vindicate the rights and recover damages for those harmed by unfair business practices such as illegal price fixing, deceptive trade practices, and the distribution of unsafe medical devices, as well as enjoin companies from engaging in these types of practices in the&nbsp;future.</p>
+			<p><?php the_field('we_are_here_for_you_content');?></p>
 		
 		</div><!-- experience_content -->
 	
@@ -63,11 +63,11 @@ get_header(); ?>
 		
 					<img class="svg_icon" src="<?php bloginfo('template_directory');?>/images/sp-03.svg"/>
 		
-					<span class="large_header">Over 70 years of experience</span><!-- large_header -->
+					<span class="large_header"><?php the_field('ex_1_title');?></span><!-- large_header -->
 		
 					<div class="gold_line"></div><!-- Gold Line -->
 		
-					<span class="sub_content">Put our experience to work for&nbsp;you!</span><!-- sub_content -->
+					<span class="sub_content"><?php the_field('ex_1_sub_title');?></span><!-- sub_content -->
 		
 			</div><!-- slide -->
 	
@@ -76,11 +76,11 @@ get_header(); ?>
 		
 					<img class="svg_icon" src="<?php bloginfo('template_directory');?>/images/sp-01.svg"/>
 		
-					<span class="large_header">History of Results</span><!-- large_header -->
+					<span class="large_header"><?php the_field('ex_2_title');?></span><!-- large_header -->
 		
 					<div class="gold_line"></div><!-- Gold Line -->
 		
-					<span class="sub_content">Successful track record in class action&nbsp;cases.</span><!-- sub_content -->
+					<span class="sub_content"><?php the_field('ex_2_sub_title');?></span><!-- sub_content -->
 		
 			</div><!-- slide -->
 	
@@ -90,11 +90,11 @@ get_header(); ?>
 		
 					<img class="svg_icon" src="<?php bloginfo('template_directory');?>/images/sp-02.svg"/>
 		
-					<span class="large_header">Award Winning Attorneys</span><!-- large_header -->
+					<span class="large_header"><?php the_field('ex_3_title');?></span><!-- large_header -->
 		
 					<div class="gold_line"></div><!-- Gold Line -->
 		
-					<span class="sub_content">Our attorneys have named as Super Lawyers, Rising Stars and&nbsp;more.</span><!-- sub_content -->
+					<span class="sub_content"><?php the_field('ex_3_sub_title');?></span><!-- sub_content -->
 		
 			</div><!-- slide -->
 			
@@ -120,7 +120,7 @@ get_header(); ?>
 	
 	<div class="large_header_desktop_wrapper">
 	
-		<span class="large_header">Minneapolis Class Action Attorneys</span><!-- large_header -->
+		<span class="large_header"><?php the_field('about_header');?></span><!-- large_header -->
 		
 	</div><!-- large_header_desktop_wrapper -->
 
@@ -130,21 +130,19 @@ get_header(); ?>
 	
 		<div class="about_content">
 			
-			<span class="about_excerpt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas et ornare lectus, non pharetra nisl. Phasellus quis nunc tortor. Pellentesque in eros a lacus egestas malesuada. Integer nec tempus mi. Integer cursus tellus mi, et lobortis mi condimentum porttitor. Proin hendrerit ligula lorem, eget finibus quam efficitur vitae. Duis et metus at nulla suscipit pretium. Nulla in orci feugiat, hendrerit nunc at, luctus nisi. Fusce porta quam magna.</span><!-- about_excerpt -->
+			<span class="about_excerpt"><?php the_field('about_pull_quote');?></span><!-- about_excerpt -->
 			
-			<span class="about_title">Massa rutrum justo commondo</span><!-- about_title -->
+			<span class="about_title"><?php the_field('about_subheader');?></span><!-- about_title -->
 			
-			<p>Nulla sagittis eleifend tellus, et ultrices massa rutrum id. Maecenas justo augue, commodo nec est ac, tincidunt egestas diam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec placerat sed metus ut mollis. Vestibulum vel semper justo. Sed leo tortor, faucibus eget congue id, sollicitudin varius dui. Praesent blandit elit vehicula tortor suscipit cursus. Pellentesque pellentesque bibendum aliquam. Suspendisse fermentum sagittis mauris, sit amet aliquam quam gravida et. Vivamus non mollis enim.</p>
-			
-			<p>Cras quis mattis ex. Quisque quam arcu, lacinia at metus nec, ornare luctus dolor. Integer facilisis nisi odio, vel mattis ex tristique id. Mauris risus urna, imperdiet sit amet fringilla imperdiet, pharetra id orci. Sed nec orci sed sapien ornare scelerisque nec sit amet mi. Mauris ultricies dolor egestas, posuere ipsum in, hendrerit nisi. Nulla malesuada aliquet tellus, et commodo ligula dapibus vel. Ut turpis est, venenatis id enim tempor, fermentum malesuada ligula. Ut nec lacinia diam. Nulla imperdiet, enim at luctus. eget nibh sit amet nunc tempus vestibulum. Cras convallis rhoncus leo at pellentesque. Vivamus eget consequat dolor. Maecenas eget nisl hendrerit dolor imperdiet interdum. Phasellus nisi enim, maximus eu mattis nec, posuere et lacus. Praesent blandit elit vehicula tortor suscipit cursus. Pellentesque pellentesque bibendum aliquam. Suspendisse fermentum sagittis mauris, sit amet aliquam quam gravida et. Vivamus non mollis enim.</p>
+			<?php the_field('about_content');?>
 			
 		</div><!-- about_content -->
 		
 		<div class="about_pic">
 			
-			<img class="group_pic mobile" src="<?php bloginfo('template_directory');?>/images/image_01_mobile.jpg"/>
-			<img class="group_pic ipad" src="<?php bloginfo('template_directory');?>/images/image_01_ipad.jpg"/>
-			<img class="group_pic desktop" src="<?php bloginfo('template_directory');?>/images/imge_01.jpg"/>
+			<img class="group_pic mobile" src="<?php the_field('about_mobile_image');?>"/>
+			<img class="group_pic ipad" src="<?php the_field('about_tablet_image');?>"/>
+			<img class="group_pic desktop" src="<?php the_field('about_desktop_image');?>"/>
 			
 			
 			<img class="tritwo mobile" src="<?php bloginfo('template_directory');?>/images/element_triangle2.svg"/>
@@ -165,13 +163,13 @@ get_header(); ?>
 
 <section id="meet_our_team">
 	
-	<span class="large_header">Gustafson Gluek</span><!-- large_header -->
+	<span class="large_header"><?php the_field('meet_our_team_title');?></span><!-- large_header -->
 	
-	<p>We are a talented group of attorneys & professionals who do not back down from challenging cases and have prevailed against some of the biggest and most well-funded companies in the world.</p>
+	<p><?php the_field('meet_our_team_summary');?></p>
 	
 	<div class="meet_the_team_center">
 	
-		<a class="meet_the_team gold_outline_button" href="<?php bloginfo('url');?>/attorneys">Meet Our Team</a>
+		<a class="meet_the_team gold_outline_button" href="<?php the_field('meet_our_team_link');?>"><?php the_field('meet_our_team_button');?></a>
 	
 	</div><!-- meet_the_team_center -->
 	
@@ -187,14 +185,14 @@ get_header(); ?>
 	
 	<div class="desktop_case_results_content_wrapper">
 	
-		<span class="large_header">Our Case Summaries</span><!-- large_header -->
+		<span class="large_header"><?php the_field('our_case_summaries_section_title');?></span><!-- large_header -->
 	
 		<div class="case_results_content_wrapper">
 	
-			<p>Our law firm  has a national complex litigation practice focused on antitrust and consumer protection class actions.</p>
+			<p><?php the_field('our_case_summaries_content');?></p>
 	
-			<a class="gold_button mobile" href="<?php bloginfo('url');?>/case-results">Case Summaries</a><!-- gold_button -->
-			<a class="green_button summaries_button" href="<?php bloginfo('url');?>/case-results">View More Summaries</a><!-- green_button -->
+			<a class="gold_button mobile" href="<?php the_field('view_more_summaries_link');?>"><?php the_field('mobile_view_more_button');?></a><!-- gold_button -->
+			<a class="green_button summaries_button" href="<?php the_field('view_more_summaries_link');?>"><?php the_field('view_more_summaries_button');?></a><!-- green_button -->
 		
 		</div><!-- case_results_content_wrapper -->
 	
@@ -203,233 +201,47 @@ get_header(); ?>
 
 	<div class="case_results_slide_wrapper">
 		
-		<div class="slide_wrapper">
+		
+		
+		<?php if(get_field('case_results_slider')): ?>
+		 
+			<?php while(has_sub_field('case_results_slider')): ?>
+		 
+				<?php the_sub_field('');?>
+				
+				<div class="slide_wrapper">
 			
-			<div class="slide">
+					<div class="slide">
 				
-				<div class="title_left">
+						<div class="title_left">
 				
-					<span class="slide_header">St. Paul Travelers</span><!-- large_header -->
-					<span class="slide_sub_header">Securities</span><!-- slide_sub_header -->
+							<span class="slide_header"><?php the_sub_field('slide_title');?></span><!-- large_header -->
+							<span class="slide_sub_header"><?php the_sub_field('slide_category');?></span><!-- slide_sub_header -->
 				
-				</div><!-- title_left -->
+						</div><!-- title_left -->
 				
-				<img class="case_results_icon" src="<?php bloginfo('template_directory');?>/images/results_securities.png"/>
+						<img class="case_results_icon" src="<?php the_sub_field('slide_icon');?>"/>
 				
-				<div class="case_results_content">
+						<div class="case_results_content">
 					
 					
-					<div class="gold_line"></div><!-- gold_line -->
+						<div class="gold_line"></div><!-- gold_line -->
 					
-					<span>At issue in the cases were public statements as well as material omissions St. Paul Travelers made that negatively impacted the stock prices of the Company. On behalf of New Mexico State Funds, Gustafson Gluek worked to litigate the two separate class actions against St. Paul Travelers, resulting in multi-million dollar settlements.</span>
+						<span><?php the_sub_field('slide_content');?></span>
 					
 					
-				</div><!-- case_results_content -->
+						</div><!-- case_results_content -->
 				
-			</div><!-- slide -->
+					</div><!-- slide -->
 			
-		</div><!-- slide_wrapper -->
+				</div><!-- slide_wrapper -->
+
+		    
+			<?php endwhile; ?>
+		 
+		<?php endif; ?>
 		
-		
-		<div class="slide_wrapper">
-			
-			<div class="slide">
-				
-				<div class="title_left">
-				
-					<span class="slide_header">St. Paul Travelers</span><!-- large_header -->
-					<span class="slide_sub_header">Securities</span><!-- slide_sub_header -->
-				
-				</div><!-- title_left -->
-				
-				<img class="case_results_icon" src="<?php bloginfo('template_directory');?>/images/results_securities.png"/>
-				
-				<div class="case_results_content">
-					
-					
-					<div class="gold_line"></div><!-- gold_line -->
-					
-					<span>At issue in the cases were public statements as well as material omissions St. Paul Travelers made that negatively impacted the stock prices of the Company. On behalf of New Mexico State Funds, Gustafson Gluek worked to litigate the two separate class actions against St. Paul Travelers, resulting in multi-million dollar settlements.</span>
-					
-					
-				</div><!-- case_results_content -->
-				
-			</div><!-- slide -->
-			
-		</div><!-- slide_wrapper -->
-		
-		
-		<div class="slide_wrapper">
-			
-			<div class="slide">
-				
-				<div class="title_left">
-				
-					<span class="slide_header">St. Paul Travelers</span><!-- large_header -->
-					<span class="slide_sub_header">Securities</span><!-- slide_sub_header -->
-				
-				</div><!-- title_left -->
-				
-				<img class="case_results_icon" src="<?php bloginfo('template_directory');?>/images/results_securities.png"/>
-				
-				<div class="case_results_content">
-					
-					
-					<div class="gold_line"></div><!-- gold_line -->
-					
-					<span>At issue in the cases were public statements as well as material omissions St. Paul Travelers made that negatively impacted the stock prices of the Company. On behalf of New Mexico State Funds, Gustafson Gluek worked to litigate the two separate class actions against St. Paul Travelers, resulting in multi-million dollar settlements.</span>
-					
-					
-				</div><!-- case_results_content -->
-				
-			</div><!-- slide -->
-			
-		</div><!-- slide_wrapper -->
-		
-		
-		<div class="slide_wrapper">
-			
-			<div class="slide">
-				
-				<div class="title_left">
-				
-					<span class="slide_header">St. Paul Travelers</span><!-- large_header -->
-					<span class="slide_sub_header">Securities</span><!-- slide_sub_header -->
-				
-				</div><!-- title_left -->
-				
-				<img class="case_results_icon" src="<?php bloginfo('template_directory');?>/images/results_securities.png"/>
-				
-				<div class="case_results_content">
-					
-					
-					<div class="gold_line"></div><!-- gold_line -->
-					
-					<span>At issue in the cases were public statements as well as material omissions St. Paul Travelers made that negatively impacted the stock prices of the Company. On behalf of New Mexico State Funds, Gustafson Gluek worked to litigate the two separate class actions against St. Paul Travelers, resulting in multi-million dollar settlements.</span>
-					
-					
-				</div><!-- case_results_content -->
-				
-			</div><!-- slide -->
-			
-		</div><!-- slide_wrapper -->
-		
-		
-			<div class="slide_wrapper">
-			
-			<div class="slide">
-				
-				<div class="title_left">
-				
-					<span class="slide_header">St. Paul Travelers</span><!-- large_header -->
-					<span class="slide_sub_header">Securities</span><!-- slide_sub_header -->
-				
-				</div><!-- title_left -->
-				
-				<img class="case_results_icon" src="<?php bloginfo('template_directory');?>/images/results_securities.png"/>
-				
-				<div class="case_results_content">
-					
-					
-					<div class="gold_line"></div><!-- gold_line -->
-					
-					<span>At issue in the cases were public statements as well as material omissions St. Paul Travelers made that negatively impacted the stock prices of the Company. On behalf of New Mexico State Funds, Gustafson Gluek worked to litigate the two separate class actions against St. Paul Travelers, resulting in multi-million dollar settlements.</span>
-					
-					
-				</div><!-- case_results_content -->
-				
-			</div><!-- slide -->
-			
-		</div><!-- slide_wrapper -->
-		
-		
-			<div class="slide_wrapper">
-			
-			<div class="slide">
-				
-				<div class="title_left">
-				
-					<span class="slide_header">St. Paul Travelers</span><!-- large_header -->
-					<span class="slide_sub_header">Securities</span><!-- slide_sub_header -->
-				
-				</div><!-- title_left -->
-				
-				<img class="case_results_icon" src="<?php bloginfo('template_directory');?>/images/results_securities.png"/>
-				
-				<div class="case_results_content">
-					
-					
-					<div class="gold_line"></div><!-- gold_line -->
-					
-					<span>At issue in the cases were public statements as well as material omissions St. Paul Travelers made that negatively impacted the stock prices of the Company. On behalf of New Mexico State Funds, Gustafson Gluek worked to litigate the two separate class actions against St. Paul Travelers, resulting in multi-million dollar settlements.</span>
-					
-					
-				</div><!-- case_results_content -->
-				
-			</div><!-- slide -->
-			
-		</div><!-- slide_wrapper -->
-		
-		
-			<div class="slide_wrapper">
-			
-			<div class="slide">
-				
-				<div class="title_left">
-				
-					<span class="slide_header">St. Paul Travelers</span><!-- large_header -->
-					<span class="slide_sub_header">Securities</span><!-- slide_sub_header -->
-				
-				</div><!-- title_left -->
-				
-				<img class="case_results_icon" src="<?php bloginfo('template_directory');?>/images/results_securities.png"/>
-				
-				<div class="case_results_content">
-					
-					
-					<div class="gold_line"></div><!-- gold_line -->
-					
-					<span>At issue in the cases were public statements as well as material omissions St. Paul Travelers made that negatively impacted the stock prices of the Company. On behalf of New Mexico State Funds, Gustafson Gluek worked to litigate the two separate class actions against St. Paul Travelers, resulting in multi-million dollar settlements.</span>
-					
-					
-				</div><!-- case_results_content -->
-				
-			</div><!-- slide -->
-			
-		</div><!-- slide_wrapper -->
-		
-		
-			<div class="slide_wrapper">
-			
-			<div class="slide">
-				
-				<div class="title_left">
-				
-					<span class="slide_header">St. Paul Travelers</span><!-- large_header -->
-					<span class="slide_sub_header">Securities</span><!-- slide_sub_header -->
-				
-				</div><!-- title_left -->
-				
-				<img class="case_results_icon" src="<?php bloginfo('template_directory');?>/images/results_securities.png"/>
-				
-				<div class="case_results_content">
-					
-					
-					<div class="gold_line"></div><!-- gold_line -->
-					
-					<span>At issue in the cases were public statements as well as material omissions St. Paul Travelers made that negatively impacted the stock prices of the Company. On behalf of New Mexico State Funds, Gustafson Gluek worked to litigate the two separate class actions against St. Paul Travelers, resulting in multi-million dollar settlements.</span>
-					
-					
-				</div><!-- case_results_content -->
-				
-			</div><!-- slide -->
-			
-		</div><!-- slide_wrapper -->
-		
-		
-		
-		
-	
+
 		
 	</div><!-- case_results_slide_wrapper -->
 	
@@ -448,34 +260,26 @@ get_header(); ?>
 	
 	<div class="awards_inner">
 	
-		<span class="large_header">Awards //</span><!-- large_header -->
+		<span class="large_header"><?php the_field('awards_title');?> //</span><!-- large_header -->
 
 		<div class="slide_wrapper">
 	
-			<div class="slide">
+			
+			<?php if(get_field('award_slides')): ?>
+			 
+				<?php while(has_sub_field('award_slides')): ?>
+			 
+					<div class="slide">
 		
-			<img src="<?php bloginfo('template_directory');?>/images/award_01.png"/>
+						<img src="<?php the_sub_field('slide');?>"/>
 		
-		</div><!-- slide -->
-		
-		<div class="slide">
-		
-			<img src="<?php bloginfo('template_directory');?>/images/award_02.png"/>
-		
-		</div><!-- slide -->
-		
-		<div class="slide">
-		
-			<img src="<?php bloginfo('template_directory');?>/images/award_03.png"/>
-		
-		</div><!-- slide -->
-		
-		<div class="slide">
-		
-			<img src="<?php bloginfo('template_directory');?>/images/award_04.png"/>
-		
-		</div><!-- slide -->
-		
+					</div><!-- slide -->
+			    
+				<?php endwhile; ?>
+			 
+			<?php endif; ?>
+			
+					
 	</div><!-- slide_wrapper -->
 
 	</div><!-- awards_inner -->
@@ -491,7 +295,7 @@ get_header(); ?>
 	
 	<div class="experience_header_wrapper">
 	
-		<span class="large_header">Gustafson Gluek has over 70 years of experience in complex class action litigation</span><!-- large_header -->
+		<span class="large_header"><?php the_field('second_experience_section_title');?></span><!-- large_header -->
 	
 	</div><!-- experience_header_wrapper -->
 	
@@ -499,9 +303,9 @@ get_header(); ?>
 	
 		<div class="ex_pic_wrapper">
 		
-				<img class="ex_pic mobile" src="<?php bloginfo('template_directory');?>/images/image_02_mobile.jpg"/>
-				<img class="ex_pic ipad" src="<?php bloginfo('template_directory');?>/images/image_02_ipad.jpg"/>
-				<img class="ex_pic desktop" src="<?php bloginfo('template_directory');?>/images/image_02.jpg"/>
+				<img class="ex_pic mobile" src="<?php the_field('second_experience_mobile_image');?>"/>
+				<img class="ex_pic ipad" src="<?php the_field('second_experience_tablet_image');?>"/>
+				<img class="ex_pic desktop" src="<?php the_field('second_experience_desktop_image');?>"/>
 				
 				<img class="tritwo mobile" src="<?php bloginfo('template_directory');?>/images/element_triangle2.svg"/>
 		
@@ -509,15 +313,9 @@ get_header(); ?>
 		
 		<div class="experience_second_section_content">
 			
-			<span class="large_header">LOREM USOUM DOLuRITS</span><!-- large_header -->
+			<span class="large_header"><?php the_field('second_experience_header');?></span><!-- large_header -->
 		
-			<p>Nulla sagittis eleifend tellus, et ultrices massa rutrum id. Maecenas justo augue, commodo nec est ac, tincidunt egestas diam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec placerat sed metus ut mollis. Vestibulum vel semper justo. Sed leo tortor, faucibus eget congue id, sollicitudin varius dui. Praesent blandit elit vehicula tortor suscipit cursus. Pellentesque pellentesque bibendum aliquam. Suspendisse fermentum sagittis mauris, sit amet aliquam quam gravida et. Vivamus non mollis enim.</p>
-		
-			<p>Cras quis mattis ex. Quisque quam arcu, lacinia at metus nec, ornare luctus dolor. Integer facilisis nisi odio, vel mattis ex tristique id. Mauris risus urna, imperdiet sit amet fringilla imperdiet, pharetra id orci. Sed nec orci sed sapien ornare scelerisque nec sit amet mi. Mauris ultricies dolor egestas, posuere ipsum in, hendrerit nisi. Nulla malesuada aliquet tellus, et commodo ligula dapibus vel. Ut turpis est, venenatis id enim tempor, fermentum malesuada ligula. Ut nec lacinia diam. Nulla imperdiet, enim at luctus. eget nibh sit amet nunc tempus vestibulum. Cras convallis rhoncus leo at pellentesque. Vivamus eget consequat dolor. Maecenas eget nisl hendrerit dolor imperdiet interdum. Phasellus nisi enim, maximus eu mattis nec, posuere et lacus. Praesent blandit elit vehicula tortor suscipit cursus. Pellentesque pellentesque bibendum aliquam. Suspendisse fermentum sagittis mauris, sit amet aliquam quam gravida et. Vivamus non mollis enim.</p>
-
-			<span class="sub_header">Lorem Ispum</span>
-
-			<p>DolorMaecenas justo augue, commodo nec est ac, tincidunt egestas diam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec placerat sed metus ut mollis. Vestibulum vel semper justo. Sed leo tortor, faucibus eget congue id, sollicitudin varius dui. Praesent blandit elit vehicula tortor suscipit cursus. Pellentesque pellentesque bibendum aliquam. Suspendisse fermentum sagittis mauris, sit amet aliquam quam gravida et. Vivamus non mollis enim. Cras quis mattis ex. Quisque quam arcu, lacinia at metus nec.</p>
+			<?php the_field('second_experience_content');?>
 		
 		
 		</div><!-- experience_second_section_content -->
