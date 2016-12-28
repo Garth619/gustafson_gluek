@@ -89,7 +89,7 @@
 			
 				<span>Copyright 2016 Gustafson Gluek PLLC. ALL RIGHTS RESERVED.</span>
 		
-				<a class="disclaimer" href="">Disclaimer</a>
+				<a class="disclaimer" href="<?php bloginfo('url');?>/disclaimer">Disclaimer</a>
 				
 			</div><!-- copyright_inner_wrapper -->
 			
