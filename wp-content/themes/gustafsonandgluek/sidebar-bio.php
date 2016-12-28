@@ -7,33 +7,56 @@
 	
 	</div><!-- inner_header_wrapper -->
 	
-	<img src="<?php bloginfo('template_directory');?>/images/profile_gustafson.jpg"/>
+	
+	
+	<?php if(get_field('bio_picture')):?>
+	
+	
+	<?php $imageID = get_field('bio_picture'); ?>
+	<?php $alt_text = get_post_meta($imageID , '_wp_attachment_image_alt', true); ?>
+	<?php $menu_one = wp_get_attachment_image_src(get_field('bio_picture'), 'bioimage'); ?>
+	
+	<img alt="<?php echo $alt_text; ?>" src="<?php echo $menu_one[0]; ?>"/>
+	
+	
+	<?php else:?>
+	
+	<img alt="placeholder" src="<?php bloginfo('url');?>/wp-content/uploads/2016/12/profile_placeholder.jpg"/>
+	
+	
+	<?php endif;?>
+
 	
 	<div class="bio_content">
 		
-		<span class="bio_sidebar_title">EDuCATION</span><!-- bio_sidebar_title -->
-
-		<ul>
-			<li>University of Minnesota Law School J.D., Cum Laude (1989)</li>
-			<li>University of North Dakota B.S., Magna Cum Laude (1986)</li>
-		</ul>
 		
-		<span class="bio_sidebar_title">COURT ADMISSIONS</span><!-- bio_sidebar_title -->
-
-		<ul>
-			<li>Minnesota State Bar</li>
-			<li>U.S. District Court for the District of Minnesota</li>
-			<li>U.S. Court of Appeals for the First Circuit</li>
-			<li>U.S. Court of Appeals for the Third Circuit</li>
-			<li>U.S. Court of Appeals for the Fifth Circuit</li>
-			<li>U.S. Court of Appeals for the Eighth Circuit</li>
-			<li>U.S. Court of Appeals for the Ninth Circuit</li>
-			<li>U.S. Court of Appeals for the Eleventh Circuit</li>
-			<li>U.S. Supreme Court</li>
-		</ul>
-		
-
-		
+		<?php if(get_field('sidebar_info')): ?>
+		 
+			<?php while(has_sub_field('sidebar_info')): ?>
+		 
+				<span class="bio_sidebar_title"><?php the_sub_field('list_title');?></span><!-- bio_sidebar_title -->
+				
+				
+				<?php if(get_sub_field('bullet_lists')): ?>
+		 
+					<ul>
+			
+						<?php while(has_sub_field('bullet_lists')): ?>
+				
+			
+							<li><?php the_sub_field('bullet');?></li>
+			
+			
+							<?php endwhile; ?>
+			
+			
+					</ul>
+		 
+				<?php endif; ?>	
+				
+			<?php endwhile; ?>
+		 
+		<?php endif; ?>
 		
 	</div><!-- bio_content -->
 	

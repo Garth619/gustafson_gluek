@@ -30,35 +30,41 @@ get_header(); ?>
 			
 				<div class="bio_inner_content">
 					
-					<span class="pull_quote">Dan has been designated a “Super Lawyer” by Law & Politics magazine in the fields of business litigation and class actions for the last twelve years.</span><!-- pull_quote -->
+					
+					<?php if(get_field('pull_quote')):?>
+					
+						<span class="pull_quote"><?php the_field('pull_quote');?></span><!-- pull_quote -->
+						
+					<?php endif;?>
 			
-					<?php // get_template_part( 'loop', 'page' ); ?>
 					
-					<p>Dan Gustafson is a founding member of Gustafson Gluek PLLC. He is a magna cum laude graduate of the University of North Dakota (B.S. 1986) and a cum laude graduate of the University of Minnesota Law School (J.D. 1989). He was a member of the Minnesota Law Review from 1987 to 1989, serving as Associate Research Editor in 1988-1989. After law school, Dan served as a law clerk to the Honorable Diana E. Murphy, United States District Judge for the District of Minnesota (1989-91).
-Dan is a member of the Hennepin County, Minnesota State, Federal, and American Bar Associations. He is also currently an adjunct professor at the University of Minnesota Law School teaching “Fundamentals of Pretrial Litigation.”</p>
+					<?php the_field('bio_content');?>
+					
+					
+					<?php if(get_field('download_vcard_link')):?>
+					
+						<a class="card" href="<?php the_field('download_vcard_link');?>" target="_blank">Download VCard</a>
+						
+					<?php endif;?>
+					
 
-<p>Dan was the president of the Federal Bar Association, Minnesota Chapter for the 2002-2003 year, and vice-chair of the 2003 Eighth Circuit Judicial Conference. He was involved in helping develop the Federal Bar Association’s Pro Se Project, which coordinates volunteer representation for pro se litigants.
-Minnesota Lawyer magazine named Dan one of its Attorneys of the Year for the second time in 2013. He received the peer-nominated honor for the first time in 2010.</p>
 
-<a class="card" href="">Download VCard</a>
+				<?php if(get_field('additional_content_representatives_cases')):?>
 
-
-				<span class="bio_view_additional_content">View Representative Cases</span><!-- view_additional_content -->
+					<span class="bio_view_additional_content">View Representative Cases</span><!-- view_additional_content -->
 				
 				
-				<div class="bio_additional_content">
+					<div class="bio_additional_content">
 					
 					
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-					
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-					
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-					
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						<?php the_field('additional_content_representatives_cases');?>
 					
 					
-				</div><!-- additionaL_content -->
+					</div><!-- additionaL_content -->
+				
+				
+				
+				<?php endif;?>
 				
 				
 			
