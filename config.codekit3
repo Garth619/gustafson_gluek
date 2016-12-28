@@ -10323,12 +10323,6 @@
 		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/page-currrentinvestigations.php",
 		"oF": 0
 		},
-	"\/wp-content\/themes\/gustafsonandgluek\/page-main copy.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/page-main copy.php",
-		"oF": 0
-		},
 	"\/wp-content\/themes\/gustafsonandgluek\/page-main.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -10491,6 +10485,46 @@
 		"oAP": "\/wp-content\/themes\/index.php",
 		"oF": 0
 		},
+	"\/wp-content\/uploads\/2016\/09\/image_03-150x150.jpeg": {
+		"ft": 16384,
+		"iS": 6470,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/09\/image_03-150x150.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/09\/image_03-222x300.jpeg": {
+		"ft": 16384,
+		"iS": 14911,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/09\/image_03-222x300.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/09\/image_03-370x198.jpeg": {
+		"ft": 16384,
+		"iS": 13750,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/09\/image_03-370x198.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/09\/image_03-370x450.jpeg": {
+		"ft": 16384,
+		"iS": 31425,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/09\/image_03-370x450.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/09\/image_03.jpeg": {
+		"ft": 16384,
+		"iS": 50316,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/09\/image_03.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/wp-content\/uploads\/2016\/12\/award_01-150x85.png": {
 		"ft": 32768,
 		"iS": 5059,
@@ -10552,6 +10586,46 @@
 		"iS": 5487,
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2016\/12\/award_04.png",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/12\/featured-image-150x150.jpg": {
+		"ft": 16384,
+		"iS": 1282,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/12\/featured-image-150x150.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/12\/featured-image-222x300.jpg": {
+		"ft": 16384,
+		"iS": 2141,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/12\/featured-image-222x300.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/12\/featured-image-370x198.jpg": {
+		"ft": 16384,
+		"iS": 2588,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/12\/featured-image-370x198.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/12\/featured-image-370x450.jpg": {
+		"ft": 16384,
+		"iS": 4180,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/12\/featured-image-370x450.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/12\/featured-image.jpg": {
+		"ft": 16384,
+		"iS": 9747,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/12\/featured-image.jpg",
 		"oF": 0,
 		"opt": 0
 		},

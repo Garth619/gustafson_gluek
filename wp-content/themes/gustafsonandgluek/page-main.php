@@ -376,8 +376,28 @@ get_header(); ?>
 			
 			<div class="news_image_wrapper">
 			
-				<img class="news_image mobile" src="<?php bloginfo('template_directory');?>/images/image_03_ipad.jpg"/>
-				<img class="news_image desktop" src="<?php bloginfo('template_directory');?>/images/image_03.jpg"/>
+<!-- 				<img class="news_image mobile" src="<?php bloginfo('template_directory');?>/images/image_03_ipad.jpg"/> -->
+					
+					
+					<?php if(get_field('new_featured_image')):?>
+
+							<?php $imageID = get_field('new_featured_image'); ?>
+							<?php $alt_text = get_post_meta($imageID , '_wp_attachment_image_alt', true); ?>
+							<?php $menu_one = wp_get_attachment_image_src(get_field('new_featured_image'), 'myfeaturedimage'); ?>
+							
+							<img class="news_image desktop" src="<?php echo $menu_one[0]; ?>" alt="<?php echo $alt_text; ?>"/>
+							
+					<?php else:?>
+					
+							
+							<img class="news_image desktop" src="<?php bloginfo('url');?>/wp-content/uploads/2016/12/featured-image.jpg"/>
+					
+					
+					<?php endif;?>
+
+
+
+<!-- 				<img class="news_image desktop" src="<?php bloginfo('template_directory');?>/images/image_03.jpg"/> -->
 			
 			</div><!-- news_image_wrapper -->
 			

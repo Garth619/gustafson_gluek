@@ -860,9 +860,11 @@ a.summaries_button {
 			max-width:100%;
 			height:auto;
 		}
+/*
 		img.news_image.desktop {
 			display: none;
 		}
+*/
 	}
 	
 	span.content_header {
@@ -2906,7 +2908,7 @@ nav.mobile {
 
 
 .news_content_wrapper {
-	padding:135px 37px 95px;
+	padding:185px 37px 95px;
 	margin: 335px 20px 17px;
 	display: block;
 	position: relative;
@@ -4169,12 +4171,16 @@ nav.desktop {
 			float:right;
 			margin:-154px -20px 0 0;
 		}
+/*
 		img.news_image.mobile {
 		display: none;
 	}
+*/
+/*
 	img.news_image.desktop {
 			display: block;
 		}
+*/
 		
 	}
 	.inner_news_content {
