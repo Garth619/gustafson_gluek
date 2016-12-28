@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Practice Area Directory
+ * Template Name: Directory
  *
 
  */
@@ -17,7 +17,7 @@ get_header(); ?>
 			
 			<div class="header_wrapper">
 				
-				<span>Practice Areas</span>
+				<span><?php the_title();?></span>
 				
 			</div><!-- header_wrapper -->
 			

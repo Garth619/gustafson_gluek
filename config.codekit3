@@ -10085,10 +10085,22 @@
 		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/page-contact.php",
 		"oF": 0
 		},
+	"\/wp-content\/themes\/gustafsonandgluek\/page-currrentinvestigations.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/page-currrentinvestigations.php",
+		"oF": 0
+		},
 	"\/wp-content\/themes\/gustafsonandgluek\/page-main.php": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/page-main.php",
+		"oF": 0
+		},
+	"\/wp-content\/themes\/gustafsonandgluek\/page-practicearea.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/page-practicearea.php",
 		"oF": 0
 		},
 	"\/wp-content\/themes\/gustafsonandgluek\/page-practiceareas.php": {
@@ -10157,16 +10169,22 @@
 		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/sidebar-caseresults.php",
 		"oF": 0
 		},
+	"\/wp-content\/themes\/gustafsonandgluek\/sidebar-currentinvestigations.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/sidebar-currentinvestigations.php",
+		"oF": 0
+		},
 	"\/wp-content\/themes\/gustafsonandgluek\/sidebar-footer.php": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/sidebar-footer.php",
 		"oF": 0
 		},
-	"\/wp-content\/themes\/gustafsonandgluek\/sidebar.php": {
+	"\/wp-content\/themes\/gustafsonandgluek\/sidebar-practiceareas.php": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/sidebar.php",
+		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/sidebar-practiceareas.php",
 		"oF": 0
 		},
 	"\/wp-content\/themes\/gustafsonandgluek\/single.php": {
@@ -10198,17 +10216,23 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"\/wp-content\/themes\/gustafsonandgluek\/style.css.map": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/style.css.map",
+		"oF": 0
+		},
 	"\/wp-content\/themes\/gustafsonandgluek\/style.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
-		"ma": 0,
+		"ma": 1,
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/style.css",
 		"oF": 2,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/wp-content\/themes\/gustafsonandgluek\/tag.php": {
