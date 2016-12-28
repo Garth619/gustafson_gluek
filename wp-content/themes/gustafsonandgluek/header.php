@@ -41,6 +41,46 @@
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/js/slick/slick/slick.css"/>
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory');?>/js/slick/slick/slick-theme.css"/>
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
+
+
+<style type="text/css">
+
+
+
+.inner_banner, .hero_banner {
+	background: rgba(0, 0, 0, 0) url("<?php the_field('mobile_background_image','option');?>") no-repeat scroll center top / cover ;
+}
+
+
+@media screen and (min-width: 730px) {
+	
+	.inner_banner, .hero_banner {
+		background: rgba(0, 0, 0, 0) url("<?php the_field('tablet_background_image','option');?>") no-repeat scroll center top / cover ;
+	}
+	
+} /* media query */
+
+
+@media screen and (min-width: 1150px) {
+	
+	
+	.hero_banner {
+		background: rgba(0, 0, 0, 0) url("<?php the_field('desktop_main_page_banner','option');?>") no-repeat scroll center top / cover ;
+	}
+	
+	
+	.inner_banner {
+			background: rgba(0, 0, 0, 0) url("<?php the_field('desktop_background_image','option');?>") no-repeat scroll center top / cover ;
+	}
+	
+} /* media query */
+
+
+
+
+
+</style>
+
 <?php wp_head();?>
 </head>
 

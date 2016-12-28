@@ -378,7 +378,7 @@ nav.mobile {
 .hero_banner {
 	width:100%;
 // 	height:376px;
-	background:url(images/hero_mobile.jpg) top center no-repeat;
+// 	background:url(images/hero_mobile.jpg) top center no-repeat;
 	font-family:$nimbusblack;
 	color:#fff;
 	text-align: center;
@@ -1183,17 +1183,11 @@ display: none;
 
 
 .inner_banner {
+	width:100%;
 /*
-	background: url(images/inner-banner.jpg) top center no-repeat;
-	background-size:cover;
-	width:100%;
-	height:688px;
-*/
-// 	display: none;
-
-
-	width:100%;
 	background:url(images/hero_mobile.jpg) top center no-repeat;
+	background-size:cover;
+*/
 	font-family:$nimbusblack;
 	color:#fff;
 	text-align: center;
@@ -2343,7 +2337,7 @@ body.archive, body.single-post {
 
 .hero_banner {
 	
-	background:url(images/hero_ipad.jpg) top center no-repeat;
+// 	background:url(images/hero_ipad.jpg) top center no-repeat;
 	display: block;
 	text-align: left;
 	height:500px;
@@ -3118,7 +3112,10 @@ footer {
 
 
 .inner_banner {
+/*
 	background:url(images/hero_ipad.jpg) top center no-repeat;
+	background-size:cover;
+*/
 	display: block;
 	text-align: left;
 	height:500px;
@@ -3855,8 +3852,10 @@ nav.desktop {
 .hero_banner {
 	width:100%;
 	height:930px;
+/*
 	background:url(images/hero.jpg) top center no-repeat;
 	background-size:cover;
+*/
 	.inner_hero_wrapper {
 		max-width:2000px;
 		height:auto;
@@ -4297,14 +4296,16 @@ footer {
 	
 	position: relative;
 	height:688px;
+/*
 	background: url(images/inner-banner.jpg) top center no-repeat;
 	background-size:cover;
+*/
 	.inner_hero_wrapper {
 		max-width:2000px;
 		height:auto;
 		margin:0 auto;
 		.hero_banner_content {
-			top:63%;
+			top:61%;
 			max-width:745px;
 			padding-left:0;
 			margin-left:3%;

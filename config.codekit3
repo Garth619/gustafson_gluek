@@ -10491,6 +10491,222 @@
 		"oAP": "\/wp-content\/uploads\/2016\/12\/gustafsongluekpllc.wordpress.2016-12-22.xml_.txt",
 		"oF": 0
 		},
+	"\/wp-content\/uploads\/2016\/12\/hero-1024x476.jpeg": {
+		"ft": 16384,
+		"iS": 46010,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/12\/hero-1024x476.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/12\/hero-150x150.jpeg": {
+		"ft": 16384,
+		"iS": 4968,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/12\/hero-150x150.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/12\/hero-300x140.jpeg": {
+		"ft": 16384,
+		"iS": 8292,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/12\/hero-300x140.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/12\/hero-580x450.jpeg": {
+		"ft": 16384,
+		"iS": 27817,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/12\/hero-580x450.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/12\/hero-768x357.jpeg": {
+		"ft": 16384,
+		"iS": 30721,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/12\/hero-768x357.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/12\/hero-940x198.jpeg": {
+		"ft": 16384,
+		"iS": 21273,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/12\/hero-940x198.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/12\/hero.jpeg": {
+		"ft": 16384,
+		"iS": 198670,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/12\/hero.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/12\/hero_ipad-1024x427.jpeg": {
+		"ft": 16384,
+		"iS": 43443,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/12\/hero_ipad-1024x427.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/12\/hero_ipad-150x150.jpeg": {
+		"ft": 16384,
+		"iS": 5635,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/12\/hero_ipad-150x150.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/12\/hero_ipad-300x125.jpeg": {
+		"ft": 16384,
+		"iS": 7712,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/12\/hero_ipad-300x125.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/12\/hero_ipad-580x450.jpeg": {
+		"ft": 16384,
+		"iS": 29180,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/12\/hero_ipad-580x450.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/12\/hero_ipad-768x320.jpeg": {
+		"ft": 16384,
+		"iS": 28650,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/12\/hero_ipad-768x320.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/12\/hero_ipad-940x198.jpeg": {
+		"ft": 16384,
+		"iS": 21146,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/12\/hero_ipad-940x198.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/12\/hero_ipad.jpeg": {
+		"ft": 16384,
+		"iS": 174703,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/12\/hero_ipad.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/12\/hero_mobile-150x150.jpeg": {
+		"ft": 16384,
+		"iS": 5432,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/12\/hero_mobile-150x150.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/12\/hero_mobile-300x141.jpeg": {
+		"ft": 16384,
+		"iS": 7601,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/12\/hero_mobile-300x141.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/12\/hero_mobile-580x376.jpeg": {
+		"ft": 16384,
+		"iS": 25369,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/12\/hero_mobile-580x376.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/12\/hero_mobile-768x361.jpeg": {
+		"ft": 16384,
+		"iS": 27977,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/12\/hero_mobile-768x361.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/12\/hero_mobile-800x198.jpeg": {
+		"ft": 16384,
+		"iS": 20348,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/12\/hero_mobile-800x198.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/12\/hero_mobile.jpeg": {
+		"ft": 16384,
+		"iS": 129889,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/12\/hero_mobile.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/12\/inner-banner-1024x352.jpeg": {
+		"ft": 16384,
+		"iS": 32950,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/12\/inner-banner-1024x352.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/12\/inner-banner-150x150.jpeg": {
+		"ft": 16384,
+		"iS": 3484,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/12\/inner-banner-150x150.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/12\/inner-banner-300x103.jpeg": {
+		"ft": 16384,
+		"iS": 6017,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/12\/inner-banner-300x103.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/12\/inner-banner-580x450.jpeg": {
+		"ft": 16384,
+		"iS": 19913,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/12\/inner-banner-580x450.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/12\/inner-banner-768x264.jpeg": {
+		"ft": 16384,
+		"iS": 21477,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/12\/inner-banner-768x264.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/12\/inner-banner-940x198.jpeg": {
+		"ft": 16384,
+		"iS": 20178,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/12\/inner-banner-940x198.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/12\/inner-banner.jpeg": {
+		"ft": 16384,
+		"iS": 137398,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/12\/inner-banner.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/wp-content\/uploads\/2016\/12\/profile_borrelli-150x150.jpg": {
 		"ft": 16384,
 		"iS": 4674,

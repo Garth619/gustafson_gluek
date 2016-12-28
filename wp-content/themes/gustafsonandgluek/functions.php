@@ -596,3 +596,18 @@ function my_limit_archives( $args ) {
 add_filter( 'widget_archives_args', 'my_limit_archives' );
 
 
+//options 
+
+if( function_exists('acf_add_options_page') ) {
+ 
+	$option_page = acf_add_options_page(array(
+		'page_title' 	=> 'Theme Global Settings',
+		'menu_title' 	=> 'Theme Global Settings',
+		'menu_slug' 	=> 'theme-global-settings',
+		'capability' 	=> 'edit_posts',
+		'redirect' 	=> false
+	));
+ 
+}
+
+
