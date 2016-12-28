@@ -336,7 +336,7 @@ get_header(); ?>
 		
 		
 		
-		<?php $post_object = get_field('my_featured_post');
+		<?php $post_object = get_field('post_object');
 
 			if( $post_object ): 
 
@@ -345,31 +345,34 @@ get_header(); ?>
 			setup_postdata( $post ); ?>
     
     
-			<div class="news_info">
+   <?php the_permalink(); ?>
+   <?php the_title(); ?>
+   <?php the_field('field_name'); ?><
+    	    
+    <?php wp_reset_postdata(); // IMPORTANT - reset the $post object so the rest of the page works correctly ?>
+
+	<?php endif; ?>
+		
+		
+		
+		
+		<div class="news_info">
 			
-				<div class="date_wrapper">
+			<div class="date_wrapper">
 				
-					<span class="day"><?php the_weekday() ?>  </span><!-- day -->
-					<span class="date"><?php the_date(); ?> </span><!-- date -->
+				<span class="day">Thursday</span><!-- day -->
+				<span class="date">09.14.2016</span><!-- date -->
 				
 			</div><!-- date_wrapper -->
 			
 			<div class="category_wrapper">
 			
-				<span class="cat_header">
-				
-					<?php $categories = get_the_category();
- 
-						if ( ! empty( $categories ) ) {
-						
-							echo esc_html( $categories[0]->name );   
-						} ?>
-				
-				</span><!-- cat_header -->
+				<span class="cat_header">Investigation</span><!-- cat_header -->
 		
 			</div><!-- category_wrapper -->
 		
 		</div><!-- news_info -->
+		
 		
 		<div class="news_content_wrapper">
 			
@@ -383,29 +386,17 @@ get_header(); ?>
 			
 			<div class="inner_news_content">
 			
-				<span class="content_header"><?php the_title();?></span><!-- content_header -->
+				<span class="content_header">Poultry Price-Fixing</span><!-- content_header -->
 			
-				<p><?php echo wp_trim_words( get_the_content(), 89, '...' );?></p>
+				<p>On Tuesday, Gustafson Gluek PLLC filed a complaint on behalf of purchasers of chicken alleging that the companies comprising 98% of the chicken meat produced in the United States conspired to fix prices for chicken. The complaint alleges a conspiracy dating back to 2008 that involved the restriction of production to increase prices. The complaint also seeks damages on behalf of a class of indirect purchasers of chicken, who purchased via a distributor. If you purchased chicken via a distributor and would like to learn more about your potential claim.....</p>
 			
-				<a class="read_more" href="<?php the_permalink();?>">Read More</a><!-- read_more -->
+				<a class="read_more" href="<?php bloginfo('url');?>/2016/12/11/poultry-price-fixing/">Read More</a><!-- read_more -->
 			
 			</div><!-- inner_news_content -->
 			
 		</div><!-- news_content_wrapper -->
 		
 		<a class="view_more gold_gradient_button" href="<?php bloginfo('url');?>/latest-news">View More</a>
-    	    
-    <?php wp_reset_postdata(); // IMPORTANT - reset the $post object so the rest of the page works correctly ?>
-
-	<?php endif; ?>
-		
-		
-		
-		
-		
-		
-		
-		
 		
 	</div><!-- news_loop_wrapper -->
 	
