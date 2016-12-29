@@ -10563,7 +10563,7 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2016\/12\/award_03-150x85.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/wp-content\/uploads\/2016\/12\/award_03.png": {
 		"ft": 32768,
@@ -10571,7 +10571,7 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2016\/12\/award_03.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/wp-content\/uploads\/2016\/12\/award_04-150x85.png": {
 		"ft": 32768,
@@ -10579,7 +10579,7 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2016\/12\/award_04-150x85.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/wp-content\/uploads\/2016\/12\/award_04.png": {
 		"ft": 32768,
@@ -10587,7 +10587,7 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2016\/12\/award_04.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/wp-content\/uploads\/2016\/12\/featured-image-150x150.jpg": {
 		"ft": 16384,
@@ -10835,6 +10835,14 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/wp-content\/uploads\/2016\/12\/image_01_ipad-370x500.jpeg": {
+		"ft": 16384,
+		"iS": 38122,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/12\/image_01_ipad-370x500.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/wp-content\/uploads\/2016\/12\/image_01_ipad-580x450.jpeg": {
 		"ft": 16384,
 		"iS": 44826,
@@ -10853,7 +10861,7 @@
 		},
 	"\/wp-content\/uploads\/2016\/12\/image_01_ipad.jpeg": {
 		"ft": 16384,
-		"iS": 354920,
+		"iS": 336481,
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2016\/12\/image_01_ipad.jpg",
 		"oF": 0,
@@ -10885,7 +10893,7 @@
 		},
 	"\/wp-content\/uploads\/2016\/12\/image_01_mobile.jpeg": {
 		"ft": 16384,
-		"iS": 104494,
+		"iS": 98738,
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2016\/12\/image_01_mobile.jpg",
 		"oF": 0,
@@ -11019,54 +11027,6 @@
 		"oF": 0,
 		"opt": 0
 		},
-	"\/wp-content\/uploads\/2016\/12\/imge_01-150x150.jpeg": {
-		"ft": 16384,
-		"iS": 7810,
-		"oA": 0,
-		"oAP": "\/wp-content\/uploads\/2016\/12\/imge_01-150x150.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/wp-content\/uploads\/2016\/12\/imge_01-248x300.jpeg": {
-		"ft": 16384,
-		"iS": 17802,
-		"oA": 0,
-		"oAP": "\/wp-content\/uploads\/2016\/12\/imge_01-248x300.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/wp-content\/uploads\/2016\/12\/imge_01-580x450.jpeg": {
-		"ft": 16384,
-		"iS": 47531,
-		"oA": 0,
-		"oAP": "\/wp-content\/uploads\/2016\/12\/imge_01-580x450.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/wp-content\/uploads\/2016\/12\/imge_01-768x930.jpeg": {
-		"ft": 16384,
-		"iS": 106825,
-		"oA": 0,
-		"oAP": "\/wp-content\/uploads\/2016\/12\/imge_01-768x930.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/wp-content\/uploads\/2016\/12\/imge_01-795x198.jpeg": {
-		"ft": 16384,
-		"iS": 27990,
-		"oA": 0,
-		"oAP": "\/wp-content\/uploads\/2016\/12\/imge_01-795x198.jpg",
-		"oF": 0,
-		"opt": 0
-		},
-	"\/wp-content\/uploads\/2016\/12\/imge_01.jpeg": {
-		"ft": 16384,
-		"iS": 193195,
-		"oA": 0,
-		"oAP": "\/wp-content\/uploads\/2016\/12\/imge_01.jpg",
-		"oF": 0,
-		"opt": 0
-		},
 	"\/wp-content\/uploads\/2016\/12\/inner-banner-1024x352.jpeg": {
 		"ft": 16384,
 		"iS": 32950,
@@ -11120,6 +11080,62 @@
 		"iS": 137398,
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2016\/12\/inner-banner.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/12\/myimge_01-150x150.jpg": {
+		"ft": 16384,
+		"iS": 7856,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/12\/myimge_01-150x150.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/12\/myimge_01-248x300.jpg": {
+		"ft": 16384,
+		"iS": 17893,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/12\/myimge_01-248x300.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/12\/myimge_01-370x500.jpg": {
+		"ft": 16384,
+		"iS": 36383,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/12\/myimge_01-370x500.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/12\/myimge_01-580x450.jpg": {
+		"ft": 16384,
+		"iS": 47327,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/12\/myimge_01-580x450.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/12\/myimge_01-768x929.jpg": {
+		"ft": 16384,
+		"iS": 106983,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/12\/myimge_01-768x929.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/12\/myimge_01-800x198.jpg": {
+		"ft": 16384,
+		"iS": 28147,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/12\/myimge_01-800x198.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/12\/myimge_01.jpg": {
+		"ft": 16384,
+		"iS": 162165,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/12\/myimge_01.jpg",
 		"oF": 0,
 		"opt": 0
 		},
@@ -12081,7 +12097,7 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2016\/12\/results_antitrust.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/wp-content\/uploads\/2016\/12\/results_consumer.png": {
 		"ft": 32768,
@@ -12089,7 +12105,7 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2016\/12\/results_consumer.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/wp-content\/uploads\/2016\/12\/results_data.png": {
 		"ft": 32768,
@@ -12097,7 +12113,7 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2016\/12\/results_data.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/wp-content\/uploads\/2016\/12\/results_patents.png": {
 		"ft": 32768,
@@ -12105,7 +12121,7 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2016\/12\/results_patents.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/wp-content\/uploads\/2016\/12\/results_prod_liability.png": {
 		"ft": 32768,
@@ -12113,7 +12129,7 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2016\/12\/results_prod_liability.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/wp-content\/uploads\/2016\/12\/results_securities.png": {
 		"ft": 32768,
@@ -12121,7 +12137,7 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2016\/12\/results_securities.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/wp-content\/uploads\/wp-migrate-db\/.htaccess": {
 		"ft": 8192,
