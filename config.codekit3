@@ -9317,7 +9317,7 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/images\/award_01.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/wp-content\/themes\/gustafsonandgluek\/images\/award_02.png": {
 		"ft": 32768,
@@ -9325,7 +9325,7 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/images\/award_02.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/wp-content\/themes\/gustafsonandgluek\/images\/award_03.png": {
 		"ft": 32768,
@@ -9333,7 +9333,7 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/images\/award_03.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/wp-content\/themes\/gustafsonandgluek\/images\/award_04.png": {
 		"ft": 32768,
@@ -9341,7 +9341,7 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/images\/award_04.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/wp-content\/themes\/gustafsonandgluek\/images\/dot-small.png": {
 		"ft": 32768,
@@ -9357,7 +9357,7 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/images\/dot.jpg",
 		"oF": 0,
-		"opt": 1
+		"opt": 0
 		},
 	"\/wp-content\/themes\/gustafsonandgluek\/images\/element_pattern.png": {
 		"ft": 32768,
@@ -9365,7 +9365,7 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/images\/element_pattern.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/wp-content\/themes\/gustafsonandgluek\/images\/element_triangle.svg": {
 		"ft": 2097152,
@@ -9483,7 +9483,7 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/images\/footer_map.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/wp-content\/themes\/gustafsonandgluek\/images\/hero-email-original.svg": {
 		"ft": 2097152,
@@ -9643,7 +9643,7 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/images\/printer-icon.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/wp-content\/themes\/gustafsonandgluek\/images\/profile_gustafson.jpg": {
 		"ft": 16384,
@@ -9683,7 +9683,7 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/images\/results_antitrust.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/wp-content\/themes\/gustafsonandgluek\/images\/results_antitrust_hover.png": {
 		"ft": 32768,
@@ -9691,7 +9691,7 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/images\/results_antitrust_hover.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/wp-content\/themes\/gustafsonandgluek\/images\/results_consumer.png": {
 		"ft": 32768,
@@ -9699,7 +9699,7 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/images\/results_consumer.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/wp-content\/themes\/gustafsonandgluek\/images\/results_consumer_hover.png": {
 		"ft": 32768,
@@ -9707,7 +9707,7 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/images\/results_consumer_hover.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/wp-content\/themes\/gustafsonandgluek\/images\/results_data.png": {
 		"ft": 32768,
@@ -9715,7 +9715,7 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/images\/results_data.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/wp-content\/themes\/gustafsonandgluek\/images\/results_data_hover.png": {
 		"ft": 32768,
@@ -9723,7 +9723,7 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/images\/results_data_hover.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/wp-content\/themes\/gustafsonandgluek\/images\/results_patents.png": {
 		"ft": 32768,
@@ -9731,7 +9731,7 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/images\/results_patents.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/wp-content\/themes\/gustafsonandgluek\/images\/results_patents_hover.png": {
 		"ft": 32768,
@@ -9739,7 +9739,7 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/images\/results_patents_hover.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/wp-content\/themes\/gustafsonandgluek\/images\/results_prod_liability.png": {
 		"ft": 32768,
@@ -9747,7 +9747,7 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/images\/results_prod_liability.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/wp-content\/themes\/gustafsonandgluek\/images\/results_prod_liability_hover.png": {
 		"ft": 32768,
@@ -9755,7 +9755,7 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/images\/results_prod_liability_hover.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/wp-content\/themes\/gustafsonandgluek\/images\/results_securities.png": {
 		"ft": 32768,
@@ -9763,7 +9763,7 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/images\/results_securities.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/wp-content\/themes\/gustafsonandgluek\/images\/results_securities_hover.png": {
 		"ft": 32768,
@@ -9771,7 +9771,7 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/images\/results_securities_hover.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/wp-content\/themes\/gustafsonandgluek\/images\/sp-01.svg": {
 		"ft": 2097152,
@@ -9825,7 +9825,7 @@
 		"oA": 0,
 		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/images\/tel-icon.png",
 		"oF": 0,
-		"opt": 0
+		"opt": 1
 		},
 	"\/wp-content\/themes\/gustafsonandgluek\/index.php": {
 		"ft": 8192,
