@@ -9669,6 +9669,14 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/wp-content\/themes\/gustafsonandgluek\/images\/result_bkg_ipad.jpg": {
+		"ft": 16384,
+		"iS": 33723,
+		"oA": 0,
+		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/images\/result_bkg_ipad.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/wp-content\/themes\/gustafsonandgluek\/images\/results_antitrust.png": {
 		"ft": 32768,
 		"iS": 3885,
@@ -10643,57 +10651,65 @@
 		"oF": 0,
 		"opt": 0
 		},
-	"\/wp-content\/uploads\/2016\/12\/hero_ipad-1024x427.jpeg": {
+	"\/wp-content\/uploads\/2016\/12\/hero_ipad-1024x427.jpg": {
 		"ft": 16384,
-		"iS": 43443,
+		"iS": 44087,
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2016\/12\/hero_ipad-1024x427.jpg",
 		"oF": 0,
 		"opt": 0
 		},
-	"\/wp-content\/uploads\/2016\/12\/hero_ipad-150x150.jpeg": {
+	"\/wp-content\/uploads\/2016\/12\/hero_ipad-150x150.jpg": {
 		"ft": 16384,
-		"iS": 5635,
+		"iS": 5618,
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2016\/12\/hero_ipad-150x150.jpg",
 		"oF": 0,
 		"opt": 0
 		},
-	"\/wp-content\/uploads\/2016\/12\/hero_ipad-300x125.jpeg": {
+	"\/wp-content\/uploads\/2016\/12\/hero_ipad-300x125.jpg": {
 		"ft": 16384,
-		"iS": 7712,
+		"iS": 7717,
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2016\/12\/hero_ipad-300x125.jpg",
 		"oF": 0,
 		"opt": 0
 		},
-	"\/wp-content\/uploads\/2016\/12\/hero_ipad-580x450.jpeg": {
+	"\/wp-content\/uploads\/2016\/12\/hero_ipad-370x500.jpg": {
 		"ft": 16384,
-		"iS": 29180,
+		"iS": 23533,
+		"oA": 0,
+		"oAP": "\/wp-content\/uploads\/2016\/12\/hero_ipad-370x500.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/wp-content\/uploads\/2016\/12\/hero_ipad-580x450.jpg": {
+		"ft": 16384,
+		"iS": 29419,
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2016\/12\/hero_ipad-580x450.jpg",
 		"oF": 0,
 		"opt": 0
 		},
-	"\/wp-content\/uploads\/2016\/12\/hero_ipad-768x320.jpeg": {
+	"\/wp-content\/uploads\/2016\/12\/hero_ipad-768x320.jpg": {
 		"ft": 16384,
-		"iS": 28650,
+		"iS": 28953,
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2016\/12\/hero_ipad-768x320.jpg",
 		"oF": 0,
 		"opt": 0
 		},
-	"\/wp-content\/uploads\/2016\/12\/hero_ipad-940x198.jpeg": {
+	"\/wp-content\/uploads\/2016\/12\/hero_ipad-940x198.jpg": {
 		"ft": 16384,
-		"iS": 21146,
+		"iS": 21331,
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2016\/12\/hero_ipad-940x198.jpg",
 		"oF": 0,
 		"opt": 0
 		},
-	"\/wp-content\/uploads\/2016\/12\/hero_ipad.jpeg": {
+	"\/wp-content\/uploads\/2016\/12\/hero_ipad.jpg": {
 		"ft": 16384,
-		"iS": 174703,
+		"iS": 61904,
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2016\/12\/hero_ipad.jpg",
 		"oF": 0,
