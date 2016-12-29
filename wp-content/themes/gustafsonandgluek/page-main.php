@@ -19,7 +19,7 @@ get_header(); ?>
 		
 			<span class="description"><?php the_field('description','option');?></span><!-- description -->
 		
-			<a class="green_button request_button" href="#request">request your free consultation</a>
+			<a class="green_button request_button" href="#request"><?php the_field('request_button');?></a>
 	
 		</div><!-- hero_banner_content -->
 	
@@ -33,7 +33,7 @@ get_header(); ?>
 
 <section class="free_consultation">
 	
-	<a href="#request">Free Case Consultation</a>
+	<a href="#request"><?php the_field('mobile_request_button');?></a>
 	
 </section><!-- free_consultation -->
 

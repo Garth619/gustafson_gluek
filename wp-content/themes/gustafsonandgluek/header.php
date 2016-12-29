@@ -115,7 +115,7 @@
 		
 		<div class="lower_header">
 			
-			<a class="tel" href="tel:612.333.8844">612.333.8844</a>
+			<a class="tel" href="tel:<?php the_field('phone','option');?>"><?php the_field('phone', 'option');?></a>
 			
 			<div class="email_free_consultation">
 				

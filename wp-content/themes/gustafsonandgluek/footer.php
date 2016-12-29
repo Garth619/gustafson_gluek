@@ -24,11 +24,11 @@
 		
 				<img class="pin" src="<?php bloginfo('template_directory');?>/images/footer_map.png"/>
 		
-				<span class="address">120 South 6th Street<br/>Suite 2600<br/>Minneapolis, MN 55402</span>
+				<span class="address"><?php the_field('address', 9);?></span>
 		
-				<a class="tel" href="tel:612.333.8844">612.333.8844</a>
+				<a class="tel" href="tel:<?php the_field('phone', 'option');?>"><?php the_field('phone', 'option');?></a>
 		
-				<a class="green_button map_button" href="https://www.google.com/maps?ll=44.976167,-93.26158&z=15&t=m&hl=en-US&gl=US&mapclient=embed&q=120+South+6th+St+%232600+Minneapolis,+MN+55402" target="_blank">Map</a>
+				<a class="green_button map_button" href="<?php the_field('address_link', 9);?>" target="_blank">Map</a>
 		
 			</div><!-- address_box -->
 	
@@ -42,7 +42,7 @@
 		
 				<div class="single_social_icon">
 				
-					<a href="" target="_blank">
+					<a href="<?php the_field('google_plus_link','option');?>" target="_blank">
 						
 						<img class="sm_icon" src="<?php bloginfo('template_directory');?>/images/footer_google_green.svg"/>
 						<img class="sm_icon_hover" src="<?php bloginfo('template_directory');?>/images/footer_google_gold.svg"/>
@@ -53,7 +53,7 @@
 				
 				<div class="single_social_icon">
 				
-					<a href="" target="_blank">
+					<a href="<?php the_field('facebook_link','option');?>" target="_blank">
 						
 						<img class="sm_icon fb" src="<?php bloginfo('template_directory');?>/images/footer_fb_green.svg"/>
 						<img class="sm_icon_hover fb" src="<?php bloginfo('template_directory');?>/images/footer_fb_gold.svg"/>
@@ -64,7 +64,7 @@
 				
 				<div class="single_social_icon">
 				
-					<a href="" target="_blank">
+					<a href="<?php the_field('linkedin_link','option');?>" target="_blank">
 						
 						<img class="sm_icon linkedin" src="<?php bloginfo('template_directory');?>/images/footer_linkedin_green.svg"/>
 						<img class="sm_icon_hover linkedin" src="<?php bloginfo('template_directory');?>/images/footer_linkedin_gold.svg"/>
@@ -87,16 +87,22 @@
 		
 			<div class="copyright_inner_wrapper">
 			
-				<span>Copyright 2016 Gustafson Gluek PLLC. ALL RIGHTS RESERVED.</span>
+				<span> <?php the_field('copyright','option');?></span>
 		
-				<a class="disclaimer" href="<?php bloginfo('url');?>/disclaimer">Disclaimer</a>
 				
+				<?php if(get_field('disclaimer_link','option')):?>
+				
+					<a class="disclaimer" href="<?php the_field('disclaimer_link','option');?>"><?php the_field('disclaimer','option');?></a>
+				
+				<?php endif;?>
+				
+			
 			</div><!-- copyright_inner_wrapper -->
 			
 				<div class="greyline"></div><!-- greyline -->
 		
 				<a class="dark_logo" href="//ilawyermarketing.com" target="_blank">
-					<img src="<?php bloginfo('template_directory');?>/images/ilawyer-dark.jpg"/>
+					<img src="<?php the_field('ilaywermarketing_logo','option');?>"/>
 				</a>
 			
 		</div><!-- copyright -->
