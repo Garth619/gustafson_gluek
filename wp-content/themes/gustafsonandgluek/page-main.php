@@ -413,7 +413,7 @@ get_header(); ?>
 			
 		</div><!-- news_content_wrapper -->
 		
-		<a class="view_more gold_gradient_button" href="<?php bloginfo('url');?>/latest-news">View More</a>
+		
     	    
     <?php wp_reset_postdata(); // IMPORTANT - reset the $post object so the rest of the page works correctly ?>
 
@@ -421,7 +421,7 @@ get_header(); ?>
 		
 		
 		
-		
+		<a class="view_more gold_gradient_button" href="<?php the_field('news_update_view_more_link');?>"><?php the_field('news_update_view_more_button');?></a>
 		
 		
 		

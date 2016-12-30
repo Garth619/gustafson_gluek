@@ -22,7 +22,7 @@ Author: 1Point21 (Garrett Cullen)
     }
     
     
-/*
+
  @font-face {
 	font-family: 'Source Serif Pro';
 	src: url('fonts/source-serif-pro/SourceSerifPro-Bold.eot');
@@ -52,7 +52,7 @@ Author: 1Point21 (Garrett Cullen)
 	font-weight: 900;
 	font-style: normal;
 }
-*/
+
 
 
 
@@ -63,7 +63,7 @@ Author: 1Point21 (Garrett Cullen)
 a {outline: none;}
 a img {border:none}
 
-
+textarea, input, button { outline: none; }
 
 
 
@@ -2897,8 +2897,8 @@ nav.mobile {
 	max-width:705px;
 	margin:0 auto;
 	a.view_more {
-		background: transparent;
-		border:2px solid $gold;
+// 		background: transparent;
+// 		border:2px solid $gold;
 		display: inline-block;
 // 		float:right;
 		color:$gold;
@@ -2906,11 +2906,10 @@ nav.mobile {
 		margin: -75px 0 0 55px;
 		position: relative;
 		z-index:100;
-		transition: background .2s ease-in-out;
+transition: all .2s ease-in-out;
 		float:left;
 		
-		&:hover {
-			color:#fff;
+		color:#fff;
 			border:none;
 			padding:32px 52px;
 			
@@ -2920,7 +2919,13 @@ nav.mobile {
 			background: -webkit-linear-gradient(left,  #b6995a 0%,#dac280 100%); /* Chrome10-25,Safari5.1-6 */
 			background: linear-gradient(to right,  #b6995a 0%,#dac280 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b6995a', endColorstr='#dac280',GradientType=1 ); /* IE6-9 */
-		}
+		
+		&:hover {
+			
+			border:none;
+			background:$greenlight;
+			
+			}
 	}
 	span.large_header {
 		text-align: right;
@@ -3913,7 +3918,7 @@ nav.desktop {
 			margin-left:6%;
 			span.description {
 				display:block;
-				color:$goldlight;
+				color:$gold;
 				font-size:18px;
 				letter-spacing: 3.5px;
 				text-transform: uppercase;
@@ -4383,7 +4388,7 @@ footer {
 			}
 			span.description {
 				display:block;
-				color:$goldlight;
+				color:$gold;
 				font-size:17px;
 				letter-spacing: 3.5px;
 				text-transform: uppercase;
