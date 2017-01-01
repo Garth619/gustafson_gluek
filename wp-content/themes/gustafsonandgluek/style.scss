@@ -467,10 +467,18 @@ nav.mobile {
 /* Free Consultation */
 
 
+body.page-template-page-main .free_consultation {
+	display: block;
+	a {
+		display: block;
+	}
+}
+
 .free_consultation {
+	display:none;
 	a {
 		text-align: center;
-		display: block;
+		display: none;
 		font-family: $sourceserif;
 		font-weight: bold;
 		font-style: normal;
@@ -488,6 +496,9 @@ nav.mobile {
 		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5d598', endColorstr='#b89c5d',GradientType=0 ); /* IE6-9 */
 	}
 }
+
+
+
 
 /* Experience Section */
 
@@ -1241,6 +1252,8 @@ display: none;
 
 .inner_banner {
 	width:100%;
+	display: none;
+	
 /*
 	background:url(images/hero_mobile.jpg) top center no-repeat;
 	background-size:cover;
@@ -1283,20 +1296,16 @@ display: none;
 
 
 .inner_container {
-	padding: 50px 0;
+	padding: 50px 0 0;
 	
 }
 
 .content_wrapper {
 	padding:0 30px;
-	min-height: 725px;
+	
 }
 
-body.archive, body.single-post {
-	.content_wrapper {
-		min-height: 1600px;
-	}
-}
+
 
 
 .content {
@@ -1314,6 +1323,11 @@ body.archive, body.single-post {
 		font-family: $sourceserif;
 		font-weight: bold;
 		font-style: normal;
+		a {
+			font-family: $sourceserif;
+			font-weight: bold;
+			font-style: normal;
+		}
 	}
 	h2 {
 		font-size:22px;
@@ -1328,6 +1342,9 @@ body.archive, body.single-post {
 		letter-spacing: 1.85px;
 		a {
 			color:#45806e;
+			font-family: $sourceserif;
+			font-weight: bold;
+			font-style: normal;
 		}
 	}
 	h3 {
@@ -1338,6 +1355,11 @@ body.archive, body.single-post {
 		margin-bottom:15px;
 		color:$gold;
 		line-height: 30px;
+		a {
+			font-family: $sourceserif;
+			font-weight: bold;
+			font-style: normal;
+		}
 	}
 	h4 {
 		font-style: none;
@@ -1349,6 +1371,11 @@ body.archive, body.single-post {
 		letter-spacing: 3.7px;
 		text-transform: uppercase;
 		margin-bottom:15px;
+		a {
+			font-family: $sourceserif;
+			font-weight: bold;
+			font-style: normal;
+		}
 	}
 	p {
 		margin-bottom:30px;
@@ -1406,6 +1433,32 @@ body.archive, body.single-post {
 	}
 }
 
+
+
+
+
+body.page-template-page-contact {
+	.content {
+		a {
+			font-family: $sourceserif;
+			font-weight:900;
+			font-style: normal;
+		}
+		a.directions_button {
+			font-family: $nimbusbold;
+		}
+	}
+} 
+
+
+
+
+
+
+
+
+
+
 .bio_additional_content {
 	padding-top:35px;
 }
@@ -1415,7 +1468,7 @@ body.archive, body.single-post {
 }
 
 #nav-below {
-	margin-top:35px;
+	margin:35px 0;
 }
 
 .post {
@@ -1466,7 +1519,7 @@ body.archive, body.single-post {
 	background: url(images/element_pattern.png) top left repeat;
 	width:100%;
 	font-family: $sourceserif;
-	font-weight:900;
+	font-weight:700;
 	font-style: normal;
 	padding:45px 30px;
 	
@@ -2415,7 +2468,7 @@ body.archive, body.single-post {
 				padding: 20px 53px;
 				display: inline-block;
 				&:hover {
-					padding:18px 51px;
+// 					padding:18px 51px;
 				}
 			}
 			.sub_header {
@@ -2492,6 +2545,15 @@ nav.mobile {
 
 
 /* Free Consultation */
+
+
+
+body.page-template-page-main .free_consultation {
+	display: none;
+	a {
+		display: none;
+	}
+}
 
 
 .free_consultation {
@@ -2712,12 +2774,7 @@ nav.mobile {
 				color:#fff;
 				
 				
-				/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b6995a+0,dac280+100 */
-				background: #b6995a; /* Old browsers */
-				background: -moz-linear-gradient(left,  #b6995a 0%, #dac280 100%); /* FF3.6-15 */
-				background: -webkit-linear-gradient(left,  #b6995a 0%,#dac280 100%); /* Chrome10-25,Safari5.1-6 */
-				background: linear-gradient(to right,  #b6995a 0%,#dac280 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b6995a', endColorstr='#dac280',GradientType=1 ); /* IE6-9 */
+				background: $gold;
 
 			}
 		}
@@ -2903,7 +2960,7 @@ nav.mobile {
 // 		float:right;
 		color:$gold;
 		padding:30px 50px;
-		margin: -75px 0 0 55px;
+		margin: -75px 0 0 22px;
 		position: relative;
 		z-index:100;
 transition: all .2s ease-in-out;
@@ -2912,18 +2969,20 @@ transition: all .2s ease-in-out;
 		color:#fff;
 			border:none;
 			padding:32px 52px;
-			
+			background:$gold !important;
 			/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b6995a+0,dac280+100 */
-			background: #b6995a; /* Old browsers */
-			background: -moz-linear-gradient(left,  #b6995a 0%, #dac280 100%); /* FF3.6-15 */
-			background: -webkit-linear-gradient(left,  #b6995a 0%,#dac280 100%); /* Chrome10-25,Safari5.1-6 */
-			background: linear-gradient(to right,  #b6995a 0%,#dac280 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b6995a', endColorstr='#dac280',GradientType=1 ); /* IE6-9 */
+/*
+			background: #b6995a; 
+			background: -moz-linear-gradient(left,  #b6995a 0%, #dac280 100%); 
+			background: -webkit-linear-gradient(left,  #b6995a 0%,#dac280 100%); 
+			background: linear-gradient(to right,  #b6995a 0%,#dac280 100%);
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b6995a', endColorstr='#dac280',GradientType=1 );
+*/
 		
 		&:hover {
 			
 			border:none;
-			background:$greenlight;
+			background:$greenlight !important;
 			
 			}
 	}
@@ -2946,7 +3005,7 @@ transition: all .2s ease-in-out;
 		float:left;
 		margin-left:15px;
 		margin-right:0;
-		
+// 		margin-top:14px;
 		.date_wrapper {
 			
 			
@@ -2968,8 +3027,8 @@ transition: all .2s ease-in-out;
 
 
 .news_content_wrapper {
-	padding:185px 37px 95px;
-	margin: 335px 20px 17px;
+	padding: 195px 37px 39px;
+	margin: 321px 20px 97px;
 	display: block;
 	position: relative;
 	.news_image_wrapper {
@@ -3449,6 +3508,10 @@ footer {
 	span.pull_quote {
 		
 	} 
+	
+	.content_wrapper {
+	padding-bottom:30px;
+}
 
 
 
@@ -3522,6 +3585,9 @@ footer {
 	}
 	
 }
+
+
+
 
 	
 	
@@ -4470,6 +4536,7 @@ footer {
 	float:right;
 	background:#fff;
 	padding:105px 70px;
+	min-height: 865px;
 }
 
 .content {
@@ -4492,6 +4559,12 @@ footer {
 	    display: block;
 	    margin-top:30px;
     }
+	}
+}
+
+body.archive, body.single-post {
+	.content_wrapper {
+		min-height: 1370px;
 	}
 }
 
@@ -5277,7 +5350,7 @@ max-width:1700px;
 .sidebar_wrapper {
 	
 	float:left;
-	padding: 105px 70px 105px 50px;
+	padding: 105px 70px 40px 50px;
 	
 	ul#menu-sidebar-menu, ul#menu-current-investigation {
 // 		max-width:330px;

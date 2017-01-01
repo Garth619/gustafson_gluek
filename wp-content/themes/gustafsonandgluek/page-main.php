@@ -429,6 +429,7 @@ get_header(); ?>
 		
 	</div><!-- news_loop_wrapper -->
 	
+	
 </section><!-- news_updates -->
 
 
