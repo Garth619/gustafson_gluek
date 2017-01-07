@@ -432,34 +432,40 @@ nav.mobile {
 
 .hero_banner {
 	width:100%;
-// 	height:376px;
-// 	background:url(images/hero_mobile.jpg) top center no-repeat;
-	font-family:$nimbusblack;
-	color:#fff;
-	text-align: center;
-	
-	padding: 50px 5px;
+	text-align: left;
+	padding: 0px 10%;
 	.inner_hero_wrapper {
-		display: table;
-		height:260px;
-	
+		height:265px;
 		.hero_banner_content {
-			display: table-cell;
-			vertical-align: bottom;
+			position: relative;
+			top: 50%;
+			transform: translateY(-50%);
 			span.description {
 				display: none;
 			}
 			a.request_button {
 				display: none;
 			}
-			.sub_header {
-				font-size:22px;
+			.sub_header.mobile {
+				font-size:14px;
 				display: block;
+				color:#45806e;
+				font-family: $sourceserif;
+				font-weight: 900;
+				font-style: normal;
+				text-transform: uppercase;
+				letter-spacing: 1.2px;
 			}
-			.large_header {
-				font-size:44px;
+			.large_header.mobile {
+				font-size:33px;
 				display: block;
+				font-family: $sourceserif;
+				font-weight: bold;
+				font-style: normal;
+				line-height:35px;
 			}
+			
+			.sub_header.desktop, .large_header.desktop {display:none}
 		}
 	}
 }
@@ -1251,13 +1257,21 @@ display: none;
 
 
 .inner_banner {
+	display: none;
+	.sub_header.desktop, .large_header.desktop {
+		display: none;
+	}
+}
+
+/*
+.inner_banner {
 	width:100%;
 	display: none;
 	
-/*
+
 	background:url(images/hero_mobile.jpg) top center no-repeat;
 	background-size:cover;
-*/
+
 	font-family:$nimbusblack;
 	color:#fff;
 	text-align: center;
@@ -1293,6 +1307,7 @@ display: none;
 	}
 
 }
+*/
 
 
 .inner_container {
@@ -2345,7 +2360,7 @@ body.page-template-page-contact {
 	.hero_banner, .inner_banner {
 	
 	
-	padding: 50px 30px;
+// 	padding: 50px 30px;
 	.inner_hero_wrapper {
 			
 		.hero_banner_content {
@@ -2446,39 +2461,50 @@ body.page-template-page-contact {
 
 
 .hero_banner {
-	
-// 	background:url(images/hero_ipad.jpg) top center no-repeat;
-	display: block;
-	text-align: left;
-	height:500px;
 	.inner_hero_wrapper {
-		height:392px;
-		display: block;
+		height:450px;
 		.hero_banner_content {
-			display: block;
-			position: relative;
-			top: 50%;
-			transform: translateY(-50%);
-			color:$greendark;
-			padding-left:6%;
+			padding-left:1%;
 			a.request_button {
 				text-transform: lowercase;
 				letter-spacing: 0.65px;
 				font-size:18px;
 				padding: 20px 53px;
 				display: inline-block;
-				&:hover {
-// 					padding:18px 51px;
-				}
+				
+				
+				
+				/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#dac280+0,b6995a+100 */
+				background: #dac280; /* Old browsers */
+				background: -moz-linear-gradient(top,  #dac280 0%, #b6995a 100%); /* FF3.6-15 */
+				background: -webkit-linear-gradient(top,  #dac280 0%,#b6995a 100%); /* Chrome10-25,Safari5.1-6 */
+				background: linear-gradient(to bottom,  #dac280 0%,#b6995a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dac280', endColorstr='#b6995a',GradientType=0 ); /* IE6-9 */
+
+			
 			}
-			.sub_header {
+			.sub_header.mobile, .large_header.mobile {display:none}
+			.sub_header.desktop {
 				font-size:35px;
+				display: block;
+				font-family: $sourceserif;
+				font-weight:900;
+				font-style:normal;
+				text-transform: uppercase;
+				font-size:17px;
+				color:#45806e;
+				letter-spacing: 1.2px;
 			}
-			.large_header {
-				font-size:63px;
-				margin-top:5px;
-				margin-bottom:40px;
-				line-height: 63px;
+			.large_header.desktop {
+				font-size:53px;
+				margin-top:10px;
+				margin-bottom:25px;
+				line-height: 50px;
+				display: block;
+				font-family: $sourceserif;
+				font-weight:bold;
+				font-style:normal;
+				max-width:500px;
 			}
 		}
 	}
@@ -3232,11 +3258,9 @@ footer {
 
 
 
-.inner_banner {
 /*
-	background:url(images/hero_ipad.jpg) top center no-repeat;
-	background-size:cover;
-*/
+.inner_banner {
+
 	display: block;
 	text-align: left;
 	height:500px;
@@ -3285,6 +3309,76 @@ footer {
 	}
 
 }
+*/
+
+
+
+/* ?? */
+
+
+
+
+
+
+.inner_banner {
+	display: block;
+	.inner_hero_wrapper {
+		height:450px;
+		.hero_banner_content {
+			padding-left:8%;
+			position: relative;
+			top: 44%;
+			transform: translateY(-50%);
+			span.description {
+				display: none;
+			}
+			a.request_button {
+				text-transform: lowercase;
+				letter-spacing: 0.65px;
+				font-size:18px;
+				padding: 20px 53px;
+				display: inline-block;
+				
+				
+				
+				/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#dac280+0,b6995a+100 */
+				background: #dac280; /* Old browsers */
+				background: -moz-linear-gradient(top,  #dac280 0%, #b6995a 100%); /* FF3.6-15 */
+				background: -webkit-linear-gradient(top,  #dac280 0%,#b6995a 100%); /* Chrome10-25,Safari5.1-6 */
+				background: linear-gradient(to bottom,  #dac280 0%,#b6995a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dac280', endColorstr='#b6995a',GradientType=0 ); /* IE6-9 */
+
+			
+			}
+			.sub_header.mobile, .large_header.mobile {display:none}
+			.sub_header.desktop {
+				font-size:35px;
+				display: block;
+				font-family: $sourceserif;
+				font-weight:900;
+				font-style:normal;
+				text-transform: uppercase;
+				font-size:17px;
+				color:#45806e;
+				letter-spacing: 1.2px;
+			}
+			.large_header.desktop {
+				font-size:53px;
+				margin-top:10px;
+				margin-bottom:25px;
+				line-height: 50px;
+				display: block;
+				font-family: $sourceserif;
+				font-weight:bold;
+				font-style:normal;
+				max-width:500px;
+			}
+		}
+	}
+}
+
+
+
 
 
 
@@ -3979,7 +4073,7 @@ nav.desktop {
 		height:930px;
 		margin:0 auto;
 		.hero_banner_content {
-			top:51%;
+			top:55%;
 			max-width:860px;
 			margin-left:6%;
 			span.description {
@@ -4007,6 +4101,7 @@ nav.desktop {
 				letter-spacing: 1.2px;
 				padding: 22px 48px;
 				transition: background .2s ease-in-out;
+				background:#45806e;
 				&:hover {
 					background: #fff;
 					color:#45806e;
@@ -4014,7 +4109,7 @@ nav.desktop {
 					padding: 20px 46px;
 				}
 			}
-			.sub_header {
+			.sub_header.desktop {
 				font-size:23px;
 				color:#45806e;
 				font-family: $sourceserif;
@@ -4025,13 +4120,14 @@ nav.desktop {
 				margin-bottom: 11px;
 				display: block;
 			}
-			.large_header {
+			.large_header.desktop {
 				font-size:75px;
 				font-family: $sourceserif;
-				font-weight: 900;
+				font-weight: bold;
 				font-style: normal;
 				line-height:75px;
 				margin-bottom:20px;
+				max-width:750px;
 			}
 		}
 	}
@@ -4418,10 +4514,7 @@ footer {
 	
 	position: relative;
 	height:688px;
-/*
-	background: url(images/inner-banner.jpg) top center no-repeat;
-	background-size:cover;
-*/
+
 	.inner_hero_wrapper {
 		max-width:2000px;
 		height:auto;
@@ -4430,9 +4523,9 @@ footer {
 			top:61%;
 			max-width:745px;
 			padding-left:0;
-			margin-left:3%;
+			margin-left:7%;
 			position: absolute;
-			span.sub_header {
+			.sub_header.desktop {
 				font-size:23px;
 				color:#45806e;
 				font-family: $sourceserif;
@@ -4443,7 +4536,7 @@ footer {
 				margin-bottom: 11px;
 				display: block;
 			}
-			span.large_header {
+			span.large_header.desktop {
 				font-size:75px;
 				font-family: $sourceserif;
 				font-weight: 900;
@@ -4451,6 +4544,8 @@ footer {
 				line-height:75px;
 				margin-bottom:20px;
 				display:block;
+				max-width:600px;
+				max-width: 765px;
 			}
 			span.description {
 				display:block;
@@ -4478,6 +4573,7 @@ footer {
 				padding: 22px 48px;
 				text-transform: lowercase;
 				transition: background .2s ease-in-out;
+				background:#45806e;
 				&:hover {
 					background: #fff;
 					color:#45806e;
@@ -5904,7 +6000,7 @@ padding-left: 156px;
 
 
 #news_updates {
-	margin-top:-330px;
+	margin-top:-40px;
 	padding-top:302px;
 }
 

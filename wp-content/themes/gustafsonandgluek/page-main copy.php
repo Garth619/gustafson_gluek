@@ -14,11 +14,8 @@ get_header(); ?>
 	
 		<div class="hero_banner_content">
 	
-			<span class="sub_header mobile">National</span><!-- sub_header -->
-			<span class="large_header mobile">Complex<br/>Litigation<br/>Practice</span><!-- large_header -->
-			
-			<span class="sub_header desktop">Dedicated to the protection of</span><!-- sub_header -->
-			<span class="large_header desktop">Consumer Rights and Fair Competition</span><!-- large_header -->
+			<span class="sub_header"><?php the_field('sub_title','option');?> </span><!-- sub_header -->
+			<span class="large_header"><?php the_field('main_title','option');?></span><!-- large_header -->
 		
 			<span class="description"><?php the_field('description','option');?></span><!-- description -->
 		
@@ -306,16 +303,9 @@ get_header(); ?>
 	
 		<div class="ex_pic_wrapper">
 		
-<!--
 				<img class="ex_pic mobile" src="<?php the_field('second_experience_mobile_image');?>"/>
 				<img class="ex_pic ipad" src="<?php the_field('second_experience_tablet_image');?>"/>
 				<img class="ex_pic desktop" src="<?php the_field('second_experience_desktop_image');?>"/>
--->
-
-
-				<img class="ex_pic mobile" src="<?php bloginfo('template_directory');?>/images/new/image2.jpg"/>
-				<img class="ex_pic ipad" src="<?php bloginfo('template_directory');?>/images/new/image2.jpg"/>
-				<img class="ex_pic desktop" src="<?php bloginfo('template_directory');?>/images/new/image2.jpg"/>
 				
 				<img class="tritwo mobile" src="<?php bloginfo('template_directory');?>/images/element_triangle2.svg"/>
 		

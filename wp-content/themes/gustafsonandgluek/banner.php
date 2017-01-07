@@ -4,8 +4,11 @@
 	
 		<div class="hero_banner_content">
 	
-			<span class="sub_header"><?php the_field('sub_title','option');?> </span><!-- sub_header -->
-			<span class="large_header"><?php the_field('main_title','option');?></span><!-- large_header -->
+			<span class="sub_header mobile">National</span><!-- sub_header -->
+			<span class="large_header mobile">Complex<br/>Litigation<br/>Practice</span><!-- large_header -->
+			
+			<span class="sub_header desktop">Dedicated to the protection of</span><!-- sub_header -->
+			<span class="large_header desktop">Consumer Rights and Fair Competition</span><!-- large_header -->
 		
 			<span class="description"><?php the_field('description','option');?></span><!-- description -->
 		
