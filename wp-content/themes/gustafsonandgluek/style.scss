@@ -433,7 +433,7 @@ nav.mobile {
 .hero_banner {
 	width:100%;
 	text-align: left;
-	padding: 0px 10%;
+	padding: 0px 7%;
 	.inner_hero_wrapper {
 		height:265px;
 		.hero_banner_content {
@@ -2392,6 +2392,23 @@ body.page-template-page-contact {
  } /* Media Query */
 
 
+@media screen and (min-width: 550px) {
+	
+
+.hero_banner {
+	
+	.inner_hero_wrapper {
+		
+		.hero_banner_content {
+			padding-left:7%;
+		}
+	}
+}
+	
+	
+	
+} /* Media Query */
+
 
 @media screen and (min-width: 620px) {
 
@@ -4073,7 +4090,7 @@ nav.desktop {
 		height:930px;
 		margin:0 auto;
 		.hero_banner_content {
-			top:55%;
+			top:53%;
 			max-width:860px;
 			margin-left:6%;
 			span.description {

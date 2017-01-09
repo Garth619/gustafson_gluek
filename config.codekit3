@@ -21,6 +21,12 @@
 		"oAP": "\/.htaccess",
 		"oF": 0
 		},
+	"\/favicon.ico": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/favicon.ico",
+		"oF": 0
+		},
 	"\/index.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -17649,6 +17655,12 @@
 		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/editor-style-min.css",
 		"oF": 0,
 		"oS": 0
+		},
+	"\/wp-content\/themes\/gustafsonandgluek\/favicon.ico": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/themes\/gustafsonandgluek\/favicon.ico",
+		"oF": 0
 		},
 	"\/wp-content\/themes\/gustafsonandgluek\/fonts\/nimbus_sans\/demo-async.css": {
 		"aP": 0,
