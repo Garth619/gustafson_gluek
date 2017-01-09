@@ -307,15 +307,15 @@ get_header(); ?>
 		<div class="ex_pic_wrapper">
 		
 <!--
-				<img class="ex_pic mobile" src="<?php the_field('second_experience_mobile_image');?>"/>
-				<img class="ex_pic ipad" src="<?php the_field('second_experience_tablet_image');?>"/>
-				<img class="ex_pic desktop" src="<?php the_field('second_experience_desktop_image');?>"/>
+				<?php the_field('second_experience_mobile_image');?>
+				<?php the_field('second_experience_tablet_image');?>
+				<?php the_field('second_experience_desktop_image');?>
 -->
 
 
-				<img class="ex_pic mobile" src="<?php bloginfo('template_directory');?>/images/new/image2.jpg"/>
-				<img class="ex_pic ipad" src="<?php bloginfo('template_directory');?>/images/new/image2.jpg"/>
-				<img class="ex_pic desktop" src="<?php bloginfo('template_directory');?>/images/new/image2.jpg"/>
+				<img class="ex_pic mobile" src="<?php the_field('second_experience_desktop_image');?>"/>
+				<img class="ex_pic ipad" src="<?php the_field('second_experience_desktop_image');?>"/>
+				<img class="ex_pic desktop" src="<?php the_field('second_experience_desktop_image');?>"/>
 				
 				<img class="tritwo mobile" src="<?php bloginfo('template_directory');?>/images/element_triangle2.svg"/>
 		
