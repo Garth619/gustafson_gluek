@@ -41,27 +41,17 @@
 
 
 
-/*
-.inner_banner, .hero_banner {
-	background: rgba(0, 0, 0, 0) url("<?php the_field('mobile_background_image','option');?>") no-repeat scroll center top / cover ;
-}
-*/
 
 .inner_banner, .hero_banner {
-	background: rgba(0, 0, 0, 0) url("<?php bloginfo('template_directory');?>/images/new/hero_mobile.jpg") no-repeat scroll center top / cover ;
+	background: rgba(0, 0, 0, 0) url("<?php the_field('mobile_background_image','option');?>") no-repeat scroll center top / cover ;
 }
 
 
 @media screen and (min-width: 730px) {
 	
-/*
-	.inner_banner, .hero_banner {
-		background: rgba(0, 0, 0, 0) url("<?php the_field('tablet_background_image','option');?>") no-repeat scroll center top / cover ;
-	}
-*/
 
 .inner_banner, .hero_banner {
-		background: rgba(0, 0, 0, 0) url("<?php bloginfo('template_directory');?>/images/new/hero_ipad.jpg") no-repeat scroll center top / cover ;
+		background: rgba(0, 0, 0, 0) url("<?php the_field('tablet_background_image','option');?>") no-repeat scroll center top / cover ;
 	}
 	
 } /* media query */
@@ -70,26 +60,16 @@
 @media screen and (min-width: 1150px) {
 	
 	
-/*
 	.hero_banner {
 		background: rgba(0, 0, 0, 0) url("<?php the_field('desktop_main_page_banner','option');?>") no-repeat scroll center top / cover ;
 	}
-*/
-	
-	.hero_banner {
-		background: rgba(0, 0, 0, 0) url("<?php bloginfo('template_directory');?>/images/new/hero.jpg") no-repeat scroll center top / cover ;
-	}
 	
 	
-/*
-	.inner_banner {
-			background: rgba(0, 0, 0, 0) url("<?php the_field('desktop_background_image','option');?>") no-repeat scroll center top / cover ;
-	}
-*/
+
 
 
 .inner_banner {
-			background: rgba(0, 0, 0, 0) url("<?php bloginfo('template_directory');?>/images/new/hero_intl.jpg") no-repeat scroll center top / cover ;
+			background: rgba(0, 0, 0, 0) url("<?php the_field('desktop_background_image','option');?>") no-repeat scroll center top / cover ;
 	}
 
 
