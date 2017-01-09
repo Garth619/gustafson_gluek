@@ -218,7 +218,7 @@ get_header(); ?>
 				
 						<div class="title_left">
 				
-							<span class="slide_header"><?php the_sub_field('slide_title');?></span><!-- large_header -->
+							<span class="slide_header"><?php the_sub_field('slide_title');?>...</span><!-- large_header -->
 							<span class="slide_sub_header"><?php the_sub_field('slide_category');?></span><!-- slide_sub_header -->
 				
 						</div><!-- title_left -->

@@ -223,7 +223,7 @@ jQuery('.case_results_slide_wrapper').slick({
 		vertical:true,
 		pauseOnHover: false,
 		autoplay: true,
-		 autoplaySpeed: 9000,
+		autoplaySpeed: 9000,
 		responsive: [
     {
       breakpoint: 1600,
