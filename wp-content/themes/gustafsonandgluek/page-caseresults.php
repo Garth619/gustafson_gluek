@@ -187,7 +187,7 @@ get_header(); ?>
 							
 							<img class="tab_accordian_img" src="<?php bloginfo('template_directory');?>/images/results_prod_liability.png"/>
 							
-							<span class="tab_img_title"><?php the_field('securities_title');?></span><!-- img_title -->
+							<span class="tab_img_title"><?php the_field('product_liability_title');?></span><!-- img_title -->
 						
 						</div><!-- tab_content_title_wrapper -->
 						
