@@ -230,7 +230,7 @@ get_header(); ?>
 					
 						<div class="gold_line"></div><!-- gold_line -->
 					
-						<span><?php the_sub_field('slide_content');?></span>
+						<span><?php the_sub_field('slide_content');?>...</span>
 					
 					
 						</div><!-- case_results_content -->
