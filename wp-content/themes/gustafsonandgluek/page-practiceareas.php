@@ -24,28 +24,17 @@ get_header(); ?>
 			
 			<div class="directory">
 				
-			
-			
-			<?php $posts = get_field('practice_area_directory');
-
-				if( $posts ): ?>
-   
-				<ul>
+			<?php if(is_page(2976)):?>
 				
-				<?php foreach( $posts as $post): // variable must be called $post (IMPORTANT) ?>
-        
-        	<?php setup_postdata($post); ?>
-        
-						<li><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></li>
-					
-					<?php endforeach; ?>
-    
-    		</ul>
-    
-				<?php wp_reset_postdata(); // IMPORTANT - reset the $post object so the rest of the page works correctly ?>
-
-		<?php endif; ?>
+					<?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'sidenar' ) ); ?>
+				
+				<?php endif;?>
 			
+				<?php if(is_page(1435)):?>
+				
+					<?php wp_nav_menu( array( 'container_class' => 'menu-header', 'theme_location' => 'currentinvestigations' ) ); ?>
+				
+				<?php endif;?>
 	
 	</div><!-- directory -->
 						

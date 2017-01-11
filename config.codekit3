@@ -23784,7 +23784,7 @@
 		},
 	"\/wp-content\/uploads\/2016\/12\/image_02-1.jpg": {
 		"ft": 16384,
-		"iS": 224757,
+		"iS": 46358,
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2016\/12\/image_02-1.jpg",
 		"oF": 0,
@@ -25400,7 +25400,7 @@
 		},
 	"\/wp-content\/uploads\/2017\/01\/hero_mobile.jpg": {
 		"ft": 16384,
-		"iS": 85662,
+		"iS": 22639,
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2017\/01\/hero_mobile.jpg",
 		"oF": 0,
@@ -25456,7 +25456,7 @@
 		},
 	"\/wp-content\/uploads\/2017\/01\/image_01.jpg": {
 		"ft": 16384,
-		"iS": 209071,
+		"iS": 173471,
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2017\/01\/image_01.jpg",
 		"oF": 0,
@@ -25504,7 +25504,7 @@
 		},
 	"\/wp-content\/uploads\/2017\/01\/image_01_ipad.jpg": {
 		"ft": 16384,
-		"iS": 132631,
+		"iS": 109258,
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2017\/01\/image_01_ipad.jpg",
 		"oF": 0,
@@ -25536,7 +25536,7 @@
 		},
 	"\/wp-content\/uploads\/2017\/01\/image_01_mobile.jpg": {
 		"ft": 16384,
-		"iS": 38242,
+		"iS": 30994,
 		"oA": 0,
 		"oAP": "\/wp-content\/uploads\/2017\/01\/image_01_mobile.jpg",
 		"oF": 0,
@@ -25720,6 +25720,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/wp-content\/uploads\/wp-migrate-db\/gus-backup-20170109165943-1enta.sql",
+		"oF": 0
+		},
+	"\/wp-content\/uploads\/wp-migrate-db\/gus-backup-20170111173236-sczhg.sql": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wp-content\/uploads\/wp-migrate-db\/gus-backup-20170111173236-sczhg.sql",
 		"oF": 0
 		},
 	"\/wp-content\/uploads\/wp-migrate-db\/gustafso_wordpress-backup-20161228174542-xzxqy.sql": {

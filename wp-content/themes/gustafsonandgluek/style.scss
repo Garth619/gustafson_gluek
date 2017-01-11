@@ -1663,6 +1663,10 @@ body.page-template-page-contact {
 				font-style: normal;
 				border-top:1px solid #ccc;
 				line-height:21px;
+				&:last-of-type {
+					opacity: 0;
+					visibility: hidden;
+				}
 				&:nth-last-of-type(-n + 2) {
 					border-bottom:1px solid #ccc;
 				}
@@ -4733,6 +4737,9 @@ body.archive, body.single-post {
 				}
 				&:nth-of-type(2n + 2) {
 					float:left;
+				}
+				&:nth-last-of-type(-n + 4) {
+					border-bottom: 1px solid #ccc;
 				}
 				&:last-of-type {
 					border-bottom:none;
