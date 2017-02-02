@@ -40,6 +40,7 @@
 		
 			<div class="social_media_wrapper">
 		
+<!--
 				<div class="single_social_icon">
 				
 					<a href="<?php the_field('google_plus_link','option');?>" target="_blank">
@@ -49,7 +50,8 @@
 					
 					</a>
 				
-				</div><!-- single_social_icon -->
+				</div>
+--><!-- single_social_icon -->
 				
 				<div class="single_social_icon">
 				
