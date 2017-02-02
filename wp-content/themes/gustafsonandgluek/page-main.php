@@ -25,9 +25,22 @@ get_header(); ?>
 			<a class="green_button request_button" href="#request"><?php the_field('request_button');?></a>
 	
 		</div><!-- hero_banner_content -->
+		
+		
 	
 	</div><!-- inner_hero_wrapper -->
 	
+	<div class="mouse_scroll_wrapper">
+			
+			<div class="mouse">
+				
+				<img class="mouse_circle" src="<?php bloginfo('template_directory');?>/images/element_mouse_circle.svg"/>
+				
+				<img class="mouse_outer" src="<?php bloginfo('template_directory');?>/images/element_mouse.svg"/>
+				
+			</div><!-- mouse -->
+			
+		</div><!-- mouse_scroll_wrapper -->
 	
 </section><!-- hero_banner -->
 
