@@ -4166,20 +4166,20 @@ nav.desktop {
 	margin-top:-200px;
 	display: block;
 	.mouse {
-		width:35px;
+		width:23px;
 		margin:0 auto;
 		img.mouse_outer {
-			width:35px;
+			width:23px;
 			display: block;
 		}
 		img.mouse_circle {
-			width:7px;
+			width:4px;
 			-webkit-animation: 2s ease 0s normal none infinite running myscroll;
 			-moz-animation: 2s ease 0s normal none infinite running myscroll;
 			animation: 2s ease 0s normal none infinite running myscroll;
 			position: relative;
-			top:25px;
-			left:14px;
+			top:15px;
+			left:9.5px;
 		}
 	}
 }
