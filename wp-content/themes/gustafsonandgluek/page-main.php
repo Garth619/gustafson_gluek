@@ -136,7 +136,7 @@ get_header(); ?>
 	
 	<div class="large_header_desktop_wrapper">
 	
-		<h1 class="large_header"><?php the_field('about_header');?></sh1><!-- large_header -->
+		<h1 class="large_header"><?php the_field('about_header');?></h1><!-- large_header -->
 		
 	</div><!-- large_header_desktop_wrapper -->
 
